@@ -60,6 +60,15 @@
   font-style: italic;
 }
 
+.worldLabel {
+  font-size: var(--font-size-xs);
+  color: var(--color-sun);
+  background: rgba(255, 215, 0, 0.15);
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+}
+
 .stats {
   display: flex;
   gap: var(--space-md);
