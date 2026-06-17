@@ -1,5 +1,5 @@
 import { useParams, Navigate } from 'react-router-dom'
-import { plants } from '../data/plants.js'
+import { plants } from '../data/pvz1/plants.js'
 import DetailView from '../components/DetailView.jsx'
 
 function PlantDetail() {

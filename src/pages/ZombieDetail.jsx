@@ -1,5 +1,5 @@
 import { useParams, Navigate } from 'react-router-dom'
-import { zombies } from '../data/zombies.js'
+import { zombies } from '../data/pvz1/zombies.js'
 import DetailView from '../components/DetailView.jsx'
 
 function ZombieDetail() {

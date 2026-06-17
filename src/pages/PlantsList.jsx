@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { plants } from '../data/plants.js'
+import { plants } from '../data/pvz1/plants.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'

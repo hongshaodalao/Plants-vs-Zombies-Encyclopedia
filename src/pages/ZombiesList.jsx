@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { zombies, speedLabels } from '../data/zombies.js'
+import { zombies, speedLabels } from '../data/pvz1/zombies.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'
