@@ -119,7 +119,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/flag_mummy_zombie.png"
   },
@@ -134,7 +134,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 26",
     weakness: null,
-    special: "Appears during larger waves of zombies.",
+    special: "在更大的僵尸潮来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/rally_zombie.png"
   },
@@ -149,7 +149,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Tries to steal sun.",
+    special: "试图偷取阳光。",
     description: null,
     image: "/images/pvz2/zombies/ra_zombie.png"
   },
@@ -164,7 +164,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 3",
     weakness: null,
-    special: "Arrives in a group of three zombies or more.",
+    special: "以三只或以上僵尸群组形式出现。",
     description: null,
     image: "/images/pvz2/zombies/camel_zombies.png"
   },
@@ -179,7 +179,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 5",
     weakness: "寒冰攻击可熄灭火炬",
-    special: "Torch destroys plant on contact when lit.",
+    special: "火炬点燃后接触植物即刻将其摧毁。",
     description: null,
     image: "/images/pvz2/zombies/explorer_zombie.png"
   },
@@ -194,7 +194,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 30",
     weakness: "寒冰攻击可熄灭火炬",
-    special: "Torch destroys plant on contact when lit.",
+    special: "火炬点燃后接触植物即刻将其摧毁。",
     description: null,
     image: "/images/pvz2/zombies/torchlight_zombie.png"
   },
@@ -209,7 +209,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 8",
     weakness: "尽快摧毁墓碑",
-    special: "Creates tombstones on random tiles of the lawn.",
+    special: "在草坪的随机格子上生成墓碑。",
     description: null,
     image: "/images/pvz2/zombies/tomb_raiser_zombie.png"
   },
@@ -224,7 +224,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 12",
     weakness: "高伤害植物",
-    special: "Speeds up after his sarcophagus is destroyed.",
+    special: "石棺被摧毁后移动速度大幅提升。",
     description: null,
     image: "/images/pvz2/zombies/pharaoh_zombie.png"
   },
@@ -239,7 +239,7 @@ export const zombies = [
     world: "ancient_egypt",
     firstAppearance: "Day 8",
     weakness: null,
-    special: "Crushes plants with sarcophagus, throws Imp Mummy when losing 50% of health.",
+    special: "用石棺碾压植物，生命值降至50%时投掷木乃伊小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/mummified_gargantuar.png"
   },
@@ -314,7 +314,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/flag_pirate_zombie.png"
   },
@@ -329,7 +329,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 1",
     weakness: "地刺类植物",
-    special: "Lands four tiles into the player's lawn. In Pirate Seas, it sometimes fails to do so and falls on the sea.",
+    special: "着陆在玩家草坪的第四格。在海盗海域中，有时会失败掉入海中。",
     description: null,
     image: "/images/pvz2/zombies/swashbuckler_zombie.png"
   },
@@ -344,7 +344,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 2",
     weakness: "远程攻击植物",
-    special: "Bypasses low defenses like  and  by flying over them.",
+    special: "通过飞行越过低矮防御物。",
     description: null,
     image: "/images/pvz2/zombies/seagull_zombie.png"
   },
@@ -359,7 +359,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 32",
     weakness: null,
-    special: "Bypasses low defenses like  and  by flying over them.",
+    special: "通过飞行越过低矮防御物。",
     description: null,
     image: "/images/pvz2/zombies/pelican_zombie.png"
   },
@@ -374,7 +374,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 7",
     weakness: "范围攻击植物",
-    special: "Crushes plants with a barrel that releases two Imp Pirate Zombies upon destruction.",
+    special: "用木桶碾压植物，木桶被摧毁后释放两只海盗小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/barrel_roller_zombie.png"
   },
@@ -404,7 +404,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 10",
     weakness: null,
-    special: "Fires Imp Pirate Zombies to mid-lawn, and explodes into a shower of Imps if not destroyed quickly enough.",
+    special: "向草坪中部发射海盗小鬼僵尸，若未被及时摧毁则爆炸散落大量小鬼。",
     description: null,
     image: "/images/pvz2/zombies/imp_cannon.png"
   },
@@ -419,7 +419,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 13",
     weakness: "快速击杀以免召唤鹦鹉",
-    special: "Can release a Zombie Parrot, which can steal a plant.",
+    special: "可释放僵尸鹦鹉，鹦鹉会偷走一棵植物。",
     description: null,
     image: "/images/pvz2/zombies/pirate_captain_zombie.png"
   },
@@ -434,7 +434,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 13",
     weakness: null,
-    special: "Can fly to plants in other lanes to take them away.",
+    special: "能飞到其他行道的植物处将其带走。",
     description: null,
     image: "/images/pvz2/zombies/zombie_parrot.png"
   },
@@ -449,7 +449,7 @@ export const zombies = [
     world: "pirate_seas",
     firstAppearance: "Day 8",
     weakness: null,
-    special: "Crushes plants with shark, throws Imp Pirate Zombie when lower than 50% health.",
+    special: "用鲨鱼碾压植物，生命值低于50%时投掷海盗小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/gargantuar_pirate.png"
   },
@@ -509,7 +509,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/flag_cowboy_zombie.png"
   },
@@ -524,7 +524,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 2",
     weakness: "双向攻击植物",
-    special: "Appears on the left side of the player's lawn when its dynamite explodes, then walks backwards.",
+    special: "炸药爆炸后出现在玩家草坪左侧，然后向后行走。",
     description: null,
     image: "/images/pvz2/zombies/prospector_zombie.png"
   },
@@ -539,7 +539,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 3",
     weakness: null,
-    special: "Crushes plants with piano, make Cowboy Zombies switch lanes.",
+    special: "用钢琴碾压植物，并使牛仔僵尸切换行道。",
     description: null,
     image: "/images/pvz2/zombies/pianist_zombie.png"
   },
@@ -554,7 +554,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 5",
     weakness: "高伤害植物",
-    special: "Sometimes wears a protective metal grate under the poncho.",
+    special: "有时在雨披下穿戴保护性金属栅栏。",
     description: null,
     image: "/images/pvz2/zombies/poncho_zombie.png"
   },
@@ -569,7 +569,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 10",
     weakness: "闪电芦苇",
-    special: "Summons zombie chickens after taking enough damage.",
+    special: "受到足够伤害后召唤僵尸鸡。",
     description: null,
     image: "/images/pvz2/zombies/chicken_wrangler_zombie.png"
   },
@@ -599,7 +599,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 13",
     weakness: null,
-    special: "Dashes at full speed, launches a low flying Zombie Bull Rider past your defenses after encountering a plant on its way.",
+    special: "全速冲刺，遇到植物后将低空飞行的骑牛僵尸发射到防线后方。",
     description: null,
     image: "/images/pvz2/zombies/zombie_bull.png"
   },
@@ -614,7 +614,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 32",
     weakness: null,
-    special: "Smashes a plant and launches his Zombie Bull Rider past most of your defenses. Charges again after a while.",
+    special: "碾碎植物并将骑牛僵尸发射到大部分防线后方。一段时间后再次冲锋。",
     description: null,
     image: "/images/pvz2/zombies/rodeo_legend_zombie.png"
   },
@@ -644,7 +644,7 @@ export const zombies = [
     world: "wild_west",
     firstAppearance: "Day 8",
     weakness: null,
-    special: "Crushes plants with brand, throws Zombie Bull Rider when lower than 50% health.",
+    special: "用烙铁碾压植物，生命值低于50%时投掷骑牛僵尸。",
     description: null,
     image: "/images/pvz2/zombies/wild_west_gargantuar.png"
   },
@@ -719,7 +719,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/cave_flag_zombie.png"
   },
@@ -734,7 +734,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 4",
     weakness: "火系植物",
-    special: "Throws snowballs which freeze the player's plants.",
+    special: "投掷雪球冻结玩家的植物。",
     description: null,
     image: "/images/pvz2/zombies/hunter_zombie.png"
   },
@@ -764,7 +764,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 9",
     weakness: null,
-    special: "Occasionally flies to go over s and plants.",
+    special: "偶尔飞行越过障碍物和植物。",
     description: null,
     image: "/images/pvz2/zombies/dodo_rider_zombie.png"
   },
@@ -779,7 +779,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 17",
     weakness: null,
-    special: "Pushes frozen Yeti Imps across the lawn, crushing plants.",
+    special: "将冰冻的雪人小鬼推过草坪，碾压沿途植物。",
     description: null,
     image: "/images/pvz2/zombies/troglobite.png"
   },
@@ -794,7 +794,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 22",
     weakness: null,
-    special: "Ice Weasels are summoned when her log is shattered.",
+    special: "原木被打碎后召唤冰鼬。",
     description: null,
     image: "/images/pvz2/zombies/weasel_hoarder.png"
   },
@@ -809,7 +809,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 22",
     weakness: null,
-    special: "Unaffected by s.",
+    special: "不受冻结效果影响。",
     description: null,
     image: "/images/pvz2/zombies/ice_weasel.png"
   },
@@ -824,7 +824,7 @@ export const zombies = [
     world: "frostbite_caves",
     firstAppearance: "Day 13",
     weakness: null,
-    special: "Crushes plants with icicle, throws 3 Yeti Imps one by one for each 25% of his health he loses.",
+    special: "用冰柱碾压植物，每损失25%生命值依次投掷一只雪人小鬼僵尸，共三只。",
     description: null,
     image: "/images/pvz2/zombies/sloth_gargantuar.png"
   },
@@ -884,7 +884,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/flag_adventurer_zombie.png"
   },
@@ -899,7 +899,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 2",
     weakness: null,
-    special: "Drops in past defenses, stays midair, eats what's below him, and eventually will start walking forward.",
+    special: "降落到防线后方，悬浮在空中吞噬下方植物，最终会开始向前行走。",
     description: null,
     image: "/images/pvz2/zombies/lost_pilot_zombie.png"
   },
@@ -929,7 +929,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 4",
     weakness: "范围攻击植物",
-    special: "Digs plants up and tosses them behind him. His  makes him invulnerable to straight projectiles.",
+    special: "将植物挖出并扔到身后。他的铲子使他免疫直线投射物。",
     description: null,
     image: "/images/pvz2/zombies/excavator_zombie.png"
   },
@@ -944,7 +944,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 7",
     weakness: "非抛物线攻击植物",
-    special: "Protects herself and zombies behind her from lobbed shots by deflecting them with her .",
+    special: "用阳伞偏转抛射物，保护自己和身后的僵尸。",
     description: null,
     image: "/images/pvz2/zombies/parasol_zombie.png"
   },
@@ -959,7 +959,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 11",
     weakness: null,
-    special: "Carries a Basic, Conehead, or Buckethead Adventurer Zombie quickly over defenses and into the lawn. Drops the zombie upo",
+    special: "快速携带冒险家僵尸（普通、路障或铁桶）越过防线进入草坪。",
     description: null,
     image: "/images/pvz2/zombies/bug_zombie.png"
   },
@@ -974,7 +974,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 12",
     weakness: null,
-    special: "Crushes plants with torch, throws Lost City Imp Zombie when lower than 50% health.",
+    special: "用火把碾压植物，生命值低于50%时投掷迷失城市小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/porter_gargantuar.png"
   },
@@ -989,7 +989,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 17",
     weakness: null,
-    special: "Sets up a  on the first  he encounters. The tent then spawns basic, conehead and buckethead zombies. If defeated before ",
+    special: "在遇到的第一个空地搭帐篷。帐篷会不断生成普通、路障和铁桶僵尸。",
     description: null,
     image: "/images/pvz2/zombies/imp_porter.png"
   },
@@ -1004,7 +1004,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 23",
     weakness: null,
-    special: "Can land four, five or six tiles into the player's lawn.",
+    special: "可以降落到玩家草坪的第四、第五或第六格。",
     description: null,
     image: "/images/pvz2/zombies/relic_hunter_zombie.png"
   },
@@ -1019,7 +1019,7 @@ export const zombies = [
     world: "lost_city",
     firstAppearance: "Day 27",
     weakness: null,
-    special: "Tries to steal sun and burns plants four tiles in front of him with his skull. Laser range increases the more sun it tak",
+    special: "试图偷取阳光，并用头骨灼烧前方四格的植物。吸收的阳光越多，激光射程越远。",
     description: null,
     image: "/images/pvz2/zombies/turquoise_skull_zombie.png"
   },
@@ -1079,7 +1079,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/future_flag_zombie.png"
   },
@@ -1094,7 +1094,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 1",
     weakness: "高射程植物",
-    special: "Bypasses the defenses by flying over them, except for the tall ones, such as .",
+    special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
     image: "/images/pvz2/zombies/jetpack_zombie.png"
   },
@@ -1109,7 +1109,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 30",
     weakness: null,
-    special: "Bypasses the defenses by flying over them, except for the tall ones.",
+    special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
     image: "/images/pvz2/zombies/blastronaut_zombie.png"
   },
@@ -1124,7 +1124,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 2",
     weakness: "范围攻击植物",
-    special: "Creates a shield in front of him which can block forward attacks in 3 lanes.",
+    special: "在前方生成护盾，可阻挡三行的正面攻击。",
     description: null,
     image: "/images/pvz2/zombies/shield_zombie.png"
   },
@@ -1139,7 +1139,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 3",
     weakness: null,
-    special: "Spawns from an ambush called \"Bot Swarm!\".",
+    special: "从名为\"机器人群！\"的伏击中出现。",
     description: null,
     image: "/images/pvz2/zombies/bug_bot_imp.png"
   },
@@ -1169,7 +1169,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 10",
     weakness: null,
-    special: "Summons Disco Jetpack Zombies.",
+    special: "召唤迪斯科喷气背包僵尸。",
     description: null,
     image: "/images/pvz2/zombies/disco_tron_3000.png"
   },
@@ -1184,7 +1184,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 10",
     weakness: null,
-    special: "Bypasses the defenses by flying over them, except for the tall ones.",
+    special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
     image: "/images/pvz2/zombies/disco_jetpack_zombie.png"
   },
@@ -1199,7 +1199,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 13",
     weakness: "高伤害植物",
-    special: "Pushes plants to the left instead of eating.",
+    special: "将植物向左推移，而非吞噬。",
     description: null,
     image: "/images/pvz2/zombies/mecha_football_zombie.png"
   },
@@ -1214,7 +1214,7 @@ export const zombies = [
     world: "far_future",
     firstAppearance: "Day 8",
     weakness: null,
-    special: "Crushes plants with both hands, randomly burns plants with laser eyes, launches Bug Bot Imp when lower than 50% health.",
+    special: "双手碾压植物，随机用激光眼灼烧植物，生命值低于50%时发射虫子机器人小鬼。",
     description: null,
     image: "/images/pvz2/zombies/gargantuar_prime.png"
   },
@@ -1289,7 +1289,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/peasant_flag_zombie.png"
   },
@@ -1319,7 +1319,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 5",
     weakness: "非投射类植物",
-    special: "Deflects all physical projectiles that are shot at him.",
+    special: "偏转所有射向他的物理投射物。",
     description: null,
     image: "/images/pvz2/zombies/jester_zombie.png"
   },
@@ -1334,7 +1334,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 10",
     weakness: null,
-    special: "Crushes plants with hammer, throws Imp Monk Zombie when lower than 50% health.",
+    special: "用锤子碾压植物，生命值低于50%时投掷小鬼僧侣僵尸。",
     description: null,
     image: "/images/pvz2/zombies/dark_ages_gargantuar.png"
   },
@@ -1349,7 +1349,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 11",
     weakness: "快速击杀",
-    special: "Transforms plants into sheep, which come back to normal when this zombie dies.",
+    special: "将植物变成绵羊，该僵尸死亡后植物恢复正常。",
     description: null,
     image: "/images/pvz2/zombies/wizard_zombie.png"
   },
@@ -1364,7 +1364,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 16",
     weakness: null,
-    special: "Grants knight helms to nearby peasant zombies.",
+    special: "为附近的农民僵尸授予骑士头盔。",
     description: null,
     image: "/images/pvz2/zombies/zombie_king.png"
   },
@@ -1379,7 +1379,7 @@ export const zombies = [
     world: "dark_ages",
     firstAppearance: "Night 20",
     weakness: null,
-    special: "Immune to fire damage.",
+    special: "免疫火焰伤害。",
     description: null,
     image: "/images/pvz2/zombies/imp_dragon_zombie.png"
   },
@@ -1439,7 +1439,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/neon_flag_zombie.png"
   },
@@ -1454,7 +1454,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 2",
     weakness: "快速击杀",
-    special: "Moshes plants back a space when the Punk Jam is playing.",
+    special: "朋克音乐播放时将植物向后推一格。",
     description: null,
     image: "/images/pvz2/zombies/punk_zombie.png"
   },
@@ -1469,7 +1469,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 6",
     weakness: "快速击杀",
-    special: "Trails rainbows that protect zombies behind her and instantly kills plants instead of eating them when the Pop Jam is pl",
+    special: "拖出彩虹保护身后的僵尸，流行音乐播放时立即杀死植物而非吞噬。",
     description: null,
     image: "/images/pvz2/zombies/glitter_zombie.png"
   },
@@ -1484,7 +1484,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 10",
     weakness: null,
-    special: "Spins microphone to damage nearby plants when the Rap Jam is playing.",
+    special: "说唱音乐播放时旋转麦克风伤害附近植物。",
     description: null,
     image: "/images/pvz2/zombies/mc_zom_b.png"
   },
@@ -1514,7 +1514,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 12",
     weakness: null,
-    special: "Crushes plants, additionally releasing a shockwave that damages plants it hits only when the Metal Jam is playing. Throw",
+    special: "碾压植物，重金属音乐播放时还会释放冲击波伤害碰到的植物。",
     description: null,
     image: "/images/pvz2/zombies/hair_metal_gargantuar.png"
   },
@@ -1529,7 +1529,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 17",
     weakness: "快速击杀",
-    special: "Kicks zombies forward when Rap Jam is playing.",
+    special: "说唱音乐播放时将僵尸向前踢。",
     description: null,
     image: "/images/pvz2/zombies/breakdancer_zombie.png"
   },
@@ -1544,7 +1544,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 22",
     weakness: "快速摧毁街机",
-    special: "Pushes an  that summons 8-Bit Zombies when 8-Bit Jam is playing.",
+    special: "8位音乐播放时推动街机召唤8位僵尸。",
     description: null,
     image: "/images/pvz2/zombies/arcade_zombie.png"
   },
@@ -1574,7 +1574,7 @@ export const zombies = [
     world: "neon_mixtape_tour",
     firstAppearance: "Day 27",
     weakness: null,
-    special: "Plays Power Ballad Jam from his boombox upon reaching the sixth column, disabling plants except Phat Beet and undergroun",
+    special: "到达第六列时播放强力情歌，使除胖甜菜和地下植物外的植物失效。",
     description: null,
     image: "/images/pvz2/zombies/boombox_zombie.png"
   },
@@ -1664,7 +1664,7 @@ export const zombies = [
     world: "jurassic_marsh",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/jurassic_flag_zombie.png"
   },
@@ -1679,7 +1679,7 @@ export const zombies = [
     world: "jurassic_marsh",
     firstAppearance: "Day 5",
     weakness: null,
-    special: "Eating speed is doubled.",
+    special: "吞噬速度翻倍。",
     description: null,
     image: "/images/pvz2/zombies/jurassic_imp.png"
   },
@@ -1694,7 +1694,7 @@ export const zombies = [
     world: "jurassic_marsh",
     firstAppearance: "Day 12",
     weakness: null,
-    special: "Crushes plants. Launches Jurassic Imp when lower than 50% health.",
+    special: "碾压植物。生命值低于50%时投掷侏罗纪小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/jurassic_gargantuar.png"
   },
@@ -1709,7 +1709,7 @@ export const zombies = [
     world: "jurassic_marsh",
     firstAppearance: "Day 21",
     weakness: null,
-    special: "Immune to Primal Peashooter's knockback.",
+    special: "免疫原始豌豆射手的击退效果。",
     description: null,
     image: "/images/pvz2/zombies/jurassic_bully.png"
   },
@@ -1724,7 +1724,7 @@ export const zombies = [
     world: "jurassic_marsh",
     firstAppearance: "Day 38",
     weakness: null,
-    special: "Immune to Primal Peashooter's knockback. Can crush plants with its rocks, defeating them instantly and creating a scorch",
+    special: "免疫原始豌豆射手的击退效果。可用岩石碾压植物，立即击杀并留下焦痕。",
     description: null,
     image: "/images/pvz2/zombies/jurassic_rockpuncher.png"
   },
@@ -1784,7 +1784,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 1",
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/beach_flag_zombie.png"
   },
@@ -1844,7 +1844,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 6",
     weakness: "睡莲上的植物",
-    special: "Submerges on the water to avoid straight attacks.",
+    special: "潜入水中以躲避直线攻击。",
     description: null,
     image: "/images/pvz2/zombies/snorkel_zombie.png"
   },
@@ -1874,7 +1874,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 11",
     weakness: "高伤害植物",
-    special: "When walking on land, the board blocks lobbed projectiles, crushes the first plant he encounters with it, the board will",
+    special: "在陆地上行走时，冲浪板阻挡抛射物并碾压遇到的第一棵植物，冲浪板随后被摧毁。",
     description: null,
     image: "/images/pvz2/zombies/surfer_zombie.png"
   },
@@ -1889,7 +1889,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 8",
     weakness: null,
-    special: "Crushes plants with driftwood, throws Imp Mermaid Zombie when lower than 50% health.",
+    special: "用浮木碾压植物，生命值低于50%时投掷小鬼美人鱼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/deep_sea_gargantuar.png"
   },
@@ -1904,7 +1904,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 22",
     weakness: "快速击杀",
-    special: "Pulls plants to the right. Plants next to him are tossed off the lawn.",
+    special: "将植物向右拉拽。旁边的植物会被抛出草坪。",
     description: null,
     image: "/images/pvz2/zombies/fisherman_zombie.png"
   },
@@ -1919,7 +1919,7 @@ export const zombies = [
     world: "big_wave_beach",
     firstAppearance: "Day 17",
     weakness: "范围攻击植物",
-    special: "Throws octopi at the plants, which neutralize their effects until destroyed.",
+    special: "向植物投掷章鱼，章鱼被摧毁前使植物失效。",
     description: null,
     image: "/images/pvz2/zombies/octo_zombie.png"
   },
@@ -1949,7 +1949,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: "Day 4",
     weakness: "高伤害植物",
-    special: "Crushes plants, launches  when lower than 50% health.",
+    special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/gargantuar.png"
   },
@@ -1964,7 +1964,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: "Day 3",
     weakness: "快速击杀",
-    special: "Gains a speed boost in walking and eating when newspaper is destroyed.",
+    special: "报纸被摧毁后移动和吞噬速度大幅提升。",
     description: null,
     image: "/images/pvz2/zombies/newspaper_zombie.png"
   },
@@ -1979,7 +1979,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: "Day 39",
     weakness: null,
-    special: "Gains a speed boost in walking and eating when newspaper is destroyed.",
+    special: "报纸被摧毁后移动和吞噬速度大幅提升。",
     description: null,
     image: "/images/pvz2/zombies/sunday_edition_zombie.png"
   },
@@ -1994,7 +1994,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: "Day 9",
     weakness: "仙人掌或三叶草",
-    special: "Bypasses defenses by flying over them, until its balloon is popped.",
+    special: "通过飞越防御物绕过防线，直到气球被刺破。",
     description: null,
     image: "/images/pvz2/zombies/balloon_zombie.png"
   },
@@ -2009,7 +2009,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: "Day 21",
     weakness: "高伤害植物",
-    special: "Tackles the first plant he encounters, then walks normally. Can kick Super-Fan Imps forward past the fourth column.",
+    special: "撞击遇到的第一棵植物，然后正常行走。可将超级粉丝小鬼踢到第四列之后。",
     description: null,
     image: "/images/pvz2/zombies/all_star_zombie.png"
   },
@@ -2024,7 +2024,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Boosts zombies with s, making them move and eat faster.",
+    special: "用气场强化僵尸，使其移动和吞噬速度加快。",
     description: null,
     image: "/images/pvz2/zombies/cardio_zombie.png"
   },
@@ -2039,7 +2039,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Summons s, s, and s, attacks plants with missiles, and can teleport zombies further into the lawn.",
+    special: "召唤多种僵尸，用导弹攻击植物，并可将僵尸传送到草坪深处。",
     description: null,
     image: "/images/pvz2/zombies/z_mech.png"
   },
@@ -2054,7 +2054,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Emits shocking birthday surprises as its layers take damage.",
+    special: "随着层数受损释放带电的生日惊喜。",
     description: null,
     image: "/images/pvz2/zombies/caketank.png"
   },
@@ -2129,7 +2129,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/roman_flag_zombie.png"
   },
@@ -2144,7 +2144,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Heals zombies for half of their health and undoes certain effects. Drops a staff upon defeat, which heals zombies until ",
+    special: "恢复僵尸一半生命值并解除某些效果。击败后掉落法杖，法杖会持续治疗僵尸。",
     description: null,
     image: "/images/pvz2/zombies/healer_zombie.png"
   },
@@ -2159,7 +2159,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Arrives in a group of three zombies or less. Certain zombies carry their shields above their heads, protecting them from",
+    special: "以三只或以下僵尸群组形式出现。部分僵尸将盾牌举过头顶，保护自己免受上方攻击。",
     description: null,
     image: "/images/pvz2/zombies/roman_shield_zombie.png"
   },
@@ -2174,7 +2174,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Crushes plants, launches Roman Imp and a net that stuns plants when lower than 65% health.",
+    special: "碾压植物，生命值低于65%时投掷罗马小鬼僵尸并撒网使植物眩晕。",
     description: null,
     image: "/images/pvz2/zombies/gladiator_gargantuar.png"
   },
@@ -2204,7 +2204,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Launches vases that destroy plants and release zombies, automatically self-destructs after launching 5 vases.",
+    special: "发射花瓶摧毁植物并释放僵尸，发射5个花瓶后自动自毁。",
     description: null,
     image: "/images/pvz2/zombies/zcorpion_zombie.png"
   },
@@ -2219,7 +2219,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Pushes stone mounds that release Bust Head Zombies when destroyed, turns zombies that face her and zomboids into stone s",
+    special: "推动石堆，石堆被摧毁后释放石像头僵尸。将面向她的僵尸石化。",
     description: null,
     image: "/images/pvz2/zombies/zombie_medusa.png"
   },
@@ -2234,7 +2234,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Throws salad dressing towards plants, disabling them and making zombies eat them faster. Summons Roman Zombies and Roman",
+    special: "向植物投掷沙拉酱使其失效，并加快僵尸吞噬速度。召唤罗马僵尸。",
     description: null,
     image: "/images/pvz2/zombies/roman_caesar_zombie.png"
   },
@@ -2249,7 +2249,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Crushes plants with baseball bat.",
+    special: "用棒球棒碾压植物。",
     description: null,
     image: "/images/pvz2/zombies/gargimp_legal.png"
   },
@@ -2264,7 +2264,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Crushes plants, launches  when lower than 50% health.",
+    special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/head_office_impgantuar.png"
   },
@@ -2369,7 +2369,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/zcorp_flag_zombie.png"
   },
@@ -2384,7 +2384,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Shoves most zombies to other lanes. Occasionally goes backwards to push other zombies forwards.",
+    special: "将大多数僵尸推到其他行道。偶尔后退将其他僵尸向前推。",
     description: null,
     image: "/images/pvz2/zombies/zcorp_consultant.png"
   },
@@ -2399,7 +2399,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Drops in past defenses. Throws a laptop that deals massive damage in a tile. Gains a speed boost in walking and eating a",
+    special: "降落到防线后方。投掷笔记本电脑对单格造成巨额伤害。移动和吞噬速度提升。",
     description: null,
     image: "/images/pvz2/zombies/zcorp_helpdesk.png"
   },
@@ -2459,7 +2459,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Releases Zombie Monkey when grinder is destroyed.",
+    special: "研磨器被摧毁后释放僵尸猴子。",
     description: null,
     image: "/images/pvz2/zombies/grinderhead_zombie.png"
   },
@@ -2474,7 +2474,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Appears during a huge wave of zombies.",
+    special: "在大波僵尸来袭时出现。",
     description: null,
     image: "/images/pvz2/zombies/carnie_flag_zombie.png"
   },
@@ -2489,7 +2489,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Fires off a Carnie Imp, then self-destructs.",
+    special: "发射一只嘉年华小鬼僵尸，然后自毁。",
     description: null,
     image: "/images/pvz2/zombies/carnie_cannon.png"
   },
@@ -2519,7 +2519,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Splits up into two Carnie Imp Splits in adjacent lanes when destroyed.",
+    special: "被摧毁时分裂成两只嘉年华分裂小鬼僵尸进入相邻行道。",
     description: null,
     image: "/images/pvz2/zombies/carnie_imp_twins.png"
   },
@@ -2534,7 +2534,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Crushes plants, launches  when lower than 50% health.",
+    special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/strongman_gargantuar.png"
   },
@@ -2564,7 +2564,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Teleports zombies and summons doves that can take away plants. Immune to all attacks or effects from  family plants as w",
+    special: "传送僵尸并召唤鸽子带走植物。免疫特定植物家族的所有攻击和效果。",
     description: null,
     image: "/images/pvz2/zombies/magician_zombie.png"
   },
@@ -2579,7 +2579,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Breathes out fire, burning plants in front of him. Ice attacks extinguish his beard.",
+    special: "喷火烧毁前方植物。冰系攻击可熄灭他的胡子。",
     description: null,
     image: "/images/pvz2/zombies/firebreather_zombie.png"
   },
@@ -2594,7 +2594,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Walks over the player's defenses, until he loses his stilts.",
+    special: "踩高跷越过玩家防线，直到失去高跷。",
     description: null,
     image: "/images/pvz2/zombies/stiltwalker_zombie.png"
   },
@@ -2609,7 +2609,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Cannon can rain down many Carnie Imps past your defenses.",
+    special: "火炮可在防线后方倾泻大量嘉年华小鬼僵尸。",
     description: null,
     image: "/images/pvz2/zombies/zombot_catastro_liope.png"
   },
@@ -2624,7 +2624,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "May drop a silver coin when defeated.",
+    special: "被击败后可能掉落银币。",
     description: null,
     image: "/images/pvz2/zombies/zombie_monkey.png"
   },
@@ -2639,7 +2639,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Can fly to plants in other lanes to take them away.",
+    special: "能飞到其他行道的植物处将其带走。",
     description: null,
     image: "/images/pvz2/zombies/zombie_dove.png"
   },
@@ -2654,7 +2654,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "When attacking Nut plants, deals damage equal to half their max health.",
+    special: "攻击坚果类植物时，造成相当于其最大生命值一半的伤害。",
     description: null,
     image: "/images/pvz2/zombies/nutcracker_zombie.png"
   },
@@ -2669,7 +2669,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Moves faster in water",
+    special: "在水中移动更快",
     description: null,
     image: "/images/pvz2/zombies/ducky_tube.png"
   },
@@ -2684,7 +2684,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Moves faster in water",
+    special: "在水中移动更快",
     description: null,
     image: "/images/pvz2/zombies/ducky_tube_conehead.png"
   },
@@ -2699,7 +2699,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Moves faster in water",
+    special: "在水中移动更快",
     description: null,
     image: "/images/pvz2/zombies/ducky_tube_buckethead.png"
   },
@@ -2714,7 +2714,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Moves extremely fast in water",
+    special: "在水中移动极快",
     description: null,
     image: "/images/pvz2/zombies/fast_swimmer_zombie.png"
   },
@@ -2729,7 +2729,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Lobs projectiles at the last plant in the lane.",
+    special: "向该行最后一棵植物投掷抛射物。",
     description: null,
     image: "/images/pvz2/zombies/catapult_zombie.png"
   },
@@ -2744,7 +2744,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Spawns waves of Roman Zombies that serve both as shields and swords.",
+    special: "生成多波罗马僵尸，它们既是盾牌也是利剑。",
     description: null,
     image: "/images/pvz2/zombies/zombot_hot_rodicus.png"
   },
@@ -2759,7 +2759,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Creates an ice trail behind it.",
+    special: "在身后留下冰道。",
     description: null,
     image: "/images/pvz2/zombies/zomboni.png"
   },
@@ -2774,7 +2774,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Crushes plants.",
+    special: "碾压植物。",
     description: null,
     image: "/images/pvz2/zombies/zombie_bobsled_team.png"
   },
@@ -2804,7 +2804,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Kicks off low and ground plants<br>Resist damage from Filamint family plants with its armor.",
+    special: "踢开低矮和地面植物<br>用护甲抵抗线圈薄荷家族植物的伤害。",
     description: null,
     image: "/images/pvz2/zombies/raincoat_zombie.png"
   },
@@ -2819,7 +2819,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "Appears during  Epic Quests and drops lunchboxes with 100 coins. Runs away if not defeated quickly.",
+    special: "在史诗任务中出现，掉落含100金币的午餐盒。若未被快速击败则逃跑。",
     description: null,
     image: "/images/pvz2/zombies/treasure_yeti.png"
   },
@@ -2834,7 +2834,7 @@ export const zombies = [
     world: "modern_day",
     firstAppearance: null,
     weakness: null,
-    special: "A toughened  that has greatly decreased speed and an eating DPS of only 1.",
+    special: "强化版僵尸，速度大幅降低，吞噬伤害仅为每秒1点。",
     description: null,
     image: "/images/pvz2/zombies/turkey_boss.png"
   }
