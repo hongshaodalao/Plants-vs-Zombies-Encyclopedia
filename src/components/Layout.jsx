@@ -12,20 +12,28 @@ function Layout() {
           </NavLink>
           <nav className={styles.navLinks}>
             <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
+              }
+            >
+              首页
+            </NavLink>
+            <NavLink
               to="/plants"
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              植物图鉴
+              PvZ 1
             </NavLink>
             <NavLink
-              to="/zombies"
+              to="/pvz2"
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              僵尸图鉴
+              PvZ 2
             </NavLink>
           </nav>
         </div>
