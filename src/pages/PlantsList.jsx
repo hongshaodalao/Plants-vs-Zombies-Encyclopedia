@@ -3,7 +3,13 @@ import { plants } from '../data/pvz1/plants.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'
+import TabNav from '../components/TabNav.jsx'
 import styles from './PlantsList.module.css'
+
+const pvz1Tabs = [
+  { to: '/plants', icon: '🌿', label: '植物图鉴' },
+  { to: '/zombies', icon: '🧟', label: '僵尸图鉴' }
+]
 
 function PlantsList() {
   const [search, setSearch] = useState('')
@@ -54,6 +60,8 @@ function PlantsList() {
 
   return (
     <div className={styles.page}>
+      <TabNav tabs={pvz1Tabs} />
+
       <div className={styles.header}>
         <h1 className={styles.title}>🌿 植物图鉴</h1>
         <p className={styles.subtitle}>共 {plants.length} 种植物，守护你的庭院</p>

@@ -3,7 +3,14 @@ import { plants } from '../data/pvz2/plants.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import Pvz2FilterPanel from '../components/Pvz2FilterPanel.jsx'
+import TabNav from '../components/TabNav.jsx'
 import styles from './Pvz2PlantsList.module.css'
+
+const pvz2Tabs = [
+  { to: '/pvz2/plants', icon: '🌿', label: '植物图鉴' },
+  { to: '/pvz2/zombies', icon: '🧟', label: '僵尸图鉴' },
+  { to: '/pvz2/worlds', icon: '🌍', label: '世界探索' }
+]
 
 function Pvz2PlantsList() {
   const [search, setSearch] = useState('')
@@ -58,6 +65,8 @@ function Pvz2PlantsList() {
 
   return (
     <div className={styles.page}>
+      <TabNav tabs={pvz2Tabs} />
+
       <div className={styles.header}>
         <h1 className={styles.title}>🌿 PvZ 2 植物图鉴</h1>
         <p className={styles.subtitle}>共 {plants.length} 种植物，来自不同时空</p>

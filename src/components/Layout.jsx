@@ -17,7 +17,7 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              首页
+              🏠 首页
             </NavLink>
             <NavLink
               to="/plants"
@@ -25,15 +25,15 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              PvZ 1
+              🌿 PvZ 1
             </NavLink>
             <NavLink
-              to="/pvz2"
+              to="/pvz2/plants"
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              PvZ 2
+              🧟 PvZ 2
             </NavLink>
           </nav>
         </div>

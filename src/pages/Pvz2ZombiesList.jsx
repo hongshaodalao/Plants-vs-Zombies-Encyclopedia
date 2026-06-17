@@ -3,7 +3,14 @@ import { zombies } from '../data/pvz2/zombies.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import Pvz2FilterPanel from '../components/Pvz2FilterPanel.jsx'
+import TabNav from '../components/TabNav.jsx'
 import styles from './Pvz2ZombiesList.module.css'
+
+const pvz2Tabs = [
+  { to: '/pvz2/plants', icon: '🌿', label: '植物图鉴' },
+  { to: '/pvz2/zombies', icon: '🧟', label: '僵尸图鉴' },
+  { to: '/pvz2/worlds', icon: '🌍', label: '世界探索' }
+]
 
 function Pvz2ZombiesList() {
   const [search, setSearch] = useState('')
@@ -60,6 +67,8 @@ function Pvz2ZombiesList() {
 
   return (
     <div className={styles.page}>
+      <TabNav tabs={pvz2Tabs} />
+
       <div className={styles.header}>
         <h1 className={styles.title}>🧟 PvZ 2 僵尸图鉴</h1>
         <p className={styles.subtitle}>共 {zombies.length} 种僵尸，来自不同时空</p>
