@@ -205,7 +205,7 @@ export const plants = [
     "range": "所在格",
     "category": "defensive",
     "unlockLevel": "Level 3-6",
-    "description": "Hockey is Spikeweed's obsession. He's got box seat season tickets. He keeps close track of his favorite players. And he consistently cleans up in the office hockey pool. Just one problem: he's terrified of pucks.",
+    "description": "冰球是地刺的最爱。他有包厢季票，密切关注他最喜欢的球员，而且在办公室冰球赌池里总是赢家。只有一个问题：他害怕冰球。",
     "image": "/images/plants/spikeweed.png",
     "special": null
   },
