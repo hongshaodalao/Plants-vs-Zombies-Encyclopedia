@@ -10,7 +10,7 @@ export const zombies = [
     firstAppearance: 1,
     weakness: "任意",
     description: "最基础的僵尸，生命值与攻击力都较低。",
-    image: "/images/zombies/zombie.png"
+    image: "/images/zombies/zombie.svg"
   },
   {
     id: "flagzombie",
@@ -23,7 +23,7 @@ export const zombies = [
     firstAppearance: 1,
     weakness: "任意",
     description: "持旗帜的僵尸，标志着大规模进攻的开始。",
-    image: "/images/zombies/flagzombie.png"
+    image: "/images/zombies/flagzombie.svg"
   },
   {
     id: "conezombie",
@@ -36,7 +36,7 @@ export const zombies = [
     firstAppearance: 2,
     weakness: "任意",
     description: "头戴路障，生命值更高，需要更多伤害才能击杀。",
-    image: "/images/zombies/conezombie.png"
+    image: "/images/zombies/conezombie.svg"
   },
   {
     id: "bucketzombie",
@@ -49,7 +49,7 @@ export const zombies = [
     firstAppearance: 3,
     weakness: "任意",
     description: "头戴铁桶，防御力极强。",
-    image: "/images/zombies/bucketzombie.png"
+    image: "/images/zombies/bucketzombie.svg"
   },
   {
     id: "screendoor",
@@ -62,7 +62,7 @@ export const zombies = [
     firstAppearance: 5,
     weakness: "穿透类植物",
     description: "手持铁栅门，可以弹开豌豆等直线攻击。",
-    image: "/images/zombies/screendoor.png"
+    image: "/images/zombies/screendoor.svg"
   },
   {
     id: "football",
@@ -75,7 +75,7 @@ export const zombies = [
     firstAppearance: 8,
     weakness: "减速",
     description: "身穿橄榄球装备，移动速度快，防御力强。",
-    image: "/images/zombies/football.png"
+    image: "/images/zombies/football.svg"
   },
   {
     id: "digger",
@@ -88,7 +88,7 @@ export const zombies = [
     firstAppearance: 14,
     weakness: "立即触发类",
     description: "从地下挖洞绕过植物，从后方出现。",
-    image: "/images/zombies/digger.png"
+    image: "/images/zombies/digger.svg"
   },
   {
     id: "pogo",
@@ -101,7 +101,7 @@ export const zombies = [
     firstAppearance: 15,
     weakness: "立即触发类",
     description: "手持弹簧杆跳跃过植物，需要立即触发型植物应对。",
-    image: "/images/zombies/pogo.png"
+    image: "/images/zombies/pogo.svg"
   }
 ]
 

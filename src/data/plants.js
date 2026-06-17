@@ -11,7 +11,7 @@ export const plants = [
     category: "shooter",
     unlockLevel: 1,
     description: "最基础的植物，向前方直线发射豌豆攻击僵尸。",
-    image: "/images/plants/peashooter.png"
+    image: "/images/plants/peashooter.svg"
   },
   {
     id: "sunflower",
@@ -25,7 +25,7 @@ export const plants = [
     category: "support",
     unlockLevel: 1,
     description: "定期生产阳光，是经济来源的核心。",
-    image: "/images/plants/sunflower.png"
+    image: "/images/plants/sunflower.svg"
   },
   {
     id: "cherrybomb",
@@ -39,7 +39,7 @@ export const plants = [
     category: "explosive",
     unlockLevel: 2,
     description: "延迟 1.2 秒后爆炸，对周围大范围造成巨大伤害。",
-    image: "/images/plants/cherrybomb.png"
+    image: "/images/plants/cherrybomb.svg"
   },
   {
     id: "wallnut",
@@ -53,7 +53,7 @@ export const plants = [
     category: "defensive",
     unlockLevel: 1,
     description: "高生命值的防御植物，能阻挡僵尸前进。",
-    image: "/images/plants/wallnut.png"
+    image: "/images/plants/wallnut.svg"
   },
   {
     id: "potatomine",
@@ -67,7 +67,7 @@ export const plants = [
     category: "explosive",
     unlockLevel: 2,
     description: "需要 15 秒准备时间，被僵尸踩到时爆炸。",
-    image: "/images/plants/potatomine.png"
+    image: "/images/plants/potatomine.svg"
   },
   {
     id: "snowpea",
@@ -81,7 +81,7 @@ export const plants = [
     category: "shooter",
     unlockLevel: 3,
     description: "发射冰豌豆，命中僵尸会减速。",
-    image: "/images/plants/snowpea.png"
+    image: "/images/plants/snowpea.svg"
   },
   {
     id: "chomper",
@@ -95,7 +95,7 @@ export const plants = [
     category: "explosive",
     unlockLevel: 4,
     description: "一口吞下一个僵尸，但咀嚼时间较长。",
-    image: "/images/plants/chomper.png"
+    image: "/images/plants/chomper.svg"
   },
   {
     id: "repeater",
@@ -109,7 +109,7 @@ export const plants = [
     category: "shooter",
     unlockLevel: 5,
     description: "一次发射两颗豌豆，伤害翻倍。",
-    image: "/images/plants/repeater.png"
+    image: "/images/plants/repeater.svg"
   }
 ]
 
