@@ -1,6 +1,6 @@
 import styles from './Pvz2FilterPanel.module.css'
 
-function Pvz2FilterPanel({ filters, onFilterChange }) {
+function Pvz2FilterPanel({ filters, onFilterChange, type = 'plant' }) {
   const worlds = [
     { value: 'modern_day', label: '摩登时代' },
     { value: 'ancient_egypt', label: '古埃及' },
@@ -16,12 +16,21 @@ function Pvz2FilterPanel({ filters, onFilterChange }) {
     { value: 'power_mints', label: '薄荷家族' }
   ]
 
-  const categories = [
+  const plantCategories = [
     { value: 'shooter', label: '射手类' },
     { value: 'explosive', label: '爆炸类' },
     { value: 'defensive', label: '防御类' },
     { value: 'support', label: '辅助类' }
   ]
+
+  const zombieCategories = [
+    { value: 'basic', label: '普通类' },
+    { value: 'cone', label: '路障类' },
+    { value: 'bucket', label: '铁桶类' },
+    { value: 'special', label: '特殊类' }
+  ]
+
+  const categories = type === 'zombie' ? zombieCategories : plantCategories
 
   const sunCostRanges = [
     { value: '0-50', label: '0-50' },
@@ -31,7 +40,13 @@ function Pvz2FilterPanel({ filters, onFilterChange }) {
     { value: '200+', label: '200+' }
   ]
 
-  const sortOptions = [
+  const speedOptions = [
+    { value: 'slow', label: '慢速' },
+    { value: 'medium', label: '中速' },
+    { value: 'fast', label: '快速' }
+  ]
+
+  const plantSortOptions = [
     { value: 'sunCost-asc', label: '阳光消耗 ↑' },
     { value: 'sunCost-desc', label: '阳光消耗 ↓' },
     { value: 'damage-asc', label: '伤害 ↑' },
@@ -39,6 +54,17 @@ function Pvz2FilterPanel({ filters, onFilterChange }) {
     { value: 'health-asc', label: '生命值 ↑' },
     { value: 'health-desc', label: '生命值 ↓' }
   ]
+
+  const zombieSortOptions = [
+    { value: 'health-asc', label: '生命值 ↑' },
+    { value: 'health-desc', label: '生命值 ↓' },
+    { value: 'damage-asc', label: '伤害 ↑' },
+    { value: 'damage-desc', label: '伤害 ↓' },
+    { value: 'firstAppearance-asc', label: '首次出现 ↑' },
+    { value: 'firstAppearance-desc', label: '首次出现 ↓' }
+  ]
+
+  const sortOptions = type === 'zombie' ? zombieSortOptions : plantSortOptions
 
   const toggleWorld = (value) => {
     const current = filters.worlds || []
@@ -69,6 +95,7 @@ function Pvz2FilterPanel({ filters, onFilterChange }) {
       worlds: [],
       categories: [],
       sunCostRange: '',
+      speed: '',
       sort: 'default'
     })
   }
@@ -117,19 +144,35 @@ function Pvz2FilterPanel({ filters, onFilterChange }) {
         </select>
       </div>
 
-      <div className={styles.group}>
-        <span className={styles.label}>阳光消耗</span>
-        <select
-          className={styles.select}
-          value={filters.sunCostRange || ''}
-          onChange={(e) => handleRangeChange('sunCostRange', e.target.value)}
-        >
-          <option value="">全部</option>
-          {sunCostRanges.map(r => (
-            <option key={r.value} value={r.value}>{r.label}</option>
-          ))}
-        </select>
-      </div>
+      {type === 'zombie' ? (
+        <div className={styles.group}>
+          <span className={styles.label}>速度</span>
+          <select
+            className={styles.select}
+            value={filters.speed || ''}
+            onChange={(e) => handleRangeChange('speed', e.target.value)}
+          >
+            <option value="">全部</option>
+            {speedOptions.map(s => (
+              <option key={s.value} value={s.value}>{s.label}</option>
+            ))}
+          </select>
+        </div>
+      ) : (
+        <div className={styles.group}>
+          <span className={styles.label}>阳光消耗</span>
+          <select
+            className={styles.select}
+            value={filters.sunCostRange || ''}
+            onChange={(e) => handleRangeChange('sunCostRange', e.target.value)}
+          >
+            <option value="">全部</option>
+            {sunCostRanges.map(r => (
+              <option key={r.value} value={r.value}>{r.label}</option>
+            ))}
+          </select>
+        </div>
+      )}
 
       <div className={styles.group}>
         <span className={styles.label}>排序</span>

@@ -2,6 +2,12 @@ import { Link, useNavigate } from 'react-router-dom'
 import styles from './Pvz2DetailView.module.css'
 import UpgradeInfo from './UpgradeInfo.jsx'
 
+const speedLabels = {
+  slow: '慢速',
+  medium: '中速',
+  fast: '快速'
+}
+
 const worldNames = {
   modern_day: '摩登时代',
   ancient_egypt: '古埃及',
@@ -17,18 +23,20 @@ const worldNames = {
   power_mints: '薄荷家族'
 }
 
-function Pvz2DetailView({ data, list }) {
+function Pvz2DetailView({ data, list, type = 'plant' }) {
   const navigate = useNavigate()
   const currentIndex = list.findIndex(item => item.id === data.id)
   const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null
   const nextItem = currentIndex < list.length - 1 ? list[currentIndex + 1] : null
 
-  const handlePrev = () => prevItem && navigate(`/pvz2/plants/${prevItem.id}`)
-  const handleNext = () => nextItem && navigate(`/pvz2/plants/${nextItem.id}`)
+  const basePath = type === 'zombie' ? '/pvz2/zombies' : '/pvz2/plants'
+
+  const handlePrev = () => prevItem && navigate(`${basePath}/${prevItem.id}`)
+  const handleNext = () => nextItem && navigate(`${basePath}/${nextItem.id}`)
 
   return (
     <div>
-      <Link to="/pvz2/plants" className={styles.backBtn}>
+      <Link to={basePath} className={styles.backBtn}>
         ← 返回图鉴
       </Link>
 
@@ -39,7 +47,9 @@ function Pvz2DetailView({ data, list }) {
             src={data.image}
             alt={data.name}
             onError={(e) => {
-              e.currentTarget.src = '/images/plants/_placeholder.svg'
+              e.currentTarget.src = type === 'zombie'
+                ? '/images/zombies/_placeholder.svg'
+                : '/images/plants/_placeholder.svg'
             }}
           />
         </div>
@@ -54,29 +64,42 @@ function Pvz2DetailView({ data, list }) {
             </span>
           )}
 
-          <p className={styles.description}>{data.description}</p>
+          <p className={styles.description}>{data.description || '暂无描述'}</p>
 
-          <div className={styles.statsGrid}>
-            <StatBox label="阳光消耗" value={data.sunCost} unit="☀️" />
-            <StatBox label="冷却时间" value={data.recharge} unit="秒" />
-            <StatBox label="伤害" value={data.damage} unit="💥" />
-            <StatBox label="生命值" value={data.health} unit="❤️" />
-            <StatBox label="攻击范围" value={data.range} />
-            <StatBox label="解锁关卡" value={data.unlockLevel} />
-          </div>
-
-          {data.plantFoodEffect && (
-            <div className={styles.plantFoodSection}>
-              <h3 className={styles.plantFoodTitle}>能量豆效果</h3>
-              <p className={styles.plantFoodText}>{data.plantFoodEffect}</p>
+          {type === 'zombie' ? (
+            <div className={styles.statsGrid}>
+              <StatBox label="生命值" value={data.health} unit="❤️" />
+              <StatBox label="伤害" value={data.damage} unit="⚔️" />
+              <StatBox label="速度" value={speedLabels[data.speed] || data.speed} />
+              {data.firstAppearance && <StatBox label="首次出现" value={data.firstAppearance} />}
+              {data.weakness && <StatBox label="弱点" value={data.weakness} />}
+              {data.special && <StatBox label="特殊能力" value={data.special} />}
             </div>
-          )}
+          ) : (
+            <>
+              <div className={styles.statsGrid}>
+                <StatBox label="阳光消耗" value={data.sunCost} unit="☀️" />
+                <StatBox label="冷却时间" value={data.recharge} unit="秒" />
+                <StatBox label="伤害" value={data.damage} unit="💥" />
+                <StatBox label="生命值" value={data.health} unit="❤️" />
+                <StatBox label="攻击范围" value={data.range} />
+                <StatBox label="解锁关卡" value={data.unlockLevel} />
+              </div>
 
-          <UpgradeInfo
-            upgradeable={data.upgradeable}
-            maxUpgradeLevel={data.maxUpgradeLevel}
-            upgradeEffect={data.upgradeEffect}
-          />
+              {data.plantFoodEffect && (
+                <div className={styles.plantFoodSection}>
+                  <h3 className={styles.plantFoodTitle}>能量豆效果</h3>
+                  <p className={styles.plantFoodText}>{data.plantFoodEffect}</p>
+                </div>
+              )}
+
+              <UpgradeInfo
+                upgradeable={data.upgradeable}
+                maxUpgradeLevel={data.maxUpgradeLevel}
+                upgradeEffect={data.upgradeEffect}
+              />
+            </>
+          )}
 
           <div className={styles.navigation}>
             {prevItem ? (
