@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom'
 import styles from './Card.module.css'
 
-function Card({ data, type }) {
-  const detailPath = type === 'plant' ? `/plants/${data.id}` : `/zombies/${data.id}`
+function Card({ data, type, gameVersion }) {
+  const base = gameVersion === 'pvz2' ? '/pvz2' : ''
+  const detailPath = type === 'plant' ? `${base}/plants/${data.id}` : `${base}/zombies/${data.id}`
 
   const isPlant = type === 'plant'
   const cardClass = isPlant

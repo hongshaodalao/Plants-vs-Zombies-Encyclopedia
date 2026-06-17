@@ -1,0 +1,86 @@
+.panel {
+  background: var(--color-bg-card);
+  border: 2px solid var(--color-dirt);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  align-items: flex-end;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  min-width: 140px;
+}
+
+.groupWide {
+  min-width: 200px;
+}
+
+.label {
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  color: var(--color-grass-dark);
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: var(--font-size-sm);
+  padding: 0.25rem 0.5rem;
+  background: rgba(135, 206, 235, 0.15);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.checkbox:hover {
+  background: rgba(135, 206, 235, 0.3);
+}
+
+.checkboxActive {
+  background: var(--color-sun);
+  color: var(--color-text-primary);
+  font-weight: bold;
+}
+
+.checkbox input {
+  margin: 0;
+  cursor: pointer;
+}
+
+.select {
+  padding: 0.4rem 0.5rem;
+  font-size: var(--font-size-sm);
+  font-family: inherit;
+  border: 1px solid var(--color-grass-dark);
+  border-radius: var(--radius-sm);
+  background: white;
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.resetBtn {
+  padding: 0.5rem 1rem;
+  background: var(--color-zombie);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  transition: var(--transition);
+}
+
+.resetBtn:hover {
+  background: #C0392B;
+}
