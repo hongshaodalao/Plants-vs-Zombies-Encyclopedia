@@ -1,0 +1,55 @@
+.upgradeSection {
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid var(--color-grass-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+
+.upgradeTitle {
+  font-size: var(--font-size-lg);
+  font-weight: bold;
+  color: var(--color-grass-dark);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.upgradeRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-xs) 0;
+}
+
+.upgradeLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.upgradeValue {
+  font-size: var(--font-size-base);
+  font-weight: bold;
+  color: var(--color-text-primary);
+}
+
+.upgradeEffect {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px dashed var(--color-grass-light);
+}
+
+.upgradeEffectLabel {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-xs);
+}
+
+.upgradeEffectText {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-text-primary);
+}
+
+.noUpgrade {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  font-style: italic;
+}
