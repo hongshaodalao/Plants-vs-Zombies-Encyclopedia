@@ -10,7 +10,7 @@ export const plants = [
     "range": "直线",
     "category": "shooter",
     "unlockLevel": "初始可用",
-    "description": "How can a single plant grow and shoot so many peas so quickly? Peashooter says, \"Hard work, commitment, and a healthy, well-balanced breakfast of sunlight and high-fiber carbon dioxide make it all possible.\"",
+    "description": "一株植物，怎么能如此快地生长并发射这么多豌豆呢？豌豆射手说：「努力工作，奉献自我，再加上一份阳光和高纤维二氧化碳均衡搭配的早餐。这些让一切成为可能。」",
     "image": "/images/plants/peashooter.png",
     "special": null
   },
@@ -25,7 +25,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 1-1",
-    "description": "Sunflower can't resist bouncing to the beat. Which beat is that? Why, the life-giving jazzy rhythm of the Earth itself, thumping at a frequency only Sunflower can hear.",
+    "description": "向日葵情不自禁和著节拍起舞。是什么节拍呢？嗨，是来源于大地，能赋予生机的爵士节拍。这种频率的节拍，只有向日葵才能听到。",
     "image": "/images/plants/sunflower.png",
     "special": "生产阳光"
   },
@@ -40,7 +40,7 @@ export const plants = [
     "range": "周围 3x3",
     "category": "explosive",
     "unlockLevel": "Level 1-2",
-    "description": "\"I wanna explode,\" says Cherry #1. \"No, let's detonate instead!\" says his brother, Cherry #2. After intense consultation they agree to explodonate.",
+    "description": "「我要爆开了，」樱桃一号说。「不，我们是要炸开了！」他弟弟樱桃二号说。经过激烈磋商之后，他们才统一达成爆炸这个说法。",
     "image": "/images/plants/cherrybomb.png",
     "special": "爆炸伤害, 3x3范围"
   },
@@ -55,7 +55,7 @@ export const plants = [
     "range": "无",
     "category": "defensive",
     "unlockLevel": "Level 1-3",
-    "description": "\"People wonder how I feel about getting constantly chewed on by zombies,\" says Wall-nut. \"What they don't realize is that with my limited senses all I can feel is a kind of tingling, like a relaxing back rub.\"",
+    "description": "「人们想知道，经常被僵尸啃感觉怎样，」坚果墙说，「他们不明白，我有限的感觉只能让我感到麻麻的，就像是在放松地搓背。」",
     "image": "/images/plants/wallnut.png",
     "special": null
   },
@@ -70,7 +70,7 @@ export const plants = [
     "range": "单格",
     "category": "explosive",
     "unlockLevel": "Level 1-5",
-    "description": "Some folks say Potato Mine is lazy, that he leaves everything to the last minute. Potato Mine says nothing. He's too busy thinking about his investment strategy.",
+    "description": "有些人说马铃薯地雷懒，他把所有事情留到最后。马铃薯地雷没说什么，他正忙著考虑他的投资策略呢。",
     "image": "/images/plants/potatomine.png",
     "special": "爆炸伤害"
   },
@@ -85,7 +85,7 @@ export const plants = [
     "range": "直线",
     "category": "shooter",
     "unlockLevel": "Level 1-6",
-    "description": "Folks often tell Snow Pea how \"cool\" he is, or exhort him to \"chill out.\" They tell him to \"stay frosty.\" Snow Pea just rolls his eyes. He's heard 'em all.",
+    "description": "大伙经常告诉雪花豌豆他有多「酷」，或者告诫他要「冷静」，他们告诉他要「保持冰冷」。雪花豌豆只是翻翻白眼。他都听见了。",
     "image": "/images/plants/snowpea.png",
     "special": "减速僵尸, 冰冻效果"
   },
@@ -100,7 +100,7 @@ export const plants = [
     "range": "单格",
     "category": "explosive",
     "unlockLevel": "Level 1-7",
-    "description": "Chomper almost got a gig doing stunts for The Little Shop of Horrors but it fell through when his agent demanded too much on the front end. Chomper's not resentful, though. He says it's just part of the business.",
+    "description": "大嘴花差点就能当《恐怖小店》的特技替身了，却因为他的经纪人在初期要求太高而失败。尽管如此，大嘴花并不愤怒，他说这只是商业的一部分。",
     "image": "/images/plants/chomper.png",
     "special": null
   },
@@ -115,7 +115,7 @@ export const plants = [
     "range": "直线",
     "category": "shooter",
     "unlockLevel": "Level 1-8",
-    "description": "Repeater is fierce. He's from the streets. He doesn't take attitude from anybody, plant or zombie, and he shoots peas to keep people at a distance. Secretly, though, Repeater yearns for love.",
+    "description": "连发豌豆很凶悍，他是在街头混大的。他不在乎任何人、植物、僵尸的看法，他发射豌豆是为了让别人离他远点。但其实连发豌豆暗暗渴望著爱。",
     "image": "/images/plants/repeater.png",
     "special": null
   },
@@ -130,7 +130,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 2-1",
-    "description": "Lily Pad never complains. Lily Pad never wants to know what's going on. Put a plant on top of Lily Pad, he won't say a thing. Does he have startling opinions or shocking secrets? Nobody knows. Lily Pad keeps it all inside.",
+    "description": "睡莲叶从不抱怨，也从来不想弄明白发生了什么。在他身上种植物，他也不会说什么。难道他有什么惊人的想法或糟糕的秘密？无人知晓。睡莲叶把这些都埋藏在心底。",
     "image": "/images/plants/lilypad.png",
     "special": "水生植物"
   },
@@ -145,7 +145,7 @@ export const plants = [
     "range": "单格",
     "category": "explosive",
     "unlockLevel": "Level 3-1",
-    "description": "\"I'm ready!\" yells Squash. \"Let's do it! Put me in! There's nobody better! I'm your guy! C'mon! Whaddya waiting for? I need this!\"",
+    "description": "「我准备好了！」倭瓜大喊，「干吧！算我一个！没人比我更厉害！我就是你要的人！来啊！还等甚么？我要的就是这个！」",
     "image": "/images/plants/squash.png",
     "special": null
   },
@@ -160,7 +160,7 @@ export const plants = [
     "range": "三线",
     "category": "shooter",
     "unlockLevel": "Level 3-2",
-    "description": "Threepeater likes reading, backgammon and long periods of immobility in the park. Threepeater enjoys going to shows, particularly modern jazz. \"I'm just looking for that special someone,\" he says. Threepeater's favorite number is 5.",
+    "description": "三线豌豆喜欢读书、下双陆棋、在公园里傻坐著。他也喜欢去看演出，特别是现代爵士乐。「眼下我在寻找那位特别的人，」他说。三线豌豆最喜欢的数字是五。",
     "image": "/images/plants/threepeater.png",
     "special": "三线攻击"
   },
@@ -175,7 +175,7 @@ export const plants = [
     "range": "单格",
     "category": "explosive",
     "unlockLevel": "Level 2-5",
-    "description": "\"I'm totally invisible,\" Tangle Kelp thinks to himself. \"I'll hide here just below the surface and nobody will see me.\" His friends tell him they can see him perfectly well, but he'll never change.",
+    "description": "「我完全隐形，」缠绕海带暗想，「我就藏在水面下，没人会看到我。」他的朋友告诉他，他们可以清楚地看到他，但是缠绕海带不会改变自己的想法。",
     "image": "/images/plants/tanglekelp.png",
     "special": "水生植物"
   },
@@ -190,7 +190,7 @@ export const plants = [
     "range": "整行",
     "category": "explosive",
     "unlockLevel": "Level 3-5",
-    "description": "\"NNNNNGGGGG!!!!!!!!\" Jalapeno says. He's not going to explode, not this time. But soon. Oh, so soon. It's close. He knows it, he can feel it, his whole life's been leading up to this moment.",
+    "description": "「嗯嗯嗯嗯嗯嗯！！！！！！！！」火爆辣椒说。他还不会爆炸，还不到时候。不过快了。喔，快了快了。快来了。他知道，他感受到了，他的一生都是为了这一刻。",
     "image": "/images/plants/jalapeno.png",
     "special": "爆炸伤害"
   },
@@ -220,7 +220,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 3-7",
-    "description": "Everybody likes and respects Torchwood. They like him for his integrity, for his steadfast friendship, for his ability to greatly maximize pea damage. But Torchwood has a secret: He can't read.",
+    "description": "每个人都喜欢并尊敬火炬木，他们喜欢他的诚实正直、他坚定的友情、以及他大大增强豌豆伤害的能力。但他也有个不能说的秘密——他不识字。",
     "image": "/images/plants/torchwood.png",
     "special": "点燃经过的豌豆"
   },
@@ -235,7 +235,7 @@ export const plants = [
     "range": "无",
     "category": "defensive",
     "unlockLevel": "Level 3-8",
-    "description": "People wonder if there's a rivalry between Wall-nut and Tall-nut. Tall-nut laughs a rich baritone laugh. \"How could there be anything between us? We are brothers. If you knew what Wall-nut has done for me...\" Tall-nut's voice trails off and he smiles knowingly.",
+    "description": "人们想知道，坚果墙和高坚果之间是否存在竞争。高坚果用低沉的男中音大笑。「我们之间怎么会存在竞争呢？我们是兄弟。如果你知道坚果墙为我做了什么的话……」高坚果的声音越来越小，心知肚明地笑了笑。",
     "image": "/images/plants/tallnut.png",
     "special": null
   },
@@ -250,7 +250,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 2-1",
-    "description": "Sun-shroom hates sun. He hates it so much that when it builds up in his system, he spits it out as fast as he can. He just won't abide it. To him, sun is crass.",
+    "description": "阳光蘑菇讨厌阳光，讨厌到当他内部积累著阳光时，就尽快吐出来。他就是不能忍受这个。对他来说，阳光愚昧而冷酷。",
     "image": "/images/plants/sunshroom.png",
     "special": "生产阳光"
   },
@@ -265,7 +265,7 @@ export const plants = [
     "range": "前方短距离",
     "category": "shooter",
     "unlockLevel": "Level 1-10",
-    "description": "\"I only recently became aware of the existence of zombies,\" says Puff-shroom. \"Like many fungi, I'd just assumed they were fairy tales or movie monsters. This whole experience has been a huge eye-opener for me.\"",
+    "description": "「我最近才知道僵尸的存在，」小喷菇说，「和很多真菌一样，我只是把他们想像成童话和电影里的怪物。这次经历让我大开眼界。」",
     "image": "/images/plants/puffshroom.png",
     "special": "水生植物"
   },
@@ -280,7 +280,7 @@ export const plants = [
     "range": "前方中距离",
     "category": "shooter",
     "unlockLevel": "Level 2-6",
-    "description": "\"Who's there?\" whispers Scaredy-shroom, voice barely audible. \"Go away. I don't want to see anybody. Unless it's the man from the circus.\"",
+    "description": "「谁在那？」胆小蘑菇低声说，声音几乎听不见，「走开。我谁都不想见。除非是马戏团的人。」",
     "image": "/images/plants/scaredyshroom.png",
     "special": "靠近僵尸时缩回"
   },
@@ -295,7 +295,7 @@ export const plants = [
     "range": "前方中距离（穿透）",
     "category": "shooter",
     "unlockLevel": "Level 2-2",
-    "description": "\"I was in a dead-end job producing yeast spores for a bakery,\" says Fume-shroom. \"Then Puff-shroom, bless 'im, told me about this great opportunity blasting zombies. Now I really feel like I'm making a difference.\"",
+    "description": "「我以前那份没前途的工作是为一家面包店生产酵母孢，」烟雾蘑菇说，「然后喷射蘑菇——神保佑他——告诉了我这个喷杀僵尸的好机会。现在我真的觉得自己有所作为。」",
     "image": "/images/plants/fumeshroom.png",
     "special": "穿透攻击"
   },
@@ -310,7 +310,7 @@ export const plants = [
     "range": "墓碑",
     "category": "explosive",
     "unlockLevel": "Level 2-3",
-    "description": "Despite Grave Buster's fearsome appearance, he wants everyone to know that he loves kittens and spends his off hours volunteering at a local zombie rehabilitation center. \"It's just the right thing to do,\" he says.",
+    "description": "尽管墓碑破坏者的外表十分吓人，他仍然想要所有人都知道：他喜欢小猫，还利用业余时间在本地一家僵尸康复中心做志愿工作。「我衹是在做正确的事情，」他说。",
     "image": "/images/plants/gravebuster.png",
     "special": "吞噬墓碑"
   },
@@ -325,7 +325,7 @@ export const plants = [
     "range": "单格",
     "category": "explosive",
     "unlockLevel": "Level 2-5",
-    "description": "\"Zombies are our friends,\" asserts Hypno-shroom. \"They're badly misunderstood creatures who play a valuable role in our ecology. We can and should do more to bring them round to our way of thinking.\"",
+    "description": "「僵尸是我们的朋友，」催眠蘑菇断言，「他们遭到了严重误解，这些生物在我们的生态里发挥著宝贵作用。我们可以也应该更努力地让他们适应我们的思考方式。」",
     "image": "/images/plants/hypnoshroom.png",
     "special": "魅惑僵尸"
   },
@@ -340,7 +340,7 @@ export const plants = [
     "range": "周围大范围",
     "category": "explosive",
     "unlockLevel": "Level 2-7",
-    "description": "\"You're lucky I'm on your side,\" says Doom-shroom. \"I could destroy everything you hold dear. It wouldn't be hard.\"",
+    "description": "「你很幸运，我站在你这边，」毁灭蘑菇说，「我能摧毁你珍视的一切，小菜一碟。」",
     "image": "/images/plants/doomshroom.png",
     "special": "爆炸伤害"
   },
@@ -355,7 +355,7 @@ export const plants = [
     "range": "全屏",
     "category": "explosive",
     "unlockLevel": "Level 2-7",
-    "description": "Ice-shroom frowns, not because he's unhappy or because he disapproves, but because of a childhood injury that left his facial nerves paralyzed.",
+    "description": "冰蘑菇皱著眉头，不是因为他不高兴或反对，而是因为童年受伤导致他面部神经瘫痪。",
     "image": "/images/plants/iceshroom.png",
     "special": "冰冻效果"
   },
@@ -370,7 +370,7 @@ export const plants = [
     "range": "抛物线",
     "category": "shooter",
     "unlockLevel": "Level 4-10",
-    "description": "Cabbage-pult is okay with launching cabbages at zombies. It's what he's paid for, after all, and he's good at it. He just doesn't understand how the zombies get up on the roof in the first place.",
+    "description": "卷心菜投手用卷心菜砸僵尸有一手，毕竟这是他赚钱的方式，而且他也擅长这个。他只是不明白僵尸一开始是怎么到屋顶上来的。",
     "image": "/images/plants/cabbagepult.png",
     "special": null
   },
@@ -385,7 +385,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 5-1",
-    "description": "\"I'm a pot for planting. Yet I'm also a plant. HAS YOUR MIND EXPLODED YET?\"",
+    "description": "「我是个种植物用的花盆，但我也是株植物。是不是很意外？」",
     "image": "/images/plants/flowerpot.png",
     "special": "水生植物, 在屋顶种植植物"
   },
@@ -400,7 +400,7 @@ export const plants = [
     "range": "抛物线",
     "category": "shooter",
     "unlockLevel": "Level 5-2",
-    "description": "Kernel-pult is the eldest of the Pult brothers. Of the three of them, Kernel is the only one who consistently remembers the others' birthdays. He bugs them about it a little, too.",
+    "description": "玉米投手是投手兄弟的老大。他们三兄弟当中，只有玉米始终记得其他兄弟的生日。这件事上，他让他们有点烦恼。[需要校对]",
     "image": "/images/plants/kernelpult.png",
     "special": null
   },
@@ -415,7 +415,7 @@ export const plants = [
     "range": "单格",
     "category": "support",
     "unlockLevel": "Level 3-8 (商店购买)",
-    "description": "\"Hey, guys, hey!\" says Coffee Bean. \"Hey! What's up? Who's that? Hey! Didja see that thing? What thing? Whoa! Lions!\" Yep, Coffee Bean sure does get excited.",
+    "description": "「嘿，大伙，嘿！」咖啡豆说，「嘿！怎么回事？那是谁？嘿！你瞧见那玩意没？什么东西？哇！是狮子！」没错，咖啡豆绝对兴奋起来了。",
     "image": "/images/plants/coffeebean.png",
     "special": "唤醒蘑菇"
   },
@@ -430,7 +430,7 @@ export const plants = [
     "range": "上方",
     "category": "defensive",
     "unlockLevel": "Level 5-6",
-    "description": "\"SPROING!\" says Umbrella Leaf. \"Didja like that? I can do it again. SPROING! Woo! That's me popping up to protect stuff around me. Yeah. Just like that. EXACTLY like that. Believe it.\"",
+    "description": "「砰！」叶子保护伞说，「你喜欢这样不，我还可以再来。砰！哇！那是我在快速弹出叶子来保护我周围的东西。对，就像这样，绝对就像这样。相信它。」",
     "image": "/images/plants/umbrellaleaf.png",
     "special": "抵挡投掷和蹦极"
   },
@@ -445,7 +445,7 @@ export const plants = [
     "range": "周围中范围",
     "category": "support",
     "unlockLevel": "Level 4-8",
-    "description": "Magnetism is a powerful force. Very powerful. Sometimes it scares Magnet-shroom a little. He's not sure if he can handle that kind of responsibility.",
+    "description": "磁力是强大的力量，非常强大，强大到有时都有点吓到磁铁蘑菇了。他不知道自己能否肩负得起这种责任。",
     "image": "/images/plants/magnetshroom.png",
     "special": "吸附金属"
   },
@@ -460,7 +460,7 @@ export const plants = [
     "range": "抛物线（溅射）",
     "category": "shooter",
     "unlockLevel": "Level 5-8",
-    "description": "There's no false modesty with Melon-pult. \"Sun-for-damage, I deliver the biggest punch on the lawn,\" he says. \"I'm not bragging. Run the numbers. You'll see.\"",
+    "description": "西瓜投手从不故作谦虚。「太阳——赐予我——力量！我可是草坪上最能打的，」他说，「我不是吹牛，你算一算就明白了。」",
     "image": "/images/plants/melonpult.png",
     "special": null
   },
@@ -475,7 +475,7 @@ export const plants = [
     "range": "直线",
     "category": "shooter",
     "unlockLevel": "Level 3-4",
-    "description": "Gatling Pea's parents were concerned when he announced his intention to join the military. \"But honey, it's so dangerous!\" they said in unison. Gatling Pea refused to budge. \"Life is dangerous,\" he replied, eyes glinting with steely conviction.",
+    "description": "当机枪豌豆宣布他要参军的时候，他的父母很担心。「可是亲爱的，这太危险了！」他们异口同声地说。机枪豌豆拒绝改变想法。「生活本就危险，」他这样回答，眼中流露出钢铁般的信念。",
     "image": "/images/plants/gatlingpea.png",
     "special": null
   },
@@ -490,7 +490,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 3-4",
-    "description": "It was a crazed night of forbidden science that brought Twin Sunflower into existence. Thunder crashed overhead, strange lights flickered, even the very roaring wind seemed to hiss its angry denial. But to no avail. Twin Sunflower was alive, ALIVE!",
+    "description": "那是个疯狂的夜晚，禁忌科学让双子向日葵诞生。电闪雷鸣，狂风怒号，整个世界都愤怒地否定著。但是这一切都无济于事，双子向日葵仍然活著，活著！",
     "image": "/images/plants/twinsunflower.png",
     "special": "生产阳光, 双倍产阳光"
   },
@@ -505,7 +505,7 @@ export const plants = [
     "range": "周围短距离（穿透）",
     "category": "shooter",
     "unlockLevel": "Level 4-4",
-    "description": "\"I've always enjoyed releasing heavy fumes,\" says Gloom Shroom. \"I know a lot of people aren't cool with that. They say it's rude or that it smells bad. All I can say is, would you rather have your brain eaten by zombies?\"",
+    "description": "「我一直喜欢释放大量烟雾，」忧郁蘑菇说，「我知道很多人受不了这样，他们说这粗鲁或者说这难闻。我只能说，你们更想被僵尸吃掉脑子吗？」",
     "image": "/images/plants/gloomshroom.png",
     "special": "3x3范围"
   },
@@ -520,7 +520,7 @@ export const plants = [
     "range": "全屏",
     "category": "shooter",
     "unlockLevel": "Level 4-4",
-    "description": "\"Woof!\" says Cattail. \"Woof woof woof! Does this confuse you? Do you expect me to say 'Meow' like a cat because the word 'cat' is in my name and I also look like a cat? That's not how things work around here. I refuse to be pigeonholed.\"",
+    "description": "「汪！」香蒲说，「汪汪汪！你困惑了？你是不是因为我看起来像只猫，就期待我像猫一样喵喵叫？这里可不是那样，我拒绝被草率归类。」",
     "image": "/images/plants/cattail.png",
     "special": "水生植物"
   },
@@ -535,7 +535,7 @@ export const plants = [
     "range": "抛物线（溅射+减速）",
     "category": "shooter",
     "unlockLevel": "通关冒险模式",
-    "description": "Winter Melon tries to calm his nerves. He hears zombies approach. Will he make it? Will anyone make it?",
+    "description": "「冬」瓜试著让自己紧绷的神经冷静下来。他听到僵尸接近。他能做到吗？有人能做到吗？",
     "image": "/images/plants/wintermelon.png",
     "special": "减速僵尸, 冰冻效果"
   },
@@ -550,7 +550,7 @@ export const plants = [
     "range": "所在格",
     "category": "defensive",
     "unlockLevel": "Level 5-1",
-    "description": "Spikerock just got back from a trip to Europe. He had a great time, met some wonderful people, really broadened his horizons. He never knew they made museums so big, or put so many paintings in them. That was a big surprise for him.",
+    "description": "荆棘石刚刚从欧洲旅行回来。他度过了美好时光，结识了些极好的人，真的让他大开眼界。他从来不知道，博物馆建得这么大，里面还放了这么多画作。这让他大吃一惊。",
     "image": "/images/plants/spikerock.png",
     "special": "不会被碾压"
   },
@@ -565,7 +565,7 @@ export const plants = [
     "range": "指定位置",
     "category": "shooter",
     "unlockLevel": "通关冒险模式",
-    "description": "What's the deal with Cob Cannon, anyway? He went to Harvard. He practices law in a prestigious New York firm. He can explode whole areas of zombies with a single corn launch. All this is common knowledge. But deep inside, what really makes him tick?",
+    "description": "不管怎样，玉米大炮到底怎么了？他曾在哈佛大学深造，就职于纽约一家著名的律师事务所。他一发玉米就能炸掉整片僵尸。这些都众所周知。但在内心深处，他为什么要做这些呢？",
     "image": "/images/plants/cobcannon.png",
     "special": "生产阳光, 爆炸伤害, 3x3范围"
   },
@@ -580,7 +580,7 @@ export const plants = [
     "range": "全屏",
     "category": "support",
     "unlockLevel": "Level 4-3",
-    "description": "When Blover was five he got a shiny new birthday cake. Blover made his wish, huffed and puffed, but was able to extinguish only 60% of the candles. Instead of giving up, though, he's used that early defeat as a catalyst to push himself harder ever since.",
+    "description": "三叶草五岁生日时，他得到了闪亮的生日蛋糕。他许下愿望，然后深呼吸，但只吹灭了六成的蜡烛。然而他没有放弃，从那时起，起初的失败促使他更加努力。",
     "image": "/images/plants/blover.png",
     "special": "击落气球/吹散迷雾"
   },
@@ -595,7 +595,7 @@ export const plants = [
     "range": "多方向",
     "category": "shooter",
     "unlockLevel": "Level 4-6",
-    "description": "\"Aw, man,\" says Starfruit. \"I went to the dentist the other day and he said that I have four cavities. I've got --count it-- ONE tooth! Four cavities in one tooth? How does this happen?\"",
+    "description": "「嘿，哥们，」杨桃说，「有一天我去看牙医，他说我有四个牙洞。我一数，我就只有一颗牙齿！一颗牙齿长了四个牙洞？怎么会这样啊？」",
     "image": "/images/plants/starfruit.png",
     "special": "五方向攻击"
   },
@@ -610,7 +610,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "Level 5-7",
-    "description": "Marigold spends a lot of time deciding whether to spit out a silver coin or a gold one. She thinks about it, weighs the angles. She does solid research and keeps up with current publications. That's how winners stay ahead.",
+    "description": "金盏花花了许多时间来决定是吐出银币还是金币。他思考著，权衡不同角度。他做了扎实的研究，跟上最新的出版物。这就是成功者保持领先的方法。",
     "image": "/images/plants/marigold.png",
     "special": "生产阳光, 产生金币/银币"
   },
@@ -625,7 +625,7 @@ export const plants = [
     "range": "无",
     "category": "defensive",
     "unlockLevel": "Level 5-5",
-    "description": "Lane-diversion isn't just Garlic's profession. It's his passion. He carries an advanced Doctorate in Redirection from the Brussels University. He'll talk all day about lane vectors and repulse arrays. He even pushes things into alternate avenues at home. Somehow his wife puts up with it.",
+    "description": "路线转向不仅是大蒜的专业，更是他的热情所在。他拥有布鲁塞尔大学的重新导向博士学位，能把路线向量和反击阵列谈上一整天。他在家里甚至会把东西推到其他路上，不知道他老婆为甚么受得了这些。",
     "image": "/images/plants/garlic.png",
     "special": "引导僵尸换行"
   },
@@ -640,7 +640,7 @@ export const plants = [
     "range": "前后双向",
     "category": "shooter",
     "unlockLevel": "Level 4-5",
-    "description": "\"Yeah, I'm a Gemini,\" says Split Pea. \"I know, big surprise. But having two heads -- or really, one head with a large head-like growth on the back -- pays off big in my line of work.\"",
+    "description": "「没错，我是双子座，」裂荚豌豆说，「我知道这的确匪夷所思。不过，长了两颗头——或者实际上，一颗头和一个长在后面的、像头一样的东西——在我履行职责时很奏效。」",
     "image": "/images/plants/splitpea.png",
     "special": "前后双向攻击"
   },
@@ -655,7 +655,7 @@ export const plants = [
     "range": "无",
     "category": "defensive",
     "unlockLevel": "Level 4-7",
-    "description": "Pumpkin hasn't heard from his cousin Renfield lately. Apparently Renfield's a big star, some kind of... what was it... sports hero? Peggle Master? Pumpkin doesn't really get it. He just does his job.",
+    "description": "南瓜最近没有收到他表哥伦菲尔德的消息。据说伦菲尔德是大明星，某种……叫甚么运动来著……的体育明星？幻幻球大师？南瓜实在不太明白。他只是在做本职工作。",
     "image": "/images/plants/pumpkin.png",
     "special": "可套在植物外"
   },
@@ -670,7 +670,7 @@ export const plants = [
     "range": "直线",
     "category": "shooter",
     "unlockLevel": "Level 4-2",
-    "description": "She's prickly, sure, but Cactus' spikes belie a spongy heart filled with love and goodwill. She just wants to hug and be hugged. Most folks can't hang with that, but Cactus doesn't mind. She's been seeing an armadillo for a while and it really seems to be working out.",
+    "description": "确实，仙人掌非常「刺」，但是仙人掌的刺遮掩著温柔的心，充满爱和善意。他只是想要拥抱。虽然大多数人都受不了，但仙人掌并不介意。他注视著一只犰狳很久了，这次好像真的能成了。",
     "image": "/images/plants/cactus.png",
     "special": "击落气球"
   },
@@ -685,7 +685,7 @@ export const plants = [
     "range": "周围中范围",
     "category": "support",
     "unlockLevel": "Level 4-1",
-    "description": "Plantern defies science. He just does. Other plants eat light and excrete oxygen; Plantern eats darkness and excretes light. Plantern's cagey about how he does it. \"I'm not gonna say 'sorcery,' I wouldn't use the term 'dark forces,' I just... I think I've said enough.\"",
+    "description": "植物灯违抗科学，他就是做到了。其他植物吃的是光，排出的是氧气；植物灯吃的是黑暗，排出的是光。对于他是如何做到的，植物灯讳莫如深。「我不会说这是巫术，我也不会用黑暗力量这个词，我只是……我想我说得够多了。」",
     "image": "/images/plants/plantern.png",
     "special": null
   },
@@ -700,7 +700,7 @@ export const plants = [
     "range": "全屏",
     "category": "support",
     "unlockLevel": "Level 5-1",
-    "description": "\"How did I end up here?\" asks Gold Magnet. \"I was on the fast track - corner office, full benefits, stock options. I was gonna be Vice President of Midwestern Operations. Now I'm here, on this lawn, in serious danger of being eaten to death. Ooh! A coin!\"",
+    "description": "「我是怎么沦落至此的？」金磁铁问，「高级办公室、满满的福利、股票期权，这些都已经在望了，我就快成为中西部业务副总经理了。现在我却在这破草坪上，随时有被吃掉的风险。哦！有枚硬币！」",
     "image": "/images/plants/goldmagnet.png",
     "special": "吸附金属, 自动收集金币"
   },
@@ -715,7 +715,7 @@ export const plants = [
     "range": "无",
     "category": "support",
     "unlockLevel": "通关冒险模式",
-    "description": "\"I remember the Zombie Wars back in '76,\" says Imitater in a raspy, old-man's voice. \"Back then, we didn't have all these fancy peashooters and jalapenos. All we had was guts. Guts and a spoon.\"",
+    "description": "「我还记得七六年的那次僵尸战争，」模仿者说，声音沙哑苍老，「那时候，我们可没有这些花哨的豌豆射手和火爆辣椒。我们只有勇气。勇气和勺子。」",
     "image": "/images/plants/imitater.png",
     "special": "模仿其他植物"
   },
@@ -730,7 +730,7 @@ export const plants = [
     "range": "前方短距离",
     "category": "shooter",
     "unlockLevel": "Level 3-10",
-    "description": "Sea-shroom has never seen the sea. It's in his name, he's heard loads about it, but he's just never found the time. One day, though, it'll go down.",
+    "description": "海蘑菇从未见过大海。虽然他名中有海，也听说过很多关于海的事情，但是从没有找到合适的时间。然而，总有一天，他会亲眼遥望大海的。",
     "image": "/images/plants/seashroom.png",
     "special": "水生植物"
   }
