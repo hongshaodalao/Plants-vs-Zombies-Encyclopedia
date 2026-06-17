@@ -1,0 +1,30 @@
+.page {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  margin-bottom: var(--space-lg);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  color: var(--color-text-light);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: var(--space-sm);
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: var(--space-md);
+}
