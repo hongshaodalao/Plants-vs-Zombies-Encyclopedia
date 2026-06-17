@@ -16,7 +16,7 @@ function Home() {
           <div className={styles.cardIcon}>🌿</div>
           <h2 className={styles.cardTitle}>植物图鉴</h2>
           <p className={styles.cardDesc}>
-            查看豌豆射手、向日葵、樱桃炸弹等 8 种植物的详细属性
+            查看豌豆射手、向日葵、樱桃炸弹等 49 种植物的详细属性
           </p>
         </Link>
 
@@ -24,7 +24,7 @@ function Home() {
           <div className={styles.cardIcon}>🧟</div>
           <h2 className={styles.cardTitle}>僵尸图鉴</h2>
           <p className={styles.cardDesc}>
-            查看普通僵尸、铁桶僵尸、橄榄球僵尸等 8 种僵尸的弱点与属性
+            查看普通僵尸、铁桶僵尸、橄榄球僵尸等 26 种僵尸的弱点与属性
           </p>
         </Link>
       </section>
