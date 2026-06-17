@@ -1,0 +1,56 @@
+.page {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  margin-bottom: var(--space-lg);
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  color: var(--color-text-light);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  margin-bottom: var(--space-sm);
+}
+
+.subtitle {
+  color: var(--color-text-light);
+  opacity: 0.9;
+}
+
+.toolbar {
+  display: flex;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.count {
+  color: var(--color-text-light);
+  font-weight: bold;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: var(--space-md);
+}
+
+.empty {
+  text-align: center;
+  padding: var(--space-xl);
+  color: var(--color-text-light);
+  background: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+}
+
+.emptyIcon {
+  font-size: 4rem;
+  margin-bottom: var(--space-md);
+}
