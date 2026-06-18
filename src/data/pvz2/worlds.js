@@ -4,6 +4,7 @@
 export const worlds = [
   {
     id: "ancient_egypt",
+    source: "international",
     name: "神秘埃及",
     nameEn: "Ancient Egypt",
     description: "穿越到古埃及，探索金字塔和沙漠的秘密。面对木乃伊僵尸和太阳神的挑战，利用回旋镖射手和冰冻生菜等植物击退入侵者。",
@@ -38,6 +39,7 @@ export const worlds = [
   },
   {
     id: "pirate_seas",
+    source: "international",
     name: "海盗港湾",
     nameEn: "Pirate Seas",
     description: "扬帆起航，迎战海盗僵尸！在木板桥和水域间战斗，利用椰子加农炮和弹簧豆等植物抵御海盗的入侵。",
@@ -73,6 +75,7 @@ export const worlds = [
   },
   {
     id: "wild_west",
+    source: "international",
     name: "狂野西部",
     nameEn: "Wild West",
     description: "在荒野的西部小镇展开冒险，面对牛仔僵尸和钢琴家僵尸的挑战。矿车轨道让你灵活移动植物，豌豆荚和冰西瓜助你取胜。",
@@ -107,6 +110,7 @@ export const worlds = [
   },
   {
     id: "far_future",
+    source: "international",
     name: "未来世界",
     nameEn: "Far Future",
     description: "穿越到未来，面对机器人僵尸和激光威胁。能量瓷砖提供策略深度，激光豆和香橼是你的高科技武器。",
@@ -141,6 +145,7 @@ export const worlds = [
   },
   {
     id: "dark_ages",
+    source: "international",
     name: "黑暗时代",
     nameEn: "Dark Ages",
     description: "在中世纪的黑暗之夜中战斗，墓碑丛生，蘑菇类植物是你的主要武器。小心巫师僵尸和小丑僵尸的特殊能力。",
@@ -171,6 +176,7 @@ export const worlds = [
   },
   {
     id: "big_wave_beach",
+    source: "international",
     name: "巨浪沙滩",
     nameEn: "Big Wave Beach",
     description: "在阳光海滩上与冲浪僵尸和章鱼僵尸作战。水位线会不断变化，合理利用睡莲和水生植物至关重要。",
@@ -203,6 +209,7 @@ export const worlds = [
   },
   {
     id: "frostbite_caves",
+    source: "international",
     name: "冰霜洞穴",
     nameEn: "Frostbite Caves",
     description: "深入冰封的洞穴，面对猎人僵尸和雪人小鬼的挑战。冰冻机制要求你使用热土豆和辣椒投手等火系植物来解冻。",
@@ -234,6 +241,7 @@ export const worlds = [
   },
   {
     id: "lost_city",
+    source: "international",
     name: "失落之城",
     nameEn: "Lost City",
     description: "探索神秘的失落文明，金砖能产生额外阳光但也会吸引僵尸。红针花和A.K.E.E.是你在丛林中的可靠伙伴。",
@@ -266,6 +274,7 @@ export const worlds = [
   },
   {
     id: "neon_mixtape_tour",
+    source: "international",
     name: "霓虹混音之旅",
     nameEn: "Neon Mixtape Tour",
     description: "在80年代的霓虹灯光中跳舞战斗！不同风格的音乐会激活僵尸的特殊能力，动感节拍和芹菜潜行者是你的节奏武器。",
@@ -299,6 +308,7 @@ export const worlds = [
   },
   {
     id: "jurassic_marsh",
+    source: "international",
     name: "侏罗纪沼泽",
     nameEn: "Jurassic Marsh",
     description: "回到恐龙时代，原始植物是你的主力。恐龙会被僵尸利用来加速推进，但香水菇可以召唤友善的恐龙为你而战。",
@@ -328,6 +338,7 @@ export const worlds = [
   },
   {
     id: "modern_day",
+    source: "international",
     name: "现代时代",
     nameEn: "Modern Day",
     description: "所有世界的僵尸在此汇聚！面对来自各个时代的敌人，暗影植物系列是你的终极武器。月光花、暗影豌豆射手等组成暗影军团。",

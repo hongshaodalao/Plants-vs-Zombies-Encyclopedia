@@ -5,6 +5,7 @@
 export const zombies = [
   {
     id: "basic_zombie",
+    source: "international",
     name: "普通僵尸",
     nameEn: "Basic Zombie",
     health: 190,
@@ -20,6 +21,7 @@ export const zombies = [
   },
   {
     id: "conehead_zombie",
+    source: "international",
     name: "路障僵尸",
     nameEn: "Conehead Zombie",
     health: 560,
@@ -35,6 +37,7 @@ export const zombies = [
   },
   {
     id: "buckethead_zombie",
+    source: "international",
     name: "铁桶僵尸",
     nameEn: "Buckethead Zombie",
     health: 1290,
@@ -50,6 +53,7 @@ export const zombies = [
   },
   {
     id: "mummy_zombie",
+    source: "international",
     name: "木乃伊僵尸",
     nameEn: "Mummy Zombie",
     health: 190,
@@ -65,6 +69,7 @@ export const zombies = [
   },
   {
     id: "conehead_mummy",
+    source: "international",
     name: "路障木乃伊",
     nameEn: "Conehead Mummy",
     health: 560,
@@ -80,6 +85,7 @@ export const zombies = [
   },
   {
     id: "buckethead_mummy",
+    source: "international",
     name: "铁桶木乃伊",
     nameEn: "Buckethead Mummy",
     health: 1290,
@@ -95,6 +101,7 @@ export const zombies = [
   },
   {
     id: "brickhead_zombie",
+    source: "international",
     name: "砖头僵尸",
     nameEn: "Brickhead Zombie",
     health: 2390,
@@ -110,6 +117,7 @@ export const zombies = [
   },
   {
     id: "flag_mummy_zombie",
+    source: "international",
     name: "旗帜木乃伊",
     nameEn: "Flag Mummy Zombie",
     health: 190,
@@ -125,6 +133,7 @@ export const zombies = [
   },
   {
     id: "rally_zombie",
+    source: "international",
     name: "集结僵尸",
     nameEn: "Rally Zombie",
     health: 350,
@@ -140,6 +149,7 @@ export const zombies = [
   },
   {
     id: "ra_zombie",
+    source: "international",
     name: "太阳神僵尸",
     nameEn: "Ra Zombie",
     health: 190,
@@ -155,6 +165,7 @@ export const zombies = [
   },
   {
     id: "camel_zombies",
+    source: "international",
     name: "骆驼僵尸",
     nameEn: "Camel Zombies",
     health: 420,
@@ -170,6 +181,7 @@ export const zombies = [
   },
   {
     id: "explorer_zombie",
+    source: "international",
     name: "探险家僵尸",
     nameEn: "Explorer Zombie",
     health: 250,
@@ -185,6 +197,7 @@ export const zombies = [
   },
   {
     id: "torchlight_zombie",
+    source: "international",
     name: "火炬僵尸",
     nameEn: "Torchlight Zombie",
     health: 650,
@@ -200,6 +213,7 @@ export const zombies = [
   },
   {
     id: "tomb_raiser_zombie",
+    source: "international",
     name: "造墓者僵尸",
     nameEn: "Tomb Raiser Zombie",
     health: 380,
@@ -215,6 +229,7 @@ export const zombies = [
   },
   {
     id: "pharaoh_zombie",
+    source: "international",
     name: "法老僵尸",
     nameEn: "Pharaoh Zombie",
     health: 1490,
@@ -230,6 +245,7 @@ export const zombies = [
   },
   {
     id: "mummified_gargantuar",
+    source: "international",
     name: "木乃伊巨人僵尸",
     nameEn: "Mummified Gargantuar",
     health: 3600,
@@ -245,6 +261,7 @@ export const zombies = [
   },
   {
     id: "imp_mummy",
+    source: "international",
     name: "木乃伊小鬼僵尸",
     nameEn: "Imp Mummy",
     health: 190,
@@ -260,6 +277,7 @@ export const zombies = [
   },
   {
     id: "pirate_zombie",
+    source: "international",
     name: "海盗僵尸",
     nameEn: "Pirate Zombie",
     health: 190,
@@ -275,6 +293,7 @@ export const zombies = [
   },
   {
     id: "conehead_pirate",
+    source: "international",
     name: "路障海盗",
     nameEn: "Conehead Pirate",
     health: 560,
@@ -290,6 +309,7 @@ export const zombies = [
   },
   {
     id: "buckethead_pirate",
+    source: "international",
     name: "铁桶海盗",
     nameEn: "Buckethead Pirate",
     health: 1290,
@@ -305,6 +325,7 @@ export const zombies = [
   },
   {
     id: "flag_pirate_zombie",
+    source: "international",
     name: "旗帜海盗",
     nameEn: "Flag Pirate Zombie",
     health: 190,
@@ -320,6 +341,7 @@ export const zombies = [
   },
   {
     id: "swashbuckler_zombie",
+    source: "international",
     name: "剑客僵尸",
     nameEn: "Swashbuckler Zombie",
     health: 190,
@@ -335,6 +357,7 @@ export const zombies = [
   },
   {
     id: "seagull_zombie",
+    source: "international",
     name: "海鸥僵尸",
     nameEn: "Seagull Zombie",
     health: 270,
@@ -350,6 +373,7 @@ export const zombies = [
   },
   {
     id: "pelican_zombie",
+    source: "international",
     name: "鹈鹕僵尸",
     nameEn: "Pelican Zombie",
     health: 270,
@@ -365,6 +389,7 @@ export const zombies = [
   },
   {
     id: "barrel_roller_zombie",
+    source: "international",
     name: "滚桶僵尸",
     nameEn: "Barrel Roller Zombie",
     health: 1290,
@@ -380,6 +405,7 @@ export const zombies = [
   },
   {
     id: "imp_pirate_zombie",
+    source: "international",
     name: "海盗小鬼僵尸",
     nameEn: "Imp Pirate Zombie",
     health: 190,
@@ -395,6 +421,7 @@ export const zombies = [
   },
   {
     id: "imp_cannon",
+    source: "international",
     name: "小鬼加农炮",
     nameEn: "Imp Cannon",
     health: 600,
@@ -410,6 +437,7 @@ export const zombies = [
   },
   {
     id: "pirate_captain_zombie",
+    source: "international",
     name: "海盗船长僵尸",
     nameEn: "Pirate Captain Zombie",
     health: 420,
@@ -425,6 +453,7 @@ export const zombies = [
   },
   {
     id: "zombie_parrot",
+    source: "international",
     name: "僵尸鹦鹉",
     nameEn: "Zombie Parrot",
     health: 300,
@@ -440,6 +469,7 @@ export const zombies = [
   },
   {
     id: "gargantuar_pirate",
+    source: "international",
     name: "海盗巨人僵尸",
     nameEn: "Gargantuar Pirate",
     health: 3600,
@@ -455,6 +485,7 @@ export const zombies = [
   },
   {
     id: "cowboy_zombie",
+    source: "international",
     name: "牛仔僵尸",
     nameEn: "Cowboy Zombie",
     health: 190,
@@ -470,6 +501,7 @@ export const zombies = [
   },
   {
     id: "conehead_cowboy",
+    source: "international",
     name: "路障牛仔",
     nameEn: "Conehead Cowboy",
     health: 560,
@@ -485,6 +517,7 @@ export const zombies = [
   },
   {
     id: "buckethead_cowboy",
+    source: "international",
     name: "铁桶牛仔",
     nameEn: "Buckethead Cowboy",
     health: 1290,
@@ -500,6 +533,7 @@ export const zombies = [
   },
   {
     id: "flag_cowboy_zombie",
+    source: "international",
     name: "旗帜牛仔",
     nameEn: "Flag Cowboy Zombie",
     health: 190,
@@ -515,6 +549,7 @@ export const zombies = [
   },
   {
     id: "prospector_zombie",
+    source: "international",
     name: "淘金僵尸",
     nameEn: "Prospector Zombie",
     health: 190,
@@ -530,6 +565,7 @@ export const zombies = [
   },
   {
     id: "pianist_zombie",
+    source: "international",
     name: "钢琴家僵尸",
     nameEn: "Pianist Zombie",
     health: 840,
@@ -545,6 +581,7 @@ export const zombies = [
   },
   {
     id: "poncho_zombie",
+    source: "international",
     name: "雨披僵尸",
     nameEn: "Poncho Zombie",
     health: 250,
@@ -560,6 +597,7 @@ export const zombies = [
   },
   {
     id: "chicken_wrangler_zombie",
+    source: "international",
     name: "驯鸡僵尸",
     nameEn: "Chicken Wrangler Zombie",
     health: 190,
@@ -575,6 +613,7 @@ export const zombies = [
   },
   {
     id: "zombie_chicken",
+    source: "international",
     name: "僵尸鸡",
     nameEn: "Zombie Chicken",
     health: 1,
@@ -590,6 +629,7 @@ export const zombies = [
   },
   {
     id: "zombie_bull",
+    source: "international",
     name: "僵尸牛",
     nameEn: "Zombie Bull",
     health: 1300,
@@ -605,6 +645,7 @@ export const zombies = [
   },
   {
     id: "rodeo_legend_zombie",
+    source: "international",
     name: "竞技传奇僵尸",
     nameEn: "Rodeo Legend Zombie",
     health: 1400,
@@ -620,6 +661,7 @@ export const zombies = [
   },
   {
     id: "zombie_bull_rider",
+    source: "international",
     name: "骑牛僵尸",
     nameEn: "Zombie Bull Rider",
     health: 190,
@@ -635,6 +677,7 @@ export const zombies = [
   },
   {
     id: "wild_west_gargantuar",
+    source: "international",
     name: "狂野西部巨人僵尸",
     nameEn: "Wild West Gargantuar",
     health: 3600,
@@ -650,6 +693,7 @@ export const zombies = [
   },
   {
     id: "cave_zombie",
+    source: "international",
     name: "洞穴僵尸",
     nameEn: "Cave Zombie",
     health: 190,
@@ -665,6 +709,7 @@ export const zombies = [
   },
   {
     id: "cave_conehead_zombie",
+    source: "international",
     name: "路障洞穴僵尸",
     nameEn: "Cave Conehead Zombie",
     health: 560,
@@ -680,6 +725,7 @@ export const zombies = [
   },
   {
     id: "cave_buckethead_zombie",
+    source: "international",
     name: "铁桶洞穴僵尸",
     nameEn: "Cave Buckethead Zombie",
     health: 1290,
@@ -695,6 +741,7 @@ export const zombies = [
   },
   {
     id: "blockhead_zombie",
+    source: "international",
     name: "方块头僵尸",
     nameEn: "Blockhead Zombie",
     health: 1790,
@@ -710,6 +757,7 @@ export const zombies = [
   },
   {
     id: "cave_flag_zombie",
+    source: "international",
     name: "旗帜洞穴僵尸",
     nameEn: "Cave Flag Zombie",
     health: 190,
@@ -725,6 +773,7 @@ export const zombies = [
   },
   {
     id: "hunter_zombie",
+    source: "international",
     name: "猎人僵尸",
     nameEn: "Hunter Zombie",
     health: 700,
@@ -740,6 +789,7 @@ export const zombies = [
   },
   {
     id: "yeti_imp",
+    source: "international",
     name: "雪人小鬼僵尸",
     nameEn: "Yeti Imp",
     health: 190,
@@ -755,6 +805,7 @@ export const zombies = [
   },
   {
     id: "dodo_rider_zombie",
+    source: "international",
     name: "渡渡鸟骑手僵尸",
     nameEn: "Dodo Rider Zombie",
     health: 490,
@@ -770,6 +821,7 @@ export const zombies = [
   },
   {
     id: "troglobite",
+    source: "international",
     name: "冰块僵尸",
     nameEn: "Troglobite",
     health: 470,
@@ -785,6 +837,7 @@ export const zombies = [
   },
   {
     id: "weasel_hoarder",
+    source: "international",
     name: "黄鼠狼僵尸",
     nameEn: "Weasel Hoarder",
     health: 190,
@@ -800,6 +853,7 @@ export const zombies = [
   },
   {
     id: "ice_weasel",
+    source: "international",
     name: "冰鼬",
     nameEn: "Ice Weasel",
     health: 40,
@@ -815,6 +869,7 @@ export const zombies = [
   },
   {
     id: "sloth_gargantuar",
+    source: "international",
     name: "懒巨人僵尸",
     nameEn: "Sloth Gargantuar",
     health: 3600,
@@ -830,6 +885,7 @@ export const zombies = [
   },
   {
     id: "adventurer_zombie",
+    source: "international",
     name: "冒险家僵尸",
     nameEn: "Adventurer Zombie",
     health: 190,
@@ -845,6 +901,7 @@ export const zombies = [
   },
   {
     id: "conehead_adventurer_zombie",
+    source: "international",
     name: "路障冒险家",
     nameEn: "Conehead Adventurer Zombie",
     health: 560,
@@ -860,6 +917,7 @@ export const zombies = [
   },
   {
     id: "buckethead_adventurer_zombie",
+    source: "international",
     name: "铁桶冒险家",
     nameEn: "Buckethead Adventurer Zombie",
     health: 1290,
@@ -875,6 +933,7 @@ export const zombies = [
   },
   {
     id: "flag_adventurer_zombie",
+    source: "international",
     name: "旗帜冒险家",
     nameEn: "Flag Adventurer Zombie",
     health: 190,
@@ -890,6 +949,7 @@ export const zombies = [
   },
   {
     id: "lost_pilot_zombie",
+    source: "international",
     name: "迷失飞行员僵尸",
     nameEn: "Lost Pilot Zombie",
     health: 350,
@@ -905,6 +965,7 @@ export const zombies = [
   },
   {
     id: "lost_city_imp_zombie",
+    source: "international",
     name: "迷失城市小鬼僵尸",
     nameEn: "Lost City Imp Zombie",
     health: 190,
@@ -920,6 +981,7 @@ export const zombies = [
   },
   {
     id: "excavator_zombie",
+    source: "international",
     name: "挖掘僵尸",
     nameEn: "Excavator Zombie",
     health: 350,
@@ -935,6 +997,7 @@ export const zombies = [
   },
   {
     id: "parasol_zombie",
+    source: "international",
     name: "阳伞僵尸",
     nameEn: "Parasol Zombie",
     health: 350,
@@ -950,6 +1013,7 @@ export const zombies = [
   },
   {
     id: "bug_zombie",
+    source: "international",
     name: "虫子僵尸",
     nameEn: "Bug Zombie",
     health: 350,
@@ -965,6 +1029,7 @@ export const zombies = [
   },
   {
     id: "porter_gargantuar",
+    source: "international",
     name: "搬运巨人僵尸",
     nameEn: "Porter Gargantuar",
     health: 3600,
@@ -980,6 +1045,7 @@ export const zombies = [
   },
   {
     id: "imp_porter",
+    source: "international",
     name: "搬运小鬼僵尸",
     nameEn: "Imp Porter",
     health: 350,
@@ -995,6 +1061,7 @@ export const zombies = [
   },
   {
     id: "relic_hunter_zombie",
+    source: "international",
     name: "遗迹猎人僵尸",
     nameEn: "Relic Hunter Zombie",
     health: 760,
@@ -1010,6 +1077,7 @@ export const zombies = [
   },
   {
     id: "turquoise_skull_zombie",
+    source: "international",
     name: "绿松石头骨僵尸",
     nameEn: "Turquoise Skull Zombie",
     health: 250,
@@ -1025,6 +1093,7 @@ export const zombies = [
   },
   {
     id: "future_zombie",
+    source: "international",
     name: "未来僵尸",
     nameEn: "Future Zombie",
     health: 190,
@@ -1040,6 +1109,7 @@ export const zombies = [
   },
   {
     id: "future_conehead_zombie",
+    source: "international",
     name: "路障未来僵尸",
     nameEn: "Future Conehead Zombie",
     health: 560,
@@ -1055,6 +1125,7 @@ export const zombies = [
   },
   {
     id: "future_buckethead_zombie",
+    source: "international",
     name: "铁桶未来僵尸",
     nameEn: "Future Buckethead Zombie",
     health: 1290,
@@ -1070,6 +1141,7 @@ export const zombies = [
   },
   {
     id: "future_flag_zombie",
+    source: "international",
     name: "旗帜未来僵尸",
     nameEn: "Future Flag Zombie",
     health: 190,
@@ -1085,6 +1157,7 @@ export const zombies = [
   },
   {
     id: "jetpack_zombie",
+    source: "international",
     name: "喷气背包僵尸",
     nameEn: "Jetpack Zombie",
     health: 320,
@@ -1100,6 +1173,7 @@ export const zombies = [
   },
   {
     id: "blastronaut_zombie",
+    source: "international",
     name: "宇航员僵尸",
     nameEn: "Blastronaut Zombie",
     health: 390,
@@ -1115,6 +1189,7 @@ export const zombies = [
   },
   {
     id: "shield_zombie",
+    source: "international",
     name: "护盾僵尸",
     nameEn: "Shield Zombie",
     health: 500,
@@ -1130,6 +1205,7 @@ export const zombies = [
   },
   {
     id: "bug_bot_imp",
+    source: "international",
     name: "虫子机器人小鬼",
     nameEn: "Bug Bot Imp",
     health: 270,
@@ -1145,6 +1221,7 @@ export const zombies = [
   },
   {
     id: "robo_cone_zombie",
+    source: "international",
     name: "机器人路障僵尸",
     nameEn: "Robo-Cone Zombie",
     health: 2500,
@@ -1160,6 +1237,7 @@ export const zombies = [
   },
   {
     id: "disco_tron_3000",
+    source: "international",
     name: "迪斯科机器人3000",
     nameEn: "Disco-tron 3000",
     health: 2000,
@@ -1175,6 +1253,7 @@ export const zombies = [
   },
   {
     id: "disco_jetpack_zombie",
+    source: "international",
     name: "迪斯科喷气背包僵尸",
     nameEn: "Disco Jetpack Zombie",
     health: 320,
@@ -1190,6 +1269,7 @@ export const zombies = [
   },
   {
     id: "mecha_football_zombie",
+    source: "international",
     name: "足球机器人僵尸",
     nameEn: "Mecha-Football Zombie",
     health: 2000,
@@ -1205,6 +1285,7 @@ export const zombies = [
   },
   {
     id: "gargantuar_prime",
+    source: "international",
     name: "巨人僵尸Prime",
     nameEn: "Gargantuar Prime",
     health: 3600,
@@ -1220,6 +1301,7 @@ export const zombies = [
   },
   {
     id: "peasant_zombie",
+    source: "international",
     name: "农民僵尸",
     nameEn: "Peasant Zombie",
     health: 190,
@@ -1235,6 +1317,7 @@ export const zombies = [
   },
   {
     id: "conehead_peasant",
+    source: "international",
     name: "路障农民",
     nameEn: "Conehead Peasant",
     health: 560,
@@ -1250,6 +1333,7 @@ export const zombies = [
   },
   {
     id: "buckethead_peasant",
+    source: "international",
     name: "铁桶农民",
     nameEn: "Buckethead Peasant",
     health: 1,
@@ -1265,6 +1349,7 @@ export const zombies = [
   },
   {
     id: "knight_zombie",
+    source: "international",
     name: "骑士僵尸",
     nameEn: "Knight Zombie",
     health: 1,
@@ -1280,6 +1365,7 @@ export const zombies = [
   },
   {
     id: "peasant_flag_zombie",
+    source: "international",
     name: "旗帜农民",
     nameEn: "Peasant Flag Zombie",
     health: 190,
@@ -1295,6 +1381,7 @@ export const zombies = [
   },
   {
     id: "imp_monk_zombie",
+    source: "international",
     name: "小鬼僧侣僵尸",
     nameEn: "Imp Monk Zombie",
     health: 190,
@@ -1310,6 +1397,7 @@ export const zombies = [
   },
   {
     id: "jester_zombie",
+    source: "international",
     name: "小丑僵尸",
     nameEn: "Jester Zombie",
     health: 420,
@@ -1325,6 +1413,7 @@ export const zombies = [
   },
   {
     id: "dark_ages_gargantuar",
+    source: "international",
     name: "黑暗时代巨人僵尸",
     nameEn: "Dark Ages Gargantuar",
     health: 3600,
@@ -1340,6 +1429,7 @@ export const zombies = [
   },
   {
     id: "wizard_zombie",
+    source: "international",
     name: "巫师僵尸",
     nameEn: "Wizard Zombie",
     health: 490,
@@ -1355,6 +1445,7 @@ export const zombies = [
   },
   {
     id: "zombie_king",
+    source: "international",
     name: "僵尸国王",
     nameEn: "Zombie King",
     health: 1000,
@@ -1370,6 +1461,7 @@ export const zombies = [
   },
   {
     id: "imp_dragon_zombie",
+    source: "international",
     name: "小鬼龙僵尸",
     nameEn: "Imp Dragon Zombie",
     health: 190,
@@ -1385,6 +1477,7 @@ export const zombies = [
   },
   {
     id: "neon_zombie",
+    source: "international",
     name: "霓虹僵尸",
     nameEn: "Neon Zombie",
     health: 190,
@@ -1400,6 +1493,7 @@ export const zombies = [
   },
   {
     id: "neon_conehead",
+    source: "international",
     name: "路障霓虹僵尸",
     nameEn: "Neon Conehead",
     health: 560,
@@ -1415,6 +1509,7 @@ export const zombies = [
   },
   {
     id: "neon_buckethead",
+    source: "international",
     name: "铁桶霓虹僵尸",
     nameEn: "Neon Buckethead",
     health: 1,
@@ -1430,6 +1525,7 @@ export const zombies = [
   },
   {
     id: "neon_flag_zombie",
+    source: "international",
     name: "旗帜霓虹僵尸",
     nameEn: "Neon Flag Zombie",
     health: 190,
@@ -1445,6 +1541,7 @@ export const zombies = [
   },
   {
     id: "punk_zombie",
+    source: "international",
     name: "朋克僵尸",
     nameEn: "Punk Zombie",
     health: 250,
@@ -1460,6 +1557,7 @@ export const zombies = [
   },
   {
     id: "glitter_zombie",
+    source: "international",
     name: "闪亮僵尸",
     nameEn: "Glitter Zombie",
     health: 490,
@@ -1475,6 +1573,7 @@ export const zombies = [
   },
   {
     id: "mc_zom_b",
+    source: "international",
     name: "MC僵尸",
     nameEn: "MC Zom-B",
     health: 250,
@@ -1490,6 +1589,7 @@ export const zombies = [
   },
   {
     id: "impunk",
+    source: "international",
     name: "朋克小鬼僵尸",
     nameEn: "Impunk",
     health: 190,
@@ -1505,6 +1605,7 @@ export const zombies = [
   },
   {
     id: "hair_metal_gargantuar",
+    source: "international",
     name: "重金属巨人僵尸",
     nameEn: "Hair Metal Gargantuar",
     health: 3600,
@@ -1520,6 +1621,7 @@ export const zombies = [
   },
   {
     id: "breakdancer_zombie",
+    source: "international",
     name: "霹雳舞僵尸",
     nameEn: "Breakdancer Zombie",
     health: 250,
@@ -1535,6 +1637,7 @@ export const zombies = [
   },
   {
     id: "arcade_zombie",
+    source: "international",
     name: "街机僵尸",
     nameEn: "Arcade Zombie",
     health: 490,
@@ -1550,6 +1653,7 @@ export const zombies = [
   },
   {
     id: "8_bit_zombie",
+    source: "international",
     name: "8位僵尸",
     nameEn: "8-Bit Zombie",
     health: 190,
@@ -1565,6 +1669,7 @@ export const zombies = [
   },
   {
     id: "boombox_zombie",
+    source: "international",
     name: "音箱僵尸",
     nameEn: "Boombox Zombie",
     health: 250,
@@ -1580,6 +1685,7 @@ export const zombies = [
   },
   {
     id: "jurassic_zombie",
+    source: "international",
     name: "侏罗纪僵尸",
     nameEn: "Jurassic Zombie",
     health: 190,
@@ -1595,6 +1701,7 @@ export const zombies = [
   },
   {
     id: "jurassic_conehead",
+    source: "international",
     name: "路障侏罗纪僵尸",
     nameEn: "Jurassic Conehead",
     health: 560,
@@ -1610,6 +1717,7 @@ export const zombies = [
   },
   {
     id: "jurassic_buckethead",
+    source: "international",
     name: "铁桶侏罗纪僵尸",
     nameEn: "Jurassic Buckethead",
     health: 1290,
@@ -1625,6 +1733,7 @@ export const zombies = [
   },
   {
     id: "jurassic_fossilhead",
+    source: "international",
     name: "侏罗纪化石僵尸",
     nameEn: "Jurassic Fossilhead",
     health: 1990,
@@ -1640,6 +1749,7 @@ export const zombies = [
   },
   {
     id: "amberhead_zombie",
+    source: "international",
     name: "琥珀头僵尸",
     nameEn: "Amberhead Zombie",
     health: 2390,
@@ -1655,6 +1765,7 @@ export const zombies = [
   },
   {
     id: "jurassic_flag_zombie",
+    source: "international",
     name: "旗帜侏罗纪僵尸",
     nameEn: "Jurassic Flag Zombie",
     health: 190,
@@ -1670,6 +1781,7 @@ export const zombies = [
   },
   {
     id: "jurassic_imp",
+    source: "international",
     name: "侏罗纪小鬼僵尸",
     nameEn: "Jurassic Imp",
     health: 95,
@@ -1685,6 +1797,7 @@ export const zombies = [
   },
   {
     id: "jurassic_gargantuar",
+    source: "international",
     name: "侏罗纪巨人僵尸",
     nameEn: "Jurassic Gargantuar",
     health: 5,
@@ -1700,6 +1813,7 @@ export const zombies = [
   },
   {
     id: "jurassic_bully",
+    source: "international",
     name: "侏罗纪恶霸僵尸",
     nameEn: "Jurassic Bully",
     health: 1100,
@@ -1715,6 +1829,7 @@ export const zombies = [
   },
   {
     id: "jurassic_rockpuncher",
+    source: "international",
     name: "侏罗纪碎石僵尸",
     nameEn: "Jurassic Rockpuncher",
     health: 2470,
@@ -1730,6 +1845,7 @@ export const zombies = [
   },
   {
     id: "pompadour_zombie",
+    source: "international",
     name: "蓬帕杜僵尸",
     nameEn: "Pompadour Zombie",
     health: 190,
@@ -1745,6 +1861,7 @@ export const zombies = [
   },
   {
     id: "conehead_pompadour",
+    source: "international",
     name: "路障蓬帕杜僵尸",
     nameEn: "Conehead Pompadour",
     health: 560,
@@ -1760,6 +1877,7 @@ export const zombies = [
   },
   {
     id: "buckethead_pompadour",
+    source: "international",
     name: "铁桶蓬帕杜僵尸",
     nameEn: "Buckethead Pompadour",
     health: 1290,
@@ -1775,6 +1893,7 @@ export const zombies = [
   },
   {
     id: "beach_flag_zombie",
+    source: "international",
     name: "旗帜海滩僵尸",
     nameEn: "Beach Flag Zombie",
     health: 190,
@@ -1790,6 +1909,7 @@ export const zombies = [
   },
   {
     id: "bikini_zombie",
+    source: "international",
     name: "比基尼僵尸",
     nameEn: "Bikini Zombie",
     health: 190,
@@ -1805,6 +1925,7 @@ export const zombies = [
   },
   {
     id: "bikini_conehead",
+    source: "international",
     name: "路障比基尼僵尸",
     nameEn: "Bikini Conehead",
     health: 560,
@@ -1820,6 +1941,7 @@ export const zombies = [
   },
   {
     id: "bikini_buckethead",
+    source: "international",
     name: "铁桶比基尼僵尸",
     nameEn: "Bikini Buckethead",
     health: 1290,
@@ -1835,6 +1957,7 @@ export const zombies = [
   },
   {
     id: "snorkel_zombie",
+    source: "international",
     name: "潜水僵尸",
     nameEn: "Snorkel Zombie",
     health: 350,
@@ -1850,6 +1973,7 @@ export const zombies = [
   },
   {
     id: "imp_mermaid_zombie",
+    source: "international",
     name: "小鬼美人鱼僵尸",
     nameEn: "Imp Mermaid Zombie",
     health: 190,
@@ -1865,6 +1989,7 @@ export const zombies = [
   },
   {
     id: "surfer_zombie",
+    source: "international",
     name: "冲浪僵尸",
     nameEn: "Surfer Zombie",
     health: 700,
@@ -1880,6 +2005,7 @@ export const zombies = [
   },
   {
     id: "deep_sea_gargantuar",
+    source: "international",
     name: "深海巨人僵尸",
     nameEn: "Deep Sea Gargantuar",
     health: 3600,
@@ -1895,6 +2021,7 @@ export const zombies = [
   },
   {
     id: "fisherman_zombie",
+    source: "international",
     name: "渔夫僵尸",
     nameEn: "Fisherman Zombie",
     health: 1000,
@@ -1910,6 +2037,7 @@ export const zombies = [
   },
   {
     id: "octo_zombie",
+    source: "international",
     name: "章鱼僵尸",
     nameEn: "Octo Zombie",
     health: 910,
@@ -1925,6 +2053,7 @@ export const zombies = [
   },
   {
     id: "imp",
+    source: "international",
     name: "小鬼僵尸",
     nameEn: "Imp",
     health: 190,
@@ -1940,6 +2069,7 @@ export const zombies = [
   },
   {
     id: "gargantuar",
+    source: "international",
     name: "巨人僵尸",
     nameEn: "Gargantuar",
     health: 3600,
@@ -1955,6 +2085,7 @@ export const zombies = [
   },
   {
     id: "newspaper_zombie",
+    source: "international",
     name: "读报僵尸",
     nameEn: "Newspaper Zombie",
     health: 1260,
@@ -1970,6 +2101,7 @@ export const zombies = [
   },
   {
     id: "sunday_edition_zombie",
+    source: "international",
     name: "周日版僵尸",
     nameEn: "Sunday Edition Zombie",
     health: 2290,
@@ -1985,6 +2117,7 @@ export const zombies = [
   },
   {
     id: "balloon_zombie",
+    source: "international",
     name: "气球僵尸",
     nameEn: "Balloon Zombie",
     health: 900,
@@ -2000,6 +2133,7 @@ export const zombies = [
   },
   {
     id: "all_star_zombie",
+    source: "international",
     name: "全明星僵尸",
     nameEn: "All-Star Zombie",
     health: 1100,
@@ -2015,6 +2149,7 @@ export const zombies = [
   },
   {
     id: "cardio_zombie",
+    source: "international",
     name: "有氧僵尸",
     nameEn: "Cardio Zombie",
     health: 33000,
@@ -2030,6 +2165,7 @@ export const zombies = [
   },
   {
     id: "z_mech",
+    source: "international",
     name: "Z机甲",
     nameEn: "Z-Mech",
     health: 36500,
@@ -2045,6 +2181,7 @@ export const zombies = [
   },
   {
     id: "caketank",
+    source: "international",
     name: "蛋糕坦克僵尸",
     nameEn: "Caketank",
     health: 3300,
@@ -2060,6 +2197,7 @@ export const zombies = [
   },
   {
     id: "roman_zombie",
+    source: "international",
     name: "罗马僵尸",
     nameEn: "Roman Zombie",
     health: 190,
@@ -2075,6 +2213,7 @@ export const zombies = [
   },
   {
     id: "roman_conehead",
+    source: "international",
     name: "路障罗马僵尸",
     nameEn: "Roman Conehead",
     health: 560,
@@ -2090,6 +2229,7 @@ export const zombies = [
   },
   {
     id: "roman_buckethead",
+    source: "international",
     name: "铁桶罗马僵尸",
     nameEn: "Roman Buckethead",
     health: 1290,
@@ -2105,6 +2245,7 @@ export const zombies = [
   },
   {
     id: "centurion_zombie",
+    source: "international",
     name: "百夫长僵尸",
     nameEn: "Centurion Zombie",
     health: 2140,
@@ -2120,6 +2261,7 @@ export const zombies = [
   },
   {
     id: "roman_flag_zombie",
+    source: "international",
     name: "旗帜罗马僵尸",
     nameEn: "Roman Flag Zombie",
     health: 190,
@@ -2135,6 +2277,7 @@ export const zombies = [
   },
   {
     id: "healer_zombie",
+    source: "international",
     name: "治疗僵尸",
     nameEn: "Healer Zombie",
     health: 555,
@@ -2150,6 +2293,7 @@ export const zombies = [
   },
   {
     id: "roman_shield_zombie",
+    source: "international",
     name: "罗马盾牌僵尸",
     nameEn: "Roman Shield Zombie",
     health: 1100,
@@ -2165,6 +2309,7 @@ export const zombies = [
   },
   {
     id: "gladiator_gargantuar",
+    source: "international",
     name: "角斗士巨人僵尸",
     nameEn: "Gladiator Gargantuar",
     health: 5400,
@@ -2180,6 +2325,7 @@ export const zombies = [
   },
   {
     id: "roman_imp",
+    source: "international",
     name: "罗马小鬼僵尸",
     nameEn: "Roman Imp",
     health: 270,
@@ -2195,6 +2341,7 @@ export const zombies = [
   },
   {
     id: "zcorpion_zombie",
+    source: "international",
     name: "Z公司投石车僵尸",
     nameEn: "Zcorpion Zombie",
     health: 2500,
@@ -2210,6 +2357,7 @@ export const zombies = [
   },
   {
     id: "zombie_medusa",
+    source: "international",
     name: "僵尸美杜莎",
     nameEn: "Zombie Medusa",
     health: 750,
@@ -2225,6 +2373,7 @@ export const zombies = [
   },
   {
     id: "roman_caesar_zombie",
+    source: "international",
     name: "凯撒僵尸",
     nameEn: "Roman Caesar Zombie",
     health: 49,
@@ -2240,6 +2389,7 @@ export const zombies = [
   },
   {
     id: "gargimp_legal",
+    source: "international",
     name: "小鬼律师僵尸",
     nameEn: "Gargimp Legal",
     health: 1100,
@@ -2255,6 +2405,7 @@ export const zombies = [
   },
   {
     id: "head_office_impgantuar",
+    source: "international",
     name: "总部小鬼巨人僵尸",
     nameEn: "Head Office Impgantuar",
     health: 1800,
@@ -2270,6 +2421,7 @@ export const zombies = [
   },
   {
     id: "zcorp_new_hire",
+    source: "international",
     name: "Z公司新员工",
     nameEn: "ZCorp New Hire",
     health: 190,
@@ -2285,6 +2437,7 @@ export const zombies = [
   },
   {
     id: "zcorp_contractor",
+    source: "international",
     name: "Z公司承包商",
     nameEn: "ZCorp Contractor",
     health: 190,
@@ -2300,6 +2453,7 @@ export const zombies = [
   },
   {
     id: "zcorp_conehead",
+    source: "international",
     name: "路障Z公司僵尸",
     nameEn: "ZCorp Conehead",
     health: 560,
@@ -2315,6 +2469,7 @@ export const zombies = [
   },
   {
     id: "zcorp_buckethead",
+    source: "international",
     name: "铁桶Z公司僵尸",
     nameEn: "ZCorp Buckethead",
     health: 1290,
@@ -2330,6 +2485,7 @@ export const zombies = [
   },
   {
     id: "zcorp_contractor_conehead",
+    source: "international",
     name: "路障Z公司承包商",
     nameEn: "ZCorp Contractor Conehead",
     health: 560,
@@ -2345,6 +2501,7 @@ export const zombies = [
   },
   {
     id: "zcorp_contractor_buckethead",
+    source: "international",
     name: "铁桶Z公司承包商",
     nameEn: "ZCorp Contractor Buckethead",
     health: 1290,
@@ -2360,6 +2517,7 @@ export const zombies = [
   },
   {
     id: "zcorp_flag_zombie",
+    source: "international",
     name: "旗帜Z公司僵尸",
     nameEn: "ZCorp Flag Zombie",
     health: 190,
@@ -2375,6 +2533,7 @@ export const zombies = [
   },
   {
     id: "zcorp_consultant",
+    source: "international",
     name: "Z公司顾问",
     nameEn: "ZCorp Consultant",
     health: 460,
@@ -2390,6 +2549,7 @@ export const zombies = [
   },
   {
     id: "zcorp_helpdesk",
+    source: "international",
     name: "Z公司服务台",
     nameEn: "ZCorp HelpDesk",
     health: 1200,
@@ -2405,6 +2565,7 @@ export const zombies = [
   },
   {
     id: "carnie_zombie",
+    source: "international",
     name: "嘉年华僵尸",
     nameEn: "Carnie Zombie",
     health: 190,
@@ -2420,6 +2581,7 @@ export const zombies = [
   },
   {
     id: "carnie_conehead",
+    source: "international",
     name: "路障嘉年华僵尸",
     nameEn: "Carnie Conehead",
     health: 560,
@@ -2435,6 +2597,7 @@ export const zombies = [
   },
   {
     id: "carnie_buckethead",
+    source: "international",
     name: "铁桶嘉年华僵尸",
     nameEn: "Carnie Buckethead",
     health: 1290,
@@ -2450,6 +2613,7 @@ export const zombies = [
   },
   {
     id: "grinderhead_zombie",
+    source: "international",
     name: "研磨头僵尸",
     nameEn: "Grinderhead Zombie",
     health: 2390,
@@ -2465,6 +2629,7 @@ export const zombies = [
   },
   {
     id: "carnie_flag_zombie",
+    source: "international",
     name: "旗帜嘉年华僵尸",
     nameEn: "Carnie Flag Zombie",
     health: 190,
@@ -2480,6 +2645,7 @@ export const zombies = [
   },
   {
     id: "carnie_cannon",
+    source: "international",
     name: "嘉年华加农炮",
     nameEn: "Carnie Cannon",
     health: 1200,
@@ -2495,6 +2661,7 @@ export const zombies = [
   },
   {
     id: "carnie_imp",
+    source: "international",
     name: "嘉年华小鬼僵尸",
     nameEn: "Carnie Imp",
     health: 1490,
@@ -2510,6 +2677,7 @@ export const zombies = [
   },
   {
     id: "carnie_imp_twins",
+    source: "international",
     name: "嘉年华双胞胎小鬼僵尸",
     nameEn: "Carnie Imp Twins",
     health: 190,
@@ -2525,6 +2693,7 @@ export const zombies = [
   },
   {
     id: "strongman_gargantuar",
+    source: "international",
     name: "大力士巨人僵尸",
     nameEn: "Strongman Gargantuar",
     health: 3600,
@@ -2540,6 +2709,7 @@ export const zombies = [
   },
   {
     id: "carnie_imp_split",
+    source: "international",
     name: "嘉年华分裂小鬼僵尸",
     nameEn: "Carnie Imp Split",
     health: 190,
@@ -2555,6 +2725,7 @@ export const zombies = [
   },
   {
     id: "magician_zombie",
+    source: "international",
     name: "魔术师僵尸",
     nameEn: "Magician Zombie",
     health: 555,
@@ -2570,6 +2741,7 @@ export const zombies = [
   },
   {
     id: "firebreather_zombie",
+    source: "international",
     name: "喷火僵尸",
     nameEn: "Firebreather Zombie",
     health: 625,
@@ -2585,6 +2757,7 @@ export const zombies = [
   },
   {
     id: "stiltwalker_zombie",
+    source: "international",
     name: "踩高跷僵尸",
     nameEn: "Stiltwalker Zombie",
     health: 900,
@@ -2600,6 +2773,7 @@ export const zombies = [
   },
   {
     id: "zombot_catastro_liope",
+    source: "international",
     name: "僵尸机器人马车",
     nameEn: "Zombot Catastro-liope",
     health: 22,
@@ -2615,6 +2789,7 @@ export const zombies = [
   },
   {
     id: "zombie_monkey",
+    source: "international",
     name: "僵尸猴子",
     nameEn: "Zombie Monkey",
     health: 300,
@@ -2630,6 +2805,7 @@ export const zombies = [
   },
   {
     id: "zombie_dove",
+    source: "international",
     name: "僵尸鸽子",
     nameEn: "Zombie Dove",
     health: 150,
@@ -2645,6 +2821,7 @@ export const zombies = [
   },
   {
     id: "nutcracker_zombie",
+    source: "international",
     name: "胡桃夹子僵尸",
     nameEn: "Nutcracker Zombie",
     health: 2390,
@@ -2660,6 +2837,7 @@ export const zombies = [
   },
   {
     id: "ducky_tube",
+    source: "international",
     name: "鸭子救生圈僵尸",
     nameEn: "Ducky Tube",
     health: 190,
@@ -2675,6 +2853,7 @@ export const zombies = [
   },
   {
     id: "ducky_tube_conehead",
+    source: "international",
     name: "路障鸭子救生圈僵尸",
     nameEn: "Ducky Tube Conehead",
     health: 634,
@@ -2690,6 +2869,7 @@ export const zombies = [
   },
   {
     id: "ducky_tube_buckethead",
+    source: "international",
     name: "铁桶鸭子救生圈僵尸",
     nameEn: "Ducky Tube Buckethead",
     health: 1510,
@@ -2705,6 +2885,7 @@ export const zombies = [
   },
   {
     id: "fast_swimmer_zombie",
+    source: "international",
     name: "快速游泳僵尸",
     nameEn: "Fast Swimmer Zombie",
     health: 270,
@@ -2720,6 +2901,7 @@ export const zombies = [
   },
   {
     id: "catapult_zombie",
+    source: "international",
     name: "投石车僵尸",
     nameEn: "Catapult Zombie",
     health: 750,
@@ -2735,6 +2917,7 @@ export const zombies = [
   },
   {
     id: "zombot_hot_rodicus",
+    source: "international",
     name: "僵尸机器人改装车",
     nameEn: "Zombot Hot-Rodicus",
     health: 25500,
@@ -2750,6 +2933,7 @@ export const zombies = [
   },
   {
     id: "zomboni",
+    source: "international",
     name: "扎博尼僵尸",
     nameEn: "Zomboni",
     health: 1350,
@@ -2765,6 +2949,7 @@ export const zombies = [
   },
   {
     id: "zombie_bobsled_team",
+    source: "international",
     name: "僵尸雪橇队",
     nameEn: "Zombie Bobsled Team",
     health: 600,
@@ -2780,6 +2965,7 @@ export const zombies = [
   },
   {
     id: "zombie_bobsled_crew",
+    source: "international",
     name: "僵尸雪橇队员",
     nameEn: "Zombie Bobsled Crew",
     health: 190,
@@ -2795,6 +2981,7 @@ export const zombies = [
   },
   {
     id: "raincoat_zombie",
+    source: "international",
     name: "雨衣僵尸",
     nameEn: "Raincoat Zombie",
     health: 1,
@@ -2810,6 +2997,7 @@ export const zombies = [
   },
   {
     id: "treasure_yeti",
+    source: "international",
     name: "宝藏雪人僵尸",
     nameEn: "Treasure Yeti",
     health: 700,
@@ -2825,6 +3013,7 @@ export const zombies = [
   },
   {
     id: "turkey_boss",
+    source: "international",
     name: "火鸡Boss",
     nameEn: "Turkey Boss",
     health: 3000,

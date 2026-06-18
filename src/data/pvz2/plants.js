@@ -5,6 +5,7 @@
 export const plants = [
   {
     id: "peashooter",
+    source: "international",
     name: "豌豆射手",
     nameEn: "Peashooter",
     sunCost: 100,
@@ -24,6 +25,7 @@ export const plants = [
   },
   {
     id: "sunflower",
+    source: "international",
     name: "向日葵",
     nameEn: "Sunflower",
     sunCost: 50,
@@ -43,6 +45,7 @@ export const plants = [
   },
   {
     id: "wallnut",
+    source: "international",
     name: "坚果墙",
     nameEn: "Wall-nut",
     sunCost: 50,
@@ -62,6 +65,7 @@ export const plants = [
   },
   {
     id: "potatomine",
+    source: "international",
     name: "土豆地雷",
     nameEn: "Potato Mine",
     sunCost: 25,
@@ -81,6 +85,7 @@ export const plants = [
   },
   {
     id: "cabbagepult",
+    source: "international",
     name: "卷心菜投手",
     nameEn: "Cabbage-pult",
     sunCost: 100,
@@ -100,6 +105,7 @@ export const plants = [
   },
   {
     id: "bloomerang",
+    source: "international",
     name: "回旋镖射手",
     nameEn: "Bloomerang",
     sunCost: 175,
@@ -119,6 +125,7 @@ export const plants = [
   },
   {
     id: "iceberglettuce",
+    source: "international",
     name: "冰冻生菜",
     nameEn: "Iceberg Lettuce",
     sunCost: 0,
@@ -138,6 +145,7 @@ export const plants = [
   },
   {
     id: "gravebuster",
+    source: "international",
     name: "噬碑藤",
     nameEn: "Grave Buster",
     sunCost: 0,
@@ -157,6 +165,7 @@ export const plants = [
   },
   {
     id: "bonkchoy",
+    source: "international",
     name: "菜问",
     nameEn: "Bonk Choy",
     sunCost: 150,
@@ -176,6 +185,7 @@ export const plants = [
   },
   {
     id: "repeater",
+    source: "international",
     name: "双发射手",
     nameEn: "Repeater",
     sunCost: 200,
@@ -195,6 +205,7 @@ export const plants = [
   },
   {
     id: "twinsunflower",
+    source: "international",
     name: "双子向日葵",
     nameEn: "Twin Sunflower",
     sunCost: 125,
@@ -214,6 +225,7 @@ export const plants = [
   },
   {
     id: "kernelpult",
+    source: "international",
     name: "玉米投手",
     nameEn: "Kernel-pult",
     sunCost: 100,
@@ -233,6 +245,7 @@ export const plants = [
   },
   {
     id: "snapdragon",
+    source: "international",
     name: "火龙草",
     nameEn: "Snapdragon",
     sunCost: 150,
@@ -252,6 +265,7 @@ export const plants = [
   },
   {
     id: "spikeweed",
+    source: "international",
     name: "地刺",
     nameEn: "Spikeweed",
     sunCost: 100,
@@ -271,6 +285,7 @@ export const plants = [
   },
   {
     id: "springbean",
+    source: "international",
     name: "弹簧豆",
     nameEn: "Spring Bean",
     sunCost: 50,
@@ -290,6 +305,7 @@ export const plants = [
   },
   {
     id: "coconutcannon",
+    source: "international",
     name: "椰子加农炮",
     nameEn: "Coconut Cannon",
     sunCost: 400,
@@ -309,6 +325,7 @@ export const plants = [
   },
   {
     id: "threepeater",
+    source: "international",
     name: "三线射手",
     nameEn: "Threepeater",
     sunCost: 300,
@@ -328,6 +345,7 @@ export const plants = [
   },
   {
     id: "spikerock",
+    source: "international",
     name: "地刺王",
     nameEn: "Spikerock",
     sunCost: 250,
@@ -347,6 +365,7 @@ export const plants = [
   },
   {
     id: "cherry_bomb",
+    source: "international",
     name: "樱桃炸弹",
     nameEn: "Cherry Bomb",
     sunCost: 150,
@@ -366,6 +385,7 @@ export const plants = [
   },
   {
     id: "splitpea",
+    source: "international",
     name: "分裂豌豆",
     nameEn: "Split Pea",
     sunCost: 125,
@@ -385,6 +405,7 @@ export const plants = [
   },
   {
     id: "chilibean",
+    source: "international",
     name: "辣椒",
     nameEn: "Chili Bean",
     sunCost: 50,
@@ -404,6 +425,7 @@ export const plants = [
   },
   {
     id: "peapod",
+    source: "international",
     name: "豌豆荚",
     nameEn: "Pea Pod",
     sunCost: 125,
@@ -423,6 +445,7 @@ export const plants = [
   },
   {
     id: "lightningreed",
+    source: "international",
     name: "闪电芦苇",
     nameEn: "Lightning Reed",
     sunCost: 125,
@@ -442,6 +465,7 @@ export const plants = [
   },
   {
     id: "melonpult",
+    source: "international",
     name: "西瓜投手",
     nameEn: "Melon-pult",
     sunCost: 325,
@@ -461,6 +485,7 @@ export const plants = [
   },
   {
     id: "tallnut",
+    source: "international",
     name: "高坚果",
     nameEn: "Tall-nut",
     sunCost: 125,
@@ -480,6 +505,7 @@ export const plants = [
   },
   {
     id: "wintermelon",
+    source: "international",
     name: "冰西瓜",
     nameEn: "Winter Melon",
     sunCost: 500,
@@ -499,6 +525,7 @@ export const plants = [
   },
   {
     id: "hotpotato",
+    source: "international",
     name: "热土豆",
     nameEn: "Hot Potato",
     sunCost: 0,
@@ -518,6 +545,7 @@ export const plants = [
   },
   {
     id: "pepperpult",
+    source: "international",
     name: "辣椒投手",
     nameEn: "Pepper-pult",
     sunCost: 200,
@@ -537,6 +565,7 @@ export const plants = [
   },
   {
     id: "chardguard",
+    source: "international",
     name: "甜菜护卫",
     nameEn: "Chard Guard",
     sunCost: 75,
@@ -556,6 +585,7 @@ export const plants = [
   },
   {
     id: "stunion",
+    source: "international",
     name: "眩晕洋葱",
     nameEn: "Stunion",
     sunCost: 25,
@@ -575,6 +605,7 @@ export const plants = [
   },
   {
     id: "xshot",
+    source: "international",
     name: "旋转芜菁",
     nameEn: "Rotobaga",
     sunCost: 150,
@@ -594,6 +625,7 @@ export const plants = [
   },
   {
     id: "redstinger",
+    source: "international",
     name: "红针花",
     nameEn: "Red Stinger",
     sunCost: 150,
@@ -613,6 +645,7 @@ export const plants = [
   },
   {
     id: "akee",
+    source: "international",
     name: "A.K.E.E.",
     nameEn: "A.K.E.E.",
     sunCost: 175,
@@ -632,6 +665,7 @@ export const plants = [
   },
   {
     id: "endurian",
+    source: "international",
     name: "榴莲",
     nameEn: "Endurian",
     sunCost: 100,
@@ -651,6 +685,7 @@ export const plants = [
   },
   {
     id: "stallia",
+    source: "international",
     name: "催眠花",
     nameEn: "Stallia",
     sunCost: 0,
@@ -670,6 +705,7 @@ export const plants = [
   },
   {
     id: "goldleaf",
+    source: "international",
     name: "金叶",
     nameEn: "Gold Leaf",
     sunCost: 80,
@@ -689,6 +725,7 @@ export const plants = [
   },
   {
     id: "laser_bean",
+    source: "international",
     name: "激光豆",
     nameEn: "Laser Bean",
     sunCost: 200,
@@ -708,6 +745,7 @@ export const plants = [
   },
   {
     id: "blover",
+    source: "international",
     name: "三叶草",
     nameEn: "Blover",
     sunCost: 50,
@@ -727,6 +765,7 @@ export const plants = [
   },
   {
     id: "citron",
+    source: "international",
     name: "香橼",
     nameEn: "Citron",
     sunCost: 350,
@@ -746,6 +785,7 @@ export const plants = [
   },
   {
     id: "empea",
+    source: "international",
     name: "电磁桃",
     nameEn: "E.M.Peach",
     sunCost: 25,
@@ -765,6 +805,7 @@ export const plants = [
   },
   {
     id: "holonut",
+    source: "international",
     name: "全息坚果",
     nameEn: "Infi-nut",
     sunCost: 75,
@@ -784,6 +825,7 @@ export const plants = [
   },
   {
     id: "magnifyinggrass",
+    source: "international",
     name: "放大草",
     nameEn: "Magnifying Grass",
     sunCost: 50,
@@ -803,6 +845,7 @@ export const plants = [
   },
   {
     id: "powerplant",
+    source: "international",
     name: "瓷砖萝卜",
     nameEn: "Tile Turnip",
     sunCost: 0,
@@ -822,6 +865,7 @@ export const plants = [
   },
   {
     id: "sunshroom",
+    source: "international",
     name: "阳光菇",
     nameEn: "Sun-shroom",
     sunCost: 25,
@@ -841,6 +885,7 @@ export const plants = [
   },
   {
     id: "puffshroom",
+    source: "international",
     name: "小喷菇",
     nameEn: "Puff-shroom",
     sunCost: 0,
@@ -860,6 +905,7 @@ export const plants = [
   },
   {
     id: "fumeshroom",
+    source: "international",
     name: "大喷菇",
     nameEn: "Fume-shroom",
     sunCost: 125,
@@ -879,6 +925,7 @@ export const plants = [
   },
   {
     id: "sunbean",
+    source: "international",
     name: "阳光豆",
     nameEn: "Sun Bean",
     sunCost: 50,
@@ -898,6 +945,7 @@ export const plants = [
   },
   {
     id: "magnetshroom",
+    source: "international",
     name: "磁力菇",
     nameEn: "Magnet-shroom",
     sunCost: 100,
@@ -917,6 +965,7 @@ export const plants = [
   },
   {
     id: "phatbeet",
+    source: "international",
     name: "动感节拍",
     nameEn: "Phat Beet",
     sunCost: 150,
@@ -936,6 +985,7 @@ export const plants = [
   },
   {
     id: "celerystalker",
+    source: "international",
     name: "芹菜潜行者",
     nameEn: "Celery Stalker",
     sunCost: 50,
@@ -955,6 +1005,7 @@ export const plants = [
   },
   {
     id: "thymewarp",
+    source: "international",
     name: "百里香传送",
     nameEn: "Thyme Warp",
     sunCost: 100,
@@ -974,6 +1025,7 @@ export const plants = [
   },
   {
     id: "garlic",
+    source: "international",
     name: "大蒜",
     nameEn: "Garlic",
     sunCost: 50,
@@ -993,6 +1045,7 @@ export const plants = [
   },
   {
     id: "sporeshroom",
+    source: "international",
     name: "孢子菇",
     nameEn: "Spore-shroom",
     sunCost: 150,
@@ -1012,6 +1065,7 @@ export const plants = [
   },
   {
     id: "intensivecarrot",
+    source: "international",
     name: "强化胡萝卜",
     nameEn: "Intensive Carrot",
     sunCost: 100,
@@ -1031,6 +1085,7 @@ export const plants = [
   },
   {
     id: "primalpeashooter",
+    source: "international",
     name: "原始豌豆射手",
     nameEn: "Primal Peashooter",
     sunCost: 175,
@@ -1050,6 +1105,7 @@ export const plants = [
   },
   {
     id: "primalwallnut",
+    source: "international",
     name: "原始坚果墙",
     nameEn: "Primal Wall-nut",
     sunCost: 75,
@@ -1069,6 +1125,7 @@ export const plants = [
   },
   {
     id: "perfumeshroom",
+    source: "international",
     name: "香水菇",
     nameEn: "Perfume-shroom",
     sunCost: 150,
@@ -1088,6 +1145,7 @@ export const plants = [
   },
   {
     id: "primalsunflower",
+    source: "international",
     name: "原始向日葵",
     nameEn: "Primal Sunflower",
     sunCost: 75,
@@ -1107,6 +1165,7 @@ export const plants = [
   },
   {
     id: "primalpotatomine",
+    source: "international",
     name: "原始土豆地雷",
     nameEn: "Primal Potato Mine",
     sunCost: 50,
@@ -1126,6 +1185,7 @@ export const plants = [
   },
   {
     id: "lilypad",
+    source: "international",
     name: "睡莲",
     nameEn: "Lily Pad",
     sunCost: 25,
@@ -1145,6 +1205,7 @@ export const plants = [
   },
   {
     id: "tanglekelp",
+    source: "international",
     name: "缠绕水草",
     nameEn: "Tangle Kelp",
     sunCost: 25,
@@ -1164,6 +1225,7 @@ export const plants = [
   },
   {
     id: "bowlingbulb",
+    source: "international",
     name: "保龄球茎",
     nameEn: "Bowling Bulb",
     sunCost: 200,
@@ -1183,6 +1245,7 @@ export const plants = [
   },
   {
     id: "guacodile",
+    source: "international",
     name: "鳄梨",
     nameEn: "Guacodile",
     sunCost: 125,
@@ -1202,6 +1265,7 @@ export const plants = [
   },
   {
     id: "banana",
+    source: "international",
     name: "香蕉火箭炮",
     nameEn: "Banana Launcher",
     sunCost: 500,
@@ -1221,6 +1285,7 @@ export const plants = [
   },
   {
     id: "moonflower",
+    source: "international",
     name: "月光花",
     nameEn: "Moonflower",
     sunCost: 50,
@@ -1240,6 +1305,7 @@ export const plants = [
   },
   {
     id: "nightshade",
+    source: "international",
     name: "暗影菇",
     nameEn: "Nightshade",
     sunCost: 75,
@@ -1259,6 +1325,7 @@ export const plants = [
   },
   {
     id: "shadowshroom",
+    source: "international",
     name: "暗影菇",
     nameEn: "Shadow-shroom",
     sunCost: 50,
@@ -1278,6 +1345,7 @@ export const plants = [
   },
   {
     id: "dusklobber",
+    source: "international",
     name: "黄昏投手",
     nameEn: "Dusk Lobber",
     sunCost: 150,
@@ -1297,6 +1365,7 @@ export const plants = [
   },
   {
     id: "grimrose",
+    source: "international",
     name: "暗影蔷薇",
     nameEn: "Grimrose",
     sunCost: 75,
@@ -1316,6 +1385,7 @@ export const plants = [
   },
   {
     id: "snowpea",
+    source: "international",
     name: "寒冰射手",
     nameEn: "Snow Pea",
     sunCost: 150,
@@ -1335,6 +1405,7 @@ export const plants = [
   },
   {
     id: "powerlily",
+    source: "international",
     name: "能量百合",
     nameEn: "Power Lily",
     sunCost: 175,
@@ -1354,6 +1425,7 @@ export const plants = [
   },
   {
     id: "squash",
+    source: "international",
     name: "倭瓜",
     nameEn: "Squash",
     sunCost: 50,
@@ -1373,6 +1445,7 @@ export const plants = [
   },
   {
     id: "jalapeno",
+    source: "international",
     name: "火爆辣椒",
     nameEn: "Jalapeno",
     sunCost: 125,
@@ -1392,6 +1465,7 @@ export const plants = [
   },
   {
     id: "imitater",
+    source: "international",
     name: "模仿者",
     nameEn: "Imitater",
     sunCost: 0,
@@ -1411,6 +1485,7 @@ export const plants = [
   },
   {
     id: "hypnoshroom",
+    source: "international",
     name: "魅惑菇",
     nameEn: "Hypno-shroom",
     sunCost: 125,
@@ -1430,6 +1505,7 @@ export const plants = [
   },
   {
     id: "peanut",
+    source: "international",
     name: "豌豆坚果",
     nameEn: "Pea-nut",
     sunCost: 150,
@@ -1449,6 +1525,7 @@ export const plants = [
   },
   {
     id: "chomper",
+    source: "international",
     name: "大嘴花",
     nameEn: "Chomper",
     sunCost: 150,
@@ -1468,6 +1545,7 @@ export const plants = [
   },
   {
     id: "homingthistle",
+    source: "international",
     name: "追踪蓟",
     nameEn: "Homing Thistle",
     sunCost: 250,
@@ -1487,6 +1565,7 @@ export const plants = [
   },
   {
     id: "ghostpepper",
+    source: "international",
     name: "幽灵辣椒",
     nameEn: "Ghost Pepper",
     sunCost: 75,
@@ -1506,6 +1585,7 @@ export const plants = [
   },
   {
     id: "sweetpotato",
+    source: "international",
     name: "红薯",
     nameEn: "Sweet Potato",
     sunCost: 150,
@@ -1525,6 +1605,7 @@ export const plants = [
   },
   {
     id: "sapfling",
+    source: "international",
     name: "投掷树液",
     nameEn: "Sap-fling",
     sunCost: 75,
@@ -1544,6 +1625,7 @@ export const plants = [
   },
   {
     id: "hurrikale",
+    source: "international",
     name: "飓风甘蓝",
     nameEn: "Hurrikale",
     sunCost: 100,
@@ -1563,6 +1645,7 @@ export const plants = [
   },
   {
     id: "firepeashooter",
+    source: "international",
     name: "火焰豌豆射手",
     nameEn: "Fire Peashooter",
     sunCost: 175,
@@ -1582,6 +1665,7 @@ export const plants = [
   },
   {
     id: "lavaguava",
+    source: "international",
     name: "熔岩番石榴",
     nameEn: "Lava Guava",
     sunCost: 75,
@@ -1601,6 +1685,7 @@ export const plants = [
   },
   {
     id: "toadstool",
+    source: "international",
     name: "毒蘑菇",
     nameEn: "Toadstool",
     sunCost: 200,
@@ -1620,6 +1705,7 @@ export const plants = [
   },
   {
     id: "strawburst",
+    source: "international",
     name: "草莓炸弹",
     nameEn: "Strawburst",
     sunCost: 400,
@@ -1639,6 +1725,7 @@ export const plants = [
   },
   {
     id: "cactus",
+    source: "international",
     name: "仙人掌",
     nameEn: "Cactus",
     sunCost: 175,
@@ -1658,6 +1745,7 @@ export const plants = [
   },
   {
     id: "electricblueberry",
+    source: "international",
     name: "电击蓝莓",
     nameEn: "Electric Blueberry",
     sunCost: 150,
@@ -1677,6 +1765,7 @@ export const plants = [
   },
   {
     id: "jackolantern",
+    source: "international",
     name: "南瓜灯笼",
     nameEn: "Jack O' Lantern",
     sunCost: 225,
@@ -1696,6 +1785,7 @@ export const plants = [
   },
   {
     id: "grapeshot",
+    source: "international",
     name: "葡萄弹",
     nameEn: "Grapeshot",
     sunCost: 150,
@@ -1715,6 +1805,7 @@ export const plants = [
   },
   {
     id: "coldsnapdragon",
+    source: "international",
     name: "冰火龙草",
     nameEn: "Cold Snapdragon",
     sunCost: 150,
@@ -1734,6 +1825,7 @@ export const plants = [
   },
   {
     id: "shrinkingviolet",
+    source: "international",
     name: "缩小紫罗兰",
     nameEn: "Shrinking Violet",
     sunCost: 50,
@@ -1753,6 +1845,7 @@ export const plants = [
   },
   {
     id: "escaperoot",
+    source: "international",
     name: "逃脱根",
     nameEn: "Escape Root",
     sunCost: 50,
@@ -1772,6 +1865,7 @@ export const plants = [
   },
   {
     id: "goldbloom",
+    source: "international",
     name: "金花",
     nameEn: "Gold Bloom",
     sunCost: 0,
@@ -1791,6 +1885,7 @@ export const plants = [
   },
   {
     id: "electriccurrant",
+    source: "international",
     name: "电击醋栗",
     nameEn: "Electric Currant",
     sunCost: 150,
@@ -1810,6 +1905,7 @@ export const plants = [
   },
   {
     id: "wasabiwhip",
+    source: "international",
     name: "芥末鞭",
     nameEn: "Wasabi Whip",
     sunCost: 150,
@@ -1829,6 +1925,7 @@ export const plants = [
   },
   {
     id: "kiwibeast",
+    source: "international",
     name: "猕猴桃兽",
     nameEn: "Kiwibeast",
     sunCost: 175,
@@ -1848,6 +1945,7 @@ export const plants = [
   },
   {
     id: "applemortar",
+    source: "international",
     name: "苹果迫击炮",
     nameEn: "Apple Mortar",
     sunCost: 250,
@@ -1867,6 +1965,7 @@ export const plants = [
   },
   {
     id: "witchhazel",
+    source: "international",
     name: "女巫榛子",
     nameEn: "Witch Hazel",
     sunCost: 200,
@@ -1886,6 +1985,7 @@ export const plants = [
   },
   {
     id: "parsnip",
+    source: "international",
     name: "欧洲萝卜",
     nameEn: "Parsnip",
     sunCost: 150,
@@ -1905,6 +2005,7 @@ export const plants = [
   },
   {
     id: "missiletoe",
+    source: "international",
     name: "导弹槲寄生",
     nameEn: "Missile Toe",
     sunCost: 500,
@@ -1924,6 +2025,7 @@ export const plants = [
   },
   {
     id: "caulipower",
+    source: "international",
     name: "花菜力",
     nameEn: "Caulipower",
     sunCost: 250,
@@ -1943,6 +2045,7 @@ export const plants = [
   },
   {
     id: "electricpeashooter",
+    source: "international",
     name: "电击豌豆射手",
     nameEn: "Electric Peashooter",
     sunCost: 200,
@@ -1962,6 +2065,7 @@ export const plants = [
   },
   {
     id: "hollybarrierleaf",
+    source: "international",
     name: "冬青屏障",
     nameEn: "Holly Barrier",
     sunCost: 150,
@@ -1981,6 +2085,7 @@ export const plants = [
   },
   {
     id: "torchwood",
+    source: "international",
     name: "火炬树桩",
     nameEn: "Torchwood",
     sunCost: 175,
@@ -2000,6 +2105,7 @@ export const plants = [
   },
   {
     id: "starfruit",
+    source: "international",
     name: "杨桃",
     nameEn: "Starfruit",
     sunCost: 150,
@@ -2019,6 +2125,7 @@ export const plants = [
   },
   {
     id: "dandelion",
+    source: "international",
     name: "蒲公英",
     nameEn: "Dandelion",
     sunCost: 275,
@@ -2038,6 +2145,7 @@ export const plants = [
   },
   {
     id: "bloominghearts",
+    source: "international",
     name: "绽放之心",
     nameEn: "Blooming Heart",
     sunCost: 150,
@@ -2057,6 +2165,7 @@ export const plants = [
   },
   {
     id: "explodeonut",
+    source: "international",
     name: "爆炸坚果",
     nameEn: "Explode-O-Nut",
     sunCost: 50,
@@ -2076,6 +2185,7 @@ export const plants = [
   },
   {
     id: "aloe",
+    source: "international",
     name: "芦荟",
     nameEn: "Aloe",
     sunCost: 75,
@@ -2095,6 +2205,7 @@ export const plants = [
   },
   {
     id: "bombegranate",
+    source: "international",
     name: "炸弹石榴",
     nameEn: "Bombegranate",
     sunCost: 150,
@@ -2114,6 +2225,7 @@ export const plants = [
   },
   {
     id: "hotdate",
+    source: "international",
     name: "热恋枣",
     nameEn: "Hot Date",
     sunCost: 175,
@@ -2133,6 +2245,7 @@ export const plants = [
   },
   {
     id: "solartomato",
+    source: "international",
     name: "太阳能番茄",
     nameEn: "Solar Tomato",
     sunCost: 100,
@@ -2152,6 +2265,7 @@ export const plants = [
   },
   {
     id: "shadowpeashooter",
+    source: "international",
     name: "暗影豌豆射手",
     nameEn: "Shadow Peashooter",
     sunCost: 125,
@@ -2171,6 +2285,7 @@ export const plants = [
   },
   {
     id: "poisonpeashooter",
+    source: "international",
     name: "粘液豌豆射手",
     nameEn: "Goo Peashooter",
     sunCost: 125,
@@ -2190,6 +2305,7 @@ export const plants = [
   },
   {
     id: "slingpea",
+    source: "international",
     name: "弹弓豌豆",
     nameEn: "Sling Pea",
     sunCost: 125,
@@ -2209,6 +2325,7 @@ export const plants = [
   },
   {
     id: "snappea",
+    source: "international",
     name: "咬咬豌豆",
     nameEn: "Snap Pea",
     sunCost: 200,
@@ -2228,6 +2345,7 @@ export const plants = [
   },
   {
     id: "zoybeanpod",
+    source: "international",
     name: "佐伊豆荚",
     nameEn: "Zoybean Pod",
     sunCost: 200,
@@ -2247,6 +2365,7 @@ export const plants = [
   },
   {
     id: "dazeychain",
+    source: "international",
     name: "雏菊链",
     nameEn: "Dazey Chain",
     sunCost: 150,
@@ -2266,6 +2385,7 @@ export const plants = [
   },
   {
     id: "electricitea",
+    source: "international",
     name: "电茶",
     nameEn: "Electrici-tea",
     sunCost: 125,
@@ -2285,6 +2405,7 @@ export const plants = [
   },
   {
     id: "blastberry",
+    source: "international",
     name: "爆炸莓藤",
     nameEn: "Blastberry Vine",
     sunCost: 175,
@@ -2304,6 +2425,7 @@ export const plants = [
   },
   {
     id: "pokra",
+    source: "international",
     name: "扑克草",
     nameEn: "Pokra",
     sunCost: 175,
@@ -2323,6 +2445,7 @@ export const plants = [
   },
   {
     id: "imppear",
+    source: "international",
     name: "小鬼梨",
     nameEn: "Imp Pear",
     sunCost: 0,
@@ -2342,6 +2465,7 @@ export const plants = [
   },
   {
     id: "pumpkin",
+    source: "international",
     name: "南瓜",
     nameEn: "Pumpkin",
     sunCost: 150,
@@ -2361,6 +2485,7 @@ export const plants = [
   },
   {
     id: "pyrevine",
+    source: "international",
     name: "火焰藤",
     nameEn: "Pyre Vine",
     sunCost: 125,
@@ -2380,6 +2505,7 @@ export const plants = [
   },
   {
     id: "icebloom",
+    source: "international",
     name: "冰花",
     nameEn: "Ice Bloom",
     sunCost: 200,
@@ -2399,6 +2525,7 @@ export const plants = [
   },
   {
     id: "dartichoke",
+    source: "international",
     name: "飞蓟",
     nameEn: "Dartichoke",
     sunCost: 225,
@@ -2418,6 +2545,7 @@ export const plants = [
   },
   {
     id: "ultomato",
+    source: "international",
     name: "终极番茄",
     nameEn: "Ultomato",
     sunCost: 250,
@@ -2437,6 +2565,7 @@ export const plants = [
   },
   {
     id: "gumnut",
+    source: "international",
     name: "胶果",
     nameEn: "Gumnut",
     sunCost: 125,
@@ -2456,6 +2585,7 @@ export const plants = [
   },
   {
     id: "shinevine",
+    source: "international",
     name: "闪耀藤",
     nameEn: "Shine Vine",
     sunCost: 75,
@@ -2475,6 +2605,7 @@ export const plants = [
   },
   {
     id: "tumbleweed",
+    source: "international",
     name: "风滚草",
     nameEn: "Tumbleweed",
     sunCost: 50,
@@ -2494,6 +2625,7 @@ export const plants = [
   },
   {
     id: "olivepit",
+    source: "international",
     name: "橄榄坑",
     nameEn: "Olive Pit",
     sunCost: 175,
@@ -2513,6 +2645,7 @@ export const plants = [
   },
   {
     id: "puffball",
+    source: "international",
     name: "马勃菌",
     nameEn: "Puffball",
     sunCost: 150,
@@ -2532,6 +2665,7 @@ export const plants = [
   },
   {
     id: "explodeovine",
+    source: "international",
     name: "爆炸藤",
     nameEn: "Explode-o-Vine",
     sunCost: 150,
@@ -2551,6 +2685,7 @@ export const plants = [
   },
   {
     id: "murkadamia",
+    source: "international",
     name: "暗影澳洲坚果",
     nameEn: "Murkadamia Nut",
     sunCost: 100,
@@ -2570,6 +2705,7 @@ export const plants = [
   },
   {
     id: "turkeypult",
+    source: "international",
     name: "火鸡投手",
     nameEn: "Turkey-pult",
     sunCost: 150,
@@ -2589,6 +2725,7 @@ export const plants = [
   },
   {
     id: "headbutter",
+    source: "international",
     name: "头槌生菜",
     nameEn: "Headbutter Lettuce",
     sunCost: 175,
@@ -2608,6 +2745,7 @@ export const plants = [
   },
   {
     id: "boingsetta",
+    source: "international",
     name: "弹跳一品红",
     nameEn: "Boingsetta",
     sunCost: 150,
@@ -2627,6 +2765,7 @@ export const plants = [
   },
   {
     id: "stickybombrice",
+    source: "international",
     name: "粘弹米",
     nameEn: "Stickybomb Rice",
     sunCost: 225,
@@ -2646,6 +2785,7 @@ export const plants = [
   },
   {
     id: "hocus",
+    source: "international",
     name: "魔法番红花",
     nameEn: "Hocus Crocus",
     sunCost: 200,
@@ -2665,6 +2805,7 @@ export const plants = [
   },
   {
     id: "gloomvine",
+    source: "international",
     name: "阴暗藤",
     nameEn: "Gloom Vine",
     sunCost: 125,
@@ -2684,6 +2825,7 @@ export const plants = [
   },
   {
     id: "draftodil",
+    source: "international",
     name: "风车花",
     nameEn: "Draftodil",
     sunCost: 100,
@@ -2703,6 +2845,7 @@ export const plants = [
   },
   {
     id: "boomflower",
+    source: "international",
     name: "爆炸气球花",
     nameEn: "Boom Balloon Flower",
     sunCost: 350,
@@ -2722,6 +2865,7 @@ export const plants = [
   },
   {
     id: "pvine",
+    source: "international",
     name: "豌豆藤",
     nameEn: "Pea Vine",
     sunCost: 125,
@@ -2741,6 +2885,7 @@ export const plants = [
   },
   {
     id: "inferno",
+    source: "international",
     name: "地狱火",
     nameEn: "Inferno",
     sunCost: 200,
@@ -2760,6 +2905,7 @@ export const plants = [
   },
   {
     id: "solarsage",
+    source: "international",
     name: "太阳贤者",
     nameEn: "Solar Sage",
     sunCost: 0,
@@ -2779,6 +2925,7 @@ export const plants = [
   },
   {
     id: "powervine",
+    source: "international",
     name: "能量藤",
     nameEn: "Power Vine",
     sunCost: 150,
@@ -2798,6 +2945,7 @@ export const plants = [
   },
   {
     id: "noctarine",
+    source: "international",
     name: "夜光桃",
     nameEn: "Noctarine",
     sunCost: 150,
@@ -2817,6 +2965,7 @@ export const plants = [
   },
   {
     id: "heathseeker",
+    source: "international",
     name: "石楠追踪者",
     nameEn: "Heath Seeker",
     sunCost: 125,
@@ -2836,6 +2985,7 @@ export const plants = [
   },
   {
     id: "iceweed",
+    source: "international",
     name: "冰地刺",
     nameEn: "Iceweed",
     sunCost: 150,
@@ -2855,6 +3005,7 @@ export const plants = [
   },
   {
     id: "tigergrass",
+    source: "international",
     name: "老虎草",
     nameEn: "Tiger Grass",
     sunCost: 150,
@@ -2874,6 +3025,7 @@ export const plants = [
   },
   {
     id: "teleportatomine",
+    source: "international",
     name: "传送土豆雷",
     nameEn: "Teleportato Mine",
     sunCost: 75,
@@ -2893,6 +3045,7 @@ export const plants = [
   },
   {
     id: "blockoli",
+    source: "international",
     name: "西兰墙",
     nameEn: "Blockoli",
     sunCost: 150,
@@ -2912,6 +3065,7 @@ export const plants = [
   },
   {
     id: "buttercup",
+    source: "international",
     name: "金盏花",
     nameEn: "Buttercup",
     sunCost: 25,
@@ -2931,6 +3085,7 @@ export const plants = [
   },
   {
     id: "bramblebush",
+    source: "international",
     name: "荆棘丛",
     nameEn: "Bramble Bush",
     sunCost: 125,
@@ -2950,6 +3105,7 @@ export const plants = [
   },
   {
     id: "rhubarbarian",
+    source: "international",
     name: "Rhubarbarian",
     nameEn: "Rhubarbarian",
     sunCost: 100,
@@ -2969,6 +3125,7 @@ export const plants = [
   },
   {
     id: "megagatling",
+    source: "international",
     name: "超级机枪豌豆",
     nameEn: "Mega Gatling Pea",
     sunCost: 400,
@@ -2988,6 +3145,7 @@ export const plants = [
   },
   {
     id: "levitater",
+    source: "international",
     name: "悬浮土豆",
     nameEn: "Levitater",
     sunCost: 50,
@@ -3007,6 +3165,7 @@ export const plants = [
   },
   {
     id: "tombtangler",
+    source: "international",
     name: "墓碑缠绕者",
     nameEn: "Tomb Tangler",
     sunCost: 25,
@@ -3026,6 +3185,7 @@ export const plants = [
   },
   {
     id: "vamporcini",
+    source: "international",
     name: "吸血蒜",
     nameEn: "Vamporcini",
     sunCost: 100,
@@ -3045,6 +3205,7 @@ export const plants = [
   },
   {
     id: "meteorflower",
+    source: "international",
     name: "流星花",
     nameEn: "Meteor Flower",
     sunCost: 250,
@@ -3064,6 +3225,7 @@ export const plants = [
   },
   {
     id: "chillypepper",
+    source: "international",
     name: "冰冷辣椒",
     nameEn: "Chilly Pepper",
     sunCost: 100,
@@ -3083,6 +3245,7 @@ export const plants = [
   },
   {
     id: "waterrabbit",
+    source: "international",
     name: "斑竹",
     nameEn: "Bun Chi",
     sunCost: 150,
@@ -3102,6 +3265,7 @@ export const plants = [
   },
   {
     id: "buzzbuttoon",
+    source: "international",
     name: "电击菇",
     nameEn: "Bzzz Button",
     sunCost: 50,
@@ -3121,6 +3285,7 @@ export const plants = [
   },
   {
     id: "boomberry",
+    source: "international",
     name: "爆炸莓",
     nameEn: "BoomBerry",
     sunCost: 225,
@@ -3140,6 +3305,7 @@ export const plants = [
   },
   {
     id: "seaflora",
+    source: "international",
     name: "海 flora",
     nameEn: "SeaFlora",
     sunCost: 175,
@@ -3159,6 +3325,7 @@ export const plants = [
   },
   {
     id: "maybee",
+    source: "international",
     name: "蜜蜂花",
     nameEn: "MayBee",
     sunCost: 300,
@@ -3178,6 +3345,7 @@ export const plants = [
   },
   {
     id: "scaredyshroom",
+    source: "international",
     name: "胆小菇",
     nameEn: "Scaredy-shroom",
     sunCost: 25,
@@ -3197,6 +3365,7 @@ export const plants = [
   },
   {
     id: "bamboospartan",
+    source: "international",
     name: "竹 Spartan",
     nameEn: "Bamboo Spartan",
     sunCost: 175,
@@ -3216,6 +3385,7 @@ export const plants = [
   },
   {
     id: "sundewtangler",
+    source: "international",
     name: "茅膏菜",
     nameEn: "Sundew Tangler",
     sunCost: 100,
@@ -3235,6 +3405,7 @@ export const plants = [
   },
   {
     id: "beansprout",
+    source: "international",
     name: "豆芽",
     nameEn: "Bean Sprout",
     sunCost: 75,
@@ -3254,6 +3425,7 @@ export const plants = [
   },
   {
     id: "nightcap",
+    source: "international",
     name: "夜帽菇",
     nameEn: "Nightcap",
     sunCost: 300,
@@ -3273,6 +3445,7 @@ export const plants = [
   },
   {
     id: "cranjelly",
+    source: "international",
     name: "蔓越莓果冻",
     nameEn: "Cran Jelly",
     sunCost: 75,
@@ -3292,6 +3465,7 @@ export const plants = [
   },
   {
     id: "buduhboom",
+    source: "international",
     name: "花蕾炸弹",
     nameEn: "Bud'uh Boom",
     sunCost: 100,
@@ -3311,6 +3485,7 @@ export const plants = [
   },
   {
     id: "iceshroom",
+    source: "international",
     name: "冰菇",
     nameEn: "Ice-shroom",
     sunCost: 175,
@@ -3330,6 +3505,7 @@ export const plants = [
   },
   {
     id: "dragonbruit",
+    source: "international",
     name: "龙果",
     nameEn: "Dragon Bruit",
     sunCost: 200,
@@ -3349,6 +3525,7 @@ export const plants = [
   },
   {
     id: "electricpeel",
+    source: "international",
     name: "电击皮",
     nameEn: "Electric Peel",
     sunCost: 125,
@@ -3368,6 +3545,7 @@ export const plants = [
   },
   {
     id: "seashroom",
+    source: "international",
     name: "海蘑菇",
     nameEn: "Sea-shroom",
     sunCost: 0,
@@ -3387,6 +3565,7 @@ export const plants = [
   },
   {
     id: "guardshroom",
+    source: "international",
     name: "守卫菇",
     nameEn: "Guard-shroom",
     sunCost: 200,
@@ -3406,6 +3585,7 @@ export const plants = [
   },
   {
     id: "aquavine",
+    source: "international",
     name: "水藤",
     nameEn: "Aqua Vine",
     sunCost: 125,
@@ -3425,6 +3605,7 @@ export const plants = [
   },
   {
     id: "mangofier",
+    source: "international",
     name: "芒果发射器",
     nameEn: "Mangofier",
     sunCost: 150,
@@ -3444,6 +3625,7 @@ export const plants = [
   },
   {
     id: "blastspinner",
+    source: "international",
     name: "爆炸旋转者",
     nameEn: "Blast Spinner",
     sunCost: 150,
@@ -3463,6 +3645,7 @@ export const plants = [
   },
   {
     id: "doomshroom",
+    source: "international",
     name: "毁灭菇",
     nameEn: "Doom-shroom",
     sunCost: 175,
@@ -3482,6 +3665,7 @@ export const plants = [
   },
   {
     id: "blazeleaf",
+    source: "international",
     name: "烈焰叶",
     nameEn: "Blaze Leaf",
     sunCost: 175,
@@ -3501,6 +3685,7 @@ export const plants = [
   },
   {
     id: "frostbonnet",
+    source: "international",
     name: "霜冻帽",
     nameEn: "Frost Bonnet",
     sunCost: 175,
@@ -3520,6 +3705,7 @@ export const plants = [
   },
   {
     id: "znakelily",
+    source: "international",
     name: "蛇百合",
     nameEn: "Znake Lily",
     sunCost: 200,
@@ -3539,6 +3725,7 @@ export const plants = [
   },
   {
     id: "sweetheartsnare",
+    source: "international",
     name: "甜心陷阱",
     nameEn: "Sweetheart Snare",
     sunCost: 175,
@@ -3558,6 +3745,7 @@ export const plants = [
   },
   {
     id: "hammeruit",
+    source: "international",
     name: "锤子草",
     nameEn: "Hammeruit",
     sunCost: 200,
@@ -3577,6 +3765,7 @@ export const plants = [
   },
   {
     id: "seashooter",
+    source: "international",
     name: "海豌豆",
     nameEn: "Seashooter",
     sunCost: 300,
@@ -3596,6 +3785,7 @@ export const plants = [
   },
   {
     id: "cornfetti",
+    source: "international",
     name: "玉米彩花",
     nameEn: "Corn-fetti Popper",
     sunCost: 175,
@@ -3615,6 +3805,7 @@ export const plants = [
   },
   {
     id: "devourbloom",
+    source: "international",
     name: "吞噬花",
     nameEn: "Devour Bloom",
     sunCost: 125,
@@ -3634,6 +3825,7 @@ export const plants = [
   },
   {
     id: "sourshot",
+    source: "international",
     name: "酸射",
     nameEn: "Sour Shot",
     sunCost: 200,
@@ -3653,6 +3845,7 @@ export const plants = [
   },
   {
     id: "brainstem",
+    source: "international",
     name: "脑茎",
     nameEn: "Brain Stem",
     sunCost: 120,
@@ -3672,6 +3865,7 @@ export const plants = [
   },
   {
     id: "lemonaid",
+    source: "international",
     name: "柠檬水",
     nameEn: "Lemonaid",
     sunCost: 150,
@@ -3691,6 +3885,7 @@ export const plants = [
   },
   {
     id: "rose",
+    source: "international",
     name: "玫瑰",
     nameEn: "Rose",
     sunCost: 170,
@@ -3710,6 +3905,7 @@ export const plants = [
   },
   {
     id: "blazingknight",
+    source: "international",
     name: "烈焰骑士",
     nameEn: "Blazing Knight",
     sunCost: 300,
@@ -3729,6 +3925,7 @@ export const plants = [
   },
   {
     id: "Sakura",
+    source: "international",
     name: "樱花",
     nameEn: "Sakura",
     sunCost: 175,
@@ -3748,6 +3945,7 @@ export const plants = [
   },
   {
     id: "voltsnapdragon",
+    source: "international",
     name: "电击火龙草",
     nameEn: "Volt Snapdragon",
     sunCost: 200,
@@ -3767,6 +3965,7 @@ export const plants = [
   },
   {
     id: "thornwhip",
+    source: "international",
     name: "荆棘鞭",
     nameEn: "Thorn Whip",
     sunCost: 175,
@@ -3786,6 +3985,7 @@ export const plants = [
   },
   {
     id: "filamint",
+    source: "international",
     name: "电荷薄荷",
     nameEn: "Fila-mint",
     sunCost: 0,
@@ -3805,6 +4005,7 @@ export const plants = [
   },
   {
     id: "peppermint",
+    source: "international",
     name: "辣椒薄荷",
     nameEn: "Pepper-mint",
     sunCost: 0,
@@ -3824,6 +4025,7 @@ export const plants = [
   },
   {
     id: "wintermint",
+    source: "international",
     name: "冬季薄荷",
     nameEn: "Winter-mint",
     sunCost: 0,
@@ -3843,6 +4045,7 @@ export const plants = [
   },
   {
     id: "enlightenmint",
+    source: "international",
     name: "启发薄荷",
     nameEn: "Enlighten-mint",
     sunCost: 0,
@@ -3862,6 +4065,7 @@ export const plants = [
   },
   {
     id: "reinforcemint",
+    source: "international",
     name: "强化薄荷",
     nameEn: "Reinforce-mint",
     sunCost: 0,
@@ -3881,6 +4085,7 @@ export const plants = [
   },
   {
     id: "bombardmint",
+    source: "international",
     name: "轰炸薄荷",
     nameEn: "Bombard-mint",
     sunCost: 0,
@@ -3900,6 +4105,7 @@ export const plants = [
   },
   {
     id: "ailmint",
+    source: "international",
     name: " ail薄荷",
     nameEn: "Ail-mint",
     sunCost: 0,
@@ -3919,6 +4125,7 @@ export const plants = [
   },
   {
     id: "enchantmint",
+    source: "international",
     name: "魅惑薄荷",
     nameEn: "Enchant-mint",
     sunCost: 0,
@@ -3938,6 +4145,7 @@ export const plants = [
   },
   {
     id: "containmint",
+    source: "international",
     name: "限制薄荷",
     nameEn: "Contain-mint",
     sunCost: 0,
@@ -3957,6 +4165,7 @@ export const plants = [
   },
   {
     id: "enforcemint",
+    source: "international",
     name: "执行薄荷",
     nameEn: "Enforce-mint",
     sunCost: 0,
@@ -3976,6 +4185,7 @@ export const plants = [
   },
   {
     id: "armamint",
+    source: "international",
     name: "武装薄荷",
     nameEn: "Arma-mint",
     sunCost: 0,
@@ -3995,6 +4205,7 @@ export const plants = [
   },
   {
     id: "concealmint",
+    source: "international",
     name: "隐蔽薄荷",
     nameEn: "Conceal-mint",
     sunCost: 0,
@@ -4014,6 +4225,7 @@ export const plants = [
   },
   {
     id: "spearmint",
+    source: "international",
     name: "长矛薄荷",
     nameEn: "Spear-mint",
     sunCost: 0,
@@ -4033,6 +4245,7 @@ export const plants = [
   },
   {
     id: "appeasemint",
+    source: "international",
     name: "安抚薄荷",
     nameEn: "Appease-mint",
     sunCost: 0,
