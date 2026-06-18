@@ -53,6 +53,16 @@
   border-radius: var(--radius-md);
   transition: var(--transition);
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.navIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 .navLink:hover {

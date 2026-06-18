@@ -25,7 +25,8 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              🌿 PvZ 1
+              <img src="/images/plants/peashooter.png" alt="PvZ 1" className={styles.navIcon} />
+              PvZ 1
             </NavLink>
             <NavLink
               to="/pvz2/plants"
@@ -33,7 +34,8 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              🧟 PvZ 2
+              <img src="/images/pvz2/plants/peashooter.png" alt="PvZ 2" className={styles.navIcon} />
+              PvZ 2
             </NavLink>
           </nav>
         </div>
