@@ -564,7 +564,25 @@ export const worlds = [
     description: "这是1673年，一个少林功夫世界。功夫植物对战功夫僵尸，你准备好了吗？太极瓷砖能提供额外植物_food，武器架则是独特的战场障碍。",
     unlockCondition: "收集星星或使用58颗钻石",
     plantIds: ["resistant_radish", "fire_gourd", "heavenly_peach", "bamboo_shoot"],
-    zombieIds: [],
+    zombieIds: [
+      "hammer_zombie",
+      "torch_kongfu_zombie",
+      "gong_zombie",
+      "exploding_zombie",
+      "qigong_zombie",
+      "drinking_zombie",
+      "swordsman_zombie",
+      "imp_monk",
+      "nunchaku_zombie",
+      "han_bronze",
+      "knight_bronze",
+      "qigong_bronze",
+      "gunpowder_devil",
+      "blade_wielding_hero",
+      "qigong_master",
+      "drinking_monk_zombie",
+      "torch_monk_zombie"
+    ],
     levels: 25,
     specialMechanic: "太极瓷砖和武器架",
     image: "/images/pvz2/worlds/kongfu_world.png"
@@ -577,7 +595,15 @@ export const worlds = [
     description: "这是广阔无尽的天空，云层中满是危险的雷电。僵尸们驾驶着各种危险的武器，你将遇到前所未有的挑战。当心不要被击落！",
     unlockCondition: "收集星星或使用58颗钻石",
     plantIds: ["loquat", "asparagus", "saucer", "horsebean", "groundcherry", "anthurium", "pineapple"],
-    zombieIds: [],
+    zombieIds: [
+      "zombie_fighter",
+      "double_cabin_aircraft_zombie",
+      "lightning_gun_zombie",
+      "missile_zombie",
+      "arbiter_x",
+      "flying_gargantuar",
+      "zombot_vulture_fighter"
+    ],
     levels: 25,
     specialMechanic: "飞船战斗和雷电充能机制",
     image: "/images/pvz2/worlds/sky_city.png"
@@ -590,7 +616,13 @@ export const worlds = [
     description: "工业革命时期的街道充烟雾，僵尸们准备伺机而动。利用下水道地形挫败僵尸们的阴谋，你准备好了吗？",
     unlockCondition: "收集星星或使用58颗钻石",
     plantIds: ["flat_shroom", "lotus_shooter", "maypop_mechanic", "fanilla", "mulberry_blaster"],
-    zombieIds: [],
+    zombieIds: [
+      "coal_miner_zombie",
+      "gentleman_zombie",
+      "furnace_zombie",
+      "foreman_gargantuar",
+      "steam_zombot"
+    ],
     levels: 24,
     specialMechanic: "蒸汽下水道和运输下水道",
     image: "/images/pvz2/worlds/steam_age.png"
@@ -603,7 +635,18 @@ export const worlds = [
     description: "文艺复兴时期，精通艺术的僵尸们准备全面进攻，利用昼夜交替和机关地形破解谜题，你准备好了吗？",
     unlockCondition: "收集星星或使用58颗钻石",
     plantIds: ["rose_swordfighter", "bearberry_mortar", "wax_gourd_guard", "oily_olive"],
-    zombieIds: [],
+    zombieIds: [
+      "sculptor_imp_zombie",
+      "aristocrat_gargantuar",
+      "perfume_zombie",
+      "ballerina_zombie",
+      "glider_zombie",
+      "hamlet_zombie",
+      "shylock_zombie",
+      "romeo_zombie",
+      "juliet_zombie",
+      "zombot_troupe_manipulator"
+    ],
     levels: 25,
     specialMechanic: "维特鲁威轮、昼夜交替、大理石堆和雕像",
     image: "/images/pvz2/worlds/renaissance_age.png"
@@ -616,7 +659,14 @@ export const worlds = [
     description: "前往平安时代的日本，和武士僵尸一决高下，巧妙运用神社前的赛钱箱扭转战局吧，你准备好了吗？",
     unlockCondition: "收集星星或使用58颗钻石",
     plantIds: ["dripping_diphylleia", "dendrobium_windbreak", "stephania", "tupistra_stalker", "chef_cypripedium", "boophone_geigi"],
-    zombieIds: [],
+    zombieIds: [
+      "shogun_gargantuar",
+      "firework_zombie",
+      "ninjimp",
+      "onmyoji_zombie",
+      "sushi_chef_zombie",
+      "mino_zombie"
+    ],
     levels: 24,
     specialMechanic: "赛钱箱和神风机制",
     image: "/images/pvz2/worlds/heian_age.png"
