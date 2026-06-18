@@ -84,3 +84,16 @@
 .resetBtn:hover {
   background: #C0392B;
 }
+
+@media (max-width: 640px) {
+  .panel {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .group {
+    min-width: 100%;
+  }
+  .options {
+    flex-wrap: wrap;
+  }
+}
