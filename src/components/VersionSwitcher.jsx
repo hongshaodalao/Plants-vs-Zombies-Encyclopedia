@@ -22,7 +22,7 @@ function VersionSwitcher() {
         </div>
       </Link>
 
-      <Link to="/pvz2" className={`${styles.versionCard} ${styles.versionCardPvz2}`}>
+      <Link to="/pvz2/plants" className={`${styles.versionCard} ${styles.versionCardPvz2}`}>
         <div className={styles.versionIcon}>
           <img src="/images/pvz2/plants/peashooter.png" alt="PvZ 2 豌豆射手" className={styles.versionImg} />
         </div>
