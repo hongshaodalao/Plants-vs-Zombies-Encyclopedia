@@ -554,5 +554,71 @@ export const worlds = [
     levels: 45,
     specialMechanic: "混合世界僵尸和暗影机制",
     image: "/images/pvz2/worlds/modern_day.png"
+  },
+  // ===== 中国版独占世界 =====
+  {
+    id: "kongfu_world",
+    source: "china",
+    name: "功夫世界",
+    nameEn: "Kongfu World",
+    description: "这是1673年，一个少林功夫世界。功夫植物对战功夫僵尸，你准备好了吗？太极瓷砖能提供额外植物_food，武器架则是独特的战场障碍。",
+    unlockCondition: "收集星星或使用58颗钻石",
+    plantIds: [],
+    zombieIds: [],
+    levels: 25,
+    specialMechanic: "太极瓷砖和武器架",
+    image: "/images/pvz2/worlds/kongfu_world.png"
+  },
+  {
+    id: "sky_city",
+    source: "china",
+    name: "天空之城",
+    nameEn: "Sky City",
+    description: "这是广阔无尽的天空，云层中满是危险的雷电。僵尸们驾驶着各种危险的武器，你将遇到前所未有的挑战。当心不要被击落！",
+    unlockCondition: "收集星星或使用58颗钻石",
+    plantIds: [],
+    zombieIds: [],
+    levels: 25,
+    specialMechanic: "飞船战斗和雷电充能机制",
+    image: "/images/pvz2/worlds/sky_city.png"
+  },
+  {
+    id: "steam_age",
+    source: "china",
+    name: "蒸汽时代",
+    nameEn: "Steam Age",
+    description: "工业革命时期的街道充烟雾，僵尸们准备伺机而动。利用下水道地形挫败僵尸们的阴谋，你准备好了吗？",
+    unlockCondition: "收集星星或使用58颗钻石",
+    plantIds: [],
+    zombieIds: [],
+    levels: 24,
+    specialMechanic: "蒸汽下水道和运输下水道",
+    image: "/images/pvz2/worlds/steam_age.png"
+  },
+  {
+    id: "renaissance_age",
+    source: "china",
+    name: "复兴时代",
+    nameEn: "Renaissance Age",
+    description: "文艺复兴时期，精通艺术的僵尸们准备全面进攻，利用昼夜交替和机关地形破解谜题，你准备好了吗？",
+    unlockCondition: "收集星星或使用58颗钻石",
+    plantIds: [],
+    zombieIds: [],
+    levels: 25,
+    specialMechanic: "维特鲁威轮、昼夜交替、大理石堆和雕像",
+    image: "/images/pvz2/worlds/renaissance_age.png"
+  },
+  {
+    id: "heian_age",
+    source: "china",
+    name: "平安时代",
+    nameEn: "Heian Age",
+    description: "前往平安时代的日本，和武士僵尸一决高下，巧妙运用神社前的赛钱箱扭转战局吧，你准备好了吗？",
+    unlockCondition: "收集星星或使用58颗钻石",
+    plantIds: [],
+    zombieIds: [],
+    levels: 24,
+    specialMechanic: "赛钱箱和神风机制",
+    image: "/images/pvz2/worlds/heian_age.png"
   }
 ]
