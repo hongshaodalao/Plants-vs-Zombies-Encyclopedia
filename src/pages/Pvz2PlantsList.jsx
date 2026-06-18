@@ -17,6 +17,7 @@ function Pvz2PlantsList() {
   const [filters, setFilters] = useState({
     worlds: [],
     categories: [],
+    sources: [],
     sunCostRange: '',
     sort: 'default'
   })
@@ -42,6 +43,11 @@ function Pvz2PlantsList() {
     // Filter by category
     if (filters.categories && filters.categories.length > 0) {
       result = result.filter(p => filters.categories.includes(p.category))
+    }
+
+    // Filter by source
+    if (filters.sources && filters.sources.length > 0) {
+      result = result.filter(p => filters.sources.includes(p.source))
     }
 
     // Filter by sun cost range

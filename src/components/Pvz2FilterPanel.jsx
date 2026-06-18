@@ -40,6 +40,11 @@ function Pvz2FilterPanel({ filters, onFilterChange, type = 'plant' }) {
     { value: '200+', label: '200+' }
   ]
 
+  const sourceOptions = [
+    { value: 'international', label: '国际版' },
+    { value: 'china', label: '中国版' }
+  ]
+
   const speedOptions = [
     { value: 'slow', label: '慢速' },
     { value: 'medium', label: '中速' },
@@ -74,6 +79,14 @@ function Pvz2FilterPanel({ filters, onFilterChange, type = 'plant' }) {
     onFilterChange({ ...filters, worlds: next })
   }
 
+  const toggleSource = (value) => {
+    const current = filters.sources || []
+    const next = current.includes(value)
+      ? current.filter(v => v !== value)
+      : [...current, value]
+    onFilterChange({ ...filters, sources: next })
+  }
+
   const toggleCategory = (value) => {
     const current = filters.categories || []
     const next = current.includes(value)
@@ -94,6 +107,7 @@ function Pvz2FilterPanel({ filters, onFilterChange, type = 'plant' }) {
     onFilterChange({
       worlds: [],
       categories: [],
+      sources: [],
       sunCostRange: '',
       speed: '',
       sort: 'default'
@@ -118,6 +132,28 @@ function Pvz2FilterPanel({ filters, onFilterChange, type = 'plant' }) {
                   onChange={() => toggleCategory(cat.value)}
                 />
                 {cat.label}
+              </label>
+            )
+          })}
+        </div>
+      </div>
+
+      <div className={styles.group}>
+        <span className={styles.label}>来源</span>
+        <div className={styles.options}>
+          {sourceOptions.map(src => {
+            const active = (filters.sources || []).includes(src.value)
+            return (
+              <label
+                key={src.value}
+                className={`${styles.checkbox} ${active ? styles.checkboxActive : ''}`}
+              >
+                <input
+                  type="checkbox"
+                  checked={active}
+                  onChange={() => toggleSource(src.value)}
+                />
+                {src.label}
               </label>
             )
           })}

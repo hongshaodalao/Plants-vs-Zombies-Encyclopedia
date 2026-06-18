@@ -17,6 +17,7 @@ function Pvz2ZombiesList() {
   const [filters, setFilters] = useState({
     worlds: [],
     categories: [],
+    sources: [],
     speed: '',
     sort: 'default'
   })
@@ -42,6 +43,11 @@ function Pvz2ZombiesList() {
     // 按分类筛选
     if (filters.categories && filters.categories.length > 0) {
       result = result.filter(z => filters.categories.includes(z.category))
+    }
+
+    // 按来源筛选
+    if (filters.sources && filters.sources.length > 0) {
+      result = result.filter(z => filters.sources.includes(z.source))
     }
 
     // 按速度筛选
