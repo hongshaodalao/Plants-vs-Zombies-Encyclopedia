@@ -92,6 +92,20 @@
   color: var(--color-text-primary);
 }
 
+.sourceTag {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  margin-top: var(--space-xs);
+}
+
+.sourceChina {
+  background: var(--color-zombie);
+  color: var(--color-text-light);
+}
+
 @media (max-width: 480px) {
   .card {
     padding: var(--space-sm);

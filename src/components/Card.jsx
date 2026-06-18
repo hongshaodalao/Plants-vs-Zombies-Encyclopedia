@@ -47,6 +47,9 @@ function Card({ data, type, gameVersion = 'pvz1' }) {
       {isPvz2 && data.world && (
         <span className={styles.worldLabel}>{worldNames[data.world] || data.world}</span>
       )}
+      {data.source === 'china' && (
+        <span className={`${styles.sourceTag} ${styles.sourceChina}`}>中国版</span>
+      )}
       <div className={styles.stats}>
         {isPlant ? (
           <>
