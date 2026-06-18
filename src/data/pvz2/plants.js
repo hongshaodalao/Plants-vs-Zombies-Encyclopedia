@@ -1961,7 +1961,7 @@ export const plants = [
     image: "/images/pvz2/plants/electricpeashooter.png",
   },
   {
-    id: "hollyknight<br>hollybarrierleaf<br>hollybarrierleafplantfood",
+    id: "hollybarrierleaf",
     name: "冬青屏障",
     nameEn: "Holly Barrier",
     sunCost: 150,
@@ -1977,7 +1977,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冬青屏障对攻击它的僵尸造成伤害，可发射3片带刺屏障叶击退并伤害僵尸。",
-    image: "/images/pvz2/plants/hollyknight<br>hollybarrierleaf<br>hollybarrierleafplantfood.png",
+    image: "/images/pvz2/plants/hollybarrierleaf.png",
   },
   {
     id: "torchwood",
@@ -3329,7 +3329,7 @@ export const plants = [
     image: "/images/pvz2/plants/iceshroom.png",
   },
   {
-    id: "dragonbruit<br>dragonbabybruit",
+    id: "dragonbruit",
     name: "龙果",
     nameEn: "Dragon Bruit",
     sunCost: 200,
@@ -3345,7 +3345,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向3条相邻道的僵尸发射3颗爆炸种荚弹射物。被摧毁时，龙果会分裂成3棵更小的植物。",
-    image: "/images/pvz2/plants/dragonbruit<br>dragonbabybruit.png",
+    image: "/images/pvz2/plants/dragonbruit.png",
   },
   {
     id: "electricpeel",
@@ -3386,7 +3386,7 @@ export const plants = [
     image: "/images/pvz2/plants/seashroom.png",
   },
   {
-    id: "guardshroom<br>minishroom",
+    id: "guardshroom",
     name: "守卫菇",
     nameEn: "Guard-shroom",
     sunCost: 200,
@@ -3402,7 +3402,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖蘑菇，生成迷你版本来守护相邻植物。这些迷你菇可以吞噬僵尸，并显著增强它们共享格子的蘑菇和其他植物...",
-    image: "/images/pvz2/plants/guardshroom<br>minishroom.png",
+    image: "/images/pvz2/plants/guardshroom.png",
   },
   {
     id: "aquavine",
