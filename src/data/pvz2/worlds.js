@@ -34,7 +34,7 @@ export const worlds = [
     ],
     levels: 35,
     specialMechanic: "沙尘暴和墓碑",
-    image: "images/pvz2/worlds/ancient_egypt.png"
+    image: "/images/pvz2/worlds/ancient_egypt.png"
   },
   {
     id: "pirate_seas",
@@ -69,7 +69,7 @@ export const worlds = [
     ],
     levels: 35,
     specialMechanic: "木板桥和水域",
-    image: "images/pvz2/worlds/pirate_seas.png"
+    image: "/images/pvz2/worlds/pirate_seas.png"
   },
   {
     id: "wild_west",
@@ -103,7 +103,7 @@ export const worlds = [
     ],
     levels: 35,
     specialMechanic: "矿车轨道",
-    image: "images/pvz2/worlds/wild_west.png"
+    image: "/images/pvz2/worlds/wild_west.png"
   },
   {
     id: "far_future",
@@ -137,7 +137,7 @@ export const worlds = [
     ],
     levels: 35,
     specialMechanic: "能量瓷砖",
-    image: "images/pvz2/worlds/far_future.png"
+    image: "/images/pvz2/worlds/far_future.png"
   },
   {
     id: "dark_ages",
@@ -167,7 +167,7 @@ export const worlds = [
     ],
     levels: 20,
     specialMechanic: "夜晚关卡和墓碑",
-    image: "images/pvz2/worlds/dark_ages.png"
+    image: "/images/pvz2/worlds/dark_ages.png"
   },
   {
     id: "big_wave_beach",
@@ -199,7 +199,7 @@ export const worlds = [
     ],
     levels: 32,
     specialMechanic: "水位线变化",
-    image: "images/pvz2/worlds/big_wave_beach.png"
+    image: "/images/pvz2/worlds/big_wave_beach.png"
   },
   {
     id: "frostbite_caves",
@@ -230,7 +230,7 @@ export const worlds = [
     ],
     levels: 30,
     specialMechanic: "冰冻和解冻机制",
-    image: "images/pvz2/worlds/frostbite_caves.png"
+    image: "/images/pvz2/worlds/frostbite_caves.png"
   },
   {
     id: "lost_city",
@@ -262,7 +262,7 @@ export const worlds = [
     ],
     levels: 32,
     specialMechanic: "金砖和阳光陷阱",
-    image: "images/pvz2/worlds/lost_city.png"
+    image: "/images/pvz2/worlds/lost_city.png"
   },
   {
     id: "neon_mixtape_tour",
@@ -295,7 +295,7 @@ export const worlds = [
     ],
     levels: 32,
     specialMechanic: "音乐风格切换",
-    image: "images/pvz2/worlds/neon_mixtape_tour.png"
+    image: "/images/pvz2/worlds/neon_mixtape_tour.png"
   },
   {
     id: "jurassic_marsh",
@@ -324,7 +324,7 @@ export const worlds = [
     ],
     levels: 42,
     specialMechanic: "恐龙冲击",
-    image: "images/pvz2/worlds/jurassic_marsh.png"
+    image: "/images/pvz2/worlds/jurassic_marsh.png"
   },
   {
     id: "modern_day",
@@ -542,6 +542,6 @@ export const worlds = [
     ],
     levels: 45,
     specialMechanic: "混合世界僵尸和暗影机制",
-    image: "images/pvz2/worlds/modern_day.png"
+    image: "/images/pvz2/worlds/modern_day.png"
   }
 ]
