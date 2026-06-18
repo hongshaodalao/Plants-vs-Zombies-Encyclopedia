@@ -196,3 +196,15 @@
   .image { max-width: 200px; }
   .title { font-size: var(--font-size-xl); }
 }
+
+@media (max-width: 480px) {
+  .detail {
+    padding: var(--space-md);
+  }
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

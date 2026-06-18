@@ -165,3 +165,23 @@
   .image { max-width: 200px; }
   .title { font-size: var(--font-size-xl); }
 }
+
+@media (max-width: 480px) {
+  .detail {
+    padding: var(--space-md);
+    gap: var(--space-md);
+  }
+  .image {
+    max-width: 150px;
+  }
+  .title {
+    font-size: var(--font-size-xl);
+  }
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .navigation {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+}

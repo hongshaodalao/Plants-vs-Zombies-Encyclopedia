@@ -5,6 +5,17 @@
   margin-top: var(--space-xl);
 }
 
+@media (max-width: 480px) {
+  .switcher {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  .versionImg {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .versionCard {
   background: var(--color-bg-card);
   border: 3px solid var(--color-dirt);
