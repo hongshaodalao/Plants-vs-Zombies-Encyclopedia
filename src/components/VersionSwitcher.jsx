@@ -31,15 +31,15 @@ function VersionSwitcher() {
         <p className={styles.versionYear}>2013 年</p>
         <div className={styles.versionStats}>
           <div className={styles.statItem}>
-            <span className={styles.statValue}>200+</span>
+            <span className={styles.statValue}>239</span>
             <span>植物</span>
           </div>
           <div className={styles.statItem}>
-            <span className={styles.statValue}>100+</span>
+            <span className={styles.statValue}>234</span>
             <span>僵尸</span>
           </div>
           <div className={styles.statItem}>
-            <span className={styles.statValue}>11</span>
+            <span className={styles.statValue}>16</span>
             <span>世界</span>
           </div>
         </div>
