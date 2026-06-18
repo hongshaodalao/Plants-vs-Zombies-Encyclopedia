@@ -41,6 +41,16 @@ ul {
   list-style: none;
 }
 
+@media (max-width: 480px) {
+  :root {
+    --font-size-2xl: 1.25rem;
+    --font-size-xl: 1.125rem;
+    --font-size-lg: 1rem;
+    --space-xl: 1.5rem;
+    --space-lg: 1rem;
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     --font-size-2xl: 1.5rem;

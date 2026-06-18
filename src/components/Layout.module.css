@@ -31,6 +31,10 @@
   gap: var(--space-sm);
 }
 
+.logoText {
+  display: inline;
+}
+
 .logoIcon {
   font-size: 2rem;
   animation: rotate 8s linear infinite;
@@ -94,5 +98,7 @@
   .navbar { padding: var(--space-md); }
   .main { padding: var(--space-md); }
   .logo { font-size: var(--font-size-lg); }
-  .navLink { padding: var(--space-xs) var(--space-sm); }
+  .logoText { display: none; }
+  .navLink { padding: var(--space-xs) var(--space-sm); font-size: var(--font-size-sm); }
+  .navIcon { width: 20px; height: 20px; }
 }

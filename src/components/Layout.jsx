@@ -8,7 +8,7 @@ function Layout() {
         <div className={styles.navbarInner}>
           <NavLink to="/" className={styles.logo}>
             <span className={styles.logoIcon}>🌻</span>
-            <span>植物大战僵尸百科全书</span>
+            <span className={styles.logoText}>植物大战僵尸百科全书</span>
           </NavLink>
           <nav className={styles.navLinks}>
             <NavLink
