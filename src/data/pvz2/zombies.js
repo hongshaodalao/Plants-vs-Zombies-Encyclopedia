@@ -16,7 +16,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/basic_zombie.png"
+    image: "images/pvz2/zombies/basic_zombie.png"
   },
   {
     id: "conehead_zombie",
@@ -31,7 +31,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_zombie.png"
+    image: "images/pvz2/zombies/conehead_zombie.png"
   },
   {
     id: "buckethead_zombie",
@@ -46,7 +46,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_zombie.png"
+    image: "images/pvz2/zombies/buckethead_zombie.png"
   },
   {
     id: "mummy_zombie",
@@ -61,7 +61,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/mummy_zombie.png"
+    image: "images/pvz2/zombies/mummy_zombie.png"
   },
   {
     id: "conehead_mummy",
@@ -76,7 +76,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_mummy.png"
+    image: "images/pvz2/zombies/conehead_mummy.png"
   },
   {
     id: "buckethead_mummy",
@@ -91,7 +91,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_mummy.png"
+    image: "images/pvz2/zombies/buckethead_mummy.png"
   },
   {
     id: "brickhead_zombie",
@@ -106,7 +106,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/brickhead_zombie.png"
+    image: "images/pvz2/zombies/brickhead_zombie.png"
   },
   {
     id: "flag_mummy_zombie",
@@ -121,7 +121,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/flag_mummy_zombie.png"
+    image: "images/pvz2/zombies/flag_mummy_zombie.png"
   },
   {
     id: "rally_zombie",
@@ -136,7 +136,7 @@ export const zombies = [
     weakness: null,
     special: "在更大的僵尸潮来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/rally_zombie.png"
+    image: "images/pvz2/zombies/rally_zombie.png"
   },
   {
     id: "ra_zombie",
@@ -151,7 +151,7 @@ export const zombies = [
     weakness: null,
     special: "试图偷取阳光。",
     description: null,
-    image: "/images/pvz2/zombies/ra_zombie.png"
+    image: "images/pvz2/zombies/ra_zombie.png"
   },
   {
     id: "camel_zombies",
@@ -166,7 +166,7 @@ export const zombies = [
     weakness: null,
     special: "以三只或以上僵尸群组形式出现。",
     description: null,
-    image: "/images/pvz2/zombies/camel_zombies.png"
+    image: "images/pvz2/zombies/camel_zombies.png"
   },
   {
     id: "explorer_zombie",
@@ -181,7 +181,7 @@ export const zombies = [
     weakness: "寒冰攻击可熄灭火炬",
     special: "火炬点燃后接触植物即刻将其摧毁。",
     description: null,
-    image: "/images/pvz2/zombies/explorer_zombie.png"
+    image: "images/pvz2/zombies/explorer_zombie.png"
   },
   {
     id: "torchlight_zombie",
@@ -196,7 +196,7 @@ export const zombies = [
     weakness: "寒冰攻击可熄灭火炬",
     special: "火炬点燃后接触植物即刻将其摧毁。",
     description: null,
-    image: "/images/pvz2/zombies/torchlight_zombie.png"
+    image: "images/pvz2/zombies/torchlight_zombie.png"
   },
   {
     id: "tomb_raiser_zombie",
@@ -211,7 +211,7 @@ export const zombies = [
     weakness: "尽快摧毁墓碑",
     special: "在草坪的随机格子上生成墓碑。",
     description: null,
-    image: "/images/pvz2/zombies/tomb_raiser_zombie.png"
+    image: "images/pvz2/zombies/tomb_raiser_zombie.png"
   },
   {
     id: "pharaoh_zombie",
@@ -226,7 +226,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "石棺被摧毁后移动速度大幅提升。",
     description: null,
-    image: "/images/pvz2/zombies/pharaoh_zombie.png"
+    image: "images/pvz2/zombies/pharaoh_zombie.png"
   },
   {
     id: "mummified_gargantuar",
@@ -241,7 +241,7 @@ export const zombies = [
     weakness: null,
     special: "用石棺碾压植物，生命值降至50%时投掷木乃伊小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/mummified_gargantuar.png"
+    image: "images/pvz2/zombies/mummified_gargantuar.png"
   },
   {
     id: "imp_mummy",
@@ -256,7 +256,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/imp_mummy.png"
+    image: "images/pvz2/zombies/imp_mummy.png"
   },
   {
     id: "pirate_zombie",
@@ -271,7 +271,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/pirate_zombie.png"
+    image: "images/pvz2/zombies/pirate_zombie.png"
   },
   {
     id: "conehead_pirate",
@@ -286,7 +286,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_pirate.png"
+    image: "images/pvz2/zombies/conehead_pirate.png"
   },
   {
     id: "buckethead_pirate",
@@ -301,7 +301,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_pirate.png"
+    image: "images/pvz2/zombies/buckethead_pirate.png"
   },
   {
     id: "flag_pirate_zombie",
@@ -316,7 +316,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/flag_pirate_zombie.png"
+    image: "images/pvz2/zombies/flag_pirate_zombie.png"
   },
   {
     id: "swashbuckler_zombie",
@@ -331,7 +331,7 @@ export const zombies = [
     weakness: "地刺类植物",
     special: "着陆在玩家草坪的第四格。在海盗海域中，有时会失败掉入海中。",
     description: null,
-    image: "/images/pvz2/zombies/swashbuckler_zombie.png"
+    image: "images/pvz2/zombies/swashbuckler_zombie.png"
   },
   {
     id: "seagull_zombie",
@@ -346,7 +346,7 @@ export const zombies = [
     weakness: "远程攻击植物",
     special: "通过飞行越过低矮防御物。",
     description: null,
-    image: "/images/pvz2/zombies/seagull_zombie.png"
+    image: "images/pvz2/zombies/seagull_zombie.png"
   },
   {
     id: "pelican_zombie",
@@ -361,7 +361,7 @@ export const zombies = [
     weakness: null,
     special: "通过飞行越过低矮防御物。",
     description: null,
-    image: "/images/pvz2/zombies/pelican_zombie.png"
+    image: "images/pvz2/zombies/pelican_zombie.png"
   },
   {
     id: "barrel_roller_zombie",
@@ -376,7 +376,7 @@ export const zombies = [
     weakness: "范围攻击植物",
     special: "用木桶碾压植物，木桶被摧毁后释放两只海盗小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/barrel_roller_zombie.png"
+    image: "images/pvz2/zombies/barrel_roller_zombie.png"
   },
   {
     id: "imp_pirate_zombie",
@@ -391,7 +391,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/imp_pirate_zombie.png"
+    image: "images/pvz2/zombies/imp_pirate_zombie.png"
   },
   {
     id: "imp_cannon",
@@ -406,7 +406,7 @@ export const zombies = [
     weakness: null,
     special: "向草坪中部发射海盗小鬼僵尸，若未被及时摧毁则爆炸散落大量小鬼。",
     description: null,
-    image: "/images/pvz2/zombies/imp_cannon.png"
+    image: "images/pvz2/zombies/imp_cannon.png"
   },
   {
     id: "pirate_captain_zombie",
@@ -421,7 +421,7 @@ export const zombies = [
     weakness: "快速击杀以免召唤鹦鹉",
     special: "可释放僵尸鹦鹉，鹦鹉会偷走一棵植物。",
     description: null,
-    image: "/images/pvz2/zombies/pirate_captain_zombie.png"
+    image: "images/pvz2/zombies/pirate_captain_zombie.png"
   },
   {
     id: "zombie_parrot",
@@ -436,7 +436,7 @@ export const zombies = [
     weakness: null,
     special: "能飞到其他行道的植物处将其带走。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_parrot.png"
+    image: "images/pvz2/zombies/zombie_parrot.png"
   },
   {
     id: "gargantuar_pirate",
@@ -451,7 +451,7 @@ export const zombies = [
     weakness: null,
     special: "用鲨鱼碾压植物，生命值低于50%时投掷海盗小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/gargantuar_pirate.png"
+    image: "images/pvz2/zombies/gargantuar_pirate.png"
   },
   {
     id: "cowboy_zombie",
@@ -466,7 +466,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/cowboy_zombie.png"
+    image: "images/pvz2/zombies/cowboy_zombie.png"
   },
   {
     id: "conehead_cowboy",
@@ -481,7 +481,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_cowboy.png"
+    image: "images/pvz2/zombies/conehead_cowboy.png"
   },
   {
     id: "buckethead_cowboy",
@@ -496,7 +496,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_cowboy.png"
+    image: "images/pvz2/zombies/buckethead_cowboy.png"
   },
   {
     id: "flag_cowboy_zombie",
@@ -511,7 +511,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/flag_cowboy_zombie.png"
+    image: "images/pvz2/zombies/flag_cowboy_zombie.png"
   },
   {
     id: "prospector_zombie",
@@ -526,7 +526,7 @@ export const zombies = [
     weakness: "双向攻击植物",
     special: "炸药爆炸后出现在玩家草坪左侧，然后向后行走。",
     description: null,
-    image: "/images/pvz2/zombies/prospector_zombie.png"
+    image: "images/pvz2/zombies/prospector_zombie.png"
   },
   {
     id: "pianist_zombie",
@@ -541,7 +541,7 @@ export const zombies = [
     weakness: null,
     special: "用钢琴碾压植物，并使牛仔僵尸切换行道。",
     description: null,
-    image: "/images/pvz2/zombies/pianist_zombie.png"
+    image: "images/pvz2/zombies/pianist_zombie.png"
   },
   {
     id: "poncho_zombie",
@@ -556,7 +556,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "有时在雨披下穿戴保护性金属栅栏。",
     description: null,
-    image: "/images/pvz2/zombies/poncho_zombie.png"
+    image: "images/pvz2/zombies/poncho_zombie.png"
   },
   {
     id: "chicken_wrangler_zombie",
@@ -571,7 +571,7 @@ export const zombies = [
     weakness: "闪电芦苇",
     special: "受到足够伤害后召唤僵尸鸡。",
     description: null,
-    image: "/images/pvz2/zombies/chicken_wrangler_zombie.png"
+    image: "images/pvz2/zombies/chicken_wrangler_zombie.png"
   },
   {
     id: "zombie_chicken",
@@ -586,7 +586,7 @@ export const zombies = [
     weakness: "闪电芦苇",
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zombie_chicken.png"
+    image: "images/pvz2/zombies/zombie_chicken.png"
   },
   {
     id: "zombie_bull",
@@ -601,7 +601,7 @@ export const zombies = [
     weakness: null,
     special: "全速冲刺，遇到植物后将低空飞行的骑牛僵尸发射到防线后方。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_bull.png"
+    image: "images/pvz2/zombies/zombie_bull.png"
   },
   {
     id: "rodeo_legend_zombie",
@@ -616,7 +616,7 @@ export const zombies = [
     weakness: null,
     special: "碾碎植物并将骑牛僵尸发射到大部分防线后方。一段时间后再次冲锋。",
     description: null,
-    image: "/images/pvz2/zombies/rodeo_legend_zombie.png"
+    image: "images/pvz2/zombies/rodeo_legend_zombie.png"
   },
   {
     id: "zombie_bull_rider",
@@ -631,7 +631,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zombie_bull_rider.png"
+    image: "images/pvz2/zombies/zombie_bull_rider.png"
   },
   {
     id: "wild_west_gargantuar",
@@ -646,7 +646,7 @@ export const zombies = [
     weakness: null,
     special: "用烙铁碾压植物，生命值低于50%时投掷骑牛僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/wild_west_gargantuar.png"
+    image: "images/pvz2/zombies/wild_west_gargantuar.png"
   },
   {
     id: "cave_zombie",
@@ -661,7 +661,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/cave_zombie.png"
+    image: "images/pvz2/zombies/cave_zombie.png"
   },
   {
     id: "cave_conehead_zombie",
@@ -676,7 +676,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/cave_conehead_zombie.png"
+    image: "images/pvz2/zombies/cave_conehead_zombie.png"
   },
   {
     id: "cave_buckethead_zombie",
@@ -691,7 +691,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/cave_buckethead_zombie.png"
+    image: "images/pvz2/zombies/cave_buckethead_zombie.png"
   },
   {
     id: "blockhead_zombie",
@@ -706,7 +706,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/blockhead_zombie.png"
+    image: "images/pvz2/zombies/blockhead_zombie.png"
   },
   {
     id: "cave_flag_zombie",
@@ -721,7 +721,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/cave_flag_zombie.png"
+    image: "images/pvz2/zombies/cave_flag_zombie.png"
   },
   {
     id: "hunter_zombie",
@@ -736,7 +736,7 @@ export const zombies = [
     weakness: "火系植物",
     special: "投掷雪球冻结玩家的植物。",
     description: null,
-    image: "/images/pvz2/zombies/hunter_zombie.png"
+    image: "images/pvz2/zombies/hunter_zombie.png"
   },
   {
     id: "yeti_imp",
@@ -751,7 +751,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/yeti_imp.png"
+    image: "images/pvz2/zombies/yeti_imp.png"
   },
   {
     id: "dodo_rider_zombie",
@@ -766,7 +766,7 @@ export const zombies = [
     weakness: null,
     special: "偶尔飞行越过障碍物和植物。",
     description: null,
-    image: "/images/pvz2/zombies/dodo_rider_zombie.png"
+    image: "images/pvz2/zombies/dodo_rider_zombie.png"
   },
   {
     id: "troglobite",
@@ -781,7 +781,7 @@ export const zombies = [
     weakness: null,
     special: "将冰冻的雪人小鬼推过草坪，碾压沿途植物。",
     description: null,
-    image: "/images/pvz2/zombies/troglobite.png"
+    image: "images/pvz2/zombies/troglobite.png"
   },
   {
     id: "weasel_hoarder",
@@ -796,7 +796,7 @@ export const zombies = [
     weakness: null,
     special: "原木被打碎后召唤冰鼬。",
     description: null,
-    image: "/images/pvz2/zombies/weasel_hoarder.png"
+    image: "images/pvz2/zombies/weasel_hoarder.png"
   },
   {
     id: "ice_weasel",
@@ -811,7 +811,7 @@ export const zombies = [
     weakness: null,
     special: "不受冻结效果影响。",
     description: null,
-    image: "/images/pvz2/zombies/ice_weasel.png"
+    image: "images/pvz2/zombies/ice_weasel.png"
   },
   {
     id: "sloth_gargantuar",
@@ -826,7 +826,7 @@ export const zombies = [
     weakness: null,
     special: "用冰柱碾压植物，每损失25%生命值依次投掷一只雪人小鬼僵尸，共三只。",
     description: null,
-    image: "/images/pvz2/zombies/sloth_gargantuar.png"
+    image: "images/pvz2/zombies/sloth_gargantuar.png"
   },
   {
     id: "adventurer_zombie",
@@ -841,7 +841,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/adventurer_zombie.png"
+    image: "images/pvz2/zombies/adventurer_zombie.png"
   },
   {
     id: "conehead_adventurer_zombie",
@@ -856,7 +856,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_adventurer_zombie.png"
+    image: "images/pvz2/zombies/conehead_adventurer_zombie.png"
   },
   {
     id: "buckethead_adventurer_zombie",
@@ -871,7 +871,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_adventurer_zombie.png"
+    image: "images/pvz2/zombies/buckethead_adventurer_zombie.png"
   },
   {
     id: "flag_adventurer_zombie",
@@ -886,7 +886,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/flag_adventurer_zombie.png"
+    image: "images/pvz2/zombies/flag_adventurer_zombie.png"
   },
   {
     id: "lost_pilot_zombie",
@@ -901,7 +901,7 @@ export const zombies = [
     weakness: null,
     special: "降落到防线后方，悬浮在空中吞噬下方植物，最终会开始向前行走。",
     description: null,
-    image: "/images/pvz2/zombies/lost_pilot_zombie.png"
+    image: "images/pvz2/zombies/lost_pilot_zombie.png"
   },
   {
     id: "lost_city_imp_zombie",
@@ -916,7 +916,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/lost_city_imp_zombie.png"
+    image: "images/pvz2/zombies/lost_city_imp_zombie.png"
   },
   {
     id: "excavator_zombie",
@@ -931,7 +931,7 @@ export const zombies = [
     weakness: "范围攻击植物",
     special: "将植物挖出并扔到身后。他的铲子使他免疫直线投射物。",
     description: null,
-    image: "/images/pvz2/zombies/excavator_zombie.png"
+    image: "images/pvz2/zombies/excavator_zombie.png"
   },
   {
     id: "parasol_zombie",
@@ -946,7 +946,7 @@ export const zombies = [
     weakness: "非抛物线攻击植物",
     special: "用阳伞偏转抛射物，保护自己和身后的僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/parasol_zombie.png"
+    image: "images/pvz2/zombies/parasol_zombie.png"
   },
   {
     id: "bug_zombie",
@@ -961,7 +961,7 @@ export const zombies = [
     weakness: null,
     special: "快速携带冒险家僵尸（普通、路障或铁桶）越过防线进入草坪。",
     description: null,
-    image: "/images/pvz2/zombies/bug_zombie.png"
+    image: "images/pvz2/zombies/bug_zombie.png"
   },
   {
     id: "porter_gargantuar",
@@ -976,7 +976,7 @@ export const zombies = [
     weakness: null,
     special: "用火把碾压植物，生命值低于50%时投掷迷失城市小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/porter_gargantuar.png"
+    image: "images/pvz2/zombies/porter_gargantuar.png"
   },
   {
     id: "imp_porter",
@@ -991,7 +991,7 @@ export const zombies = [
     weakness: null,
     special: "在遇到的第一个空地搭帐篷。帐篷会不断生成普通、路障和铁桶僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/imp_porter.png"
+    image: "images/pvz2/zombies/imp_porter.png"
   },
   {
     id: "relic_hunter_zombie",
@@ -1006,7 +1006,7 @@ export const zombies = [
     weakness: null,
     special: "可以降落到玩家草坪的第四、第五或第六格。",
     description: null,
-    image: "/images/pvz2/zombies/relic_hunter_zombie.png"
+    image: "images/pvz2/zombies/relic_hunter_zombie.png"
   },
   {
     id: "turquoise_skull_zombie",
@@ -1021,7 +1021,7 @@ export const zombies = [
     weakness: null,
     special: "试图偷取阳光，并用头骨灼烧前方四格的植物。吸收的阳光越多，激光射程越远。",
     description: null,
-    image: "/images/pvz2/zombies/turquoise_skull_zombie.png"
+    image: "images/pvz2/zombies/turquoise_skull_zombie.png"
   },
   {
     id: "future_zombie",
@@ -1036,7 +1036,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/future_zombie.png"
+    image: "images/pvz2/zombies/future_zombie.png"
   },
   {
     id: "future_conehead_zombie",
@@ -1051,7 +1051,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/future_conehead_zombie.png"
+    image: "images/pvz2/zombies/future_conehead_zombie.png"
   },
   {
     id: "future_buckethead_zombie",
@@ -1066,7 +1066,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/future_buckethead_zombie.png"
+    image: "images/pvz2/zombies/future_buckethead_zombie.png"
   },
   {
     id: "future_flag_zombie",
@@ -1081,7 +1081,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/future_flag_zombie.png"
+    image: "images/pvz2/zombies/future_flag_zombie.png"
   },
   {
     id: "jetpack_zombie",
@@ -1096,7 +1096,7 @@ export const zombies = [
     weakness: "高射程植物",
     special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
-    image: "/images/pvz2/zombies/jetpack_zombie.png"
+    image: "images/pvz2/zombies/jetpack_zombie.png"
   },
   {
     id: "blastronaut_zombie",
@@ -1111,7 +1111,7 @@ export const zombies = [
     weakness: null,
     special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
-    image: "/images/pvz2/zombies/blastronaut_zombie.png"
+    image: "images/pvz2/zombies/blastronaut_zombie.png"
   },
   {
     id: "shield_zombie",
@@ -1126,7 +1126,7 @@ export const zombies = [
     weakness: "范围攻击植物",
     special: "在前方生成护盾，可阻挡三行的正面攻击。",
     description: null,
-    image: "/images/pvz2/zombies/shield_zombie.png"
+    image: "images/pvz2/zombies/shield_zombie.png"
   },
   {
     id: "bug_bot_imp",
@@ -1141,7 +1141,7 @@ export const zombies = [
     weakness: null,
     special: "从名为\"机器人群！\"的伏击中出现。",
     description: null,
-    image: "/images/pvz2/zombies/bug_bot_imp.png"
+    image: "images/pvz2/zombies/bug_bot_imp.png"
   },
   {
     id: "robo_cone_zombie",
@@ -1156,7 +1156,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/robo_cone_zombie.png"
+    image: "images/pvz2/zombies/robo_cone_zombie.png"
   },
   {
     id: "disco_tron_3000",
@@ -1171,7 +1171,7 @@ export const zombies = [
     weakness: null,
     special: "召唤迪斯科喷气背包僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/disco_tron_3000.png"
+    image: "images/pvz2/zombies/disco_tron_3000.png"
   },
   {
     id: "disco_jetpack_zombie",
@@ -1186,7 +1186,7 @@ export const zombies = [
     weakness: null,
     special: "通过飞越防御物来绕过防线，高大的植物除外。",
     description: null,
-    image: "/images/pvz2/zombies/disco_jetpack_zombie.png"
+    image: "images/pvz2/zombies/disco_jetpack_zombie.png"
   },
   {
     id: "mecha_football_zombie",
@@ -1201,7 +1201,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "将植物向左推移，而非吞噬。",
     description: null,
-    image: "/images/pvz2/zombies/mecha_football_zombie.png"
+    image: "images/pvz2/zombies/mecha_football_zombie.png"
   },
   {
     id: "gargantuar_prime",
@@ -1216,7 +1216,7 @@ export const zombies = [
     weakness: null,
     special: "双手碾压植物，随机用激光眼灼烧植物，生命值低于50%时发射虫子机器人小鬼。",
     description: null,
-    image: "/images/pvz2/zombies/gargantuar_prime.png"
+    image: "images/pvz2/zombies/gargantuar_prime.png"
   },
   {
     id: "peasant_zombie",
@@ -1231,7 +1231,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/peasant_zombie.png"
+    image: "images/pvz2/zombies/peasant_zombie.png"
   },
   {
     id: "conehead_peasant",
@@ -1246,7 +1246,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_peasant.png"
+    image: "images/pvz2/zombies/conehead_peasant.png"
   },
   {
     id: "buckethead_peasant",
@@ -1261,7 +1261,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_peasant.png"
+    image: "images/pvz2/zombies/buckethead_peasant.png"
   },
   {
     id: "knight_zombie",
@@ -1276,7 +1276,7 @@ export const zombies = [
     weakness: "磁力菇类植物",
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/knight_zombie.png"
+    image: "images/pvz2/zombies/knight_zombie.png"
   },
   {
     id: "peasant_flag_zombie",
@@ -1291,7 +1291,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/peasant_flag_zombie.png"
+    image: "images/pvz2/zombies/peasant_flag_zombie.png"
   },
   {
     id: "imp_monk_zombie",
@@ -1306,7 +1306,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/imp_monk_zombie.png"
+    image: "images/pvz2/zombies/imp_monk_zombie.png"
   },
   {
     id: "jester_zombie",
@@ -1321,7 +1321,7 @@ export const zombies = [
     weakness: "非投射类植物",
     special: "偏转所有射向他的物理投射物。",
     description: null,
-    image: "/images/pvz2/zombies/jester_zombie.png"
+    image: "images/pvz2/zombies/jester_zombie.png"
   },
   {
     id: "dark_ages_gargantuar",
@@ -1336,7 +1336,7 @@ export const zombies = [
     weakness: null,
     special: "用锤子碾压植物，生命值低于50%时投掷小鬼僧侣僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/dark_ages_gargantuar.png"
+    image: "images/pvz2/zombies/dark_ages_gargantuar.png"
   },
   {
     id: "wizard_zombie",
@@ -1351,7 +1351,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "将植物变成绵羊，该僵尸死亡后植物恢复正常。",
     description: null,
-    image: "/images/pvz2/zombies/wizard_zombie.png"
+    image: "images/pvz2/zombies/wizard_zombie.png"
   },
   {
     id: "zombie_king",
@@ -1366,7 +1366,7 @@ export const zombies = [
     weakness: null,
     special: "为附近的农民僵尸授予骑士头盔。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_king.png"
+    image: "images/pvz2/zombies/zombie_king.png"
   },
   {
     id: "imp_dragon_zombie",
@@ -1381,7 +1381,7 @@ export const zombies = [
     weakness: null,
     special: "免疫火焰伤害。",
     description: null,
-    image: "/images/pvz2/zombies/imp_dragon_zombie.png"
+    image: "images/pvz2/zombies/imp_dragon_zombie.png"
   },
   {
     id: "neon_zombie",
@@ -1396,7 +1396,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/neon_zombie.png"
+    image: "images/pvz2/zombies/neon_zombie.png"
   },
   {
     id: "neon_conehead",
@@ -1411,7 +1411,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/neon_conehead.png"
+    image: "images/pvz2/zombies/neon_conehead.png"
   },
   {
     id: "neon_buckethead",
@@ -1426,7 +1426,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/neon_buckethead.png"
+    image: "images/pvz2/zombies/neon_buckethead.png"
   },
   {
     id: "neon_flag_zombie",
@@ -1441,7 +1441,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/neon_flag_zombie.png"
+    image: "images/pvz2/zombies/neon_flag_zombie.png"
   },
   {
     id: "punk_zombie",
@@ -1456,7 +1456,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "朋克音乐播放时将植物向后推一格。",
     description: null,
-    image: "/images/pvz2/zombies/punk_zombie.png"
+    image: "images/pvz2/zombies/punk_zombie.png"
   },
   {
     id: "glitter_zombie",
@@ -1471,7 +1471,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "拖出彩虹保护身后的僵尸，流行音乐播放时立即杀死植物而非吞噬。",
     description: null,
-    image: "/images/pvz2/zombies/glitter_zombie.png"
+    image: "images/pvz2/zombies/glitter_zombie.png"
   },
   {
     id: "mc_zom_b",
@@ -1486,7 +1486,7 @@ export const zombies = [
     weakness: null,
     special: "说唱音乐播放时旋转麦克风伤害附近植物。",
     description: null,
-    image: "/images/pvz2/zombies/mc_zom_b.png"
+    image: "images/pvz2/zombies/mc_zom_b.png"
   },
   {
     id: "impunk",
@@ -1501,7 +1501,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/impunk.png"
+    image: "images/pvz2/zombies/impunk.png"
   },
   {
     id: "hair_metal_gargantuar",
@@ -1516,7 +1516,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物，重金属音乐播放时还会释放冲击波伤害碰到的植物。",
     description: null,
-    image: "/images/pvz2/zombies/hair_metal_gargantuar.png"
+    image: "images/pvz2/zombies/hair_metal_gargantuar.png"
   },
   {
     id: "breakdancer_zombie",
@@ -1531,7 +1531,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "说唱音乐播放时将僵尸向前踢。",
     description: null,
-    image: "/images/pvz2/zombies/breakdancer_zombie.png"
+    image: "images/pvz2/zombies/breakdancer_zombie.png"
   },
   {
     id: "arcade_zombie",
@@ -1546,7 +1546,7 @@ export const zombies = [
     weakness: "快速摧毁街机",
     special: "8位音乐播放时推动街机召唤8位僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/arcade_zombie.png"
+    image: "images/pvz2/zombies/arcade_zombie.png"
   },
   {
     id: "8_bit_zombie",
@@ -1561,7 +1561,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/8_bit_zombie.png"
+    image: "images/pvz2/zombies/8_bit_zombie.png"
   },
   {
     id: "boombox_zombie",
@@ -1576,7 +1576,7 @@ export const zombies = [
     weakness: null,
     special: "到达第六列时播放强力情歌，使除胖甜菜和地下植物外的植物失效。",
     description: null,
-    image: "/images/pvz2/zombies/boombox_zombie.png"
+    image: "images/pvz2/zombies/boombox_zombie.png"
   },
   {
     id: "jurassic_zombie",
@@ -1591,7 +1591,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/jurassic_zombie.png"
+    image: "images/pvz2/zombies/jurassic_zombie.png"
   },
   {
     id: "jurassic_conehead",
@@ -1606,7 +1606,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/jurassic_conehead.png"
+    image: "images/pvz2/zombies/jurassic_conehead.png"
   },
   {
     id: "jurassic_buckethead",
@@ -1621,7 +1621,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/jurassic_buckethead.png"
+    image: "images/pvz2/zombies/jurassic_buckethead.png"
   },
   {
     id: "jurassic_fossilhead",
@@ -1636,7 +1636,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/jurassic_fossilhead.png"
+    image: "images/pvz2/zombies/jurassic_fossilhead.png"
   },
   {
     id: "amberhead_zombie",
@@ -1651,7 +1651,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/amberhead_zombie.png"
+    image: "images/pvz2/zombies/amberhead_zombie.png"
   },
   {
     id: "jurassic_flag_zombie",
@@ -1666,7 +1666,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/jurassic_flag_zombie.png"
+    image: "images/pvz2/zombies/jurassic_flag_zombie.png"
   },
   {
     id: "jurassic_imp",
@@ -1681,7 +1681,7 @@ export const zombies = [
     weakness: null,
     special: "吞噬速度翻倍。",
     description: null,
-    image: "/images/pvz2/zombies/jurassic_imp.png"
+    image: "images/pvz2/zombies/jurassic_imp.png"
   },
   {
     id: "jurassic_gargantuar",
@@ -1696,7 +1696,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物。生命值低于50%时投掷侏罗纪小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/jurassic_gargantuar.png"
+    image: "images/pvz2/zombies/jurassic_gargantuar.png"
   },
   {
     id: "jurassic_bully",
@@ -1711,7 +1711,7 @@ export const zombies = [
     weakness: null,
     special: "免疫原始豌豆射手的击退效果。",
     description: null,
-    image: "/images/pvz2/zombies/jurassic_bully.png"
+    image: "images/pvz2/zombies/jurassic_bully.png"
   },
   {
     id: "jurassic_rockpuncher",
@@ -1726,7 +1726,7 @@ export const zombies = [
     weakness: null,
     special: "免疫原始豌豆射手的击退效果。可用岩石碾压植物，立即击杀并留下焦痕。",
     description: null,
-    image: "/images/pvz2/zombies/jurassic_rockpuncher.png"
+    image: "images/pvz2/zombies/jurassic_rockpuncher.png"
   },
   {
     id: "pompadour_zombie",
@@ -1741,7 +1741,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/pompadour_zombie.png"
+    image: "images/pvz2/zombies/pompadour_zombie.png"
   },
   {
     id: "conehead_pompadour",
@@ -1756,7 +1756,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/conehead_pompadour.png"
+    image: "images/pvz2/zombies/conehead_pompadour.png"
   },
   {
     id: "buckethead_pompadour",
@@ -1771,7 +1771,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/buckethead_pompadour.png"
+    image: "images/pvz2/zombies/buckethead_pompadour.png"
   },
   {
     id: "beach_flag_zombie",
@@ -1786,7 +1786,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/beach_flag_zombie.png"
+    image: "images/pvz2/zombies/beach_flag_zombie.png"
   },
   {
     id: "bikini_zombie",
@@ -1801,7 +1801,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/bikini_zombie.png"
+    image: "images/pvz2/zombies/bikini_zombie.png"
   },
   {
     id: "bikini_conehead",
@@ -1816,7 +1816,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/bikini_conehead.png"
+    image: "images/pvz2/zombies/bikini_conehead.png"
   },
   {
     id: "bikini_buckethead",
@@ -1831,7 +1831,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/bikini_buckethead.png"
+    image: "images/pvz2/zombies/bikini_buckethead.png"
   },
   {
     id: "snorkel_zombie",
@@ -1846,7 +1846,7 @@ export const zombies = [
     weakness: "睡莲上的植物",
     special: "潜入水中以躲避直线攻击。",
     description: null,
-    image: "/images/pvz2/zombies/snorkel_zombie.png"
+    image: "images/pvz2/zombies/snorkel_zombie.png"
   },
   {
     id: "imp_mermaid_zombie",
@@ -1861,7 +1861,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/imp_mermaid_zombie.png"
+    image: "images/pvz2/zombies/imp_mermaid_zombie.png"
   },
   {
     id: "surfer_zombie",
@@ -1876,7 +1876,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "在陆地上行走时，冲浪板阻挡抛射物并碾压遇到的第一棵植物，冲浪板随后被摧毁。",
     description: null,
-    image: "/images/pvz2/zombies/surfer_zombie.png"
+    image: "images/pvz2/zombies/surfer_zombie.png"
   },
   {
     id: "deep_sea_gargantuar",
@@ -1891,7 +1891,7 @@ export const zombies = [
     weakness: null,
     special: "用浮木碾压植物，生命值低于50%时投掷小鬼美人鱼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/deep_sea_gargantuar.png"
+    image: "images/pvz2/zombies/deep_sea_gargantuar.png"
   },
   {
     id: "fisherman_zombie",
@@ -1906,7 +1906,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "将植物向右拉拽。旁边的植物会被抛出草坪。",
     description: null,
-    image: "/images/pvz2/zombies/fisherman_zombie.png"
+    image: "images/pvz2/zombies/fisherman_zombie.png"
   },
   {
     id: "octo_zombie",
@@ -1921,7 +1921,7 @@ export const zombies = [
     weakness: "范围攻击植物",
     special: "向植物投掷章鱼，章鱼被摧毁前使植物失效。",
     description: null,
-    image: "/images/pvz2/zombies/octo_zombie.png"
+    image: "images/pvz2/zombies/octo_zombie.png"
   },
   {
     id: "imp",
@@ -1936,7 +1936,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/imp.png"
+    image: "images/pvz2/zombies/imp.png"
   },
   {
     id: "gargantuar",
@@ -1951,7 +1951,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/gargantuar.png"
+    image: "images/pvz2/zombies/gargantuar.png"
   },
   {
     id: "newspaper_zombie",
@@ -1966,7 +1966,7 @@ export const zombies = [
     weakness: "快速击杀",
     special: "报纸被摧毁后移动和吞噬速度大幅提升。",
     description: null,
-    image: "/images/pvz2/zombies/newspaper_zombie.png"
+    image: "images/pvz2/zombies/newspaper_zombie.png"
   },
   {
     id: "sunday_edition_zombie",
@@ -1981,7 +1981,7 @@ export const zombies = [
     weakness: null,
     special: "报纸被摧毁后移动和吞噬速度大幅提升。",
     description: null,
-    image: "/images/pvz2/zombies/sunday_edition_zombie.png"
+    image: "images/pvz2/zombies/sunday_edition_zombie.png"
   },
   {
     id: "balloon_zombie",
@@ -1996,7 +1996,7 @@ export const zombies = [
     weakness: "仙人掌或三叶草",
     special: "通过飞越防御物绕过防线，直到气球被刺破。",
     description: null,
-    image: "/images/pvz2/zombies/balloon_zombie.png"
+    image: "images/pvz2/zombies/balloon_zombie.png"
   },
   {
     id: "all_star_zombie",
@@ -2011,7 +2011,7 @@ export const zombies = [
     weakness: "高伤害植物",
     special: "撞击遇到的第一棵植物，然后正常行走。可将超级粉丝小鬼踢到第四列之后。",
     description: null,
-    image: "/images/pvz2/zombies/all_star_zombie.png"
+    image: "images/pvz2/zombies/all_star_zombie.png"
   },
   {
     id: "cardio_zombie",
@@ -2026,7 +2026,7 @@ export const zombies = [
     weakness: null,
     special: "用气场强化僵尸，使其移动和吞噬速度加快。",
     description: null,
-    image: "/images/pvz2/zombies/cardio_zombie.png"
+    image: "images/pvz2/zombies/cardio_zombie.png"
   },
   {
     id: "z_mech",
@@ -2041,7 +2041,7 @@ export const zombies = [
     weakness: null,
     special: "召唤多种僵尸，用导弹攻击植物，并可将僵尸传送到草坪深处。",
     description: null,
-    image: "/images/pvz2/zombies/z_mech.png"
+    image: "images/pvz2/zombies/z_mech.png"
   },
   {
     id: "caketank",
@@ -2056,7 +2056,7 @@ export const zombies = [
     weakness: null,
     special: "随着层数受损释放带电的生日惊喜。",
     description: null,
-    image: "/images/pvz2/zombies/caketank.png"
+    image: "images/pvz2/zombies/caketank.png"
   },
   {
     id: "roman_zombie",
@@ -2071,7 +2071,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/roman_zombie.png"
+    image: "images/pvz2/zombies/roman_zombie.png"
   },
   {
     id: "roman_conehead",
@@ -2086,7 +2086,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/roman_conehead.png"
+    image: "images/pvz2/zombies/roman_conehead.png"
   },
   {
     id: "roman_buckethead",
@@ -2101,7 +2101,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/roman_buckethead.png"
+    image: "images/pvz2/zombies/roman_buckethead.png"
   },
   {
     id: "centurion_zombie",
@@ -2116,7 +2116,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/centurion_zombie.png"
+    image: "images/pvz2/zombies/centurion_zombie.png"
   },
   {
     id: "roman_flag_zombie",
@@ -2131,7 +2131,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/roman_flag_zombie.png"
+    image: "images/pvz2/zombies/roman_flag_zombie.png"
   },
   {
     id: "healer_zombie",
@@ -2146,7 +2146,7 @@ export const zombies = [
     weakness: null,
     special: "恢复僵尸一半生命值并解除某些效果。击败后掉落法杖，法杖会持续治疗僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/healer_zombie.png"
+    image: "images/pvz2/zombies/healer_zombie.png"
   },
   {
     id: "roman_shield_zombie",
@@ -2161,7 +2161,7 @@ export const zombies = [
     weakness: null,
     special: "以三只或以下僵尸群组形式出现。部分僵尸将盾牌举过头顶，保护自己免受上方攻击。",
     description: null,
-    image: "/images/pvz2/zombies/roman_shield_zombie.png"
+    image: "images/pvz2/zombies/roman_shield_zombie.png"
   },
   {
     id: "gladiator_gargantuar",
@@ -2176,7 +2176,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物，生命值低于65%时投掷罗马小鬼僵尸并撒网使植物眩晕。",
     description: null,
-    image: "/images/pvz2/zombies/gladiator_gargantuar.png"
+    image: "images/pvz2/zombies/gladiator_gargantuar.png"
   },
   {
     id: "roman_imp",
@@ -2191,7 +2191,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/roman_imp.png"
+    image: "images/pvz2/zombies/roman_imp.png"
   },
   {
     id: "zcorpion_zombie",
@@ -2206,7 +2206,7 @@ export const zombies = [
     weakness: null,
     special: "发射花瓶摧毁植物并释放僵尸，发射5个花瓶后自动自毁。",
     description: null,
-    image: "/images/pvz2/zombies/zcorpion_zombie.png"
+    image: "images/pvz2/zombies/zcorpion_zombie.png"
   },
   {
     id: "zombie_medusa",
@@ -2221,7 +2221,7 @@ export const zombies = [
     weakness: null,
     special: "推动石堆，石堆被摧毁后释放石像头僵尸。将面向她的僵尸石化。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_medusa.png"
+    image: "images/pvz2/zombies/zombie_medusa.png"
   },
   {
     id: "roman_caesar_zombie",
@@ -2236,7 +2236,7 @@ export const zombies = [
     weakness: null,
     special: "向植物投掷沙拉酱使其失效，并加快僵尸吞噬速度。召唤罗马僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/roman_caesar_zombie.png"
+    image: "images/pvz2/zombies/roman_caesar_zombie.png"
   },
   {
     id: "gargimp_legal",
@@ -2251,7 +2251,7 @@ export const zombies = [
     weakness: null,
     special: "用棒球棒碾压植物。",
     description: null,
-    image: "/images/pvz2/zombies/gargimp_legal.png"
+    image: "images/pvz2/zombies/gargimp_legal.png"
   },
   {
     id: "head_office_impgantuar",
@@ -2266,7 +2266,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/head_office_impgantuar.png"
+    image: "images/pvz2/zombies/head_office_impgantuar.png"
   },
   {
     id: "zcorp_new_hire",
@@ -2281,7 +2281,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_new_hire.png"
+    image: "images/pvz2/zombies/zcorp_new_hire.png"
   },
   {
     id: "zcorp_contractor",
@@ -2296,7 +2296,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_contractor.png"
+    image: "images/pvz2/zombies/zcorp_contractor.png"
   },
   {
     id: "zcorp_conehead",
@@ -2311,7 +2311,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_conehead.png"
+    image: "images/pvz2/zombies/zcorp_conehead.png"
   },
   {
     id: "zcorp_buckethead",
@@ -2326,7 +2326,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_buckethead.png"
+    image: "images/pvz2/zombies/zcorp_buckethead.png"
   },
   {
     id: "zcorp_contractor_conehead",
@@ -2341,7 +2341,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_contractor_conehead.png"
+    image: "images/pvz2/zombies/zcorp_contractor_conehead.png"
   },
   {
     id: "zcorp_contractor_buckethead",
@@ -2356,7 +2356,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zcorp_contractor_buckethead.png"
+    image: "images/pvz2/zombies/zcorp_contractor_buckethead.png"
   },
   {
     id: "zcorp_flag_zombie",
@@ -2371,7 +2371,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/zcorp_flag_zombie.png"
+    image: "images/pvz2/zombies/zcorp_flag_zombie.png"
   },
   {
     id: "zcorp_consultant",
@@ -2386,7 +2386,7 @@ export const zombies = [
     weakness: null,
     special: "将大多数僵尸推到其他行道。偶尔后退将其他僵尸向前推。",
     description: null,
-    image: "/images/pvz2/zombies/zcorp_consultant.png"
+    image: "images/pvz2/zombies/zcorp_consultant.png"
   },
   {
     id: "zcorp_helpdesk",
@@ -2401,7 +2401,7 @@ export const zombies = [
     weakness: null,
     special: "降落到防线后方。投掷笔记本电脑对单格造成巨额伤害。移动和吞噬速度提升。",
     description: null,
-    image: "/images/pvz2/zombies/zcorp_helpdesk.png"
+    image: "images/pvz2/zombies/zcorp_helpdesk.png"
   },
   {
     id: "carnie_zombie",
@@ -2416,7 +2416,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/carnie_zombie.png"
+    image: "images/pvz2/zombies/carnie_zombie.png"
   },
   {
     id: "carnie_conehead",
@@ -2431,7 +2431,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/carnie_conehead.png"
+    image: "images/pvz2/zombies/carnie_conehead.png"
   },
   {
     id: "carnie_buckethead",
@@ -2446,7 +2446,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/carnie_buckethead.png"
+    image: "images/pvz2/zombies/carnie_buckethead.png"
   },
   {
     id: "grinderhead_zombie",
@@ -2461,7 +2461,7 @@ export const zombies = [
     weakness: null,
     special: "研磨器被摧毁后释放僵尸猴子。",
     description: null,
-    image: "/images/pvz2/zombies/grinderhead_zombie.png"
+    image: "images/pvz2/zombies/grinderhead_zombie.png"
   },
   {
     id: "carnie_flag_zombie",
@@ -2476,7 +2476,7 @@ export const zombies = [
     weakness: null,
     special: "在大波僵尸来袭时出现。",
     description: null,
-    image: "/images/pvz2/zombies/carnie_flag_zombie.png"
+    image: "images/pvz2/zombies/carnie_flag_zombie.png"
   },
   {
     id: "carnie_cannon",
@@ -2491,7 +2491,7 @@ export const zombies = [
     weakness: null,
     special: "发射一只嘉年华小鬼僵尸，然后自毁。",
     description: null,
-    image: "/images/pvz2/zombies/carnie_cannon.png"
+    image: "images/pvz2/zombies/carnie_cannon.png"
   },
   {
     id: "carnie_imp",
@@ -2506,7 +2506,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/carnie_imp.png"
+    image: "images/pvz2/zombies/carnie_imp.png"
   },
   {
     id: "carnie_imp_twins",
@@ -2521,7 +2521,7 @@ export const zombies = [
     weakness: null,
     special: "被摧毁时分裂成两只嘉年华分裂小鬼僵尸进入相邻行道。",
     description: null,
-    image: "/images/pvz2/zombies/carnie_imp_twins.png"
+    image: "images/pvz2/zombies/carnie_imp_twins.png"
   },
   {
     id: "strongman_gargantuar",
@@ -2536,7 +2536,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/strongman_gargantuar.png"
+    image: "images/pvz2/zombies/strongman_gargantuar.png"
   },
   {
     id: "carnie_imp_split",
@@ -2551,7 +2551,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/carnie_imp_split.png"
+    image: "images/pvz2/zombies/carnie_imp_split.png"
   },
   {
     id: "magician_zombie",
@@ -2566,7 +2566,7 @@ export const zombies = [
     weakness: null,
     special: "传送僵尸并召唤鸽子带走植物。免疫特定植物家族的所有攻击和效果。",
     description: null,
-    image: "/images/pvz2/zombies/magician_zombie.png"
+    image: "images/pvz2/zombies/magician_zombie.png"
   },
   {
     id: "firebreather_zombie",
@@ -2581,7 +2581,7 @@ export const zombies = [
     weakness: null,
     special: "喷火烧毁前方植物。冰系攻击可熄灭他的胡子。",
     description: null,
-    image: "/images/pvz2/zombies/firebreather_zombie.png"
+    image: "images/pvz2/zombies/firebreather_zombie.png"
   },
   {
     id: "stiltwalker_zombie",
@@ -2596,7 +2596,7 @@ export const zombies = [
     weakness: null,
     special: "踩高跷越过玩家防线，直到失去高跷。",
     description: null,
-    image: "/images/pvz2/zombies/stiltwalker_zombie.png"
+    image: "images/pvz2/zombies/stiltwalker_zombie.png"
   },
   {
     id: "zombot_catastro_liope",
@@ -2611,7 +2611,7 @@ export const zombies = [
     weakness: null,
     special: "火炮可在防线后方倾泻大量嘉年华小鬼僵尸。",
     description: null,
-    image: "/images/pvz2/zombies/zombot_catastro_liope.png"
+    image: "images/pvz2/zombies/zombot_catastro_liope.png"
   },
   {
     id: "zombie_monkey",
@@ -2626,7 +2626,7 @@ export const zombies = [
     weakness: null,
     special: "被击败后可能掉落银币。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_monkey.png"
+    image: "images/pvz2/zombies/zombie_monkey.png"
   },
   {
     id: "zombie_dove",
@@ -2641,7 +2641,7 @@ export const zombies = [
     weakness: null,
     special: "能飞到其他行道的植物处将其带走。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_dove.png"
+    image: "images/pvz2/zombies/zombie_dove.png"
   },
   {
     id: "nutcracker_zombie",
@@ -2656,7 +2656,7 @@ export const zombies = [
     weakness: null,
     special: "攻击坚果类植物时，造成相当于其最大生命值一半的伤害。",
     description: null,
-    image: "/images/pvz2/zombies/nutcracker_zombie.png"
+    image: "images/pvz2/zombies/nutcracker_zombie.png"
   },
   {
     id: "ducky_tube",
@@ -2671,7 +2671,7 @@ export const zombies = [
     weakness: null,
     special: "在水中移动更快",
     description: null,
-    image: "/images/pvz2/zombies/ducky_tube.png"
+    image: "images/pvz2/zombies/ducky_tube.png"
   },
   {
     id: "ducky_tube_conehead",
@@ -2686,7 +2686,7 @@ export const zombies = [
     weakness: null,
     special: "在水中移动更快",
     description: null,
-    image: "/images/pvz2/zombies/ducky_tube_conehead.png"
+    image: "images/pvz2/zombies/ducky_tube_conehead.png"
   },
   {
     id: "ducky_tube_buckethead",
@@ -2701,7 +2701,7 @@ export const zombies = [
     weakness: null,
     special: "在水中移动更快",
     description: null,
-    image: "/images/pvz2/zombies/ducky_tube_buckethead.png"
+    image: "images/pvz2/zombies/ducky_tube_buckethead.png"
   },
   {
     id: "fast_swimmer_zombie",
@@ -2716,7 +2716,7 @@ export const zombies = [
     weakness: null,
     special: "在水中移动极快",
     description: null,
-    image: "/images/pvz2/zombies/fast_swimmer_zombie.png"
+    image: "images/pvz2/zombies/fast_swimmer_zombie.png"
   },
   {
     id: "catapult_zombie",
@@ -2731,7 +2731,7 @@ export const zombies = [
     weakness: null,
     special: "向该行最后一棵植物投掷抛射物。",
     description: null,
-    image: "/images/pvz2/zombies/catapult_zombie.png"
+    image: "images/pvz2/zombies/catapult_zombie.png"
   },
   {
     id: "zombot_hot_rodicus",
@@ -2746,7 +2746,7 @@ export const zombies = [
     weakness: null,
     special: "生成多波罗马僵尸，它们既是盾牌也是利剑。",
     description: null,
-    image: "/images/pvz2/zombies/zombot_hot_rodicus.png"
+    image: "images/pvz2/zombies/zombot_hot_rodicus.png"
   },
   {
     id: "zomboni",
@@ -2761,7 +2761,7 @@ export const zombies = [
     weakness: null,
     special: "在身后留下冰道。",
     description: null,
-    image: "/images/pvz2/zombies/zomboni.png"
+    image: "images/pvz2/zombies/zomboni.png"
   },
   {
     id: "zombie_bobsled_team",
@@ -2776,7 +2776,7 @@ export const zombies = [
     weakness: null,
     special: "碾压植物。",
     description: null,
-    image: "/images/pvz2/zombies/zombie_bobsled_team.png"
+    image: "images/pvz2/zombies/zombie_bobsled_team.png"
   },
   {
     id: "zombie_bobsled_crew",
@@ -2791,7 +2791,7 @@ export const zombies = [
     weakness: null,
     special: null,
     description: null,
-    image: "/images/pvz2/zombies/zombie_bobsled_crew.png"
+    image: "images/pvz2/zombies/zombie_bobsled_crew.png"
   },
   {
     id: "raincoat_zombie",
@@ -2806,7 +2806,7 @@ export const zombies = [
     weakness: null,
     special: "踢开低矮和地面植物<br>用护甲抵抗线圈薄荷家族植物的伤害。",
     description: null,
-    image: "/images/pvz2/zombies/raincoat_zombie.png"
+    image: "images/pvz2/zombies/raincoat_zombie.png"
   },
   {
     id: "treasure_yeti",
@@ -2821,7 +2821,7 @@ export const zombies = [
     weakness: null,
     special: "在史诗任务中出现，掉落含100金币的午餐盒。若未被快速击败则逃跑。",
     description: null,
-    image: "/images/pvz2/zombies/treasure_yeti.png"
+    image: "images/pvz2/zombies/treasure_yeti.png"
   },
   {
     id: "turkey_boss",
@@ -2836,7 +2836,7 @@ export const zombies = [
     weakness: null,
     special: "强化版僵尸，速度大幅降低，吞噬伤害仅为每秒1点。",
     description: null,
-    image: "/images/pvz2/zombies/turkey_boss.png"
+    image: "images/pvz2/zombies/turkey_boss.png"
   }
 ]
 

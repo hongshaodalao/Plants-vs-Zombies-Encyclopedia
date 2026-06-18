@@ -36,8 +36,8 @@ function Card({ data, type, gameVersion = 'pvz1' }) {
           loading="lazy"
           onError={(e) => {
             e.currentTarget.src = isPlant
-              ? '/images/pvz1/plants/_placeholder.svg'
-              : '/images/pvz1/zombies/_placeholder.svg'
+              ? 'images/pvz1/plants/_placeholder.svg'
+              : 'images/pvz1/zombies/_placeholder.svg'
           }}
         />
       </div>

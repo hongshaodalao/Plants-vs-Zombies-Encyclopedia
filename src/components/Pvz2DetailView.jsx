@@ -48,8 +48,8 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = type === 'zombie'
-                ? '/images/pvz2/zombies/_placeholder.svg'
-                : '/images/pvz2/plants/_placeholder.svg'
+                ? 'images/pvz2/zombies/_placeholder.svg'
+                : 'images/pvz2/plants/_placeholder.svg'
             }}
           />
         </div>
