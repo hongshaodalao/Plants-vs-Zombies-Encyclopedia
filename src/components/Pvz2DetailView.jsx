@@ -65,6 +65,10 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
             </span>
           )}
 
+          {data.source === 'china' && (
+            <span className={`${styles.sourceBadge} ${styles.sourceChina}`}>🇨🇳 中国版独占</span>
+          )}
+
           <p className={styles.description}>{data.description || '暂无描述'}</p>
 
           {type === 'zombie' ? (
