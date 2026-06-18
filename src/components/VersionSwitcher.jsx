@@ -5,7 +5,9 @@ function VersionSwitcher() {
   return (
     <div className={styles.switcher}>
       <Link to="/plants" className={`${styles.versionCard} ${styles.versionCardPvz1}`}>
-        <div className={styles.versionIcon}>🌿</div>
+        <div className={styles.versionIcon}>
+          <img src="/images/plants/peashooter.png" alt="豌豆射手" className={styles.versionImg} />
+        </div>
         <h2 className={styles.versionTitle}>植物大战僵尸 1</h2>
         <p className={styles.versionYear}>2009 年</p>
         <div className={styles.versionStats}>
@@ -21,7 +23,9 @@ function VersionSwitcher() {
       </Link>
 
       <Link to="/pvz2" className={`${styles.versionCard} ${styles.versionCardPvz2}`}>
-        <div className={styles.versionIcon}>🧟</div>
+        <div className={styles.versionIcon}>
+          <img src="/images/pvz2/plants/peashooter.png" alt="PvZ 2 豌豆射手" className={styles.versionImg} />
+        </div>
         <h2 className={styles.versionTitle}>植物大战僵尸 2</h2>
         <p className={styles.versionYear}>2013 年</p>
         <div className={styles.versionStats}>
