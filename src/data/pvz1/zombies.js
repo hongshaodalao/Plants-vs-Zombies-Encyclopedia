@@ -10,7 +10,7 @@ export const zombies = [
     "firstAppearance": "1-1",
     "weakness": "any",
     "description": "这种僵尸热爱脑子，不懂知足，没日没夜地追求著脑子、脑子、脑子。又旧又臭的脑子？腐烂的脑子？明显过期了的脑子？没关系，普通僵尸会想要的。",
-    "image": "/images/zombies/zombie.png",
+    "image": "/images/pvz1/zombies/zombie.png",
     "special": "Basic zombie, present in all levels"
   },
   {
@@ -24,7 +24,7 @@ export const zombies = [
     "firstAppearance": "1-2",
     "weakness": "any",
     "description": "不要搞错，旗帜僵尸热爱脑子，但从某个时候开始他也迷恋上了旗帜。也许是因为旗帜上总是画有脑子吧，难说。",
-    "image": "/images/zombies/flagzombie.png",
+    "image": "/images/pvz1/zombies/flagzombie.png",
     "special": "Signals a huge wave incoming, moves slightly faster than normal zombie"
   },
   {
@@ -38,7 +38,7 @@ export const zombies = [
     "firstAppearance": "1-3",
     "weakness": "magnet-shroom",
     "description": "和其他僵尸一样，交通锥僵尸无意识地向前挪动。但某些事物却使他停下脚步，让他捡起个交通锥并卡在自己的头上。是啊，他喜欢参加聚会。",
-    "image": "/images/zombies/coneheadzombie.png",
+    "image": "/images/pvz1/zombies/coneheadzombie.png",
     "special": "Traffic cone absorbs 370 damage, zombie body absorbs 190 damage. Attractable by Magnet-shroom"
   },
   {
@@ -52,7 +52,7 @@ export const zombies = [
     "firstAppearance": "1-6",
     "weakness": "any",
     "description": "一些僵尸渴望走得更远、实现更多，这也促使他们超越普通变得伟大。这就是撑杆跳僵尸，他就是这样。",
-    "image": "/images/zombies/polevaultingzombie.png",
+    "image": "/images/pvz1/zombies/polevaultingzombie.png",
     "special": "Jumps over the first plant it encounters, then moves at normal speed (4.7s/grid)"
   },
   {
@@ -66,7 +66,7 @@ export const zombies = [
     "firstAppearance": "1-8",
     "weakness": "magnet-shroom",
     "description": "铁桶僵尸总是戴着桶，部分原因是为了让自己在这冷漠的世界显得独一无二，而主要来说他只是忘记了那桶还戴在他头上而已。",
-    "image": "/images/zombies/bucketheadzombie.png",
+    "image": "/images/pvz1/zombies/bucketheadzombie.png",
     "special": "Bucket absorbs 1100 damage, zombie body absorbs 190 damage. Attractable by Magnet-shroom"
   },
   {
@@ -80,7 +80,7 @@ export const zombies = [
     "firstAppearance": "2-1",
     "weakness": "any",
     "description": "报纸僵尸离完成他的数独谜题只差*这么*一点点，难怪他会暴怒。",
-    "image": "/images/zombies/newspaperzombie.png",
+    "image": "/images/pvz1/zombies/newspaperzombie.png",
     "special": "Moves slowly at first, moves twice as fast (1.8s/grid) after newspaper is destroyed. Newspaper absorbs 150 damage"
   },
   {
@@ -94,7 +94,7 @@ export const zombies = [
     "firstAppearance": "2-3",
     "weakness": "fume-shroom",
     "description": "他上次拜访的那位房主防守并不熟练，吃掉那人的脑子后拿走了他家的纱门。",
-    "image": "/images/zombies/screendoorzombie.png",
+    "image": "/images/pvz1/zombies/screendoorzombie.png",
     "special": "Screen door absorbs 1100 damage. Shield blocks frontal projectiles (Snow Pea, peas) but not lobbed shots, Fume-shroom, Gloom-shroom, Spikeweed. Door can be taken by Magnet-shroom"
   },
   {
@@ -108,7 +108,7 @@ export const zombies = [
     "firstAppearance": "2-6",
     "weakness": "magnet-shroom",
     "description": "在球场上，橄榄球僵尸表现出十一成的激情。他善于与队友合作，进攻防守样样在行。虽然他完全不知道橄榄球是什么。",
-    "image": "/images/zombies/footballzombie.png",
+    "image": "/images/pvz1/zombies/footballzombie.png",
     "special": "Football helmet absorbs 1500 damage. Very durable and fast. Helmet can be taken by Magnet-shroom"
   },
   {
@@ -122,7 +122,7 @@ export const zombies = [
     "firstAppearance": "2-8",
     "weakness": "any",
     "description": "舞者僵尸的最新专辑「抓脑子撒哺啦哺」在不死族界排行榜上飙升。",
-    "image": "/images/zombies/dancingzombie.png",
+    "image": "/images/pvz1/zombies/dancingzombie.png",
     "special": "Enters lawn dancing backward, summons 4 Backup Dancers in a cross pattern. Slides at 1.5s/grid then dances at 5.5s/grid. Resummons dead Backup Dancers"
   },
   {
@@ -136,7 +136,7 @@ export const zombies = [
     "firstAppearance": "2-8",
     "weakness": "any",
     "description": "伴舞僵尸曾在位于僵尸纽约城的“咀利牙”表演艺术学院钻研过六年的舞技。",
-    "image": "/images/zombies/backupdancer.png",
+    "image": "/images/pvz1/zombies/backupdancer.png",
     "special": "Summoned by Dancing Zombie in groups of four. Can be re-summoned if Dancing Zombie is still alive"
   },
   {
@@ -150,7 +150,7 @@ export const zombies = [
     "firstAppearance": "3-1",
     "weakness": "any",
     "description": "只有特定的僵尸才能成为鸭子救生圈僵尸，不是每只僵尸都能胜任。有些救生圈有点漏气，他们却处理不了，脱身后永远放弃了对脑子的渴求。",
-    "image": "/images/zombies/duckytubezombie.png",
+    "image": "/images/pvz1/zombies/duckytubezombie.png",
     "special": "Only appears in Pool. Has Flag, Conehead, Buckethead, and ZomBotany variations. Health varies by variant (same as on-land version)"
   },
   {
@@ -164,7 +164,7 @@ export const zombies = [
     "firstAppearance": "3-3",
     "weakness": "lobbed-shot",
     "description": "僵尸不呼吸，他们不需要空气，那么为什么潜水僵尸需要用呼吸管来潜泳呢？答案：同行的压力。",
-    "image": "/images/zombies/snorkelzombie.png",
+    "image": "/images/pvz1/zombies/snorkelzombie.png",
     "special": "Submerges underwater to avoid most attacks. Only resurfaces to eat plants. Vulnerable to lobbed shots, Tangle Kelp, and explosive plants"
   },
   {
@@ -178,7 +178,7 @@ export const zombies = [
     "firstAppearance": "3-6",
     "weakness": "instant-kill",
     "description": "经常有人误认为僵尸洗冰车是驾驶制冰机的僵尸，他其实是完全不同的生命形式，比起僵尸更接近太空食人魔。",
-    "image": "/images/zombies/zomboni.png",
+    "image": "/images/pvz1/zombies/zomboni.png",
     "special": "Crushes plants instantly on contact, leaves an ice trail behind. Immune to Snow Pea. Can be killed by instant-kill plants or Jalapeno (melts ice trail)"
   },
   {
@@ -192,7 +192,7 @@ export const zombies = [
     "firstAppearance": "3-6",
     "weakness": "any",
     "description": "僵尸雪橇小队努力成为了如今的他们。他们一起生活、分享脑子、共同训练，从而成为一支合作无间的僵尸小队。",
-    "image": "/images/zombies/zombiebobsledteam.png",
+    "image": "/images/pvz1/zombies/zombiebobsledteam.png",
     "special": "Only appears on ice trails left by Zomboni. 4 zombies in a bobsled (300 bobsled + 190 each zombie). Glides fast (1.2s/grid) then walks normally (4.7s/grid) after bobsled ends"
   },
   {
@@ -206,7 +206,7 @@ export const zombies = [
     "firstAppearance": "3-8",
     "weakness": "any",
     "description": "那海豚也是僵尸。",
-    "image": "/images/zombies/dolphinriderzombie.png",
+    "image": "/images/pvz1/zombies/dolphinriderzombie.png",
     "special": "Vaulting zombie, single jump. Rides dolphin at very fast speed (0.8s/grid), jumps over first plant then walks at normal speed (4.7s/grid). Only appears in pool. Can effectively skip 2 tiles when entering pool"
   },
   {
@@ -220,7 +220,7 @@ export const zombies = [
     "firstAppearance": "4-1",
     "weakness": "magnet-shroom",
     "description": "这只僵尸之所以颤抖着，不是因为他冷，而是因为他疯。",
-    "image": "/images/zombies/jackintheboxzombie.png",
+    "image": "/images/pvz1/zombies/jackintheboxzombie.png",
     "special": "Carries a jack-in-the-box that can explode, destroying all plants and hypnotized zombies in a 3x3 area. Moves twice as fast as normal. Jack-in-the-box can be taken by Magnet-shroom. Plays 'Pop Goes the Weasel'"
   },
   {
@@ -234,7 +234,7 @@ export const zombies = [
     "firstAppearance": "4-3",
     "weakness": "cactus",
     "description": "气球僵尸真走运。气球真的很有效，而其他僵尸都不曾意识到。",
-    "image": "/images/zombies/balloonzombie.png",
+    "image": "/images/pvz1/zombies/balloonzombie.png",
     "special": "Flies over ground, immune to ground attacks. Balloon can be popped by Cactus or Cattail, or blown away by Blover. Falls into water and dies instantly if over pool. Balloon has only 20 HP"
   },
   {
@@ -248,7 +248,7 @@ export const zombies = [
     "firstAppearance": "4-6",
     "weakness": "split-pea",
     "description": "挖掘僵尸每周花费三天准备挖掘许可证。",
-    "image": "/images/zombies/diggerzombie.png",
+    "image": "/images/pvz1/zombies/diggerzombie.png",
     "special": "Digs underground and emerges on the left side of the lawn, then eats defenses from behind. Hard hat absorbs 100 damage. Vulnerable to Magnet-shroom (steals pickaxe), Gloom-shroom, Starfruit, Potato Mine, Split Pea"
   },
   {
@@ -262,7 +262,7 @@ export const zombies = [
     "firstAppearance": "4-8",
     "weakness": "magnet-shroom",
     "description": "嘣！嘣！嘣！那声音是只强大而有效的僵尸在做他最擅长的事。",
-    "image": "/images/zombies/pogozombie.png",
+    "image": "/images/pvz1/zombies/pogozombie.png",
     "special": "Vaulting zombie, makes multiple jumps over plants. Pogo stick can be stolen by Magnet-shroom. Stops bouncing at Tall-nut. Continues jumping one tile at a time over Cob Cannon"
   },
   {
@@ -276,7 +276,7 @@ export const zombies = [
     "firstAppearance": "4-10",
     "weakness": "any",
     "description": "关于僵尸雪人的资料很少，除了他的名字、出生日期、社会保险号码、受教育程度、工作履历以及喜爱夹心三明治（烤牛肉及瑞士猪肉口味）。",
-    "image": "/images/zombies/zombieyeti.png",
+    "image": "/images/pvz1/zombies/zombieyeti.png",
     "special": "Rare zombie that runs away after a short while. Drops 4 diamonds (5 on first kill). Appears in Adventure Mode replay on Level 4-10. Can also appear in Survival: Endless"
   },
   {
@@ -290,7 +290,7 @@ export const zombies = [
     "firstAppearance": "5-1",
     "weakness": "umbrella-leaf",
     "description": "蹦极僵尸热爱冒险。毕竟，如果你不再活著，死亡还有什么意义呢？",
-    "image": "/images/zombies/bungeezombie.png",
+    "image": "/images/pvz1/zombies/bungeezombie.png",
     "special": "Descends from sky to steal plants or drop zombies in final wave. Umbrella Leaf protects surrounding area. Cannot steal Cob Cannon. Does not visually degrade"
   },
   {
@@ -304,7 +304,7 @@ export const zombies = [
     "firstAppearance": "5-3",
     "weakness": "fume-shroom",
     "description": "这架梯子花了他八块九毛九。",
-    "image": "/images/zombies/ladderzombie.png",
+    "image": "/images/pvz1/zombies/ladderzombie.png",
     "special": "Shield zombie, attaches ladder to defensive plants to let others go over them. Ladder absorbs 500 damage. Shield not affected by Snow Pea or fire peas. Vulnerable to Fume-shroom, Gloom-shroom, Magnet-shroom"
   },
   {
@@ -318,7 +318,7 @@ export const zombies = [
     "firstAppearance": "5-6",
     "weakness": "any",
     "description": "投石车僵尸可以用投石车来发射的所有东西中，篮球似乎是最佳选择，也是最明显的选择。",
-    "image": "/images/zombies/catapultzombie.png",
+    "image": "/images/pvz1/zombies/catapultzombie.png",
     "special": "Lobs basketballs at the last attackable plant in a row (75 damage each). Vehicle crushes plants on contact (instant-kill). Runs out of basketballs eventually"
   },
   {
@@ -332,7 +332,7 @@ export const zombies = [
     "firstAppearance": "5-8",
     "weakness": "instant-kill",
     "description": "巨人僵尸走动的时候，大地都在震颤。他悲叹的时候，其他僵尸都沉默下来。他是其他僵尸梦想成为的那种僵尸，然而他还是找不到女朋友。",
-    "image": "/images/zombies/gargantuar.png",
+    "image": "/images/pvz1/zombies/gargantuar.png",
     "special": "Takes two instant kills to die. Crushes plants instead of eating them. Throws an Imp when damaged to 50% health (1500 HP). Lawn Mowers, Pool Cleaners, and Roof Cleaners kill instantly. Does not spawn on top-most lane normally"
   },
   {
@@ -346,7 +346,7 @@ export const zombies = [
     "firstAppearance": "5-8",
     "weakness": "any",
     "description": "小鬼僵尸虽然瘦小，但是结实。他精通僵尸柔道、僵尸空手道、僵尸徒手斗殴。另外，他还会吹口风琴。",
-    "image": "/images/zombies/imp.png",
+    "image": "/images/pvz1/zombies/imp.png",
     "special": "Thrown by Gargantuars deep into defenses after Gargantuar loses half health. Tiny size, fast movement in I, Zombie mode (1.9s/grid)"
   },
   {
@@ -360,7 +360,7 @@ export const zombies = [
     "firstAppearance": "5-10",
     "weakness": "any",
     "description": "埃德加·乔治·僵王只用了两年就获得了死亡学博士学位。迅速精通了死亡学科技后，他制造了他那望而生畏的僵尸机器人，著手确立当地的绝对支配地位。",
-    "image": "/images/zombies/drzomboss.png",
+    "image": "/images/pvz1/zombies/drzomboss.png",
     "special": "Final boss in Zombot shell. 40,000 HP first playthrough, 60,000 HP in subsequent playthroughs and Dr. Zomboss's Revenge. Drops fireballs and iceballs, summons zombies. Vehicle crushes plants instantly"
   }
 ]

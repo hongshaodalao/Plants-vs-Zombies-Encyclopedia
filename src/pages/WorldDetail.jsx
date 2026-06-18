@@ -76,7 +76,7 @@ function WorldDetail() {
                       alt={plant.name}
                       loading="lazy"
                       onError={(e) => {
-                        e.currentTarget.src = '/images/plants/_placeholder.svg'
+                        e.currentTarget.src = '/images/pvz1/plants/_placeholder.svg'
                       }}
                     />
                     <span className={styles.entityName}>{plant.name}</span>
@@ -104,7 +104,7 @@ function WorldDetail() {
                       alt={zombie.name}
                       loading="lazy"
                       onError={(e) => {
-                        e.currentTarget.src = '/images/zombies/_placeholder.svg'
+                        e.currentTarget.src = '/images/pvz1/zombies/_placeholder.svg'
                       }}
                     />
                     <span className={styles.entityName}>{zombie.name}</span>

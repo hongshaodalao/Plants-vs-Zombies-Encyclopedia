@@ -29,8 +29,8 @@ function DetailView({ data, list, type }) {
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = isPlant
-                ? '/images/plants/_placeholder.svg'
-                : '/images/zombies/_placeholder.svg'
+                ? '/images/pvz1/plants/_placeholder.svg'
+                : '/images/pvz1/zombies/_placeholder.svg'
             }}
           />
         </div>
