@@ -91,3 +91,16 @@
   font-weight: bold;
   color: var(--color-text-primary);
 }
+
+@media (max-width: 480px) {
+  .card {
+    padding: var(--space-sm);
+  }
+  .name {
+    font-size: var(--font-size-base);
+  }
+  .stats {
+    font-size: var(--font-size-sm);
+    gap: var(--space-xs);
+  }
+}
