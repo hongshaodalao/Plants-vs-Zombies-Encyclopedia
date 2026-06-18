@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/Plants-vs-Zombies-Encyclopedia/',
+  base: command === 'build' ? '/Plants-vs-Zombies-Encyclopedia/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -16,4 +16,4 @@ export default defineConfig({
       }
     }
   }
-})
+}))
