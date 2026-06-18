@@ -26,7 +26,7 @@ function DetailView({ data, list, type }) {
         <div className={styles.imageSection}>
           <img
             className={styles.image}
-            src={data.image}
+            src={getImagePath(data.image)}
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = isPlant

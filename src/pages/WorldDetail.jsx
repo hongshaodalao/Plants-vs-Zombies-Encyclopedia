@@ -39,7 +39,7 @@ function WorldDetail() {
         <div className={styles.imageSection}>
           <img
             className={styles.image}
-            src={world.image}
+            src={getImagePath(world.image)}
             alt={world.name}
             onError={(e) => {
               e.currentTarget.src = getImagePath('/images/pvz2/worlds/_placeholder.svg')
@@ -73,7 +73,7 @@ function WorldDetail() {
                   >
                     <img
                       className={styles.entityImage}
-                      src={plant.image}
+                      src={getImagePath(plant.image)}
                       alt={plant.name}
                       loading="lazy"
                       onError={(e) => {
@@ -101,7 +101,7 @@ function WorldDetail() {
                   >
                     <img
                       className={styles.entityImage}
-                      src={zombie.image}
+                      src={getImagePath(zombie.image)}
                       alt={zombie.name}
                       loading="lazy"
                       onError={(e) => {

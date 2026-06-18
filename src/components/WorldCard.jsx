@@ -8,7 +8,7 @@ function WorldCard({ data }) {
       <div className={styles.imageWrap}>
         <img
           className={styles.image}
-          src={data.image}
+          src={getImagePath(data.image)}
           alt={data.name}
           loading="lazy"
           onError={(e) => {

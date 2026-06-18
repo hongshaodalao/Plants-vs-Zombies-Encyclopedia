@@ -45,7 +45,7 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
         <div className={styles.imageSection}>
           <img
             className={styles.image}
-            src={data.image}
+            src={getImagePath(data.image)}
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = type === 'zombie'

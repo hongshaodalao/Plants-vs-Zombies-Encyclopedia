@@ -20,7 +20,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "豌豆射手是你的第一道防线。它们向来的僵尸发射豌豆。",
-    image: "images/pvz2/plants/peashooter.png",
+    image: "/images/pvz2/plants/peashooter.png",
   },
   {
     id: "sunflower",
@@ -39,7 +39,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向日葵对你产出额外阳光至关重要。尽量多种一些！",
-    image: "images/pvz2/plants/sunflower.png",
+    image: "/images/pvz2/plants/sunflower.png",
   },
   {
     id: "wallnut",
@@ -58,7 +58,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "坚果墙拥有坚硬的外壳，你可以用它来保护其他植物。",
-    image: "images/pvz2/plants/wallnut.png",
+    image: "/images/pvz2/plants/wallnut.png",
   },
   {
     id: "potatomine",
@@ -77,7 +77,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "土豆地雷接触即爆，但需要时间武装自己。把它们种在僵尸前方。",
-    image: "images/pvz2/plants/potatomine.png",
+    image: "/images/pvz2/plants/potatomine.png",
   },
   {
     id: "cabbagepult",
@@ -96,7 +96,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "卷心菜投手向敌人投掷卷心菜。",
-    image: "images/pvz2/plants/cabbagepult.png",
+    image: "/images/pvz2/plants/cabbagepult.png",
   },
   {
     id: "bloomerang",
@@ -115,7 +115,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "回旋镖射手可以击中同一条道上最多三个目标，来去各一次！",
-    image: "images/pvz2/plants/bloomerang.png",
+    image: "/images/pvz2/plants/bloomerang.png",
   },
   {
     id: "iceberglettuce",
@@ -134,7 +134,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰冻生菜在被僵尸踩到时会将其冻结。",
-    image: "images/pvz2/plants/iceberglettuce.png",
+    image: "/images/pvz2/plants/iceberglettuce.png",
   },
   {
     id: "gravebuster",
@@ -153,7 +153,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "噬碑藤会吞噬它所种植的墓碑。",
-    image: "images/pvz2/plants/gravebuster.png",
+    image: "/images/pvz2/plants/gravebuster.png",
   },
   {
     id: "bonkchoy",
@@ -172,7 +172,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "菜问会快速拳击前方或后方的近距离敌人。",
-    image: "images/pvz2/plants/bonkchoy.png",
+    image: "/images/pvz2/plants/bonkchoy.png",
   },
   {
     id: "repeater",
@@ -191,7 +191,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "双发射手一次发射两颗豌豆。",
-    image: "images/pvz2/plants/repeater.png",
+    image: "/images/pvz2/plants/repeater.png",
   },
   {
     id: "twinsunflower",
@@ -210,7 +210,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "双子向日葵产出的阳光是普通向日葵的两倍。",
-    image: "images/pvz2/plants/twinsunflower.png",
+    image: "/images/pvz2/plants/twinsunflower.png",
   },
   {
     id: "kernelpult",
@@ -229,7 +229,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "玉米投手向僵尸投掷玉米粒和定身黄油。",
-    image: "images/pvz2/plants/kernelpult.png",
+    image: "/images/pvz2/plants/kernelpult.png",
   },
   {
     id: "snapdragon",
@@ -248,7 +248,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火龙草喷射火焰，伤害6个相邻格子内的僵尸。",
-    image: "images/pvz2/plants/snapdragon.png",
+    image: "/images/pvz2/plants/snapdragon.png",
   },
   {
     id: "spikeweed",
@@ -267,7 +267,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "地刺摧毁滚动物体，并伤害踩到它们的僵尸。",
-    image: "images/pvz2/plants/spikeweed.png",
+    image: "/images/pvz2/plants/spikeweed.png",
   },
   {
     id: "springbean",
@@ -286,7 +286,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "弹簧豆将靠得太近的僵尸弹回去。如果附近有水，会把它们弹入水中。",
-    image: "images/pvz2/plants/springbean.png",
+    image: "/images/pvz2/plants/springbean.png",
   },
   {
     id: "coconutcannon",
@@ -305,7 +305,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "椰子加农炮沿单行发射，命中时产生中等范围爆炸。",
-    image: "images/pvz2/plants/coconutcannon.png",
+    image: "/images/pvz2/plants/coconutcannon.png",
   },
   {
     id: "threepeater",
@@ -324,7 +324,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "三线射手向三条道发射豌豆。",
-    image: "images/pvz2/plants/threepeater.png",
+    image: "/images/pvz2/plants/threepeater.png",
   },
   {
     id: "spikerock",
@@ -343,7 +343,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "地刺王摧毁多个滚动僵尸，并伤害从上面走过的僵尸。",
-    image: "images/pvz2/plants/spikerock.png",
+    image: "/images/pvz2/plants/spikerock.png",
   },
   {
     id: "cherry_bomb",
@@ -362,7 +362,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "樱桃炸弹可以炸毁一片区域内的所有僵尸。引线很短，所以种在僵尸附近。",
-    image: "images/pvz2/plants/cherry_bomb.png",
+    image: "/images/pvz2/plants/cherry_bomb.png",
   },
   {
     id: "splitpea",
@@ -381,7 +381,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "分裂豌豆向前和向后发射豌豆。",
-    image: "images/pvz2/plants/splitpea.png",
+    image: "/images/pvz2/plants/splitpea.png",
   },
   {
     id: "chilibean",
@@ -400,7 +400,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "辣椒会引发一阵剧烈的胃肠不适。",
-    image: "images/pvz2/plants/chilibean.png",
+    image: "/images/pvz2/plants/chilibean.png",
   },
   {
     id: "peapod",
@@ -419,7 +419,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "豌豆荚可以在同一位置种植最多5次，破坏力倍增。",
-    image: "images/pvz2/plants/peapod.png",
+    image: "/images/pvz2/plants/peapod.png",
   },
   {
     id: "lightningreed",
@@ -438,7 +438,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "闪电芦苇向最近的僵尸发射闪电，最远可达一条道。闪电会继续跳跃，击中其他僵尸。",
-    image: "images/pvz2/plants/lightningreed.png",
+    image: "/images/pvz2/plants/lightningreed.png",
   },
   {
     id: "melonpult",
@@ -457,7 +457,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "西瓜投手对一群僵尸造成大量伤害。",
-    image: "images/pvz2/plants/melonpult.png",
+    image: "/images/pvz2/plants/melonpult.png",
   },
   {
     id: "tallnut",
@@ -476,7 +476,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "高坚果是重型防御植物，可以阻挡低飞的僵尸。",
-    image: "images/pvz2/plants/tallnut.png",
+    image: "/images/pvz2/plants/tallnut.png",
   },
   {
     id: "wintermelon",
@@ -495,7 +495,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰西瓜造成大量伤害并减速一群僵尸。",
-    image: "images/pvz2/plants/wintermelon.png",
+    image: "/images/pvz2/plants/wintermelon.png",
   },
   {
     id: "hotpotato",
@@ -514,7 +514,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "热土豆融化它所种植的冰块。",
-    image: "images/pvz2/plants/hotpotato.png",
+    image: "/images/pvz2/plants/hotpotato.png",
   },
   {
     id: "pepperpult",
@@ -533,7 +533,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "辣椒投手向僵尸投掷燃烧的辣椒，并使附近的植物保持温暖。",
-    image: "images/pvz2/plants/pepperpult.png",
+    image: "/images/pvz2/plants/pepperpult.png",
   },
   {
     id: "chardguard",
@@ -552,7 +552,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "甜菜护卫是可以将僵尸向后抛飞的防御型阻挡者。",
-    image: "images/pvz2/plants/chardguard.png",
+    image: "/images/pvz2/plants/chardguard.png",
   },
   {
     id: "stunion",
@@ -571,7 +571,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "眩晕洋葱向同一条道上的近距离僵尸喷射令人眩晕的毒气。",
-    image: "images/pvz2/plants/stunion.png",
+    image: "/images/pvz2/plants/stunion.png",
   },
   {
     id: "xshot",
@@ -590,7 +590,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "旋转芜菁沿四条对角线发射弹射物，每个有目标的方向都会攻击。",
-    image: "images/pvz2/plants/xshot.png",
+    image: "/images/pvz2/plants/xshot.png",
   },
   {
     id: "redstinger",
@@ -609,7 +609,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "红针花在靠近家园时全力攻击，距离越远越偏防御。",
-    image: "images/pvz2/plants/redstinger.png",
+    image: "/images/pvz2/plants/redstinger.png",
   },
   {
     id: "akee",
@@ -628,7 +628,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "A.K.E.E.投掷在僵尸之间弹跳的弹射物。",
-    image: "images/pvz2/plants/akee.png",
+    image: "/images/pvz2/plants/akee.png",
   },
   {
     id: "endurian",
@@ -647,7 +647,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "榴莲是防御型植物，会对攻击它的僵尸造成伤害。",
-    image: "images/pvz2/plants/endurian.png",
+    image: "/images/pvz2/plants/endurian.png",
   },
   {
     id: "stallia",
@@ -666,7 +666,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "催眠花用一阵香水雾气减速僵尸。",
-    image: "images/pvz2/plants/stallia.png",
+    image: "/images/pvz2/plants/stallia.png",
   },
   {
     id: "goldleaf",
@@ -685,7 +685,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "金叶在种植时创造黄金格子。",
-    image: "images/pvz2/plants/goldleaf.png",
+    image: "/images/pvz2/plants/goldleaf.png",
   },
   {
     id: "laser_bean",
@@ -704,7 +704,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "激光豆沿一条道发射，击中前方所有僵尸。",
-    image: "images/pvz2/plants/laser_bean.png",
+    image: "/images/pvz2/plants/laser_bean.png",
   },
   {
     id: "blover",
@@ -723,7 +723,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "三叶草吹走空中所有僵尸。",
-    image: "images/pvz2/plants/blover.png",
+    image: "/images/pvz2/plants/blover.png",
   },
   {
     id: "citron",
@@ -742,7 +742,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "香橼发射强大的等离子球。",
-    image: "images/pvz2/plants/citron.png",
+    image: "/images/pvz2/plants/citron.png",
   },
   {
     id: "empea",
@@ -761,7 +761,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电磁桃爆炸并瘫痪区域内所有机器。",
-    image: "images/pvz2/plants/empea.png",
+    image: "/images/pvz2/plants/empea.png",
   },
   {
     id: "holonut",
@@ -780,7 +780,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "全息坚果比坚果墙弱，但可以随时间恢复生命值。",
-    image: "images/pvz2/plants/holonut.png",
+    image: "/images/pvz2/plants/holonut.png",
   },
   {
     id: "magnifyinggrass",
@@ -799,7 +799,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "放大草将阳光转化为一道彩色的伤害光束。",
-    image: "images/pvz2/plants/magnifyinggrass.png",
+    image: "/images/pvz2/plants/magnifyinggrass.png",
   },
   {
     id: "powerplant",
@@ -818,7 +818,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "瓷砖萝卜在种植时创造能量瓷砖。",
-    image: "images/pvz2/plants/powerplant.png",
+    image: "/images/pvz2/plants/powerplant.png",
   },
   {
     id: "sunshroom",
@@ -837,7 +837,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "阳光菇先产出小阳光，然后正常阳光，最后大阳光。",
-    image: "images/pvz2/plants/sunshroom.png",
+    image: "/images/pvz2/plants/sunshroom.png",
   },
   {
     id: "puffshroom",
@@ -856,7 +856,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "小喷菇是短程射手，存在时间有限。",
-    image: "images/pvz2/plants/puffshroom.png",
+    image: "/images/pvz2/plants/puffshroom.png",
   },
   {
     id: "fumeshroom",
@@ -875,7 +875,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "大喷菇释放毒气，伤害区域内的所有僵尸。",
-    image: "images/pvz2/plants/fumeshroom.png",
+    image: "/images/pvz2/plants/fumeshroom.png",
   },
   {
     id: "sunbean",
@@ -894,7 +894,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "阳光豆感染僵尸产生阳光。僵尸受到伤害时会生成阳光。",
-    image: "images/pvz2/plants/sunbean.png",
+    image: "/images/pvz2/plants/sunbean.png",
   },
   {
     id: "magnetshroom",
@@ -913,7 +913,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "磁力菇移除僵尸的头盔和其他金属物品。",
-    image: "images/pvz2/plants/magnetshroom.png",
+    image: "/images/pvz2/plants/magnetshroom.png",
   },
   {
     id: "phatbeet",
@@ -932,7 +932,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "动感节拍每隔几秒发出一次伤害脉冲。",
-    image: "images/pvz2/plants/phatbeet.png",
+    image: "/images/pvz2/plants/phatbeet.png",
   },
   {
     id: "celerystalker",
@@ -951,7 +951,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "芹菜潜行者等僵尸经过后才现身，从背后猛击它们。",
-    image: "images/pvz2/plants/celerystalker.png",
+    image: "/images/pvz2/plants/celerystalker.png",
   },
   {
     id: "thymewarp",
@@ -970,7 +970,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "百里香传送倒转时间，将僵尸送回起点，但在此过程中会治愈它们。",
-    image: "images/pvz2/plants/thymewarp.png",
+    image: "/images/pvz2/plants/thymewarp.png",
   },
   {
     id: "garlic",
@@ -989,7 +989,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "大蒜将僵尸引导到其他道。",
-    image: "images/pvz2/plants/garlic.png",
+    image: "/images/pvz2/plants/garlic.png",
   },
   {
     id: "sporeshroom",
@@ -1008,7 +1008,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "孢子菇发射孢子，击败的僵尸会变成新的孢子菇。",
-    image: "images/pvz2/plants/sporeshroom.png",
+    image: "/images/pvz2/plants/sporeshroom.png",
   },
   {
     id: "intensivecarrot",
@@ -1027,7 +1027,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "强化胡萝卜让被吃掉的植物复活。",
-    image: "images/pvz2/plants/intensivecarrot.png",
+    image: "/images/pvz2/plants/intensivecarrot.png",
   },
   {
     id: "primalpeashooter",
@@ -1046,7 +1046,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "原始豌豆射手发射重型豌豆，附带短暂眩晕和偶尔击退效果。",
-    image: "images/pvz2/plants/primalpeashooter.png",
+    image: "/images/pvz2/plants/primalpeashooter.png",
   },
   {
     id: "primalwallnut",
@@ -1065,7 +1065,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "原始坚果墙比普通坚果墙贵一些，但种植速度快得多。",
-    image: "images/pvz2/plants/primalwallnut.png",
+    image: "/images/pvz2/plants/primalwallnut.png",
   },
   {
     id: "perfumeshroom",
@@ -1084,7 +1084,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "当没有敌方恐龙时，在一条道上召唤一只猛禽。",
-    image: "images/pvz2/plants/perfumeshroom.png",
+    image: "/images/pvz2/plants/perfumeshroom.png",
   },
   {
     id: "primalsunflower",
@@ -1103,7 +1103,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "原始向日葵产出大阳光而非普通阳光。",
-    image: "images/pvz2/plants/primalsunflower.png",
+    image: "/images/pvz2/plants/primalsunflower.png",
   },
   {
     id: "primalpotatomine",
@@ -1122,7 +1122,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "原始土豆地雷比普通土豆地雷贵，但武装更快，爆炸范围更大。",
-    image: "images/pvz2/plants/primalpotatomine.png",
+    image: "/images/pvz2/plants/primalpotatomine.png",
   },
   {
     id: "lilypad",
@@ -1141,7 +1141,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "睡莲让你在它上面种植非水生植物。",
-    image: "images/pvz2/plants/lilypad.png",
+    image: "/images/pvz2/plants/lilypad.png",
   },
   {
     id: "tanglekelp",
@@ -1160,7 +1160,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "缠绕水草是水生植物，会把第一个靠近的僵尸拉入水中。",
-    image: "images/pvz2/plants/tanglekelp.png",
+    image: "/images/pvz2/plants/tanglekelp.png",
   },
   {
     id: "bowlingbulb",
@@ -1179,7 +1179,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "保龄球茎滚动射击，可以弹跳击中多个僵尸。更大的球茎造成更多伤害。",
-    image: "images/pvz2/plants/bowlingbulb.png",
+    image: "/images/pvz2/plants/bowlingbulb.png",
   },
   {
     id: "guacodile",
@@ -1198,7 +1198,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "鳄梨是两栖植物，可以远程发射种子。被攻击时会冲出草坪，咬伤沿途所有僵尸。",
-    image: "images/pvz2/plants/guacodile.png",
+    image: "/images/pvz2/plants/guacodile.png",
   },
   {
     id: "banana",
@@ -1217,7 +1217,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "香蕉火箭炮可以向草坪上的任何格子发射爆炸香蕉。",
-    image: "images/pvz2/plants/banana.png",
+    image: "/images/pvz2/plants/banana.png",
   },
   {
     id: "moonflower",
@@ -1236,7 +1236,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "月光花辐射光芒，为相邻的暗影植物充能。",
-    image: "images/pvz2/plants/moonflower.png",
+    image: "/images/pvz2/plants/moonflower.png",
   },
   {
     id: "nightshade",
@@ -1255,7 +1255,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "暗影菇是暗影植物，用叶片拍击僵尸。",
-    image: "images/pvz2/plants/nightshade.png",
+    image: "/images/pvz2/plants/nightshade.png",
   },
   {
     id: "shadowshroom",
@@ -1274,7 +1274,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "暗影菇毒害吃掉它的僵尸，造成持续伤害。",
-    image: "images/pvz2/plants/shadowshroom.png",
+    image: "/images/pvz2/plants/shadowshroom.png",
   },
   {
     id: "dusklobber",
@@ -1293,7 +1293,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "黄昏投手是暗影植物，沿一条道投掷爆炸花蕾。",
-    image: "images/pvz2/plants/dusklobber.png",
+    image: "/images/pvz2/plants/dusklobber.png",
   },
   {
     id: "grimrose",
@@ -1312,7 +1312,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "暗影蔷薇是暗影植物，行为类似陆地版缠绕水草，最多将3只僵尸拖入泥土。",
-    image: "images/pvz2/plants/grimrose.png",
+    image: "/images/pvz2/plants/grimrose.png",
   },
   {
     id: "snowpea",
@@ -1331,7 +1331,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "寒冰射手发射冰冻豌豆，使僵尸难以前进。",
-    image: "images/pvz2/plants/snowpea.png",
+    image: "/images/pvz2/plants/snowpea.png",
   },
   {
     id: "powerlily",
@@ -1350,7 +1350,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "能量百合凭空创造一个植物食物。",
-    image: "images/pvz2/plants/powerlily.png",
+    image: "/images/pvz2/plants/powerlily.png",
   },
   {
     id: "squash",
@@ -1369,7 +1369,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "倭瓜会砸碎第一个靠近的僵尸。",
-    image: "images/pvz2/plants/squash.png",
+    image: "/images/pvz2/plants/squash.png",
   },
   {
     id: "jalapeno",
@@ -1388,7 +1388,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火爆辣椒摧毁一整条道的僵尸。",
-    image: "images/pvz2/plants/jalapeno.png",
+    image: "/images/pvz2/plants/jalapeno.png",
   },
   {
     id: "imitater",
@@ -1407,7 +1407,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "模仿者让你在一关中使用两株相同的植物！",
-    image: "images/pvz2/plants/imitater.png",
+    image: "/images/pvz2/plants/imitater.png",
   },
   {
     id: "hypnoshroom",
@@ -1426,7 +1426,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "僵尸吃掉魅惑菇后会转身为你而战。",
-    image: "images/pvz2/plants/hypnoshroom.png",
+    image: "/images/pvz2/plants/hypnoshroom.png",
   },
   {
     id: "peanut",
@@ -1445,7 +1445,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "豌豆坚果可以发射豌豆并阻挡僵尸。",
-    image: "images/pvz2/plants/peanut.png",
+    image: "/images/pvz2/plants/peanut.png",
   },
   {
     id: "chomper",
@@ -1464,7 +1464,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "大嘴花可以一口吞掉一只僵尸，但在咀嚼时很脆弱。",
-    image: "images/pvz2/plants/chomper.png",
+    image: "/images/pvz2/plants/chomper.png",
   },
   {
     id: "homingthistle",
@@ -1483,7 +1483,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "追踪蓟向距离家园最近的目标发射追踪弹。",
-    image: "images/pvz2/plants/homingthistle.png",
+    image: "/images/pvz2/plants/homingthistle.png",
   },
   {
     id: "ghostpepper",
@@ -1502,7 +1502,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "幽灵辣椒纠缠经过的僵尸，一段时间后爆炸。",
-    image: "images/pvz2/plants/ghostpepper.png",
+    image: "/images/pvz2/plants/ghostpepper.png",
   },
   {
     id: "sweetpotato",
@@ -1521,7 +1521,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "红薯在近距离时吸引其他道的僵尸。",
-    image: "images/pvz2/plants/sweetpotato.png",
+    image: "/images/pvz2/plants/sweetpotato.png",
   },
   {
     id: "sapfling",
@@ -1540,7 +1540,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "投掷树液创建减速僵尸的树液坑。",
-    image: "images/pvz2/plants/sapfling.png",
+    image: "/images/pvz2/plants/sapfling.png",
   },
   {
     id: "hurrikale",
@@ -1559,7 +1559,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "飓风甘蓝用寒风击退其所在行的所有僵尸。",
-    image: "images/pvz2/plants/hurrikale.png",
+    image: "/images/pvz2/plants/hurrikale.png",
   },
   {
     id: "firepeashooter",
@@ -1578,7 +1578,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火焰豌豆射手免疫冰冻，沿一条道发射燃烧的豌豆。",
-    image: "images/pvz2/plants/firepeashooter.png",
+    image: "/images/pvz2/plants/firepeashooter.png",
   },
   {
     id: "lavaguava",
@@ -1597,7 +1597,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "熔岩番石榴喷发并留下岩浆灼烧僵尸。",
-    image: "images/pvz2/plants/lavaguava.png",
+    image: "/images/pvz2/plants/lavaguava.png",
   },
   {
     id: "toadstool",
@@ -1616,7 +1616,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "毒蘑菇一口吞掉僵尸，然后产出阳光。",
-    image: "images/pvz2/plants/toadstool.png",
+    image: "/images/pvz2/plants/toadstool.png",
   },
   {
     id: "strawburst",
@@ -1635,7 +1635,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "草莓炸弹生长浆果，可造成小型、中型或巨大伤害。",
-    image: "images/pvz2/plants/strawburst.png",
+    image: "/images/pvz2/plants/strawburst.png",
   },
   {
     id: "cactus",
@@ -1654,7 +1654,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "仙人掌发射可穿透多个敌人的尖刺！僵尸靠近时躲入地下。可以伸长刺破气球僵尸。",
-    image: "images/pvz2/plants/cactus.png",
+    image: "/images/pvz2/plants/cactus.png",
   },
   {
     id: "electricblueberry",
@@ -1673,7 +1673,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电击蓝莓随机电击僵尸。",
-    image: "images/pvz2/plants/electricblueberry.png",
+    image: "/images/pvz2/plants/electricblueberry.png",
   },
   {
     id: "jackolantern",
@@ -1692,7 +1692,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "南瓜灯笼在短距离内发射火焰喷射。",
-    image: "images/pvz2/plants/jackolantern.png",
+    image: "/images/pvz2/plants/jackolantern.png",
   },
   {
     id: "grapeshot",
@@ -1711,7 +1711,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "葡萄弹爆炸并向八个方向散射弹跳弹射物。",
-    image: "images/pvz2/plants/grapeshot.png",
+    image: "/images/pvz2/plants/grapeshot.png",
   },
   {
     id: "coldsnapdragon",
@@ -1730,7 +1730,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰火龙草向6个相邻格子喷射冰雾，同时减速和伤害僵尸。",
-    image: "images/pvz2/plants/coldsnapdragon.png",
+    image: "/images/pvz2/plants/coldsnapdragon.png",
   },
   {
     id: "shrinkingviolet",
@@ -1749,7 +1749,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "缩小紫罗兰缩小一片区域内的僵尸，使其受到双倍伤害并降低啃咬伤害。",
-    image: "images/pvz2/plants/shrinkingviolet.png",
+    image: "/images/pvz2/plants/shrinkingviolet.png",
   },
   {
     id: "escaperoot",
@@ -1768,7 +1768,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "逃脱根接触即爆，并可与处于危险中的其他植物互换位置。",
-    image: "images/pvz2/plants/escaperoot.png",
+    image: "/images/pvz2/plants/escaperoot.png",
   },
   {
     id: "goldbloom",
@@ -1787,7 +1787,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "金花一次性产出大量阳光。",
-    image: "images/pvz2/plants/goldbloom.png",
+    image: "/images/pvz2/plants/goldbloom.png",
   },
   {
     id: "electriccurrant",
@@ -1806,7 +1806,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电击醋栗在同一行或列种植时创建电围栏。",
-    image: "images/pvz2/plants/electriccurrant.png",
+    image: "/images/pvz2/plants/electriccurrant.png",
   },
   {
     id: "wasabiwhip",
@@ -1825,7 +1825,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "芥末鞭用火焰鞭抽打前方和后方的僵尸。",
-    image: "images/pvz2/plants/wasabiwhip.png",
+    image: "/images/pvz2/plants/wasabiwhip.png",
   },
   {
     id: "kiwibeast",
@@ -1844,7 +1844,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "猕猴桃兽发出伤害脉冲，被僵尸伤害越多变得越大越强。",
-    image: "images/pvz2/plants/kiwibeast.png",
+    image: "/images/pvz2/plants/kiwibeast.png",
   },
   {
     id: "applemortar",
@@ -1863,7 +1863,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "苹果迫击炮投掷苹果核，伤害并短暂眩晕三条道的僵尸。",
-    image: "images/pvz2/plants/applemortar.png",
+    image: "/images/pvz2/plants/applemortar.png",
   },
   {
     id: "witchhazel",
@@ -1882,7 +1882,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "女巫榛子使用魔法将僵尸变成小喷菇。",
-    image: "images/pvz2/plants/witchhazel.png",
+    image: "/images/pvz2/plants/witchhazel.png",
   },
   {
     id: "parsnip",
@@ -1901,7 +1901,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "欧洲萝卜攻击僵尸，然后在最后一刻沿一条道冲锋。",
-    image: "images/pvz2/plants/parsnip.png",
+    image: "/images/pvz2/plants/parsnip.png",
   },
   {
     id: "missiletoe",
@@ -1920,7 +1920,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "导弹槲寄生发射冰冻冲击，伤害、减速和冰冻僵尸。",
-    image: "images/pvz2/plants/missiletoe.png",
+    image: "/images/pvz2/plants/missiletoe.png",
   },
   {
     id: "caulipower",
@@ -1939,7 +1939,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "花菜力使用精神力量催眠随机僵尸，让它们对抗昔日的同伴。",
-    image: "images/pvz2/plants/caulipower.png",
+    image: "/images/pvz2/plants/caulipower.png",
   },
   {
     id: "electricpeashooter",
@@ -1958,7 +1958,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电击豌豆射手发射类似豌豆的球体，穿过僵尸并发出电击，持续造成伤害。",
-    image: "images/pvz2/plants/electricpeashooter.png",
+    image: "/images/pvz2/plants/electricpeashooter.png",
   },
   {
     id: "hollybarrierleaf",
@@ -1977,7 +1977,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冬青屏障对攻击它的僵尸造成伤害，可发射3片带刺屏障叶击退并伤害僵尸。",
-    image: "images/pvz2/plants/hollybarrierleaf.png",
+    image: "/images/pvz2/plants/hollybarrierleaf.png",
   },
   {
     id: "torchwood",
@@ -1996,7 +1996,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火炬树桩将穿过它的豌豆变成火球，造成双倍伤害。被击败时也会造成近战和全行火焰伤害。",
-    image: "images/pvz2/plants/torchwood.png",
+    image: "/images/pvz2/plants/torchwood.png",
   },
   {
     id: "starfruit",
@@ -2015,7 +2015,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "杨桃向5个方向发射星星。",
-    image: "images/pvz2/plants/starfruit.png",
+    image: "/images/pvz2/plants/starfruit.png",
   },
   {
     id: "dandelion",
@@ -2034,7 +2034,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "蒲公英向三条不同的道发送爆炸种子，一次一条道。",
-    image: "images/pvz2/plants/dandelion.png",
+    image: "/images/pvz2/plants/dandelion.png",
   },
   {
     id: "bloominghearts",
@@ -2053,7 +2053,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "绽放之心投掷令僵尸着迷的弹射物，命中越多伤害越高。",
-    image: "images/pvz2/plants/bloominghearts.png",
+    image: "/images/pvz2/plants/bloominghearts.png",
   },
   {
     id: "explodeonut",
@@ -2072,7 +2072,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "爆炸坚果提供保护，当外壳被吃掉时爆炸炸毁僵尸。",
-    image: "images/pvz2/plants/explodeonut.png",
+    image: "/images/pvz2/plants/explodeonut.png",
   },
   {
     id: "aloe",
@@ -2091,7 +2091,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "芦荟在右侧植物生命值低于一定值时治愈它。",
-    image: "images/pvz2/plants/aloe.png",
+    image: "/images/pvz2/plants/aloe.png",
   },
   {
     id: "bombegranate",
@@ -2110,7 +2110,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "炸弹石榴爆炸并留下3x3网格的爆炸种子，伤害僵尸。",
-    image: "images/pvz2/plants/bombegranate.png",
+    image: "/images/pvz2/plants/bombegranate.png",
   },
   {
     id: "hotdate",
@@ -2129,7 +2129,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "热恋枣吸引上下道的僵尸，被吃掉时释放一道火焰。",
-    image: "images/pvz2/plants/hotdate.png",
+    image: "/images/pvz2/plants/hotdate.png",
   },
   {
     id: "solartomato",
@@ -2148,7 +2148,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "太阳能番茄眩晕3x3区域内的僵尸，每只僵尸掉落50阳光。",
-    image: "images/pvz2/plants/solartomato.png",
+    image: "/images/pvz2/plants/solartomato.png",
   },
   {
     id: "shadowpeashooter",
@@ -2167,7 +2167,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "暗影豌豆射手是暗影植物，向僵尸发射穿透性的暗影豌豆。",
-    image: "images/pvz2/plants/shadowpeashooter.png",
+    image: "/images/pvz2/plants/shadowpeashooter.png",
   },
   {
     id: "poisonpeashooter",
@@ -2186,7 +2186,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "粘液豌豆射手向僵尸发射毒豌豆，使其中毒并减速。",
-    image: "images/pvz2/plants/poisonpeashooter.png",
+    image: "/images/pvz2/plants/poisonpeashooter.png",
   },
   {
     id: "slingpea",
@@ -2205,7 +2205,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "弹弓豌豆一次发射5颗豌豆，每次都瞄准离你家最近的僵尸。",
-    image: "images/pvz2/plants/slingpea.png",
+    image: "/images/pvz2/plants/slingpea.png",
   },
   {
     id: "snappea",
@@ -2224,7 +2224,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "咬咬豌豆潜入地下，向僵尸挖掘，然后从下方冒出来一口吞掉它们。咬咬豌豆随后回到起点，咀嚼一段时间...",
-    image: "images/pvz2/plants/snappea.png",
+    image: "/images/pvz2/plants/snappea.png",
   },
   {
     id: "zoybeanpod",
@@ -2243,7 +2243,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "佐伊豆荚从幼苗长成完整豆荚，然后裂开释放有帮助的植物“僵尸”攻击僵尸。",
-    image: "images/pvz2/plants/zoybeanpod.png",
+    image: "/images/pvz2/plants/zoybeanpod.png",
   },
   {
     id: "dazeychain",
@@ -2262,7 +2262,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "雏菊链经历多个阶段成长，变得更强，每个阶段释放眩晕气雾。",
-    image: "images/pvz2/plants/dazeychain.png",
+    image: "/images/pvz2/plants/dazeychain.png",
   },
   {
     id: "electricitea",
@@ -2281,7 +2281,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电茶等待并释放电击能量脉冲，被吃掉时吃它的僵尸爆炸成一阵放电。",
-    image: "images/pvz2/plants/electricitea.png",
+    image: "/images/pvz2/plants/electricitea.png",
   },
   {
     id: "blastberry",
@@ -2300,7 +2300,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "爆炸莓藤可以种在其他植物上方，提供增强防御和额外攻击——投掷分裂成爆炸小子弹的弹射物。",
-    image: "images/pvz2/plants/blastberry.png",
+    image: "/images/pvz2/plants/blastberry.png",
   },
   {
     id: "pokra",
@@ -2319,7 +2319,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "扑克草发射穿透性的减速僵尸刺击，累积后释放强力尖刺发射，然后短暂休息后重新开始。",
-    image: "images/pvz2/plants/pokra.png",
+    image: "/images/pvz2/plants/pokra.png",
   },
   {
     id: "imppear",
@@ -2338,7 +2338,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "僵尸吃掉小鬼梨后变成小鬼。小鬼吃掉小鬼梨后被摧毁，释放眩晕毒气。",
-    image: "images/pvz2/plants/imppear.png",
+    image: "/images/pvz2/plants/imppear.png",
   },
   {
     id: "pumpkin",
@@ -2357,7 +2357,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "南瓜可以种在其他植物上方，提供一层坚固的额外护甲。",
-    image: "images/pvz2/plants/pumpkin.png",
+    image: "/images/pvz2/plants/pumpkin.png",
   },
   {
     id: "pyrevine",
@@ -2376,7 +2376,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火焰藤可以种在其他植物上方，提供防寒保护和额外的近程火焰攻击。",
-    image: "images/pvz2/plants/pyrevine.png",
+    image: "/images/pvz2/plants/pyrevine.png",
   },
   {
     id: "icebloom",
@@ -2395,7 +2395,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰花冻结、冰冻和伤害棋盘上所有僵尸，在种植位置周围的3x3区域内效果更强。",
-    image: "images/pvz2/plants/icebloom.png",
+    image: "/images/pvz2/plants/icebloom.png",
   },
   {
     id: "dartichoke",
@@ -2414,7 +2414,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "飞蓟沿一条道发射高伤害飞镖，优先攻击特别危险的僵尸如巫师、章鱼僵尸和治疗者。拥有有限的可造成暴击伤害的飞镖。",
-    image: "images/pvz2/plants/dartichoke.png",
+    image: "/images/pvz2/plants/dartichoke.png",
   },
   {
     id: "ultomato",
@@ -2433,7 +2433,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "终极番茄缓慢充能，然后沿一条道发射毁灭性光束，在充能持续期间伤害僵尸。种植多个终极番茄可以增强其威力...",
-    image: "images/pvz2/plants/ultomato.png",
+    image: "/images/pvz2/plants/ultomato.png",
   },
   {
     id: "gumnut",
@@ -2452,7 +2452,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "胶果向僵尸弹出粘性口香糖，将它们固定在原地，使其阻挡身后的其他僵尸。",
-    image: "images/pvz2/plants/gumnut.png",
+    image: "/images/pvz2/plants/gumnut.png",
   },
   {
     id: "shinevine",
@@ -2471,7 +2471,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "闪耀藤是藤蔓植物，增强阳光生产植物的产阳量（月光花除外），自身也产出少量阳光，被攻击时用阳光眩晕脉冲作为最后防御。",
-    image: "images/pvz2/plants/shinevine.png",
+    image: "/images/pvz2/plants/shinevine.png",
   },
   {
     id: "tumbleweed",
@@ -2490,7 +2490,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "风滚草沿一条道猛冲，弹跳撞击僵尸并击退它们，有几率眩晕甚至将它们翻出草坪。",
-    image: "images/pvz2/plants/tumbleweed.png",
+    image: "/images/pvz2/plants/tumbleweed.png",
   },
   {
     id: "olivepit",
@@ -2509,7 +2509,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "橄榄坑钻入地下，等待吞噬愚蠢到走上去的僵尸。",
-    image: "images/pvz2/plants/olivepit.png",
+    image: "/images/pvz2/plants/olivepit.png",
   },
   {
     id: "puffball",
@@ -2528,7 +2528,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "马勃菌在种植时爆炸，眩晕并毒害三列中的僵尸。",
-    image: "images/pvz2/plants/puffball.png",
+    image: "/images/pvz2/plants/puffball.png",
   },
   {
     id: "explodeovine",
@@ -2547,7 +2547,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "爆炸藤在种植时引爆带击退效果的爆炸，被吃掉时引爆更大的爆炸。",
-    image: "images/pvz2/plants/explodeovine.png",
+    image: "/images/pvz2/plants/explodeovine.png",
   },
   {
     id: "murkadamia",
@@ -2566,7 +2566,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "暗影澳洲坚果是防御型暗影植物，充能时生长暗影果冻来伤害攻击的僵尸。",
-    image: "images/pvz2/plants/murkadamia.png",
+    image: "/images/pvz2/plants/murkadamia.png",
   },
   {
     id: "turkeypult",
@@ -2585,7 +2585,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "火鸡投手投掷豆腐火鸡伤害僵尸，然后沿一条道冲锋伤害更多僵尸。",
-    image: "images/pvz2/plants/turkeypult.png",
+    image: "/images/pvz2/plants/turkeypult.png",
   },
   {
     id: "headbutter",
@@ -2604,7 +2604,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "头槌生菜猛击前后方的僵尸，偶尔向僵尸涂黄油。",
-    image: "images/pvz2/plants/headbutter.png",
+    image: "/images/pvz2/plants/headbutter.png",
   },
   {
     id: "boingsetta",
@@ -2623,7 +2623,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "弹跳一品红重击地面发出弹跳，重度伤害格子物品，弹回僵尸并冰冻它们。",
-    image: "images/pvz2/plants/boingsetta.png",
+    image: "/images/pvz2/plants/boingsetta.png",
   },
   {
     id: "stickybombrice",
@@ -2642,7 +2642,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "粘弹米向僵尸投掷带计时器的糯米炸弹。",
-    image: "images/pvz2/plants/stickybombrice.png",
+    image: "/images/pvz2/plants/stickybombrice.png",
   },
   {
     id: "hocus",
@@ -2661,7 +2661,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "魔法番红花使用巧妙的花瓣魔术，将靠近你家的僵尸一路变回草坪最右侧。",
-    image: "images/pvz2/plants/hocus.png",
+    image: "/images/pvz2/plants/hocus.png",
   },
   {
     id: "gloomvine",
@@ -2680,7 +2680,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "阴暗藤为单个暗影植物充能，并向八个方向发射伤害僵尸的暗影。",
-    image: "images/pvz2/plants/gloomvine.png",
+    image: "/images/pvz2/plants/gloomvine.png",
   },
   {
     id: "draftodil",
@@ -2699,7 +2699,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "风车花的风车持续转动，减速飞行僵尸，还发射空气炮弹将飞行僵尸击出草坪。",
-    image: "images/pvz2/plants/draftodil.png",
+    image: "/images/pvz2/plants/draftodil.png",
   },
   {
     id: "boomflower",
@@ -2718,7 +2718,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "爆炸气球花生成可放置在草坪上任何位置的爆炸气球作为僵尸陷阱。",
-    image: "images/pvz2/plants/boomflower.png",
+    image: "/images/pvz2/plants/boomflower.png",
   },
   {
     id: "pvine",
@@ -2737,7 +2737,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "豌豆藤种在安抚薄荷家族植物上方时，为这些植物提供显著伤害加成。",
-    image: "images/pvz2/plants/pvine.png",
+    image: "/images/pvz2/plants/pvine.png",
   },
   {
     id: "inferno",
@@ -2756,7 +2756,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "地狱火卷起毁灭性的火焰龙卷风，将僵尸扫回并灼烧伤害它们。",
-    image: "images/pvz2/plants/inferno.png",
+    image: "/images/pvz2/plants/inferno.png",
   },
   {
     id: "solarsage",
@@ -2775,7 +2775,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "太阳贤者照亮僵尸，使它们做出更好的选择并离开，留下一串阳光。",
-    image: "images/pvz2/plants/solarsage.png",
+    image: "/images/pvz2/plants/solarsage.png",
   },
   {
     id: "powervine",
@@ -2794,7 +2794,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "能量藤发射快速高能激光弹，并可通过连接成网络来增强火力。",
-    image: "images/pvz2/plants/powervine.png",
+    image: "/images/pvz2/plants/powervine.png",
   },
   {
     id: "noctarine",
@@ -2813,7 +2813,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "夜光桃是暗影植物，爆炸并创建造成伤害和减速的毒气云。",
-    image: "images/pvz2/plants/noctarine.png",
+    image: "/images/pvz2/plants/noctarine.png",
   },
   {
     id: "heathseeker",
@@ -2832,7 +2832,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "石楠追踪者是矛薄荷家族的一次性使用植物，爆裂成一阵追踪穿透飞镖。",
-    image: "images/pvz2/plants/heathseeker.png",
+    image: "/images/pvz2/plants/heathseeker.png",
   },
   {
     id: "iceweed",
@@ -2851,7 +2851,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰地刺伤害并冰冻从上面走过的僵尸。",
-    image: "images/pvz2/plants/iceweed.png",
+    image: "/images/pvz2/plants/iceweed.png",
   },
   {
     id: "tigergrass",
@@ -2870,7 +2870,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "老虎草生成一只草虎，跃出攻击附近的僵尸。",
-    image: "images/pvz2/plants/tigergrass.png",
+    image: "/images/pvz2/plants/tigergrass.png",
   },
   {
     id: "teleportatomine",
@@ -2889,7 +2889,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "传送土豆雷将僵尸传送到其位置，然后爆炸。",
-    image: "images/pvz2/plants/teleportatomine.png",
+    image: "/images/pvz2/plants/teleportatomine.png",
   },
   {
     id: "blockoli",
@@ -2908,7 +2908,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "西兰墙双手持坚固的花椰菜盾牌，猛击以眩晕和阻挡接近的僵尸。",
-    image: "images/pvz2/plants/blockoli.png",
+    image: "/images/pvz2/plants/blockoli.png",
   },
   {
     id: "buttercup",
@@ -2927,7 +2927,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "金盏花向攻击的僵尸涂黄油，用黄油眩晕它们。黄油！",
-    image: "images/pvz2/plants/buttercup.png",
+    image: "/images/pvz2/plants/buttercup.png",
   },
   {
     id: "bramblebush",
@@ -2946,7 +2946,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "荆棘丛困住并伤害僵尸。浆果簇显示剩余陷阱数量。",
-    image: "images/pvz2/plants/bramblebush.png",
+    image: "/images/pvz2/plants/bramblebush.png",
   },
   {
     id: "rhubarbarian",
@@ -2965,7 +2965,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "大黄狂暴地猛击、眩晕和拳击僵尸出草坪，在有限时间内造成大量伤害。",
-    image: "images/pvz2/plants/rhubarbarian.png",
+    image: "/images/pvz2/plants/rhubarbarian.png",
   },
   {
     id: "megagatling",
@@ -2984,7 +2984,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "超级机枪豌豆一次发射四颗豌豆，并偶尔自行使用植物食物。",
-    image: "images/pvz2/plants/megagatling.png",
+    image: "/images/pvz2/plants/megagatling.png",
   },
   {
     id: "levitater",
@@ -3003,7 +3003,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "悬浮土豆随机悬浮僵尸。",
-    image: "images/pvz2/plants/levitater.png",
+    image: "/images/pvz2/plants/levitater.png",
   },
   {
     id: "tombtangler",
@@ -3022,7 +3022,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "墓碑缠绕者吞噬墓碑并释放雾气减速僵尸，可随机将它们拉入地下。",
-    image: "images/pvz2/plants/tombtangler.png",
+    image: "/images/pvz2/plants/tombtangler.png",
   },
   {
     id: "vamporcini",
@@ -3041,7 +3041,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "吸血蒜是防御型植物，在数秒内从周围僵尸吸取生命值。",
-    image: "images/pvz2/plants/vamporcini.png",
+    image: "/images/pvz2/plants/vamporcini.png",
   },
   {
     id: "meteorflower",
@@ -3060,7 +3060,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "流星花从天空召唤陨石撞击，留下熔岩格子。",
-    image: "images/pvz2/plants/meteorflower.png",
+    image: "/images/pvz2/plants/meteorflower.png",
   },
   {
     id: "chillypepper",
@@ -3079,7 +3079,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冰冷辣椒的爆炸对僵尸造成大量伤害，并对其所在行的格子造成范围伤害，后续冻结3条道。",
-    image: "images/pvz2/plants/chillypepper.png",
+    image: "/images/pvz2/plants/chillypepper.png",
   },
   {
     id: "waterrabbit",
@@ -3098,7 +3098,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "斑竹连续5次快速攻击。每次连击后增加气层数，最多5层，每层提供更多伤害。最后一层时点击斑竹释放雷...",
-    image: "images/pvz2/plants/waterrabbit.png",
+    image: "/images/pvz2/plants/waterrabbit.png",
   },
   {
     id: "buzzbuttoon",
@@ -3117,7 +3117,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "被吃掉时，电击菇电击僵尸，持续伤害并减速。被电击的僵尸向附近其他僵尸发射闪电。",
-    image: "images/pvz2/plants/buzzbuttoon.png",
+    image: "/images/pvz2/plants/buzzbuttoon.png",
   },
   {
     id: "boomberry",
@@ -3136,7 +3136,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向其所在行最后一只僵尸发射爆炸浆果，短暂眩晕它们。",
-    image: "images/pvz2/plants/boomberry.png",
+    image: "/images/pvz2/plants/boomberry.png",
   },
   {
     id: "seaflora",
@@ -3155,7 +3155,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖植物，沿其道发射穿透气泡。种在水上时向三条道发射气泡。",
-    image: "images/pvz2/plants/seaflora.png",
+    image: "/images/pvz2/plants/seaflora.png",
   },
   {
     id: "maybee",
@@ -3174,7 +3174,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "防御型附魔弹射物植物，在受到威胁时捕获并发射蜂形弹射物瞄准附近僵尸。",
-    image: "images/pvz2/plants/maybee.png",
+    image: "/images/pvz2/plants/maybee.png",
   },
   {
     id: "scaredyshroom",
@@ -3193,7 +3193,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "胆怯的蘑菇向其所在道的僵尸发射孢子弹射物，但靠得太近时会躲起来。",
-    image: "images/pvz2/plants/scaredyshroom.png",
+    image: "/images/pvz2/plants/scaredyshroom.png",
   },
   {
     id: "bamboospartan",
@@ -3212,7 +3212,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "凶猛的竹战士，能承受巨大伤害。当盾牌破碎时，攻击会造成更多伤害。",
-    image: "images/pvz2/plants/bamboospartan.png",
+    image: "/images/pvz2/plants/bamboospartan.png",
   },
   {
     id: "sundewtangler",
@@ -3231,7 +3231,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "看似无害，茅膏菜可以从其格子下方跃出困住不知情的僵尸，吸取它们以产出阳光。",
-    image: "images/pvz2/plants/sundewtangler.png",
+    image: "/images/pvz2/plants/sundewtangler.png",
   },
   {
     id: "beansprout",
@@ -3250,7 +3250,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "温和的墙壁植物，拥有黑暗的怪物一面。豆芽受到太多伤害时会变成挥拳的怪物。",
-    image: "images/pvz2/plants/beansprout.png",
+    image: "/images/pvz2/plants/beansprout.png",
   },
   {
     id: "nightcap",
@@ -3269,7 +3269,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "夜帽菇沿一条道发射穿透性毒星，僵尸靠得太近时退入毒液潜行模式。",
-    image: "images/pvz2/plants/nightcap.png",
+    image: "/images/pvz2/plants/nightcap.png",
   },
   {
     id: "cranjelly",
@@ -3288,7 +3288,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "一次性植物，用其庞大的果冻体压碎其所在道的僵尸。压碎僵尸后留下一滩酸性粘液，减速并伤害僵尸。",
-    image: "images/pvz2/plants/cranjelly.png",
+    image: "/images/pvz2/plants/cranjelly.png",
   },
   {
     id: "buduhboom",
@@ -3307,7 +3307,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "过压的沸腾黄油球茎，这个一次性植物会轰！烧毁周围僵尸并向草坪上抛射黄油块，眩晕任何不幸被击中的僵尸...",
-    image: "images/pvz2/plants/buduhboom.png",
+    image: "/images/pvz2/plants/buduhboom.png",
   },
   {
     id: "iceshroom",
@@ -3326,7 +3326,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "猛击近战范围内的僵尸。释放寒气光环，既增强附近的冬季薄荷植物又冰冻僵尸。",
-    image: "images/pvz2/plants/iceshroom.png",
+    image: "/images/pvz2/plants/iceshroom.png",
   },
   {
     id: "dragonbruit",
@@ -3345,7 +3345,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向3条相邻道的僵尸发射3颗爆炸种荚弹射物。被摧毁时，龙果会分裂成3棵更小的植物。",
-    image: "images/pvz2/plants/dragonbruit.png",
+    image: "/images/pvz2/plants/dragonbruit.png",
   },
   {
     id: "electricpeel",
@@ -3364,7 +3364,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖植物，生成一条沿道滑行攻击僵尸并返回的果皮，返回途中再次伤害所有僵尸。",
-    image: "images/pvz2/plants/electricpeel.png",
+    image: "/images/pvz2/plants/electricpeel.png",
   },
   {
     id: "seashroom",
@@ -3383,7 +3383,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "发射短程爆炸孢子，对范围内僵尸造成伤害，但一段时间后会枯萎。",
-    image: "images/pvz2/plants/seashroom.png",
+    image: "/images/pvz2/plants/seashroom.png",
   },
   {
     id: "guardshroom",
@@ -3402,7 +3402,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖蘑菇，生成迷你版本来守护相邻植物。这些迷你菇可以吞噬僵尸，并显著增强它们共享格子的蘑菇和其他植物...",
-    image: "images/pvz2/plants/guardshroom.png",
+    image: "/images/pvz2/plants/guardshroom.png",
   },
   {
     id: "aquavine",
@@ -3421,7 +3421,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖植物，可支持地面和水生植物。其能力会根据宿主植物类型而变化。",
-    image: "images/pvz2/plants/aquavine.png",
+    image: "/images/pvz2/plants/aquavine.png",
   },
   {
     id: "mangofier",
@@ -3440,7 +3440,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "实用发射器植物，可在聚焦和散射模式间切换。其远程攻击可覆盖草坪各处。",
-    image: "images/pvz2/plants/mangofier.png",
+    image: "/images/pvz2/plants/mangofier.png",
   },
   {
     id: "blastspinner",
@@ -3459,7 +3459,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向相邻道的僵尸投掷固定的粘性蛛网。受影响的僵尸可能变成茧，爆炸并伤害周围所有僵尸。",
-    image: "images/pvz2/plants/blastspinner.png",
+    image: "/images/pvz2/plants/blastspinner.png",
   },
   {
     id: "doomshroom",
@@ -3478,7 +3478,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "毁灭菇被摧毁时爆炸。根据生长阶段，毁灭菇爆炸半径会增加，甚至可能生成额外的毁灭菇。",
-    image: "images/pvz2/plants/doomshroom.png",
+    image: "/images/pvz2/plants/doomshroom.png",
   },
   {
     id: "blazeleaf",
@@ -3497,7 +3497,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "烈焰叶在大范围内攻击僵尸。每三次攻击释放烈焰波，沿直线路径伤害多条道的僵尸。",
-    image: "images/pvz2/plants/blazeleaf.png",
+    image: "/images/pvz2/plants/blazeleaf.png",
   },
   {
     id: "frostbonnet",
@@ -3516,7 +3516,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "霜冻帽可以在火焰和冰霜绽放间切换。每种模式造成不同伤害类型，既能点燃僵尸也能冻住它们。",
-    image: "images/pvz2/plants/frostbonnet.png",
+    image: "/images/pvz2/plants/frostbonnet.png",
   },
   {
     id: "znakelily",
@@ -3535,7 +3535,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "蛇百合卷起附魔龙卷风，将僵尸变成植物僵尸来攻击它们。",
-    image: "images/pvz2/plants/znakelily.png",
+    image: "/images/pvz2/plants/znakelily.png",
   },
   {
     id: "sweetheartsnare",
@@ -3554,7 +3554,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "甜心陷阱在僵尸踩过时减速并伤害它们。",
-    image: "images/pvz2/plants/sweetheartsnare.png",
+    image: "/images/pvz2/plants/sweetheartsnare.png",
   },
   {
     id: "hammeruit",
@@ -3573,7 +3573,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "锤子草用充能锤攻击猛击僵尸。",
-    image: "images/pvz2/plants/hammeruit.png",
+    image: "/images/pvz2/plants/hammeruit.png",
   },
   {
     id: "seashooter",
@@ -3592,7 +3592,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "两栖植物，向不同方向发射3颗水包裹的豌豆弹射物伤害僵尸。种在地面上时会创建水坑。",
-    image: "images/pvz2/plants/seashooter.png",
+    image: "/images/pvz2/plants/seashooter.png",
   },
   {
     id: "cornfetti",
@@ -3611,7 +3611,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "玉米彩花发射穿透僵尸的玉米棒，可以击退足够靠近的僵尸。",
-    image: "images/pvz2/plants/cornfetti.png",
+    image: "/images/pvz2/plants/cornfetti.png",
   },
   {
     id: "devourbloom",
@@ -3630,7 +3630,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "吞噬花吞噬走或飞过它的僵尸。可以同时吞噬多只僵尸，立即消灭它们。但大型僵尸有点太大了...",
-    image: "images/pvz2/plants/devourbloom.png",
+    image: "/images/pvz2/plants/devourbloom.png",
   },
   {
     id: "sourshot",
@@ -3649,7 +3649,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "向进入其范围的僵尸发射种子，持续伤害并击退它们。大型僵尸抵抗击退但仍受到伤害。",
-    image: "images/pvz2/plants/sourshot.png",
+    image: "/images/pvz2/plants/sourshot.png",
   },
   {
     id: "brainstem",
@@ -3668,7 +3668,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "将僵尸吸引向自身——甚至包括已经经过它的——将它们从房子旁拉开并缩小成可控威胁。",
-    image: "images/pvz2/plants/brainstem.png",
+    image: "/images/pvz2/plants/brainstem.png",
   },
   {
     id: "lemonaid",
@@ -3687,7 +3687,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "生成阳光并通过治愈、复活和偶尔触发植物食物能力来支持附近植物。",
-    image: "images/pvz2/plants/lemonaid.png",
+    image: "/images/pvz2/plants/lemonaid.png",
   },
   {
     id: "rose",
@@ -3706,7 +3706,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "反射法术，将僵尸变成羊，将巫师变成温顺的奇迹！",
-    image: "images/pvz2/plants/rose.png",
+    image: "/images/pvz2/plants/rose.png",
   },
   {
     id: "blazingknight",
@@ -3725,7 +3725,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "创建一道无敌的防火墙阻挡僵尸，被击败时释放一匹火焰战马。",
-    image: "images/pvz2/plants/blazingknight.png",
+    image: "/images/pvz2/plants/blazingknight.png",
   },
   {
     id: "Sakura",
@@ -3744,7 +3744,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "用锋利的花瓣切割僵尸护甲，造成精确的持续伤害。",
-    image: "images/pvz2/plants/Sakura.png",
+    image: "/images/pvz2/plants/Sakura.png",
   },
   {
     id: "voltsnapdragon",
@@ -3763,7 +3763,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "引导一道逐渐增强的雷光束，随时间变强并在附近僵尸间连锁闪电。",
-    image: "images/pvz2/plants/voltsnapdragon.png",
+    image: "/images/pvz2/plants/voltsnapdragon.png",
   },
   {
     id: "thornwhip",
@@ -3782,7 +3782,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "用荆棘藤鞭打前方所有僵尸，眩晕它们并伤害试图吃它的僵尸。",
-    image: "images/pvz2/plants/thornwhip.png",
+    image: "/images/pvz2/plants/thornwhip.png",
   },
   {
     id: "filamint",
@@ -3801,7 +3801,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "电荷薄荷造成电击伤害，并为草坪上所有电荷薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/filamint.png",
+    image: "/images/pvz2/plants/filamint.png",
   },
   {
     id: "peppermint",
@@ -3820,7 +3820,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "辣椒薄荷在种植时触发全行火焰爆发，并为草坪上所有辣椒薄荷植物提供临时增强。",
-    image: "images/pvz2/plants/peppermint.png",
+    image: "/images/pvz2/plants/peppermint.png",
   },
   {
     id: "wintermint",
@@ -3839,7 +3839,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "冬季薄荷在种植时冰冻棋盘上所有僵尸，并为草坪上所有冬季薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/wintermint.png",
+    image: "/images/pvz2/plants/wintermint.png",
   },
   {
     id: "enlightenmint",
@@ -3858,7 +3858,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "启发薄荷在种植时产出一波阳光，并为启发薄荷家族植物提供额外临时增强。",
-    image: "images/pvz2/plants/enlightenmint.png",
+    image: "/images/pvz2/plants/enlightenmint.png",
   },
   {
     id: "reinforcemint",
@@ -3877,7 +3877,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "强化薄荷击退所有僵尸，并为草坪上所有强化薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/reinforcemint.png",
+    image: "/images/pvz2/plants/reinforcemint.png",
   },
   {
     id: "bombardmint",
@@ -3896,7 +3896,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "轰炸薄荷在棋盘上引发多次爆炸，并为草坪上所有轰炸薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/bombardmint.png",
+    image: "/images/pvz2/plants/bombardmint.png",
   },
   {
     id: "ailmint",
@@ -3915,7 +3915,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "Ail薄荷在种植时毒害所有僵尸，并为草坪上所有Ail薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/ailmint.png",
+    image: "/images/pvz2/plants/ailmint.png",
   },
   {
     id: "enchantmint",
@@ -3934,7 +3934,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "魅惑薄荷随机催眠数只僵尸，并为草坪上所有魅惑薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/enchantmint.png",
+    image: "/images/pvz2/plants/enchantmint.png",
   },
   {
     id: "containmint",
@@ -3953,7 +3953,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "限制薄荷眩晕棋盘上所有僵尸，并为草坪上所有限制薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/containmint.png",
+    image: "/images/pvz2/plants/containmint.png",
   },
   {
     id: "enforcemint",
@@ -3972,7 +3972,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "执行薄荷在种植时缩小数只僵尸，并为草坪上所有执行薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/enforcemint.png",
+    image: "/images/pvz2/plants/enforcemint.png",
   },
   {
     id: "armamint",
@@ -3991,7 +3991,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "武装薄荷发射一波重型眩晕弹射物，并为草坪上所有武装薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/armamint.png",
+    image: "/images/pvz2/plants/armamint.png",
   },
   {
     id: "concealmint",
@@ -4010,7 +4010,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "隐蔽薄荷为草坪上所有暗影植物充能，将一些僵尸拖入末日，并为隐蔽薄荷家族植物提供额外临时增强。",
-    image: "images/pvz2/plants/concealmint.png",
+    image: "/images/pvz2/plants/concealmint.png",
   },
   {
     id: "spearmint",
@@ -4029,7 +4029,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "长矛薄荷生成数个高级地刺王，并为草坪上所有长矛薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/spearmint.png",
+    image: "/images/pvz2/plants/spearmint.png",
   },
   {
     id: "appeasemint",
@@ -4048,7 +4048,7 @@ export const plants = [
     maxUpgradeLevel: null,
     upgradeEffect: null,
     description: "安抚薄荷发射一波巨型豌豆，分裂成更小的豌豆，并为草坪上所有安抚薄荷家族植物提供临时增强。",
-    image: "images/pvz2/plants/appeasemint.png",
+    image: "/images/pvz2/plants/appeasemint.png",
   }
 ]
 
