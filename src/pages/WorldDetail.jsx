@@ -1,3 +1,4 @@
+import { getImagePath } from '../utils/imagePath.js'
 import { useParams, Navigate, Link, useNavigate } from 'react-router-dom'
 import { worlds } from '../data/pvz2/worlds.js'
 import { plants } from '../data/pvz2/plants.js'
@@ -41,7 +42,7 @@ function WorldDetail() {
             src={world.image}
             alt={world.name}
             onError={(e) => {
-              e.currentTarget.src = 'images/pvz2/worlds/_placeholder.svg'
+              e.currentTarget.src = getImagePath('/images/pvz2/worlds/_placeholder.svg')
             }}
           />
         </div>
@@ -76,7 +77,7 @@ function WorldDetail() {
                       alt={plant.name}
                       loading="lazy"
                       onError={(e) => {
-                        e.currentTarget.src = 'images/pvz1/plants/_placeholder.svg'
+                        e.currentTarget.src = getImagePath('/images/pvz1/plants/_placeholder.svg')
                       }}
                     />
                     <span className={styles.entityName}>{plant.name}</span>
@@ -104,7 +105,7 @@ function WorldDetail() {
                       alt={zombie.name}
                       loading="lazy"
                       onError={(e) => {
-                        e.currentTarget.src = 'images/pvz1/zombies/_placeholder.svg'
+                        e.currentTarget.src = getImagePath('/images/pvz1/zombies/_placeholder.svg')
                       }}
                     />
                     <span className={styles.entityName}>{zombie.name}</span>

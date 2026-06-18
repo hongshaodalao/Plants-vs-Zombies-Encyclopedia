@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import { getImagePath } from '../utils/imagePath.js'
 import styles from './Layout.module.css'
 
 function Layout() {
@@ -25,7 +26,7 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              <img src="images/pvz1/plants/peashooter.png" alt="PvZ 1" className={styles.navIcon} />
+              <img src={getImagePath('/images/pvz1/plants/peashooter.png')} alt="PvZ 1" className={styles.navIcon} />
               PvZ 1
             </NavLink>
             <NavLink
@@ -34,7 +35,7 @@ function Layout() {
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
             >
-              <img src="images/pvz2/plants/peashooter.png" alt="PvZ 2" className={styles.navIcon} />
+              <img src={getImagePath('/images/pvz2/plants/peashooter.png')} alt="PvZ 2" className={styles.navIcon} />
               PvZ 2
             </NavLink>
           </nav>

@@ -1,3 +1,4 @@
+import { getImagePath } from '../utils/imagePath.js'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './Pvz2DetailView.module.css'
 import UpgradeInfo from './UpgradeInfo.jsx'
@@ -48,8 +49,8 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = type === 'zombie'
-                ? 'images/pvz2/zombies/_placeholder.svg'
-                : 'images/pvz2/plants/_placeholder.svg'
+                ? getImagePath('/images/pvz2/zombies/_placeholder.svg')
+                : getImagePath('/images/pvz2/plants/_placeholder.svg')
             }}
           />
         </div>

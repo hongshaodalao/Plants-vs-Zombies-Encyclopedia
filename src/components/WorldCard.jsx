@@ -1,3 +1,4 @@
+import { getImagePath } from '../utils/imagePath.js'
 import { Link } from 'react-router-dom'
 import styles from './WorldCard.module.css'
 
@@ -11,7 +12,7 @@ function WorldCard({ data }) {
           alt={data.name}
           loading="lazy"
           onError={(e) => {
-            e.currentTarget.src = 'images/pvz2/worlds/_placeholder.svg'
+            e.currentTarget.src = getImagePath('/images/pvz2/worlds/_placeholder.svg')
           }}
         />
       </div>

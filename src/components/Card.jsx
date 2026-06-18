@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { getImagePath } from '../utils/imagePath.js'
 import styles from './Card.module.css'
 
 const worldNames = {
@@ -31,13 +32,13 @@ function Card({ data, type, gameVersion = 'pvz1' }) {
       <div className={styles.imageWrap}>
         <img
           className={styles.image}
-          src={data.image}
+          src={getImagePath(data.image)}
           alt={data.name}
           loading="lazy"
           onError={(e) => {
-            e.currentTarget.src = isPlant
-              ? 'images/pvz1/plants/_placeholder.svg'
-              : 'images/pvz1/zombies/_placeholder.svg'
+            e.currentTarget.src = getImagePath(
+              isPlant ? '/images/pvz1/plants/_placeholder.svg' : '/images/pvz1/zombies/_placeholder.svg'
+            )
           }}
         />
       </div>

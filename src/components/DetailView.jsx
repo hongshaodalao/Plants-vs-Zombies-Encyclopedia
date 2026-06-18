@@ -1,3 +1,4 @@
+import { getImagePath } from '../utils/imagePath.js'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './DetailView.module.css'
 
@@ -29,8 +30,8 @@ function DetailView({ data, list, type }) {
             alt={data.name}
             onError={(e) => {
               e.currentTarget.src = isPlant
-                ? 'images/pvz1/plants/_placeholder.svg'
-                : 'images/pvz1/zombies/_placeholder.svg'
+                ? getImagePath('/images/pvz1/plants/_placeholder.svg')
+                : getImagePath('/images/pvz1/zombies/_placeholder.svg')
             }}
           />
         </div>
