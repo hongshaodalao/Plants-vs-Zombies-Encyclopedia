@@ -4,3 +4,5 @@ dist
 *.local
 .vscode
 .idea
+.sdd/
+.claude/skills/mimo-tts/
