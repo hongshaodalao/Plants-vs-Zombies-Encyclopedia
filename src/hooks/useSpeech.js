@@ -4,6 +4,16 @@ export function useSpeech() {
   const [isSpeaking, setIsSpeaking] = useState(false)
 
   const speak = useCallback((text) => {
+    if (!window.responsiveVoice) {
+      console.warn('ResponsiveVoice.js 未加载，尝试使用浏览器内置 TTS')
+      // 回退到浏览器原生 TTS
+      const utterance = new SpeechSynthesisUtterance(text)
+      utterance.lang = 'zh-CN'
+      utterance.rate = 0.9
+      speechSynthesis.speak(utterance)
+      return
+    }
+
     // 停止当前播放
     window.responsiveVoice.cancel()
 
@@ -18,7 +28,11 @@ export function useSpeech() {
   }, [])
 
   const stop = useCallback(() => {
-    window.responsiveVoice.cancel()
+    if (window.responsiveVoice) {
+      window.responsiveVoice.cancel()
+    } else {
+      speechSynthesis.cancel()
+    }
     setIsSpeaking(false)
   }, [])
 
