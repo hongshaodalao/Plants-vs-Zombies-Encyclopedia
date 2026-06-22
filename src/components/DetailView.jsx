@@ -1,9 +1,11 @@
 import { getImagePath } from '../utils/imagePath.js'
 import { Link, useNavigate } from 'react-router-dom'
+import { useSpeech } from '../hooks/useSpeech.js'
 import styles from './DetailView.module.css'
 
 function DetailView({ data, list, type }) {
   const navigate = useNavigate()
+  const { speak, stop, isSpeaking } = useSpeech()
   const isPlant = type === 'plant'
   const currentIndex = list.findIndex(item => item.id === data.id)
   const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null
@@ -37,7 +39,21 @@ function DetailView({ data, list, type }) {
         </div>
 
         <div className={styles.infoSection}>
-          <h1 className={styles.title}>{data.name}</h1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <h1 className={styles.title}>{data.name}</h1>
+            <button
+              className={`${styles.speechBtn} ${isSpeaking ? styles.speaking : ''}`}
+              onClick={() => {
+                if (isSpeaking) {
+                  stop()
+                } else {
+                  speak(`${data.name}。${data.description}`)
+                }
+              }}
+            >
+              {isSpeaking ? '⏹ 停止' : '🔊 朗读'}
+            </button>
+          </div>
           <span className={styles.nameEn}>{data.nameEn}</span>
 
           <p className={styles.description}>{data.description}</p>

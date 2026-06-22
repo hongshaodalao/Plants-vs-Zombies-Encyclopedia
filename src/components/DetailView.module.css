@@ -135,6 +135,36 @@
   background: var(--color-sun-dark);
 }
 
+.speechBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--color-sun);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  font-weight: bold;
+  transition: var(--transition);
+  font-family: inherit;
+}
+
+.speechBtn:hover {
+  transform: scale(1.05);
+}
+
+.speaking {
+  background: var(--color-zombie);
+  color: var(--color-text-light);
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
 @media (max-width: 768px) {
   .detail {
     grid-template-columns: 1fr;
