@@ -20,10 +20,23 @@ export function useSpeech() {
 
     const utterance = new SpeechSynthesisUtterance(text)
     utterance.lang = 'zh-CN'
-    utterance.rate = 0.9
-    utterance.pitch = 1.0
+    utterance.rate = 0.85    // 更慢一点，更自然
+    utterance.pitch = 1.2    // 稍高音调，更活泼
+    utterance.volume = 1.0   // 最大音量
 
-    const chineseVoice = voices.find(v => v.lang.startsWith('zh'))
+    // 优先选择高质量中文语音
+    const preferredVoice = voices.find(v =>
+      v.lang.startsWith('zh') &&
+      (v.name.includes('Ting') ||
+       v.name.includes('Tian') ||
+       v.name.includes('Google') ||
+       v.name.includes('Microsoft') ||
+       v.name.includes('Xiaoxiao') ||
+       v.name.includes('Xiaoyi'))
+    )
+    const fallbackVoice = voices.find(v => v.lang.startsWith('zh'))
+    const chineseVoice = preferredVoice || fallbackVoice
+
     if (chineseVoice) {
       utterance.voice = chineseVoice
     }
