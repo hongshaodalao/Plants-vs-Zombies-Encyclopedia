@@ -66,7 +66,8 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
                 if (isSpeaking) {
                   stop()
                 } else {
-                  speak(data.id)
+                  const audioPath = `pvz2/${type === 'zombie' ? 'zombies' : 'plants'}/${data.id}`
+                  speak(audioPath)
                 }
               }}
             >
