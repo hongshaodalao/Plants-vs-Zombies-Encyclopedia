@@ -47,7 +47,7 @@ function DetailView({ data, list, type }) {
                 if (isSpeaking) {
                   stop()
                 } else {
-                  speak(`${data.name}。${data.description}`)
+                  speak(data.id)
                 }
               }}
             >

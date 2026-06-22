@@ -66,7 +66,7 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
                 if (isSpeaking) {
                   stop()
                 } else {
-                  speak(`${data.name}。${data.description}`)
+                  speak(data.id)
                 }
               }}
             >
