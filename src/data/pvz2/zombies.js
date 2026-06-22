@@ -176,7 +176,7 @@ export const zombies = [
     firstAppearance: "Day 3",
     weakness: null,
     special: "以三只或以上僵尸群组形式出现。",
-    description: "Camel Zombies are zombies that will appear in groups of three to six zombies, carrying signs with different camel parts on them. They are the second zombies encountered in Plants vs. Zombies 2 and Plants vs. Zombies Online, if not counting all the different variations of regular zombies. Camel Zombi",
+    description: "骆驼僵尸会成群出现，通常3-5个一组。它们共享一个生命值，需要击败所有骆驼僵尸才能消灭整个群体。",
     image: "/images/pvz2/zombies/camel_zombies.png"
   },
   {
@@ -368,7 +368,7 @@ export const zombies = [
     firstAppearance: "Day 2",
     weakness: "远程攻击植物",
     special: "通过飞行越过低矮防御物。",
-    description: "Put butter on a Seagull Zombie}}",
+    description: "海鸥僵尸是海盗港湾世界中独特的僵尸，可以飞过植物。",
     image: "/images/pvz2/zombies/seagull_zombie.png"
   },
   {
@@ -384,7 +384,7 @@ export const zombies = [
     firstAppearance: "Day 32",
     weakness: null,
     special: "通过飞行越过低矮防御物。",
-    description: "Pelican Zombie absorbs exactly 270 damage and does not change appearance when damaged. It will die immediately when hit by Kernel-pult's butter.",
+    description: "鹈鹕僵尸出现在海盗港湾世界中，可以飞过水域，直接到达玩家的房屋。",
     image: "/images/pvz2/zombies/pelican_zombie.png"
   },
   {
@@ -432,7 +432,7 @@ export const zombies = [
     firstAppearance: "Day 10",
     weakness: null,
     special: "向草坪中部发射海盗小鬼僵尸，若未被及时摧毁则爆炸散落大量小鬼。",
-    description: "Use a [[Coconut Cannon (PvZ2)",
+    description: "小鬼炮是海盗港湾世界中独特的僵尸，可以发射小鬼僵尸。",
     image: "/images/pvz2/zombies/imp_cannon.png"
   },
   {
@@ -576,7 +576,7 @@ export const zombies = [
     firstAppearance: "Day 3",
     weakness: null,
     special: "用钢琴碾压植物，并使牛仔僵尸切换行道。",
-    description: "Pianist Zombie is the sixth zombie found in Wild West. He rolls over plants, killing most instantly (with a few exceptions such as Spikerock and Wall-nut) and causes all Cowboy Zombies, Conehead Cowboys, Buckethead Cowboys, and Cart-Head Zombies on the screen to dance and change lanes every few seco",
+    description: "钢琴僵尸是狂野西部世界中第六个出现的僵尸，会弹奏钢琴，吸引其他僵尸。",
     image: "/images/pvz2/zombies/pianist_zombie.png"
   },
   {
@@ -800,7 +800,7 @@ export const zombies = [
     firstAppearance: "Day 7",
     weakness: null,
     special: null,
-    description: "Yeti Imp is an Imp variant in Plants vs. Zombies: Garden Warfare, Plants vs. Zombies: Garden Warfare 2, and Plants vs. Zombies: Battle for Neighborville. Similar to the Exploding Imp, Yeti Imps run at the player and explode on contact, however, the Yeti Imp can also freeze the player, making it very",
+    description: "雪人小鬼僵尸是雪人僵尸的小鬼版本，出现在植物大战僵尸：花园战争中。",
     image: "/images/pvz2/zombies/yeti_imp.png"
   },
   {
@@ -816,7 +816,7 @@ export const zombies = [
     firstAppearance: "Day 9",
     weakness: null,
     special: "偶尔飞行越过障碍物和植物。",
-    description: "Dodo Rider Zombie is the sixth zombie encountered in Frostbite Caves in Plants vs. Zombies 2. The Dodo Rider Zombie will glide whenever he encounters certain plants, like Wall-nuts or Spikeweeds, a slider, a lava, or a puddle. Otherwise, he will proceed normally.",
+    description: "渡渡鸟骑士僵尸是冰河世界中第六个出现的僵尸，可以飞过植物。",
     image: "/images/pvz2/zombies/dodo_rider_zombie.png"
   },
   {
@@ -848,7 +848,7 @@ export const zombies = [
     firstAppearance: "Day 22",
     weakness: null,
     special: "原木被打碎后召唤冰鼬。",
-    description: "On a level with Weasel Hoarders, don't let any [[Ice Weasel",
+    description: "黄鼠狼僵尸是冰河世界中独特的僵尸，被击败后会释放冰鼬。",
     image: "/images/pvz2/zombies/weasel_hoarder.png"
   },
   {
@@ -864,7 +864,7 @@ export const zombies = [
     firstAppearance: "Day 22",
     weakness: null,
     special: "不受冻结效果影响。",
-    description: "On a level with Weasel Hoarders, don't let any weasels jump over [[Slider tile",
+    description: "冰鼬由黄鼠狼僵尸释放，移动速度快但生命值低。",
     image: "/images/pvz2/zombies/ice_weasel.png"
   },
   {
@@ -1008,7 +1008,7 @@ export const zombies = [
     firstAppearance: "Day 7",
     weakness: "非抛物线攻击植物",
     special: "用阳伞偏转抛射物，保护自己和身后的僵尸。",
-    description: "The only way to damage her is by non-lobbed projectiles, such as peas, lasers, or explosives, Spikeweed/Spikerock, Bonk Choy, Wasabi Whip and splash damage from lobbed plants, like melons.",
+    description: "阳伞僵尸是失落之城世界中独特的僵尸，使用阳伞防御投掷类攻击。",
     image: "/images/pvz2/zombies/parasol_zombie.png"
   },
   {
@@ -1024,7 +1024,7 @@ export const zombies = [
     firstAppearance: "Day 11",
     weakness: null,
     special: "快速携带冒险家僵尸（普通、路障或铁桶）越过防线进入草坪。",
-    description: "Bug Zombie is the eighth zombie encountered in Lost City in Plants vs. Zombies 2. The bug can carry a Basic, Conehead, or Buckethead Adventurer Zombie. It greatly improves the zombie's speed, making it easier for the zombies to advance. The Kernel-pult's butter can destroy the bug instantly, while u",
+    description: "虫子僵尸是失落之城世界中第八个出现的僵尸，可以携带虫子。",
     image: "/images/pvz2/zombies/bug_zombie.png"
   },
   {
@@ -1072,7 +1072,7 @@ export const zombies = [
     firstAppearance: "Day 23",
     weakness: null,
     special: "可以降落到玩家草坪的第四、第五或第六格。",
-    description: "Relic Hunter Zombie absorbs 760 damage and degrades upon absorbing 380 damage before dying at 760 damage.",
+    description: "遗迹猎人僵尸是失落之城世界中独特的僵尸，可以跳过植物。",
     image: "/images/pvz2/zombies/relic_hunter_zombie.png"
   },
   {
@@ -1088,7 +1088,7 @@ export const zombies = [
     firstAppearance: "Day 27",
     weakness: null,
     special: "试图偷取阳光，并用头骨灼烧前方四格的植物。吸收的阳光越多，激光射程越远。",
-    description: "He bears a strong resemblance to Archimedes Q. Porter from Tarzan. The skull used by him is an obvious reference to the crystal skull in the Indiana Jones movie Indiana Jones and the Kingdom of the Crystal Skull. This is further proven by his Almanac entry, which references crystal skulls and his in",
+    description: "绿松石头骨僵尸是失落之城世界中独特的僵尸，可以发射激光。",
     image: "/images/pvz2/zombies/turquoise_skull_zombie.png"
   },
   {
@@ -1184,7 +1184,7 @@ export const zombies = [
     firstAppearance: "Day 30",
     weakness: null,
     special: "通过飞越防御物来绕过防线，高大的植物除外。",
-    description: "Blastronaut Zombie can boost over any plants except for tall barriers such as Tall-nut or Infi-nut/Moonflower's force field.",
+    description: "宇航员僵尸是未来世界中独特的僵尸，可以飞过植物。",
     image: "/images/pvz2/zombies/blastronaut_zombie.png"
   },
   {
@@ -1200,7 +1200,7 @@ export const zombies = [
     firstAppearance: "Day 2",
     weakness: "范围攻击植物",
     special: "在前方生成护盾，可阻挡三行的正面攻击。",
-    description: "Shield Zombie is a robotic zombie that appears in Far Future. It can create a non-damaging force field in front of itself which blocks projectiles and spans three lanes.",
+    description: "盾牌僵尸是未来世界中独特的机械僵尸，使用盾牌防御攻击。",
     image: "/images/pvz2/zombies/shield_zombie.png"
   },
   {
@@ -1216,7 +1216,7 @@ export const zombies = [
     firstAppearance: "Day 3",
     weakness: null,
     special: "从名为\"机器人群！\"的伏击中出现。",
-    description: "Bug Bot Imp is the Far Future version of Imp in Plants vs. Zombies 2. He is a small, yellow mechanized walker controlled by an Imp. He works exactly as the other Imp variants, except his toughness is higher and he moves differently from them. He is launched by the Gargantuar Prime. Bug Bot Imps some",
+    description: "虫子机器人小鬼是未来世界中小鬼僵尸的机械版本。",
     image: "/images/pvz2/zombies/bug_bot_imp.png"
   },
   {
@@ -1232,7 +1232,7 @@ export const zombies = [
     firstAppearance: "Day 5",
     weakness: "高伤害植物",
     special: null,
-    description: "Trigger a [[Sun Bombs",
+    description: "机器人路障僵尸是未来世界中路障僵尸的机械版本。",
     image: "/images/pvz2/zombies/robo_cone_zombie.png"
   },
   {
@@ -1248,7 +1248,7 @@ export const zombies = [
     firstAppearance: "Day 10",
     weakness: null,
     special: "召唤迪斯科喷气背包僵尸。",
-    description: "Disco-tron 3000 is a mechanized walker in Plants vs. Zombies 2 that appears in Far Future. It is a large machine that is operated by two Imps. It summons four Disco Jetpack Zombies around it every 15 seconds. This makes it very similar to the Dancing Zombie in Plants vs. Zombies.",
+    description: "迪斯科机器人3000是未来世界中独特的机械僵尸，可以召唤迪斯科僵尸。",
     image: "/images/pvz2/zombies/disco_tron_3000.png"
   },
   {
@@ -1296,7 +1296,7 @@ export const zombies = [
     firstAppearance: "Day 8",
     weakness: null,
     special: "双手碾压植物，随机用激光眼灼烧植物，生命值低于50%时发射虫子机器人小鬼。",
-    description: "Unleash the Far Future Gargantuar}}",
+    description: "巨人僵尸Prime是未来世界中巨人僵尸的机械版本，拥有极高的生命值。",
     image: "/images/pvz2/zombies/gargantuar_prime.png"
   },
   {
@@ -1456,7 +1456,7 @@ export const zombies = [
     firstAppearance: "Night 16",
     weakness: null,
     special: "为附近的农民僵尸授予骑士头盔。",
-    description: "Zombie King is the tenth zombie encountered in Dark Ages. This zombie's main role is to provide a boost in toughness to Peasant Zombies, Conehead Peasants, and Buckethead Peasants by granting them knight helms and transforming them into Knight Zombies. The Zombie King does not move; an Announcer Imp",
+    description: "僵尸国王是黑暗时代世界中第十个出现的僵尸，可以召唤农民僵尸。",
     image: "/images/pvz2/zombies/zombie_king.png"
   },
   {
@@ -1472,7 +1472,7 @@ export const zombies = [
     firstAppearance: "Night 20",
     weakness: null,
     special: "免疫火焰伤害。",
-    description: "Imp Dragon Zombie is the eleventh zombie encountered in Dark Ages in Plants vs. Zombies 2. He is an Imp immune to fire damage, which includes explosives like Cherry Bomb, but otherwise behaves no different from most other imps.",
+    description: "小鬼龙僵尸是黑暗时代世界中第十一个出现的僵尸，可以飞过植物。",
     image: "/images/pvz2/zombies/imp_dragon_zombie.png"
   },
   {
@@ -1808,7 +1808,7 @@ export const zombies = [
     firstAppearance: "Day 12",
     weakness: null,
     special: "碾压植物。生命值低于50%时投掷侏罗纪小鬼僵尸。",
-    description: "Unleash the Jurassic Marsh Gargantuar}}",
+    description: "侏罗纪巨人僵尸是侏罗纪沼泽世界中巨人僵尸的变体，拥有极高的生命值。",
     image: "/images/pvz2/zombies/jurassic_gargantuar.png"
   },
   {
@@ -1824,7 +1824,7 @@ export const zombies = [
     firstAppearance: "Day 21",
     weakness: null,
     special: "免疫原始豌豆射手的击退效果。",
-    description: "In addition to significantly increased toughness compared to the average zombie, Jurassic Bully is immune to Primal Peashooter's knockback effect. He is not immune to Primal Peashooter's stunning effect and all other plants that can knock zombies back such as Spring Bean and Chard Guard will work pr",
+    description: "侏罗纪投掷僵尸是侏罗纪沼泽世界中独特的僵尸，可以投掷其他僵尸。",
     image: "/images/pvz2/zombies/jurassic_bully.png"
   },
   {
@@ -1840,7 +1840,7 @@ export const zombies = [
     firstAppearance: "Day 38",
     weakness: null,
     special: "免疫原始豌豆射手的击退效果。可用岩石碾压植物，立即击杀并留下焦痕。",
-    description: "Jurassic Rockpuncher is an extremely powerful zombie that appears in the Jurassic Marsh expansion in Plants vs. Zombies 2. He is an upgraded version of Jurassic Bully, who has more than twice as much health as the Jurassic Bully and immune to Primal Peashooter's knockback effect. He also have the ab",
+    description: "侏罗纪碎石僵尸是侏罗纪沼泽世界中极其强大的僵尸，可以击碎岩石。",
     image: "/images/pvz2/zombies/jurassic_rockpuncher.png"
   },
   {
@@ -2048,7 +2048,7 @@ export const zombies = [
     firstAppearance: "Day 17",
     weakness: "范围攻击植物",
     special: "向植物投掷章鱼，章鱼被摧毁前使植物失效。",
-    description: "Octo Zombie is the twelfth zombie encountered in Big Wave Beach and an environment modifier in Plants vs. Zombies 2. He can throw octopi at plants to disable them. The octopi will occupy the tile until they are destroyed. He prioritizes the plants in his lane, and then moves on to the ones in other ",
+    description: "章鱼僵尸是巨浪沙滩世界中第十二个出现的僵尸，可以投掷章鱼困住植物。",
     image: "/images/pvz2/zombies/octo_zombie.png"
   },
   {
@@ -2064,7 +2064,7 @@ export const zombies = [
     firstAppearance: "Day 4",
     weakness: null,
     special: null,
-    description: "Imps and their world-themed variants in Plants vs. Zombies 2 are small, fast-moving zombies that do not have much health. Imps typically arrive further into the player's defenses than usual in one way or another, typically from a Gargantuar, but they can also walk onto the lawn on their own. This ma",
+    description: "小鬼僵尸及其世界变体是植物大战僵尸2中最基础的小鬼类型，生命值较低但数量众多。",
     image: "/images/pvz2/zombies/imp.png"
   },
   {
@@ -2080,7 +2080,7 @@ export const zombies = [
     firstAppearance: "Day 4",
     weakness: "高伤害植物",
     special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
-    description: "Unleash the [[Ancient Egypt",
+    description: "巨人僵尸及其世界变体是植物大战僵尸2中最坚韧的僵尸类型，拥有极高的生命值和攻击力。",
     image: "/images/pvz2/zombies/gargantuar.png"
   },
   {
@@ -2096,7 +2096,7 @@ export const zombies = [
     firstAppearance: "Day 3",
     weakness: "快速击杀",
     special: "报纸被摧毁后移动和吞噬速度大幅提升。",
-    description: "Set a Newspaper Zombie's newspaper on fire}}",
+    description: "报纸僵尸是黑暗时代世界中独特的僵尸，当报纸被摧毁后会进入狂暴状态。",
     image: "/images/pvz2/zombies/newspaper_zombie.png"
   },
   {
@@ -2112,7 +2112,7 @@ export const zombies = [
     firstAppearance: "Day 39",
     weakness: null,
     special: "报纸被摧毁后移动和吞噬速度大幅提升。",
-    description: "Set a [[Newspaper Zombie (PvZ2)",
+    description: "周日报纸僵尸是报纸僵尸的加强版本，拥有更高的生命值。",
     image: "/images/pvz2/zombies/sunday_edition_zombie.png"
   },
   {
@@ -2128,7 +2128,7 @@ export const zombies = [
     firstAppearance: "Day 9",
     weakness: "仙人掌或三叶草",
     special: "通过飞越防御物绕过防线，直到气球被刺破。",
-    description: "Balloon Zombie is a flying zombie in Plants vs. Zombies 2 that floats above the lawn using a red balloon with an angry face drawn on tied around his waist. The balloon acts as armor and the zombie himself can hover over most plants until the balloon is popped and the zombie drops to the ground. He c",
+    description: "气球僵尸是植物大战僵尸2中独特的僵尸，可以飞过植物，需要使用三叶草等植物才能击落。",
     image: "/images/pvz2/zombies/balloon_zombie.png"
   },
   {
@@ -2144,7 +2144,7 @@ export const zombies = [
     firstAppearance: "Day 21",
     weakness: "高伤害植物",
     special: "撞击遇到的第一棵植物，然后正常行走。可将超级粉丝小鬼踢到第四列之后。",
-    description: "Complete a level where All-Star Zombies are unable to tackle even a single [[Plants (PvZ2)",
+    description: "全明星僵尸是现代世界中独特的僵尸，可以冲撞植物。",
     image: "/images/pvz2/zombies/all_star_zombie.png"
   },
   {
@@ -2160,7 +2160,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "用气场强化僵尸，使其移动和吞噬速度加快。",
-    description: "He is immune to the following effects:",
+    description: "心血管僵尸是现代世界中独特的僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/cardio_zombie.png"
   },
   {
@@ -2176,7 +2176,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "召唤多种僵尸，用导弹攻击植物，并可将僵尸传送到草坪深处。",
-    description: "It also cannot be slowed or stunned by any plant except E.M.Peach and Power Vine. He can also remove gum from gummed zombies when teleporting them.",
+    description: "Z机甲是现代世界中独特的机械僵尸，拥有极高的生命值和攻击力。",
     image: "/images/pvz2/zombies/z_mech.png"
   },
   {
@@ -2192,7 +2192,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "随着层数受损释放带电的生日惊喜。",
-    description: "When the first layer is destroyed, it will spawn a hypnotized Super-Fan Imp in the 2nd lane. When the second layer is destroyed, it will spawn two hypnotized Jester Zombies with the Birthdayz costume in both the 3rd and 5th lane. When the third layer is destroyed, it will release a small sun, a silv",
+    description: "蛋糕坦克是现代世界中独特的僵尸，被击败后会释放催眠僵尸。",
     image: "/images/pvz2/zombies/caketank.png"
   },
   {
@@ -2304,7 +2304,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "以三只或以下僵尸群组形式出现。部分僵尸将盾牌举过头顶，保护自己免受上方攻击。",
-    description: "Roman Shield Zombies are zombies that will appear in groups of two to three zombies, carrying shields in front of them or above their heads. They are encountered only in the mode Penny's Pursuit. They behave quite similar to the Camel Zombies encountered in Ancient Egypt, but the Roman Shield Zombie",
+    description: "罗马盾牌僵尸是侏罗纪沼泽世界中独特的僵尸，使用盾牌防御攻击。",
     image: "/images/pvz2/zombies/roman_shield_zombie.png"
   },
   {
@@ -2320,7 +2320,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "碾压植物，生命值低于65%时投掷罗马小鬼僵尸并撒网使植物眩晕。",
-    description: "Gladiator Gargantuar is a Gargantuar variant encountered in Penny's Pursuit. The Gladiator Gargantuar has various differences from other world-based Gargantuars, having the ability to throw a Roman Imp, which drops a net on a plant once he lands, disabling the targeted plant for the next 10 seconds.",
+    description: "角斗士巨人僵尸是侏罗纪沼泽世界中独特的僵尸，拥有极高的生命值。",
     image: "/images/pvz2/zombies/gladiator_gargantuar.png"
   },
   {
@@ -2336,7 +2336,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: null,
-    description: "Roman Imp is an Imp variant encountered in Penny's Pursuit. He is not much different from other Imps, aside from having slightly more health and also dropping nets (which prevent the plant from moving and using their special capabilities) on plants when he is thrown by Gladiator Gargantuar. He absor",
+    description: "罗马小鬼僵尸是侏罗纪沼泽世界中小鬼僵尸的变体。",
     image: "/images/pvz2/zombies/roman_imp.png"
   },
   {
@@ -2352,7 +2352,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "发射花瓶摧毁植物并释放僵尸，发射5个花瓶后自动自毁。",
-    description: "After launching five vases, it will self-destruct.",
+    description: "Z公司投石车僵尸是现代世界中独特的僵尸，可以发射花瓶。",
     image: "/images/pvz2/zombies/zcorpion_zombie.png"
   },
   {
@@ -2368,7 +2368,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "推动石堆，石堆被摧毁后释放石像头僵尸。将面向她的僵尸石化。",
-    description: "Zombie Medusa absorbs 750 damage. She loses her arm at 375 damage before dying at 750 damage.",
+    description: "僵尸美杜莎是现代世界中独特的僵尸，可以将植物石化。",
     image: "/images/pvz2/zombies/zombie_medusa.png"
   },
   {
@@ -2384,7 +2384,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "向植物投掷沙拉酱使其失效，并加快僵尸吞噬速度。召唤罗马僵尸。",
-    description: "The Roman Caesar Zombie has several abilities. He can promote common Roman Zombies into Centurion Zombies, throw bottles of salad dressing onto the player's plants that disable said plant and accelerates all zombies in the lane, or summon some other Roman Zombies.",
+    description: "罗马凯撒僵尸是侏罗纪沼泽世界中独特的僵尸，拥有多种能力。",
     image: "/images/pvz2/zombies/roman_caesar_zombie.png"
   },
   {
@@ -2400,7 +2400,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "用棒球棒碾压植物。",
-    description: "Gargimp Legal absorbs 1100 damage, before dying and does not degrade.",
+    description: "小鬼法师僵尸是现代世界中独特的僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/gargimp_legal.png"
   },
   {
@@ -2416,7 +2416,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "碾压植物，生命值低于50%时投掷小鬼僵尸。",
-    description: "The Head Office Impgantuar has 2,100 health and does not degrade. He throws the Gargimp Legal at 1,050 health.",
+    description: "总部小鬼巨人僵尸是现代世界中独特的僵尸，拥有极高的生命值。",
     image: "/images/pvz2/zombies/head_office_impgantuar.png"
   },
   {
@@ -2560,7 +2560,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "降落到防线后方。投掷笔记本电脑对单格造成巨额伤害。移动和吞噬速度提升。",
-    description: "ZCorp HelpDesk is a ZCorp zombie in Plants vs. Zombies 2, introduced in the 8.7.1 update. He throws an exploding laptop after absorbing enough damage, dealing 1000 damage to the plant hit by it. After throwing his laptop, he gains an attack and speed boost.",
+    description: "Z公司服务台是现代世界中独特的僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/zcorp_helpdesk.png"
   },
   {
@@ -2672,7 +2672,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: null,
-    description: "Carnie Imp is an Imp zombie in Plants vs. Zombies 2 encountered in the Backyard Big Top Thymed Events. They are often launched from Carnie Cannons. Its helmet allows it to absorb slightly more damage than a Buckethead Zombie.",
+    description: "嘉年华小鬼僵尸是现代世界中小鬼僵尸的变体。",
     image: "/images/pvz2/zombies/carnie_imp.png"
   },
   {
@@ -2688,7 +2688,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "被摧毁时分裂成两只嘉年华分裂小鬼僵尸进入相邻行道。",
-    description: "Carnie Imp Twins are a pair of Imp zombies in Plants vs. Zombies 2 encountered in the Backyard Big Top Thymed Event. They act as one zombie until enough damage is done to them, causing them to split up in adjacent lanes. They can also be thrown by a Strongman Gargantuar when below half-health.",
+    description: "嘉年华双胞胎小鬼僵尸是现代世界中独特的小鬼僵尸，成对出现。",
     image: "/images/pvz2/zombies/carnie_imp_twins.png"
   },
   {
@@ -2752,7 +2752,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "喷火烧毁前方植物。冰系攻击可熄灭他的胡子。",
-    description: "Firebreather Zombie absorbs 625 damage and his appearance changes at 312.5 damage (when he loses his arm) before dying at 625 damage and dealing 300 damage to zombies close to him. His flame will be extinguished when chilled, and cannot be reignited by fire plants.",
+    description: "喷火僵尸是现代世界中独特的僵尸，可以喷火攻击植物。",
     image: "/images/pvz2/zombies/firebreather_zombie.png"
   },
   {
@@ -2768,7 +2768,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "踩高跷越过玩家防线，直到失去高跷。",
-    description: "Stiltwalker Zombie absorbs 900 damage and his appearance changes at 650 damage (when he loses his stilts) before dying at 900 damage.",
+    description: "高跷僵尸是现代世界中独特的僵尸，可以踩在高跷上越过植物。",
     image: "/images/pvz2/zombies/stiltwalker_zombie.png"
   },
   {
@@ -2784,7 +2784,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "火炮可在防线后方倾泻大量嘉年华小鬼僵尸。",
-    description: "It is also capable of launching out Carnie Imps onto your lawn through its powerful cannon.",
+    description: "僵尸博士灾难机器人是现代世界中独特的僵尸博士变体，可以发射嘉年华小鬼。",
     image: "/images/pvz2/zombies/zombot_catastro_liope.png"
   },
   {
@@ -2800,7 +2800,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "被击败后可能掉落银币。",
-    description: "Zombie Monkey absorbs 300 damage per shot and degrades only when destroyed. When defeated, it has a 50% chance to drop a silver coin.",
+    description: "僵尸猴子是现代世界中独特的僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/zombie_monkey.png"
   },
   {
@@ -2816,7 +2816,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "能飞到其他行道的植物处将其带走。",
-    description: "Zombie Dove is an animal zombie in Plants vs. Zombies 2 encountered in the Backyard Big Top Thymed Events. It cannot appear on its own and can only appear when summoned from Magician Zombie's hat.",
+    description: "僵尸鸽子是现代世界中独特的动物僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/zombie_dove.png"
   },
   {
@@ -2832,7 +2832,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "攻击坚果类植物时，造成相当于其最大生命值一半的伤害。",
-    description: "He is based on the Nutcracker dolls and also based on Pyotr Ilyich Tchaikovsky's ballet The Nutcracker and as well as several adaptations of the ballet of the same name (such as the 2018 Disney film The Nutcracker and the Four Realms).",
+    description: "胡桃夹子僵尸是现代世界中独特的僵尸，基于胡桃夹子玩偶设计。",
     image: "/images/pvz2/zombies/nutcracker_zombie.png"
   },
   {
@@ -2848,7 +2848,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在水中移动更快",
-    description: "Ducky Tubes are able to move more quickly in water, similarly to their Plants vs. Zombies 3 counterparts.",
+    description: "鸭子救生圈是巨浪沙滩世界中基础的僵尸类型，可以在水中快速移动。",
     image: "/images/pvz2/zombies/ducky_tube.png"
   },
   {
@@ -2864,7 +2864,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在水中移动更快",
-    description: "Ducky Tube Coneheads are able to move more quickly in water, similarly to their Plants vs. Zombies 3 counterparts.",
+    description: "路障鸭子救生圈是巨浪沙滩世界中戴着路障的僵尸，比基础僵尸更坚韧。",
     image: "/images/pvz2/zombies/ducky_tube_conehead.png"
   },
   {
@@ -2880,7 +2880,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在水中移动更快",
-    description: "Ducky Tube Bucketheads are able to move more quickly in water, similarly to their Plants vs. Zombies 3 counterparts.",
+    description: "铁桶鸭子救生圈是巨浪沙滩世界中戴着铁桶的僵尸，拥有极高的生命值。",
     image: "/images/pvz2/zombies/ducky_tube_buckethead.png"
   },
   {
@@ -2896,7 +2896,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在水中移动极快",
-    description: "Fast Swimmer Zombie walks at a drastical speed of five times a basic zombie on water, although as soon as he starts walking on land, he becomes identical to a Basic Zombie by all statistics. Unlike zombies of similar speed like Newspaper Zombie, this zombie eats fast as a Basic Zombie and similar.",
+    description: "快速游泳僵尸是巨浪沙滩世界中独特的僵尸，游泳速度是普通僵尸的五倍。",
     image: "/images/pvz2/zombies/fast_swimmer_zombie.png"
   },
   {
@@ -2912,7 +2912,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "向该行最后一棵植物投掷抛射物。",
-    description: "In the Chinese version of Plants vs. Zombies 2, he is exclusive to Memory Lane and sports a design that more closely resembles his original appearance.",
+    description: "投石车僵尸是中国版独占的僵尸，可以投掷篮球攻击植物。",
     image: "/images/pvz2/zombies/catapult_zombie.png"
   },
   {
@@ -2928,7 +2928,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "生成多波罗马僵尸，它们既是盾牌也是利剑。",
-    description: "It is also capable of summoning Roman Imps through its powerful vase attacks.",
+    description: "僵尸博士热棒机器人是中国版独占的僵尸博士变体，可以召唤罗马小鬼。",
     image: "/images/pvz2/zombies/zombot_hot_rodicus.png"
   },
   {
@@ -2944,7 +2944,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在身后留下冰道。",
-    description: "Zomboni absorbs 1350 damage and its appearance changes upon absorbing 450 and 900 damage before dying at 1350 damage. It can instantly kill plants on the collision, but the following plants cannot be crushed: all instant-use plants, Sundew Tangler, Nightcap, Ghost Pepper without vine plants or Pumpk",
+    description: "造冰僵尸是中国版独占的僵尸，可以制造冰道。",
     image: "/images/pvz2/zombies/zomboni.png"
   },
   {
@@ -2960,7 +2960,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "碾压植物。",
-    description: "The Zombie Bobsled Team are zombies in Plants vs. Zombies 2 added in the 10.8.1 update and introduced in the 11.0.1 update. Like in the original Plants vs. Zombies, Zombie Bobsled Team spawns on Zomboni's ice trails in a group of four zombies, pushing a bobsled forward and riding down the ice. Unlik",
+    description: "僵尸雪橇小队是中国版独占的僵尸，由多个僵尸组成。",
     image: "/images/pvz2/zombies/zombie_bobsled_team.png"
   },
   {
@@ -3008,7 +3008,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "在史诗任务中出现，掉落含100金币的午餐盒。若未被快速击败则逃跑。",
-    description: "Destroy a Treasure Yeti}}",
+    description: "宝藏雪人僵尸是中国版独占的僵尸，击败后可以获得奖励。",
     image: "/images/pvz2/zombies/treasure_yeti.png"
   },
   {
@@ -3024,7 +3024,7 @@ export const zombies = [
     firstAppearance: null,
     weakness: null,
     special: "强化版僵尸，速度大幅降低，吞噬伤害仅为每秒1点。",
-    description: "The Turkey Boss absorbs 3000 damage per shot and does not degrade until it is destroyed.",
+    description: "火鸡Boss是中国版独占的僵尸博士变体，拥有极高的生命值。",
     image: "/images/pvz2/zombies/turkey_boss.png"
   },
   // ===== 中国版独占僵尸 =====
@@ -3058,7 +3058,7 @@ export const zombies = [
     firstAppearance: "Day 1",
     weakness: "寒冰攻击可熄灭火炬",
     special: "火炬接触植物即刻将其摧毁。",
-    description: "Torch Kongfu Zombie wears a blue Chinese vest that exposes their arms. Torch Kongfu Zombie dons a brown rucksack and has their hair tied in a bun with a thin red tape. They have bandages on both of their arms. Finally, they have a pair of torn blue pants and standard black shoes.",
+    description: "火把功夫僵尸是中国版独占的僵尸，穿着蓝色中国马甲。",
     image: "/images/pvz2/zombies/torch_kongfu_zombie.png"
   },
   {
@@ -3074,7 +3074,7 @@ export const zombies = [
     firstAppearance: "Day 5",
     weakness: null,
     special: null,
-    description: "Gong Zombie absorbs 300 damage and degrades at 150 damage before dying.",
+    description: "铜锣僵尸是中国版独占的僵尸，可以敲击铜锣。",
     image: "/images/pvz2/zombies/gong_zombie.png"
   },
   {
@@ -3090,7 +3090,7 @@ export const zombies = [
     firstAppearance: "Day 8",
     weakness: "寒冰攻击",
     special: "接近植物时自爆，对范围内植物造成大量伤害。",
-    description: "The Exploding Zombie dons a red bandana, covering a portion of his hair, only exposing the rear and half and pony-tailed part. Also, sweat leaves traces close to his right eye. He wears a red handkerchief that is tied up like a cape on his neck. For his torso, he sports on a blue and red colored lon",
+    description: "爆炸僵尸是中国版独占的僵尸，被击败后会爆炸。",
     image: "/images/pvz2/zombies/exploding_zombie.png"
   },
   {
@@ -3106,7 +3106,7 @@ export const zombies = [
     firstAppearance: "Day 3",
     weakness: "萝卜（免疫拉动）",
     special: "用气功将植物拉向自己。",
-    description: "Note: Qigong Zombie has Protected toughness in-game.",
+    description: "气功僵尸是中国版独占的僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/qigong_zombie.png"
   },
   {
@@ -3122,7 +3122,7 @@ export const zombies = [
     firstAppearance: "Day 6",
     weakness: null,
     special: "喝酒后进入醉酒状态，移动和攻击速度大幅提升。",
-    description: "Drinking Zombie absorbs 600 damage, he gets muscular at 300 damage, and then degrades at 450 damage before dying at 600 damage.",
+    description: "喝酒僵尸是中国版独占的僵尸，喝酒后会进入狂暴状态。",
     image: "/images/pvz2/zombies/drinking_zombie.png"
   },
   {
@@ -3138,7 +3138,7 @@ export const zombies = [
     firstAppearance: "Day 10",
     weakness: null,
     special: "用大刀快速斩击植物。",
-    description: "Swordsman Zombie absorbs 470 damage and degrades at 235 damage.",
+    description: "剑士僵尸是中国版独占的僵尸，可以使用剑攻击植物。",
     image: "/images/pvz2/zombies/swordsman_zombie.png"
   },
   {
@@ -3154,7 +3154,7 @@ export const zombies = [
     firstAppearance: "Day 4",
     weakness: "三叶草、飓风甘蓝、高坚果",
     special: "可短暂悬浮越过障碍物。",
-    description: "Imp Monk absorbs 600 damage and degrades at 300 damage.",
+    description: "僧侣小鬼僵尸是中国版独占的小鬼僵尸，拥有特殊的能力。",
     image: "/images/pvz2/zombies/imp_monk.png"
   },
   {
@@ -3170,7 +3170,7 @@ export const zombies = [
     firstAppearance: "Day 7",
     weakness: "投掷类植物、冰冻生菜、飞碟花",
     special: "用双截棍连续攻击前方植物。",
-    description: "Nunchaku Zombie absorbs 600 damage and has no degrades.",
+    description: "双节棍僵尸是中国版独占的僵尸，可以使用双节棍攻击植物。",
     image: "/images/pvz2/zombies/nunchaku_zombie.png"
   },
   {
@@ -3234,7 +3234,7 @@ export const zombies = [
     firstAppearance: "Daily Challenge",
     weakness: null,
     special: "使用火药进行远程攻击。",
-    description: "(火药魔头; pinyin: huǒyào mótóu) is a boss from Kongfu World in the Chinese version of Plants vs. Zombies 2. Before the 1.8 update, he was fought in Day 16, but now can only be battled once per day in the Daily Challenge.",
+    description: "火药魔头是中国版独占的僵尸博士变体，出现在功夫世界。",
     image: "/images/pvz2/zombies/gunpowder_devil.png"
   },
   {
@@ -3250,7 +3250,7 @@ export const zombies = [
     firstAppearance: "Ultimate Challenge",
     weakness: null,
     special: "用刀快速斩击植物，造成高额伤害。",
-    description: "Blade-Wielding Hero (持刀大侠; pinyin: chídāo dàxiá) is a boss encountered in Kongfu World in the Chinese version of Plants vs. Zombies 2. The player fights him in Kongfu World - Ultimate Challenge.",
+    description: "持刀大侠是中国版独占的僵尸博士变体，出现在功夫世界。",
     image: "/images/pvz2/zombies/blade_wielding_hero.png"
   },
   {
@@ -3266,7 +3266,7 @@ export const zombies = [
     firstAppearance: "Ultimate Challenge",
     weakness: null,
     special: "使用气功秒杀植物。",
-    description: "Qigong Master (气功教主; pinyin: Qìgōng Jiàozhǔ) is a boss encountered in Kongfu World in the Chinese version of Plants vs. Zombies 2. He is one of three bosses encounterable in Kongfu World - Ultimate Challenge.",
+    description: "气功大师是中国版独占的僵尸博士变体，出现在功夫世界。",
     image: "/images/pvz2/zombies/qigong_master.png"
   },
   {
@@ -3282,7 +3282,7 @@ export const zombies = [
     firstAppearance: "Day 9",
     weakness: null,
     special: "喝酒后进入醉酒状态，移动和攻击速度大幅提升。",
-    description: "Drinking Monk Zombie absorbs 600 damage and degrades at 500 damage. He enters into his 'savaged state' at 240 damage.",
+    description: "喝酒僧侣僵尸是中国版独占的僵尸，喝酒后会进入狂暴状态。",
     image: "/images/pvz2/zombies/drinking_monk_zombie.png"
   },
   {
@@ -3298,7 +3298,7 @@ export const zombies = [
     firstAppearance: "Day 11",
     weakness: "寒冰攻击可熄灭火炬",
     special: "火炬接触植物即刻将其摧毁。",
-    description: "Torch Monk Zombie absorbs 350 damage and degrades at 175 damage.",
+    description: "火把僧侣僵尸是中国版独占的僵尸，手持火把。",
     image: "/images/pvz2/zombies/torch_monk_zombie.png"
   },
   // === 天空之城 (Sky City) ===
@@ -3315,7 +3315,7 @@ export const zombies = [
     firstAppearance: "Day 1",
     weakness: "菠萝（反弹子弹）",
     special: "从空中发射子弹攻击植物。",
-    description: "(战斗机僵尸; pinyin: zhàndòujī jiāngshī) is the sixth zombie encountered in Sky City. Once he enters the lawn, he will shoot Bullets rapidly at the player's ship or a plant on his way. However, unlike any other zombies in Sky City, when reaching the ship, he will fly back to the left side of the lawn, ch",
+    description: "战斗机僵尸是中国版独占的僵尸，出现在天空之城。",
     image: "/images/pvz2/zombies/zombie_fighter.png"
   },
   {
@@ -3331,7 +3331,7 @@ export const zombies = [
     firstAppearance: "Day 5",
     weakness: null,
     special: "拥有两个机舱，各造成独立伤害。",
-    description: "(双舱飞机僵尸; pinyin: shuāng cāng fēijī jiāngshī) is the seventh zombie encountered in Sky City. They are a fast, high health plane zombie. When they reach the edge of the ship, they will ram on it, taking themselves down but doing huge damage to the ship. They occupy two rows and will slice any aerial p",
+    description: "双层飞机僵尸是中国版独占的僵尸，出现在天空之城。",
     image: "/images/pvz2/zombies/double_cabin_aircraft_zombie.png"
   },
   {
@@ -3363,7 +3363,7 @@ export const zombies = [
     firstAppearance: "Day 10",
     weakness: "屏幕滑动操作",
     special: "发射导弹攻击植物。",
-    description: "Missile Zombie (飞弹僵尸; pinyin: fēidàn jiāngshī) is the ninth zombie encountered in Sky City. In the stage, he will randomly appear in the lower right corner of the screen. He cannot be targeted by plants. In order to destroy him, the player must swipe him away with their finger rapidly in a similar f",
+    description: "导弹僵尸是中国版独占的僵尸，出现在天空之城。",
     image: "/images/pvz2/zombies/missile_zombie.png"
   },
   {
@@ -3379,7 +3379,7 @@ export const zombies = [
     firstAppearance: "Day 15",
     weakness: "酸浆（显示隐形僵尸）",
     special: "可隐形，免疫大多数攻击。",
-    description: "(仲裁者-X型; pinyin: zhòngcái zhě-X xíng) is the eleventh zombie encountered in Sky City in the Chinese version of Plants vs. Zombies 2. He takes up three lanes, makes zombies around it and all zombies in all lanes behind him semi-transparent, making them unable to be seen or hit by plants, but unlike B",
+    description: "仲裁者-X型是中国版独占的僵尸，出现在天空之城。",
     image: "/images/pvz2/zombies/arbiter_x.png"
   },
   {
@@ -3395,7 +3395,7 @@ export const zombies = [
     firstAppearance: "Day 12",
     weakness: null,
     special: "碾压所有植物并在飞船上投掷小鬼僵尸。",
-    description: "Flying Gargantuar (飞行巨人僵尸; pinyin: fēixíng jùrén jiāngshī) is the Gargantuar variant in Sky City in the Chinese version of Plants vs. Zombies 2.",
+    description: "飞行巨人僵尸是中国版独占的僵尸，出现在天空之城。",
     image: "/images/pvz2/zombies/flying_gargantuar.png"
   },
   {
@@ -3411,7 +3411,7 @@ export const zombies = [
     firstAppearance: "Ultimate Challenge",
     weakness: null,
     special: "天空之城的最终Boss。",
-    description: "Zombot Vulture Fighter is the boss in the Sky City in the Chinese version of Plants vs. Zombies 2. It is battled in Sky City - Ultimate Challenge. It covers only one lane, unlike most of the other bosses in the Chinese version, and can create any Sky City zombie except for Flag Pilot Zombie, Transpo",
+    description: "僵尸博士秃鹫战斗机是中国版独占的僵尸博士变体，出现在天空之城。",
     image: "/images/pvz2/zombies/zombot_vulture_fighter.png"
   },
   // === 蒸汽时代 (Steam Age) ===
@@ -3428,7 +3428,7 @@ export const zombies = [
     firstAppearance: "Day 1",
     weakness: "火焰植物（快速摧毁矿车）",
     special: "推着矿车碾压植物，矿车被摧毁后继续步行。",
-    description: "Coal Miner Zombie is the third and final unique zombie in Steam Age in the Chinese version of Plants vs. Zombies 2. When he encounters a plant for the first time, he will destroy the plant by pouring coal on it, making the tile unable to be planted on until the coal disappears. When he is defeated o",
+    description: "煤矿僵尸是中国版独占的僵尸，出现在蒸汽时代。",
     image: "/images/pvz2/zombies/coal_miner_zombie.png"
   },
   {
