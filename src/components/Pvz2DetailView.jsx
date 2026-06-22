@@ -2,6 +2,7 @@ import { getImagePath } from '../utils/imagePath.js'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './Pvz2DetailView.module.css'
 import UpgradeInfo from './UpgradeInfo.jsx'
+import { useSpeech } from '../hooks/useSpeech.js'
 
 const speedLabels = {
   slow: '慢速',
@@ -26,6 +27,7 @@ const worldNames = {
 
 function Pvz2DetailView({ data, list, type = 'plant' }) {
   const navigate = useNavigate()
+  const { speak, stop, isSpeaking } = useSpeech()
   const currentIndex = list.findIndex(item => item.id === data.id)
   const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null
   const nextItem = currentIndex < list.length - 1 ? list[currentIndex + 1] : null
@@ -56,7 +58,21 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
         </div>
 
         <div className={styles.infoSection}>
-          <h1 className={styles.title}>{data.name}</h1>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <h1 className={styles.title}>{data.name}</h1>
+            <button
+              className={`${styles.speechBtn} ${isSpeaking ? styles.speaking : ''}`}
+              onClick={() => {
+                if (isSpeaking) {
+                  stop()
+                } else {
+                  speak(`${data.name}。${data.description}`)
+                }
+              }}
+            >
+              {isSpeaking ? '⏹ 停止' : '🔊 朗读'}
+            </button>
+          </div>
           <span className={styles.nameEn}>{data.nameEn}</span>
 
           {data.world && (
