@@ -1,9 +1,10 @@
-import { useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import { plants } from '../data/pvz1/plants.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'
 import TabNav from '../components/TabNav.jsx'
+import { useListState } from '../hooks/useListState.js'
 import styles from './PlantsList.module.css'
 
 const pvz1Tabs = [
@@ -11,14 +12,15 @@ const pvz1Tabs = [
   { to: '/zombies', icon: '🧟', label: '僵尸图鉴' }
 ]
 
+const defaultFilters = {
+  categories: [],
+  sunCostRange: '',
+  levelRange: '',
+  sort: 'default'
+}
+
 function PlantsList() {
-  const [search, setSearch] = useState('')
-  const [filters, setFilters] = useState({
-    categories: [],
-    sunCostRange: '',
-    levelRange: '',
-    sort: 'default'
-  })
+  const { search, setSearch, filters, setFilters } = useListState(defaultFilters)
 
   const filtered = useMemo(() => {
     let result = plants
