@@ -1,9 +1,10 @@
-import { useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import { zombies } from '../data/pvz2/zombies.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import Pvz2FilterPanel from '../components/Pvz2FilterPanel.jsx'
 import TabNav from '../components/TabNav.jsx'
+import { useListState } from '../hooks/useListState.js'
 import styles from './Pvz2ZombiesList.module.css'
 
 const pvz2Tabs = [
@@ -12,15 +13,16 @@ const pvz2Tabs = [
   { to: '/pvz2/worlds', icon: '🌍', label: '世界探索' }
 ]
 
+const defaultFilters = {
+  worlds: [],
+  categories: [],
+  sources: [],
+  speed: '',
+  sort: 'default'
+}
+
 function Pvz2ZombiesList() {
-  const [search, setSearch] = useState('')
-  const [filters, setFilters] = useState({
-    worlds: [],
-    categories: [],
-    sources: [],
-    speed: '',
-    sort: 'default'
-  })
+  const { search, setSearch, filters, setFilters } = useListState(defaultFilters)
 
   const filtered = useMemo(() => {
     let result = zombies
