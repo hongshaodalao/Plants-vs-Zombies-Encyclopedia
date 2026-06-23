@@ -1,5 +1,5 @@
 // src/hooks/useListState.js
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
 
 const STORAGE_PREFIX = 'listState_'
@@ -10,7 +10,7 @@ export function useListState(defaultFilters = {}) {
   const storageKey = `${STORAGE_PREFIX}${location.pathname}`
 
   // 从 sessionStorage 读取保存的状态
-  const getSavedState = () => {
+  const getSavedState = useCallback(() => {
     try {
       const raw = sessionStorage.getItem(storageKey)
       if (!raw) return null
@@ -24,7 +24,7 @@ export function useListState(defaultFilters = {}) {
     } catch {
       return null
     }
-  }
+  }, [storageKey])
 
   const savedState = getSavedState()
 
@@ -32,49 +32,65 @@ export function useListState(defaultFilters = {}) {
   const [search, setSearch] = useState(savedState?.search || '')
   const [filters, setFilters] = useState(savedState?.filters || defaultFilters)
 
-  // 使用 ref 保存最新的 search 和 filters，以便在卸载时获取
-  const searchRef = useRef(search)
-  const filtersRef = useRef(filters)
+  // 保存当前状态到 sessionStorage
+  const saveState = useCallback(() => {
+    try {
+      const data = {
+        scrollY: window.scrollY,
+        search,
+        filters,
+        timestamp: Date.now()
+      }
+      sessionStorage.setItem(storageKey, JSON.stringify(data))
+    } catch {
+      // sessionStorage 可能已满，忽略错误
+    }
+  }, [storageKey, search, filters])
 
+  // 监听滚动事件，实时保存滚动位置
   useEffect(() => {
-    searchRef.current = search
-  }, [search])
+    let scrollTimeout = null
+    const handleScroll = () => {
+      // 防抖：滚动停止 300ms 后保存
+      if (scrollTimeout) clearTimeout(scrollTimeout)
+      scrollTimeout = setTimeout(() => {
+        try {
+          const data = {
+            scrollY: window.scrollY,
+            search,
+            filters,
+            timestamp: Date.now()
+          }
+          sessionStorage.setItem(storageKey, JSON.stringify(data))
+        } catch {
+          // 忽略错误
+        }
+      }, 300)
+    }
 
-  useEffect(() => {
-    filtersRef.current = filters
-  }, [filters])
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+      if (scrollTimeout) clearTimeout(scrollTimeout)
+    }
+  }, [storageKey, search, filters])
 
   // 恢复滚动位置
   useEffect(() => {
     if (savedState?.scrollY) {
-      // 使用 requestAnimationFrame 确保 DOM 已渲染
-      requestAnimationFrame(() => {
+      // 使用 setTimeout 确保 DOM 已完全渲染
+      const timer = setTimeout(() => {
         window.scrollTo(0, savedState.scrollY)
-      })
+      }, 100)
+      return () => clearTimeout(timer)
     }
   }, []) // 只在组件挂载时执行一次
-
-  // 组件卸载时保存状态（用户导航到详情页面时）
-  useEffect(() => {
-    return () => {
-      try {
-        const data = {
-          scrollY: window.scrollY,
-          search: searchRef.current,
-          filters: filtersRef.current,
-          timestamp: Date.now()
-        }
-        sessionStorage.setItem(storageKey, JSON.stringify(data))
-      } catch {
-        // sessionStorage 可能已满，忽略错误
-      }
-    }
-  }, [storageKey])
 
   return {
     search,
     setSearch,
     filters,
-    setFilters
+    setFilters,
+    saveState
   }
 }
