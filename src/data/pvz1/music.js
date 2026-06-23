@@ -1,87 +1,94 @@
 // src/data/pvz1/music.js
 export const music = [
   {
-    id: 'main-menu',
-    name: '主菜单',
-    nameEn: 'Main Menu',
+    id: 'plants-vs-zombies',
+    name: '植物大战僵尸',
+    nameEn: 'Plants vs. Zombies',
+    scene: '游戏主题曲',
+    file: '/music/pvz1/Plants vs. Zombies.mp3'
+  },
+  {
+    id: 'zombies-on-your-lawn',
+    name: '草坪上的僵尸',
+    nameEn: 'Zombies on Your Lawn',
     scene: '游戏主菜单',
-    file: '/audio/pvz1/music/main-menu.mp3'
+    file: '/music/pvz1/Zombies on Your Lawn.mp3'
   },
   {
-    id: 'day-stage',
-    name: '白天关卡',
-    nameEn: 'Day Stage',
-    scene: '白天关卡背景音乐',
-    file: '/audio/pvz1/music/day-stage.mp3'
+    id: 'ultimate-battle',
+    name: '最终战斗',
+    nameEn: 'Ultimate Battle',
+    scene: '最终 Boss 战斗',
+    file: '/music/pvz1/Ultimate Battle.mp3'
   },
   {
-    id: 'night-stage',
-    name: '夜晚关卡',
-    nameEn: 'Night Stage',
-    scene: '夜晚关卡背景音乐',
-    file: '/audio/pvz1/music/night-stage.mp3'
+    id: 'watery-graves',
+    name: '水中墓穴',
+    nameEn: 'Watery Graves',
+    scene: '泳池关卡背景',
+    file: '/music/pvz1/Watery Graves.mp3'
   },
   {
-    id: 'pool-stage',
-    name: '泳池关卡',
-    nameEn: 'Pool Stage',
-    scene: '泳池关卡背景音乐',
-    file: '/audio/pvz1/music/pool-stage.mp3'
+    id: 'loonboon',
+    name: '疯狂音乐',
+    nameEn: 'Loonboon',
+    scene: '小游戏背景',
+    file: '/music/pvz1/Loonboon.mp3'
   },
   {
-    id: 'fog-stage',
-    name: '浓雾关卡',
-    nameEn: 'Fog Stage',
-    scene: '浓雾关卡背景音乐',
-    file: '/audio/pvz1/music/fog-stage.mp3'
-  },
-  {
-    id: 'roof-stage',
-    name: '屋顶关卡',
-    nameEn: 'Roof Stage',
-    scene: '屋顶关卡背景音乐',
-    file: '/audio/pvz1/music/roof-stage.mp3'
-  },
-  {
-    id: 'crazy-dave',
+    id: 'braniac-maniac',
     name: '疯狂戴夫',
-    nameEn: 'Crazy Dave',
-    scene: '疯狂戴夫场景音乐',
-    file: '/audio/pvz1/music/crazy-dave.mp3'
+    nameEn: 'Braniac Maniac',
+    scene: '疯狂戴夫场景',
+    file: '/music/pvz1/Braniac Maniac.mp3'
   },
   {
-    id: 'zen-garden',
-    name: '禅境花园',
-    nameEn: 'Zen Garden',
-    scene: '禅境花园背景音乐',
-    file: '/audio/pvz1/music/zen-garden.mp3'
+    id: 'secret-labs',
+    name: '秘密实验室',
+    nameEn: 'Secret Labs',
+    scene: '禅境花园背景',
+    file: '/music/pvz1/Secret Labs.mp3'
   },
   {
-    id: 'mini-game',
-    name: '小游戏',
-    nameEn: 'Mini Game',
-    scene: '小游戏背景音乐',
-    file: '/audio/pvz1/music/mini-game.mp3'
+    id: 'faster',
+    name: '加速',
+    nameEn: 'Faster',
+    scene: '快速关卡',
+    file: '/music/pvz1/Faster.mp3'
   },
   {
-    id: 'final-boss',
-    name: '最终 Boss',
-    nameEn: 'Final Boss',
-    scene: '最终 Boss 战斗音乐',
-    file: '/audio/pvz1/music/final-boss.mp3'
+    id: 'look-up-at-the-sky',
+    name: '仰望天空',
+    nameEn: 'Look up at the Sky',
+    scene: '屋顶关卡背景',
+    file: '/music/pvz1/Look up at the Sky.mp3'
   },
   {
-    id: 'victory',
-    name: '胜利',
-    nameEn: 'Victory',
-    scene: '关卡胜利音效',
-    file: '/audio/pvz1/music/victory.mp3'
+    id: 'mountains',
+    name: '山丘',
+    nameEn: 'Mountains',
+    scene: '夜晚关卡背景',
+    file: '/music/pvz1/Mountains .mp3'
   },
   {
-    id: 'game-over',
-    name: '失败',
-    nameEn: 'Game Over',
-    scene: '关卡失败音效',
-    file: '/audio/pvz1/music/game-over.mp3'
+    id: '2-75',
+    name: '2.75',
+    nameEn: '2.75',
+    scene: '游戏音乐',
+    file: '/music/pvz1/2.75.mp3'
+  },
+  {
+    id: 'kitanai-sekai',
+    name: '肮脏的世界',
+    nameEn: 'Kitanai Sekai',
+    scene: '日本版主题曲',
+    file: '/music/pvz1/Kitanai Sekai.mp3'
+  },
+  {
+    id: 'uraniwa-ni-zombies-ga',
+    name: '院子里有僵尸',
+    nameEn: 'Uraniwa ni Zombies ga!',
+    scene: '日本版僵尸来了',
+    file: '/music/pvz1/Uraniwa ni Zombies ga!.mp3'
   }
 ]
