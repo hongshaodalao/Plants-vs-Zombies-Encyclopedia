@@ -2,7 +2,15 @@
 import { useState, useRef, useEffect } from 'react'
 import { music } from '../data/pvz1/music.js'
 import { getImagePath } from '../utils/imagePath.js'
+import TabNav from '../components/TabNav.jsx'
+import BottomNav from '../components/BottomNav.jsx'
 import styles from './MusicList.module.css'
+
+const pvz1Tabs = [
+  { to: '/plants', icon: '🌿', label: '植物图鉴' },
+  { to: '/zombies', icon: '🧟', label: '僵尸图鉴' },
+  { to: '/music', icon: '🎵', label: '背景音乐' }
+]
 
 function MusicList() {
   const [playingId, setPlayingId] = useState(null)
@@ -60,6 +68,8 @@ function MusicList() {
 
   return (
     <div className={styles.page}>
+      <TabNav tabs={pvz1Tabs} />
+
       <div className={styles.header}>
         <h1 className={styles.title}>🎵 PvZ 1 背景音乐</h1>
         <p className={styles.subtitle}>共 {music.length} 首音乐，重温经典旋律</p>
@@ -82,6 +92,8 @@ function MusicList() {
           </div>
         ))}
       </div>
+
+      <BottomNav tabs={pvz1Tabs} />
     </div>
   )
 }

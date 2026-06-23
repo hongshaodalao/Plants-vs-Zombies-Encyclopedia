@@ -10,7 +10,8 @@ import styles from './ZombiesList.module.css'
 
 const pvz1Tabs = [
   { to: '/plants', icon: '🌿', label: '植物图鉴' },
-  { to: '/zombies', icon: '🧟', label: '僵尸图鉴' }
+  { to: '/zombies', icon: '🧟', label: '僵尸图鉴' },
+  { to: '/music', icon: '🎵', label: '背景音乐' }
 ]
 
 const defaultFilters = {
