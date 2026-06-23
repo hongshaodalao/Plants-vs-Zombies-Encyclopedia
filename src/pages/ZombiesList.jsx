@@ -1,9 +1,10 @@
-import { useState, useMemo } from 'react'
+import { useMemo } from 'react'
 import { zombies, speedLabels } from '../data/pvz1/zombies.js'
 import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'
 import TabNav from '../components/TabNav.jsx'
+import { useListState } from '../hooks/useListState.js'
 import styles from './ZombiesList.module.css'
 
 const pvz1Tabs = [
@@ -11,13 +12,14 @@ const pvz1Tabs = [
   { to: '/zombies', icon: '🧟', label: '僵尸图鉴' }
 ]
 
+const defaultFilters = {
+  categories: [],
+  speed: '',
+  sort: 'default'
+}
+
 function ZombiesList() {
-  const [search, setSearch] = useState('')
-  const [filters, setFilters] = useState({
-    categories: [],
-    speed: '',
-    sort: 'default'
-  })
+  const { search, setSearch, filters, setFilters } = useListState(defaultFilters)
 
   const filtered = useMemo(() => {
     let result = zombies
