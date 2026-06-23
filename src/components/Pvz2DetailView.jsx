@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { getImagePath } from '../utils/imagePath.js'
 import { useNavigate } from 'react-router-dom'
 import styles from './Pvz2DetailView.module.css'
@@ -28,6 +29,11 @@ const worldNames = {
 function Pvz2DetailView({ data, list, type = 'plant' }) {
   const navigate = useNavigate()
   const { speak, stop, isSpeaking } = useSpeech()
+
+  // 进入详情页面时滚动到顶部
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const currentIndex = list.findIndex(item => item.id === data.id)
   const prevItem = currentIndex > 0 ? list[currentIndex - 1] : null
   const nextItem = currentIndex < list.length - 1 ? list[currentIndex + 1] : null

@@ -1,5 +1,5 @@
 // src/hooks/useListState.js
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 
 const STORAGE_PREFIX = 'listState_'
@@ -32,20 +32,17 @@ export function useListState(defaultFilters = {}) {
   const [search, setSearch] = useState(savedState?.search || '')
   const [filters, setFilters] = useState(savedState?.filters || defaultFilters)
 
-  // 保存状态到 sessionStorage
-  const saveState = useCallback(() => {
-    try {
-      const data = {
-        scrollY: window.scrollY,
-        search,
-        filters,
-        timestamp: Date.now()
-      }
-      sessionStorage.setItem(storageKey, JSON.stringify(data))
-    } catch {
-      // sessionStorage 可能已满，忽略错误
-    }
-  }, [storageKey, search, filters])
+  // 使用 ref 保存最新的 search 和 filters，以便在卸载时获取
+  const searchRef = useRef(search)
+  const filtersRef = useRef(filters)
+
+  useEffect(() => {
+    searchRef.current = search
+  }, [search])
+
+  useEffect(() => {
+    filtersRef.current = filters
+  }, [filters])
 
   // 恢复滚动位置
   useEffect(() => {
@@ -60,15 +57,24 @@ export function useListState(defaultFilters = {}) {
   // 组件卸载时保存状态（用户导航到详情页面时）
   useEffect(() => {
     return () => {
-      saveState()
+      try {
+        const data = {
+          scrollY: window.scrollY,
+          search: searchRef.current,
+          filters: filtersRef.current,
+          timestamp: Date.now()
+        }
+        sessionStorage.setItem(storageKey, JSON.stringify(data))
+      } catch {
+        // sessionStorage 可能已满，忽略错误
+      }
     }
-  }, [saveState])
+  }, [storageKey])
 
   return {
     search,
     setSearch,
     filters,
-    setFilters,
-    saveState
+    setFilters
   }
 }

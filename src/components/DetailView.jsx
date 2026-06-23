@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { getImagePath } from '../utils/imagePath.js'
 import { useNavigate } from 'react-router-dom'
 import { useSpeech } from '../hooks/useSpeech.js'
@@ -5,6 +6,11 @@ import styles from './DetailView.module.css'
 
 function DetailView({ data, list, type }) {
   const navigate = useNavigate()
+
+  // 进入详情页面时滚动到顶部
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const { speak, stop, isSpeaking } = useSpeech()
   const isPlant = type === 'plant'
   const currentIndex = list.findIndex(item => item.id === data.id)
