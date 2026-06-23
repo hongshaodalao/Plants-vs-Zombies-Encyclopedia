@@ -1,5 +1,5 @@
 import { getImagePath } from '../utils/imagePath.js'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { useSpeech } from '../hooks/useSpeech.js'
 import styles from './DetailView.module.css'
 
@@ -15,14 +15,15 @@ function DetailView({ data, list, type }) {
     ? `${styles.detail} ${styles.detailPlant}`
     : `${styles.detail} ${styles.detailZombie}`
 
+  const handleBack = () => navigate(-1)
   const handlePrev = () => prevItem && navigate(`${listPath}/${prevItem.id}`)
   const handleNext = () => nextItem && navigate(`${listPath}/${nextItem.id}`)
 
   return (
     <div>
-      <Link to={listPath} className={styles.backBtn}>
+      <button onClick={handleBack} className={styles.backBtn}>
         ← 返回图鉴
-      </Link>
+      </button>
 
       <div className={detailClass}>
         <div className={styles.imageSection}>
