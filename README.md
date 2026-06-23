@@ -13,7 +13,7 @@
 
 ### PvZ 2（2013 年）
 - 🌿 植物图鉴：239 种植物，来自不同时空
-- 🧟 僵尸图鉴：189 种僵尸，穿越时空的不死军团
+- 🧟 僵尸图鉴：234 种僵尸，穿越时空的不死军团
 - 🌍 世界探索：16 个世界，涵盖古埃及到摩登时代
 - 🔍 实时搜索：按名称快速查找
 - 🎯 多条件筛选：按世界、分类、阳光消耗等条件过滤
@@ -28,9 +28,10 @@
 - 🔍 来源筛选：可按国际版/中国版筛选内容
 
 ### 语音朗读
-- 🔊 支持中文语音朗读植物/僵尸介绍
-- 基于浏览器内置 SpeechSynthesis API
-- 自动选择中文语音，语速稍慢适合儿童
+- 🔊 支持预录音频播放植物/僵尸中文介绍
+- 🎙️ 使用 Mimo TTS 模型生成高质量中文语音
+- 👶 温柔亲切的年轻女性音色，适合儿童收听
+- 📁 按版本和类型分类存储（pvz1/pvz2 + plants/zombies）
 
 ### 通用功能
 - 📱 响应式设计：支持手机、平板、桌面
@@ -55,6 +56,7 @@
 - **前端框架**：React 18
 - **路由**：React Router v6
 - **样式**：CSS Modules + CSS 变量
+- **TTS 模型**：Mimo v2.5 TTS
 
 ## 开始
 
@@ -78,10 +80,24 @@ npm run preview
 src/
 ├── components/     # 可复用组件（Card、SearchBar、FilterPanel 等）
 ├── pages/          # 页面组件（Home、PlantsList、ZombiesList 等）
+├── hooks/          # 自定义 Hook（useSpeech 语音播放）
+├── utils/          # 工具函数（getImagePath 路径处理）
 ├── data/           # 静态数据
 │   ├── pvz1/       # PvZ 1 植物和僵尸数据
 │   └── pvz2/       # PvZ 2 植物、僵尸和世界数据
 └── styles/         # 全局样式和 CSS 变量
+public/
+├── audio/          # 预录音频文件
+│   ├── pvz1/       # PvZ 1 音频（plants/ + zombies/）
+│   └── pvz2/       # PvZ 2 音频（plants/ + zombies/）
+├── images/         # 图片资源
+│   ├── pvz1/       # PvZ 1 图片
+│   └── pvz2/       # PvZ 2 图片
+scripts/
+├── mimo-tts.py     # Mimo TTS 音频生成脚本
+├── batch-pvz1.py   # PvZ 1 批量音频生成
+├── batch-pvz2.py   # PvZ 2 批量音频生成
+└── fetch-zombie-descriptions.mjs  # 从 Wiki 获取僵尸描述
 ```
 
 ## 路由
@@ -94,13 +110,14 @@ src/
 - `/zombies/:id` - 僵尸详情
 
 ### PvZ 2
-- `/pvz2` - PvZ 2 首页
 - `/pvz2/plants` - 植物列表
 - `/pvz2/plants/:id` - 植物详情
 - `/pvz2/zombies` - 僵尸列表
 - `/pvz2/zombies/:id` - 僵尸详情
-- `/pvz2/worlds` - 世界列表
-- `/pvz2/worlds/:id` - 世界详情
+
+## 部署
+
+项目使用 GitHub Actions 自动部署到 GitHub Pages。推送到 `main` 分支会自动触发构建和部署。
 
 ## 许可
 
