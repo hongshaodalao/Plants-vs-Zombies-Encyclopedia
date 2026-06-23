@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { getImagePath } from '../utils/imagePath.js'
 import { useParams, Navigate, Link, useNavigate } from 'react-router-dom'
 import { worlds } from '../data/pvz2/worlds.js'
@@ -8,6 +9,11 @@ import styles from './WorldDetail.module.css'
 function WorldDetail() {
   const { id } = useParams()
   const navigate = useNavigate()
+
+  // 进入详情页面时滚动到顶部
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const world = worlds.find(w => w.id === id)
 
   if (!world) {
