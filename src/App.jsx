@@ -5,6 +5,7 @@ import PlantsList from './pages/PlantsList.jsx'
 import PlantDetail from './pages/PlantDetail.jsx'
 import ZombiesList from './pages/ZombiesList.jsx'
 import ZombieDetail from './pages/ZombieDetail.jsx'
+import MusicList from './pages/MusicList.jsx'
 import Pvz2PlantsList from './pages/Pvz2PlantsList.jsx'
 import Pvz2PlantDetail from './pages/Pvz2PlantDetail.jsx'
 import Pvz2ZombiesList from './pages/Pvz2ZombiesList.jsx'
@@ -22,6 +23,7 @@ function App() {
         <Route path="plants/:id" element={<PlantDetail />} />
         <Route path="zombies" element={<ZombiesList />} />
         <Route path="zombies/:id" element={<ZombieDetail />} />
+        <Route path="music" element={<MusicList />} />
         <Route path="pvz2/plants" element={<Pvz2PlantsList />} />
         <Route path="pvz2/plants/:id" element={<Pvz2PlantDetail />} />
         <Route path="pvz2/zombies" element={<Pvz2ZombiesList />} />
