@@ -3,17 +3,22 @@ import { getImagePath } from '../utils/imagePath.js'
 import styles from './Layout.module.css'
 
 function Layout() {
+  const handleNavClick = () => {
+    window.scrollTo(0, 0)
+  }
+
   return (
     <div className={styles.layout}>
       <header className={styles.navbar}>
         <div className={styles.navbarInner}>
-          <NavLink to="/" className={styles.logo}>
+          <NavLink to="/" className={styles.logo} onClick={handleNavClick}>
             <span className={styles.logoIcon}>🌻</span>
             <span className={styles.logoText}>植物大战僵尸百科全书</span>
           </NavLink>
           <nav className={styles.navLinks}>
             <NavLink
               to="/"
+              onClick={handleNavClick}
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
@@ -22,6 +27,7 @@ function Layout() {
             </NavLink>
             <NavLink
               to="/plants"
+              onClick={handleNavClick}
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
@@ -31,6 +37,7 @@ function Layout() {
             </NavLink>
             <NavLink
               to="/pvz2/plants"
+              onClick={handleNavClick}
               className={({ isActive }) =>
                 isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
               }
