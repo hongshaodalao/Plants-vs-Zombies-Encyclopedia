@@ -4,6 +4,7 @@ import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import Pvz2FilterPanel from '../components/Pvz2FilterPanel.jsx'
 import TabNav from '../components/TabNav.jsx'
+import BottomNav from '../components/BottomNav.jsx'
 import { useListState } from '../hooks/useListState.js'
 import styles from './Pvz2PlantsList.module.css'
 
@@ -110,6 +111,8 @@ function Pvz2PlantsList() {
           ))}
         </div>
       )}
+
+      <BottomNav tabs={pvz2Tabs} />
     </div>
   )
 }

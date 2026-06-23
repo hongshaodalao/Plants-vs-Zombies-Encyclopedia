@@ -4,6 +4,7 @@ import Card from '../components/Card.jsx'
 import SearchBar from '../components/SearchBar.jsx'
 import FilterPanel from '../components/FilterPanel.jsx'
 import TabNav from '../components/TabNav.jsx'
+import BottomNav from '../components/BottomNav.jsx'
 import { useListState } from '../hooks/useListState.js'
 import styles from './PlantsList.module.css'
 
@@ -100,6 +101,8 @@ function PlantsList() {
           ))}
         </div>
       )}
+
+      <BottomNav tabs={pvz1Tabs} />
     </div>
   )
 }
