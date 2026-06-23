@@ -36,15 +36,6 @@ function Layout() {
               PvZ 1
             </NavLink>
             <NavLink
-              to="/music"
-              onClick={handleNavClick}
-              className={({ isActive }) =>
-                isActive ? `${styles.navLink} ${styles.navLinkActive}` : styles.navLink
-              }
-            >
-              🎵 音乐
-            </NavLink>
-            <NavLink
               to="/pvz2/plants"
               onClick={handleNavClick}
               className={({ isActive }) =>
