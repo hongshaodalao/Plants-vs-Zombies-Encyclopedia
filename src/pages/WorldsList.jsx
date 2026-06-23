@@ -1,6 +1,7 @@
 import { worlds } from '../data/pvz2/worlds.js'
 import WorldCard from '../components/WorldCard.jsx'
 import TabNav from '../components/TabNav.jsx'
+import BottomNav from '../components/BottomNav.jsx'
 import styles from './WorldsList.module.css'
 
 const pvz2Tabs = [
@@ -24,6 +25,8 @@ function WorldsList() {
           <WorldCard key={world.id} data={world} />
         ))}
       </div>
+
+      <BottomNav tabs={pvz2Tabs} />
     </div>
   )
 }
