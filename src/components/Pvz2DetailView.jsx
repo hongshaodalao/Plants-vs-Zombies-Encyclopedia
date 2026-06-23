@@ -1,5 +1,5 @@
 import { getImagePath } from '../utils/imagePath.js'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import styles from './Pvz2DetailView.module.css'
 import UpgradeInfo from './UpgradeInfo.jsx'
 import { useSpeech } from '../hooks/useSpeech.js'
@@ -34,14 +34,15 @@ function Pvz2DetailView({ data, list, type = 'plant' }) {
 
   const basePath = type === 'zombie' ? '/pvz2/zombies' : '/pvz2/plants'
 
+  const handleBack = () => navigate(-1)
   const handlePrev = () => prevItem && navigate(`${basePath}/${prevItem.id}`)
   const handleNext = () => nextItem && navigate(`${basePath}/${nextItem.id}`)
 
   return (
     <div>
-      <Link to={basePath} className={styles.backBtn}>
+      <button onClick={handleBack} className={styles.backBtn}>
         ← 返回图鉴
-      </Link>
+      </button>
 
       <div className={styles.detail}>
         <div className={styles.imageSection}>
