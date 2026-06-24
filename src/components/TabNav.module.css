@@ -51,12 +51,13 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    justify-content: center;
   }
   .tabNav::-webkit-scrollbar {
     display: none;
   }
   .tab {
-    flex: 0 0 auto;
+    flex: 1;
     padding: var(--space-xs) var(--space-sm);
     font-size: var(--font-size-sm);
   }
